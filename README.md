@@ -60,7 +60,7 @@ Some discoveries you'll make in your first hour. Others might take weeks to find
 The journey of a thousand blocks begins with a single download.
 
 ### Download from CurseForge
-The easiest way to experience The Wonder Years is through the [CurseForge modpack page](your-curseforge-link). The CurseForge launcher will automatically handle all the technical setup, including Fabric installation and mod management.
+The easiest way to experience The Wonder Years is through the [CurseForge modpack page](https://www.curseforge.com/minecraft/modpacks/the-wonder-yesar). The CurseForge launcher will automatically handle all the technical setup, including Fabric installation and mod management.
 
 1. Download the CurseForge launcher if you don't have it
 2. Search for "The Wonder Years" or use the direct link above
@@ -102,7 +102,7 @@ All mods retain their individual licenses and credit belongs to their respective
 
 **Ready to see Minecraft through The Wonder Years?**
 
-[Download The Wonder Years](your-download-link) • [Share Your Stories](../../discussions) • [Join Our Community](your-discord-link)
+[Download The Wonder Years](https://www.curseforge.com/minecraft/modpacks/the-wonder-yesar) • [Share Your Stories](../../discussions/categories/general) • [Tecnical Support](../../discussions/categories/technical-support)
 
 *The adventure is waiting.*
 
