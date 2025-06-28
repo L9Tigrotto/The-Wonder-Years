@@ -40,11 +40,14 @@ Exploration feels rewarding again. Ancient structures whisper stories. Hidden tr
 ### The Small Things Matter
 Crops harvest with a satisfying click. Your inventory organizes itself. Items don't vanish into the void when you're not careful. A hundred tiny improvements that you'll only notice when they save you from frustration.
 
+## 🎓 New to Modded Minecraft?
+Don't worry! The Wonder Years includes guided quests that introduce you to new features at your own pace. These in-game tutorials help you discover what's possible without overwhelming you with information.
+
 ## 🎮 Your Journey Begins
 
 Starting a world in The Wonder Years is like opening your eyes after a long sleep. Everything looks familiar, but somehow more vivid, more alive, more *possible*.
 
-I've included a gentle guide system—think of it as a wise friend pointing out interesting things rather than a demanding teacher. You'll discover new features naturally, at your own pace, when you're ready for them.
+I've included an in-game quest system—think of it as a wise friend pointing out interesting things rather than a demanding teacher. These optional quests will introduce you to new features and mods naturally, perfect for players new to modding.
 
 Some discoveries you'll make in your first hour. Others might take weeks to find. All of them will feel like they've always belonged.
 
@@ -71,7 +74,7 @@ The easiest way to experience The Wonder Years is through the [CurseForge modpac
 1. **Create a New World** - The Wonder Years shines brightest on untouched terrain
 2. **Start Playing** - Seriously, just play Minecraft like you always have
 3. **Notice the Differences** - They'll reveal themselves naturally
-4. **Open the Guide** - When you see something new and want to learn more
+4. **Check Your Quests** - Open your quest book to see gentle guidance on new features
 5. **Share the Wonder** - This experience is meant to be shared
 
 ## 💬 Community & Support
