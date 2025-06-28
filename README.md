@@ -3,7 +3,7 @@
 
 [![Minecraft Version](https://img.shields.io/badge/Minecraft-1.21.1-brightgreen.svg)](https://minecraft.net/)
 [![Mod Loader](https://img.shields.io/badge/Mod%20Loader-Fabric-orange.svg)](https://fabricmc.net/)
-[![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+[![License](https://img.shields.io/badge/License-Apache-blue.svg)](LICENSE)
 
 ## 🎯 What is The Wonder Years?
 
