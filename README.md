@@ -74,13 +74,29 @@ The easiest way to experience The Wonder Years is through the [CurseForge modpac
 4. **Open the Guide** - When you see something new and want to learn more
 5. **Share the Wonder** - This experience is meant to be shared
 
-## 🤝 Join the Community
+## 💬 Community & Support
 
-The Wonder Years is more than a modpack—it's a community of players who remember why Minecraft captured their hearts and want to share that magic with others.
+Join our vibrant community on GitHub Discussions! Whether you're sharing your latest builds, seeking help, or just want to chat with fellow adventurers, there's a place for you:
 
-- **Discord**: Where players share screenshots, trade stories, and help each other discover new corners of the world
-- **Reddit**: For longer discussions, showcases, and community highlights
-- **Wiki**: Growing collection of guides written by players, for players
+### 🎪 Community & General
+
+*   **📣 Announcements** - Stay updated with the latest news and releases
+*   **🏗️ Builds & Screenshots** - Share your amazing builds, bases, and creations made with the modpack
+*   **🎮 Gameplay** - Share your gameplay videos, epic moments, and adventures!
+*   **💭 General** - General chat and community discussions
+*   **💡 Ideas** - Feature suggestions and brainstorming
+
+### 🛠️ Support & Technical
+
+*   **❓ Q&A** - Quick questions and answers from the community
+*   **🔧 Technical Support** - Get help with installation, crashes, and technical issues
+*   **🚀 Tuning** - Tips and tricks for better performance, shader configs, etc.
+
+**[Visit GitHub Discussions →](https://github.com/L9Tigrotto/The-Wonder-Years/discussions)**
+
+**Found a Bug or Have a Feature Request?** Submit issues directly on our GitHub repository. We have custom templates for both bug reports and feature requests to help make The Wonder Years better for everyone!
+
+**[Make a Bug Report or a Feature Request →](https://github.com/L9Tigrotto/The-Wonder-Years/issues)**
 
 ## 💝 A Personal Note
 
