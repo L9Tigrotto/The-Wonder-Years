@@ -1,9 +1,13 @@
 # The Wonder Years 🌟
 *Rediscover Minecraft with wonder*
 
+<div align="center">
+
 [![Minecraft Version](https://img.shields.io/badge/Minecraft-1.21.1-brightgreen.svg)](https://minecraft.net/)
 [![Mod Loader](https://img.shields.io/badge/Mod%20Loader-Fabric-orange.svg)](https://fabricmc.net/)
-[![License](https://img.shields.io/badge/License-Apache-blue.svg)](LICENSE)
+[![License](https://img.shields.io/badge/License-Apache--2.0-blue.svg)](LICENSE)
+
+</div>
 
 ## 🎯 What is The Wonder Years?
 
