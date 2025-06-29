@@ -1,7 +1,8 @@
 # The Wonder Years 🌟
-*Rediscover Minecraft with wonder*
 
 <div align="center">
+
+*Rediscover Minecraft with wonder*
 
 [![Minecraft Version](https://img.shields.io/badge/Minecraft-1.21.1-brightgreen.svg)](https://minecraft.net/)
 [![Mod Loader](https://img.shields.io/badge/Mod%20Loader-Fabric-orange.svg)](https://fabricmc.net/)
