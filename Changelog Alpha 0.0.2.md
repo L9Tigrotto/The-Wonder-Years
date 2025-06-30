@@ -9,10 +9,11 @@
 ---
 
 ## ⬆️ Mods Updated
-*List all mods that were updated with their version changes. Remove this section if no mods were updated.*
+*List all mods that were updated with their version changes.
 
-- **Tom's Simple Storage Mod**: `v2.2.0` → `v2.2.1` (introduces bug fixes)
-- **Sounds**: `v2.4.11` → `v2.4.12` (introduces bug fixes)
+- **Tom's Simple Storage Mod**: `v2.2.0` → `v2.2.1` (bug fixes)
+- **Sounds**: `v2.4.11` → `v2.4.12` (bug fixes)
+- **Storage Drawers**: `v13.8.7` → `v13.8.8` (bug fixes)
 
 ---
 
