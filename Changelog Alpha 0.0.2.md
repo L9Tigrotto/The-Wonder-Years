@@ -41,3 +41,6 @@
 - Waypoint manager now shows only current dimension waypoints by default.
 - Increased waypoint's font scale by 100% (set to 2) in fullscreen map, so they are actually visible.
 - Increased waypoint's icon scale by 2% (set to 1.02) in fullscreen map, they they are actuallly visible.
+
+**FTB Quests**
+- Included default quest settings
