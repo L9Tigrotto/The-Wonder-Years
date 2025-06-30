@@ -28,12 +28,9 @@
 ---
 
 ## ➕ Mods Added
-*List all newly added mods with reasons. Remove this section if no mods were added.*
+*List all newly added mods with reasons.
 
-- **Mod Name 1**: Adds quality of life improvements for inventory management
-- **Mod Name 2**: Enhances world generation with new biomes
-- **Mod Name 3**: Provides better performance optimization
-- **Mod Name 4**: Requested by community for enhanced building options
+- **JourneyMap Integration**: Adds FTB Chunks and Wraith Waystones compatibility.
 
 ---
 
