@@ -31,6 +31,7 @@
 *List all newly added mods with reasons.*
 
 - **JourneyMap Integration**: Adds FTB Chunks and Wraith Waystones compatibility.
+- **Quest Icons**: Adds uncraftable items to use them for quests icon.
 
 ---
 
