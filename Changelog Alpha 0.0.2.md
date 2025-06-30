@@ -45,3 +45,12 @@
 
 **FTB Quests**
 - Included default quest settings
+
+**FTB Backups**
+- Backup now occur hourly.
+
+**Ping Wheel**
+- Restricted ping tracking area so it is not drawn above the hud.
+- Increased ping duration to 15 seconds (from 7 seconds).
+- Default chanel mode switched to `TEAM_ONLY`
+- Pings limit have been decreased to 1 every 3 seconds.
