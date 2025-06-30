@@ -45,6 +45,7 @@
 
 **FTB Quests**
 - Included default quest settings
+- Added introduction quests
 
 **FTB Backups**
 - Backup now occur hourly.
