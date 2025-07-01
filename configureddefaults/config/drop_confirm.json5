@@ -1,0 +1,8 @@
+{
+	enabled: true,
+	shouldPlaySounds: true,
+	treatAsWhitelist: false,
+	confirmationResetDelay: 2.0,
+	confirmationMode: "ACTIONBAR",
+	blacklistedItems: []
+}

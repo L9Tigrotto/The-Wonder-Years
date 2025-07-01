@@ -13,7 +13,13 @@
 
 - **Tom's Simple Storage Mod**: `v2.2.0` → `v2.2.1` (bug fixes)
 - **Sounds**: `v2.4.11` → `v2.4.12` (bug fixes)
-- **Storage Drawers**: `v13.8.7` → `v13.8.8` (bug fixes)
+- **Storage Drawers**: `v13.8.7` → `v13.8.9` (bug fixes)
+- **Bookshelf**: `v21.1.65` → `v21.1.66` (bug fixes)
+- **FTB Library**: `v2101.1.15` → `v2101.1.16` (more server side control)
+- **Camerapture**: `v1.10.1` → `v1.10.4` (minor improvements)
+- **Repurposed Structures**: `v7.5.15` → `v7.15.16` (bug fix)
+- **Yung's API**: `v5.1.5` → `v5.1.6` (minor improvements)
+- **Drop Confirm**: `v5.0.0-beta.1` → `v5.0.0` (improvements)
 
 ---
 
@@ -32,6 +38,7 @@
 
 - **JourneyMap Integration**: Adds FTB Chunks and Wraith Waystones compatibility.
 - **Quest Icons**: Adds uncraftable items to use them for quests icon.
+- **Immersive Hotbar**: Animations for scolling the hotbar and placing/picking up blocks.
 
 ---
 
@@ -52,6 +59,9 @@
 
 **Ping Wheel**
 - Restricted ping tracking area so it is not drawn above the hud.
-- Increased ping duration to 15 seconds (from 7 seconds).
-- Default chanel mode switched to `TEAM_ONLY`
-- Pings limit have been decreased to 1 every 3 seconds.
+- Increased ping duration to `15 seconds`.
+- Default chanel mode switched to `TEAM_ONLY`.
+- Pings limit have been decreased to `1 ping every 3 seconds`.
+
+**Drop Confirm**
+- Increased confirm resed delay from `1 seconds` to `2 seconds`
