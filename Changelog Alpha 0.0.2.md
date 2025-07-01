@@ -14,12 +14,13 @@
 - **Tom's Simple Storage Mod**: `v2.2.0` → `v2.2.1` (bug fixes)
 - **Sounds**: `v2.4.11` → `v2.4.12` (bug fixes)
 - **Storage Drawers**: `v13.8.7` → `v13.8.9` (bug fixes)
-- **Bookshelf**: `v21.1.65` → `v21.1.66` (bug fixes)
+- **Bookshelf**: `v21.1.65` → `v21.1.67` (bug fixes)
 - **FTB Library**: `v2101.1.15` → `v2101.1.16` (more server side control)
-- **Camerapture**: `v1.10.1` → `v1.10.4` (minor improvements)
+- **Camerapture**: `v1.10.1` → `v1.10.6` (minor improvements)
 - **Repurposed Structures**: `v7.5.15` → `v7.15.16` (bug fix)
 - **Yung's API**: `v5.1.5` → `v5.1.6` (minor improvements)
-- **Drop Confirm**: `v5.0.0-beta.1` → `v5.0.0` (improvements)
+- **FTB Quests**: `v2101.1.10` → `v2101.1.11` (improvements)
+- **Drop Confirm**: `v5.0.0-beta.1` → `v5.0.0` (new confirmation mode)
 
 ---
 
