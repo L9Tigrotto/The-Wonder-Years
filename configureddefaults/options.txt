@@ -50,7 +50,7 @@ damageTiltStrength:1.0
 highContrast:false
 narratorHotkey:true
 resourcePacks:["vanilla","fabric","moonlight:mods_dynamic_assets","continuity:glass_pane_culling_fix","continuity:default","minecraft:supporteatinganimation","file/FreshAnimations_v1.9.2.zip","file/FA+Objects-v1.1.1.zip","file/Faithful 32x - 1.21.1.zip","file/Faithful32x-FreshAnimations-v1.9.1.zip","file/New Faithful Overlays - 1.21.1.zip","file/Bushy Leaves For Faithful 32x V1.4.zip","file/Faithful 32x AppleSkin - 1.21.1.zip","resource_nether_ores:resource_nether_ores_x32","file/CTM Faithful 0.4.0+1.20.x-1.21.x.zip","file/cubic-sun-moon-v1.8.2a.zip","mythicupgrades:32x","file/§a§lVocal Villagers §r§71.2.zip","file/skt-sg v1.1.zip","file/Sparkles_1.21.x_v1.1.3.zip","$polymer-resources"]
-incompatibleResourcePacks:["ambientenvironment","appleskin","artifacts","balm","bedspreads","betterbiomeblend","betterdays","biomemusic","bookshelf","carryon","catalogue","cherishedworlds","comforts","controlling","crafttweaker","draggable_lists","dragonfight","elytratrims","emiprofessions","enchdesc","extremesoundmuffler","forgivingvoid","globalpacks","horseshoes","immersivedamageindicators","immersivemessages","immersiveui","jade","konkrete","medievalmusic","modernfix","modernworldcreation","mr_blooming_biosphere","mr_dungeons_andtavernsendcastlestandalone","mr_dungeons_andtavernswoodlandmansionreplacement","mr_neoenchant","mr_recipes_plus","mr_withering_heights","netherportalfix","polylib","resource_nether_ores","resourcelibrary","resourcify","searchables","spectrelib","tectonic","tiered","tipsmod","toms_storage","txnilib","unionlib","unloadedactivity","watut","yet_another_config_lib_v3","essential","file/Bushy Leaves For Faithful 32x V1.4.zip"]
+incompatibleResourcePacks:["ambientenvironment","appleskin","artifacts","balm","bedspreads","betterbiomeblend","betterdays","biomemusic","bookshelf","carryon","catalogue","cherishedworlds","comforts","controlling","crafttweaker","draggable_lists","dragonfight","elytratrims","enchdesc","essential","extremesoundmuffler","forgivingvoid","horseshoes","immersivedamageindicators","immersivemessages","immersiveui","jade","konkrete","medievalmusic","modernfix","modernworldcreation","mr_dungeons_andtavernsendcastlestandalone","mr_dungeons_andtavernswoodlandmansionreplacement","mr_neoenchant","mr_recipes_plus","mr_withering_heights","netherportalfix","polylib","redstonepen","resource_nether_ores","resourcelibrary","resourcify","searchables","simplehats","spectrelib","starterkit","tectonic","tiered","tipsmod","toms_storage","txnilib","unionlib","unloadedactivity","watut","yet_another_config_lib_v3","file/Bushy Leaves For Faithful 32x V1.4.zip"]
 lastServer:
 lang:en_us
 chatVisibility:0
@@ -234,14 +234,14 @@ key_keybind.name.EMOTE_SLOT_7:key.keyboard.unknown
 key_keybind.name.EMOTE_SLOT_8:key.keyboard.unknown
 key_keybind.name.ZOOM:key.keyboard.c
 soundCategory_master:0.5099415355960266
-soundCategory_music:1.0
+soundCategory_music:0.20825264084507025
 soundCategory_record:1.0
 soundCategory_weather:1.0
 soundCategory_block:1.0
 soundCategory_hostile:1.0
 soundCategory_neutral:1.0
 soundCategory_player:1.0
-soundCategory_ambient:0.4005941901408449
+soundCategory_ambient:0.6038072183098593
 soundCategory_voice:1.0
 modelPart_cape:true
 modelPart_jacket:true

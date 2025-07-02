@@ -1,0 +1,6 @@
+{
+  "defaultChannelMode": "TEAM_ONLY",
+  "playerTrackingEnabled": true,
+  "msToRegenerate": 3000,
+  "rateLimit": 1
+}
