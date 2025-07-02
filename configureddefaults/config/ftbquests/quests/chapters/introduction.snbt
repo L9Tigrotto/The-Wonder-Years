@@ -1,4 +1,5 @@
 {
+	autofocus_id: "58C5E511FA95102B"
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "introduction"
@@ -8,7 +9,7 @@
 		id: "minecraft:writable_book"
 	}
 	id: "5D7EC23DDBC63A9D"
-	order_index: 1
+	order_index: 0
 	quest_links: [ ]
 	quests: [
 		{
@@ -115,7 +116,7 @@
 				type: "checkmark"
 			}]
 			x: 0.5d
-			y: -5.0d
+			y: -5.5d
 		}
 		{
 			dependencies: ["4F1BBE6F95E04055"]
@@ -125,19 +126,8 @@
 				id: "6C99CAF49C9A2E04"
 				type: "checkmark"
 			}]
-			x: 1.5d
-			y: -5.5d
-		}
-		{
-			dependencies: ["4F1BBE6F95E04055"]
-			id: "21FBF5A51A11209F"
-			min_width: 300
-			tasks: [{
-				id: "236AC92381115F48"
-				type: "checkmark"
-			}]
-			x: 2.5d
-			y: -5.5d
+			x: 2.0d
+			y: -6.0d
 		}
 		{
 			dependencies: ["4F1BBE6F95E04055"]
@@ -148,7 +138,7 @@
 				type: "checkmark"
 			}]
 			x: 3.5d
-			y: -5.0d
+			y: -5.5d
 		}
 		{
 			dependencies: ["4F1BBE6F95E04055"]
@@ -160,6 +150,334 @@
 			}]
 			x: 4.0d
 			y: -4.0d
+		}
+		{
+			dependencies: ["3C135771D89A32F7"]
+			id: "69CEFECDE36BA712"
+			min_width: 300
+			tasks: [{
+				id: "3150A3CC59E9B482"
+				type: "checkmark"
+			}]
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1BAB9E73BF88F737"]
+			icon: {
+				id: "questsicons:quest_portal_one"
+			}
+			id: "642F86CBE6E0FE90"
+			min_width: 300
+			tasks: [{
+				id: "03A7D435A34006C3"
+				type: "checkmark"
+			}]
+			x: 6.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["1BAB9E73BF88F737"]
+			icon: {
+				id: "questsicons:quest_portal_three"
+			}
+			id: "3F2C1F2B141FC4C9"
+			min_width: 300
+			tasks: [{
+				id: "2CC495BD20D1AB1E"
+				type: "checkmark"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1BAB9E73BF88F737"]
+			icon: {
+				id: "questsicons:quest_portal_two"
+			}
+			id: "510C6CF3102B084C"
+			min_width: 300
+			tasks: [{
+				id: "27C96E4D5266779A"
+				type: "checkmark"
+			}]
+			x: 6.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["42CBB74C75E48C56"]
+			id: "61254BCF5AF59870"
+			min_width: 300
+			tasks: [{
+				id: "713C8090C9260AD0"
+				item: { count: 1, id: "minecraft:oak_log" }
+				type: "item"
+			}]
+			x: 15.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["76A767C876BF6BF1"]
+			id: "6BDB747E13F181D1"
+			min_width: 300
+			tasks: [{
+				id: "7AA6F3315A8A6B77"
+				item: { count: 1, id: "minecraft:oak_log" }
+				type: "item"
+			}]
+			x: 14.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["7A8F02B467ACA1F9"]
+			id: "2A9FD79B43BD33EB"
+			min_width: 300
+			tasks: [{
+				id: "2261BF8F6E771EC7"
+				item: { count: 1, id: "minecraft:oak_log" }
+				type: "item"
+			}]
+			x: 15.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["61254BCF5AF59870"]
+			id: "41493FE59E5AFBAF"
+			min_width: 300
+			tasks: [{
+				id: "4E4C12D357D12A3F"
+				item: { count: 1, id: "minecraft:oak_log" }
+				type: "item"
+			}]
+			x: 17.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["54635A4F155697C6"]
+			id: "01C42C6AFEBA735F"
+			min_width: 300
+			tasks: [{
+				id: "6BA03FD6F067A111"
+				item: { count: 1, id: "minecraft:oak_log" }
+				type: "item"
+			}]
+			x: 26.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["61254BCF5AF59870"]
+			id: "1339B89AFECAF0CD"
+			min_width: 300
+			tasks: [{
+				id: "2FA7B259012F0A9A"
+				item: { count: 1, id: "minecraft:oak_log" }
+				type: "item"
+			}]
+			x: 22.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1339B89AFECAF0CD"]
+			id: "48A7AE55AE5FAD30"
+			min_width: 300
+			tasks: [{
+				id: "1440F407CE9F947C"
+				item: { count: 1, id: "minecraft:oak_log" }
+				type: "item"
+			}]
+			x: 22.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["1339B89AFECAF0CD"]
+			id: "560A7DD834A56979"
+			min_width: 300
+			tasks: [{
+				id: "34CB4896A766F701"
+				item: { count: 1, id: "minecraft:oak_log" }
+				type: "item"
+			}]
+			x: 23.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["1339B89AFECAF0CD"]
+			id: "1A27C86C661CF926"
+			min_width: 300
+			tasks: [{
+				id: "43699A336F90E2A5"
+				item: { count: 1, id: "minecraft:oak_log" }
+				type: "item"
+			}]
+			x: 22.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1339B89AFECAF0CD"]
+			id: "54635A4F155697C6"
+			min_width: 300
+			tasks: [{
+				id: "5FABE1684EB34F16"
+				item: { count: 1, id: "minecraft:oak_log" }
+				type: "item"
+			}]
+			x: 25.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["54635A4F155697C6"]
+			id: "665E13410BB51410"
+			min_width: 300
+			tasks: [{
+				id: "0DC7A9B38DD450C2"
+				item: { count: 1, id: "minecraft:oak_log" }
+				type: "item"
+			}]
+			x: 25.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["54635A4F155697C6"]
+			id: "6F3F877B06297ED4"
+			min_width: 300
+			tasks: [{
+				id: "29DFB542A46513B6"
+				item: { count: 1, id: "minecraft:oak_log" }
+				type: "item"
+			}]
+			x: 27.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["54635A4F155697C6"]
+			id: "273D8B7B384ADAB3"
+			min_width: 300
+			tasks: [{
+				id: "37F2F5550B63F974"
+				item: { count: 1, id: "minecraft:oak_log" }
+				type: "item"
+			}]
+			x: 25.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["54635A4F155697C6"]
+			id: "422D3DBA0954751D"
+			min_width: 300
+			tasks: [{
+				id: "396DF73CA6DC2FDD"
+				item: { count: 1, id: "minecraft:oak_log" }
+				type: "item"
+			}]
+			x: 27.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["54635A4F155697C6"]
+			id: "0FB1F5B2D5F24828"
+			min_width: 300
+			tasks: [{
+				id: "5875408C3A9EDBE9"
+				item: { count: 1, id: "minecraft:oak_log" }
+				type: "item"
+			}]
+			x: 29.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["61254BCF5AF59870"]
+			id: "76A767C876BF6BF1"
+			min_width: 300
+			tasks: [{
+				id: "52CDBA7A5B76B83A"
+				item: { count: 1, id: "minecraft:oak_log" }
+				type: "item"
+			}]
+			x: 15.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["76A767C876BF6BF1"]
+			id: "1A0ED9BDEFDDDA05"
+			min_width: 300
+			tasks: [{
+				id: "41835F6FCEF7A7BD"
+				item: { count: 1, id: "minecraft:oak_log" }
+				type: "item"
+			}]
+			x: 15.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["76A767C876BF6BF1"]
+			id: "3AD30D11AC2B1046"
+			min_width: 300
+			tasks: [{
+				id: "73C01F8A1149B95D"
+				item: { count: 1, id: "minecraft:oak_log" }
+				type: "item"
+			}]
+			x: 17.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["76A767C876BF6BF1"]
+			id: "10244A373EF41952"
+			min_width: 300
+			tasks: [{
+				id: "789C04C65AAA8765"
+				item: { count: 1, id: "minecraft:oak_log" }
+				type: "item"
+			}]
+			x: 16.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["61254BCF5AF59870"]
+			id: "7A8F02B467ACA1F9"
+			min_width: 300
+			tasks: [{
+				id: "2A7FF772C43D0C62"
+				item: { count: 1, id: "minecraft:oak_log" }
+				type: "item"
+			}]
+			x: 15.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["7A8F02B467ACA1F9"]
+			id: "6DF03A56D0DBAFCC"
+			min_width: 300
+			tasks: [{
+				id: "5D00E1734962FC88"
+				item: { count: 1, id: "minecraft:oak_log" }
+				type: "item"
+			}]
+			x: 16.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["7A8F02B467ACA1F9"]
+			id: "57F237C7F65E4B96"
+			min_width: 300
+			tasks: [{
+				id: "77D3EF732CC3FFDA"
+				item: { count: 1, id: "minecraft:oak_log" }
+				type: "item"
+			}]
+			x: 17.0d
+			y: 4.0d
+		}
+		{
+			id: "42CBB74C75E48C56"
+			min_width: 300
+			tasks: [{
+				id: "5ECC90EF1FAC07F1"
+				item: { count: 1, id: "questsicons:chapter_lock" }
+				type: "item"
+			}]
+			x: 13.5d
+			y: 0.0d
 		}
 	]
 }
