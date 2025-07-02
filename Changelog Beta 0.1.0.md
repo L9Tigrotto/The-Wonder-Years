@@ -1,4 +1,4 @@
-# The Wonder Years Changelog Version X.X.X
+# The Wonder Years Changelog Version 0.1.0
 
 ## 📖 README.md Modifications
 *List any changes made to the README.md file, if any. Remove this section if no changes were made.*
