@@ -31,6 +31,7 @@
 - **JourneyMap Integration**: Adds  with FTB Chunks and Wraith Waystones.
 - **Quest Icons**: Adds uncraftable items to use them for quests icon.
 - **Immersive Hotbar**: Animations for scrolling the hotbar and placing/picking up blocks.
+- **First Join Message**: Print a message the first time a player join the world.
 
 ---
 
@@ -60,3 +61,6 @@
 
 **Starter Kit**
 - Start kit now contains a quest book only.
+
+**First Join Message**
+- The message tells the player to popen the quest book.
