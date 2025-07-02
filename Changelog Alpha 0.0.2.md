@@ -13,7 +13,7 @@
 - **Yung's API**: `v5.1.5` → `v5.1.6`
 - **FTB Quests**: `v2101.1.10` → `v2101.1.11`
 - **Drop Confirm**: `v5.0.0-beta.1` → `v5.0.0` (new confirmation mode)
-- **Modern Fix**: `v5.0.0-beta.1` → `v5.0.0`
+- **Modern Fix**: `v5.23.1` → `v5.24.0`
 
 ---
 
