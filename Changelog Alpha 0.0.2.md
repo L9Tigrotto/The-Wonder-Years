@@ -1,36 +1,26 @@
-# The Wonder Years Changelog Version X.X.X
-
-## 📖 README.md Modifications
-*List any changes made to the README.md file, if any. Remove this section if no changes were made.*
-
-- Updated installation instructions
-- Added new FAQ section
-
----
+# The Wonder Years Changelog Version 0.0.2
 
 ## ⬆️ Mods Updated
 *List all mods that were updated with their version changes.*
 
-- **Tom's Simple Storage Mod**: `v2.2.0` → `v2.2.1` (bug fixes)
-- **Sounds**: `v2.4.11` → `v2.4.12` (bug fixes)
-- **Storage Drawers**: `v13.8.7` → `v13.8.9` (bug fixes)
-- **Bookshelf**: `v21.1.65` → `v21.1.67` (bug fixes)
-- **FTB Library**: `v2101.1.15` → `v2101.1.16` (more server side control)
-- **Camerapture**: `v1.10.1` → `v1.10.6` (minor improvements)
-- **Repurposed Structures**: `v7.5.15` → `v7.15.16` (bug fix)
-- **Yung's API**: `v5.1.5` → `v5.1.6` (minor improvements)
-- **FTB Quests**: `v2101.1.10` → `v2101.1.11` (improvements)
+- **Tom's Simple Storage Mod**: `v2.2.0` → `v2.2.1`
+- **Sounds**: `v2.4.11` → `v2.4.12`
+- **Storage Drawers**: `v13.8.7` → `v13.8.9`
+- **Bookshelf**: `v21.1.65` → `v21.1.67`
+- **FTB Library**: `v2101.1.15` → `v2101.1.16`
+- **Camerapture**: `v1.10.1` → `v1.10.6`
+- **Repurposed Structures**: `v7.5.15` → `v7.15.16`
+- **Yung's API**: `v5.1.5` → `v5.1.6`
+- **FTB Quests**: `v2101.1.10` → `v2101.1.11`
 - **Drop Confirm**: `v5.0.0-beta.1` → `v5.0.0` (new confirmation mode)
+- **Modern Fix**: `v5.0.0-beta.1` → `v5.0.0` (new confirmation mode)
 
 ---
 
 ## ❌ Mods Removed
-*List all mods that were removed with reasons. Remove this section if no mods were removed.*
+*List all mods that were removed with reasons.*
 
-- **Mod Name 1**: Incompatible with new Forge version
-- **Mod Name 2**: Replaced by better alternative
-- **Mod Name 3**: Causing performance issues
-- **Mod Name 4**: No longer maintained by author
+- **Revive**: Conflict with universal graves (death compass disappear and invisible to other players upon respawn).
 
 ---
 
