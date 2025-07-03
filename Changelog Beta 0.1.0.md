@@ -15,6 +15,7 @@
 - **FTB Quests**: `v2101.1.11` → `v2101.1.12` (bug fix)
 - **Resource Library**: `v2.6.1` → `v2.7.0`
 - **Essential**: `v1.3.8.3` → `v1.3.8.4` (bug fix)
+- **Modern Fix**: `v5.24.0` → `v5.24.1` (bug fix)
 
 ---
 
@@ -40,3 +41,6 @@
 
 **Biome Replacer:**
 - Now correctly removes teralith sky island.
+
+**Modern Fix:**
+- Enabled some optimizations.
