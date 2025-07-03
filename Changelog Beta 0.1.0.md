@@ -9,11 +9,12 @@
 ---
 
 ## ⬆️ Mods Updated
-*List all mods that were updated with their version changes. Remove this section if no mods were updated.*
+*List all mods that were updated with their version changes.*
 
-- **Mod Name 1**: `v1.2.3` → `v1.3.0`
-- **Mod Name 2**: `v2.1.0` → `v2.1.5`
-- **Mod Name 3**: `v0.8.2` → `v1.0.0`
+- **Accessorify**: `v2.0.1` → `v2.1.1` (added lanter slot, compatible with dynamic mod)
+- **FTB Quests**: `v2101.1.11` → `v2101.1.12` (bug fix)
+- **Resource Library**: `v2.6.1` → `v2.7.0`
+- **Essential**: `v1.3.8.3` → `v1.3.8.4` (bug fix)
 
 ---
 
