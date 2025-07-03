@@ -44,3 +44,6 @@
 
 **Modern Fix:**
 - Enabled some optimizations.
+
+**Options:**
+- Removed essential zoom.
