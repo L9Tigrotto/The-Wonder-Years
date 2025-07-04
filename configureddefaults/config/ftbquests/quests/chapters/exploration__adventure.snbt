@@ -1,0 +1,15 @@
+{
+	default_hide_dependency_lines: false
+	default_min_width: 300
+	default_quest_shape: ""
+	filename: "exploration__adventure"
+	group: ""
+	hide_quest_until_deps_complete: true
+	icon: {
+		id: "questsicons:quest_portal_two"
+	}
+	id: "3BA37B507026C661"
+	order_index: 3
+	quest_links: [ ]
+	quests: [ ]
+}

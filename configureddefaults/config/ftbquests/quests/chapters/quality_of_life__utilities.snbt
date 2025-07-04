@@ -1,0 +1,321 @@
+{
+	default_hide_dependency_lines: false
+	default_min_width: 300
+	default_quest_shape: ""
+	filename: "quality_of_life__utilities"
+	group: ""
+	hide_quest_until_deps_complete: true
+	icon: {
+		id: "questsicons:quest_portal_three"
+	}
+	id: "628410B8B465AC62"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["6082A45A24401498"]
+			icon: {
+				id: "minecraft:comparator"
+			}
+			id: "48A7AE55AE5FAD30"
+			tasks: [{
+				id: "1440F407CE9F947C"
+				item: { count: 1, id: "minecraft:oak_log" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3F2C1F2B141FC4C9"]
+			icon: {
+				id: "questsicons:chapter_lock"
+			}
+			id: "5CB3EFFE2C67D13A"
+			tasks: [{
+				id: "5E6C539F87D342EB"
+				item: { count: 1, id: "minecraft:oak_log" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5CB3EFFE2C67D13A"]
+			icon: {
+				id: "questsicons:chapter_lock"
+			}
+			id: "6082A45A24401498"
+			tasks: [{
+				id: "167F64740EC69A36"
+				item: { count: 1, id: "minecraft:oak_log" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5CB3EFFE2C67D13A"]
+			id: "037BE0895F34A409"
+			tasks: [{
+				id: "62E4D1FEBD2CCB8F"
+				item: { count: 1, id: "minecraft:oak_log" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6082A45A24401498"]
+			icon: {
+				id: "minecraft:wheat_seeds"
+			}
+			id: "6945D3F7DAA3850E"
+			tasks: [{
+				id: "54F9C2335AD7DAEF"
+				item: { count: 1, id: "minecraft:oak_log" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["17EACE0A13673FB7"]
+			icon: {
+				id: "minecraft:minecart"
+			}
+			id: "7211800E46FC2619"
+			tasks: [{
+				id: "0A293BBE344BF63F"
+				item: { count: 1, id: "minecraft:oak_log" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["17EACE0A13673FB7"]
+			icon: {
+				id: "minecraft:scaffolding"
+			}
+			id: "5ACD859576060323"
+			tasks: [{
+				id: "5687BC9A37F57509"
+				item: { count: 1, id: "minecraft:oak_log" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["17EACE0A13673FB7"]
+			icon: {
+				id: "minecraft:stick"
+			}
+			id: "1A5477F202AB0015"
+			tasks: [{
+				id: "4ED1D04AB2A7F3F5"
+				item: { count: 1, id: "minecraft:oak_log" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6082A45A24401498"]
+			icon: {
+				id: "minecraft:paper"
+			}
+			id: "1774BC64FB411198"
+			tasks: [{
+				id: "58E6B370FD8BC468"
+				item: { count: 1, id: "minecraft:oak_log" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["6ED527BB2B46A64F"]
+			icon: {
+				id: "minecraft:tnt"
+			}
+			id: "6C9BCF240824B04D"
+			tasks: [{
+				id: "1835D810300A89CF"
+				item: { count: 1, id: "minecraft:oak_log" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["17EACE0A13673FB7"]
+			icon: {
+				id: "minecraft:lead"
+			}
+			id: "2888386FCF0C472C"
+			tasks: [{
+				id: "490767A57FF94196"
+				item: { count: 1, id: "minecraft:oak_log" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5FC95208AB0B6DD2"]
+			icon: {
+				id: "minecraft:sunflower"
+			}
+			id: "7107F50F940E18E9"
+			tasks: [{
+				id: "1B7EF16CB94B016D"
+				item: { count: 1, id: "minecraft:oak_log" }
+				type: "item"
+			}]
+			x: 11.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5FC95208AB0B6DD2"]
+			icon: {
+				id: "minecraft:torch"
+			}
+			id: "465E42174D8FFDF3"
+			tasks: [{
+				id: "10D3CCCB8EE27D54"
+				item: { count: 1, id: "minecraft:oak_log" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5FC95208AB0B6DD2"]
+			icon: {
+				id: "minecraft:clock"
+			}
+			id: "2D786B9F7D856C4F"
+			tasks: [{
+				id: "59D7736EF5F95F01"
+				item: { count: 1, id: "minecraft:oak_log" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["65B0D3EED6DE3D56"]
+			icon: {
+				id: "minecraft:sculk_sensor"
+			}
+			id: "7A7DEFB5DEB6A81B"
+			tasks: [{
+				id: "6F1E8A7EC010BA6E"
+				item: { count: 1, id: "minecraft:oak_log" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6CE6563AC615110B"]
+			icon: {
+				id: "minecraft:ghast_tear"
+			}
+			id: "7E4416A245D9C6BC"
+			tasks: [{
+				id: "72B3A9926CF0ED9F"
+				item: { count: 1, id: "minecraft:oak_log" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["6ED527BB2B46A64F"]
+			icon: {
+				id: "minecraft:flower_pot"
+			}
+			id: "0FA8152C1BAF6A69"
+			tasks: [{
+				id: "7760DAA7A30C4505"
+				item: { count: 1, id: "minecraft:oak_log" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["6082A45A24401498"]
+			icon: {
+				id: "questsicons:chapter_lock"
+			}
+			id: "65B0D3EED6DE3D56"
+			tasks: [{
+				id: "57AFEC191B397D0A"
+				item: { count: 1, id: "minecraft:oak_log" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["65B0D3EED6DE3D56"]
+			icon: {
+				id: "questsicons:chapter_lock"
+			}
+			id: "17EACE0A13673FB7"
+			tasks: [{
+				id: "511B48F0B0B05E35"
+				item: { count: 1, id: "minecraft:oak_log" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["17EACE0A13673FB7"]
+			icon: {
+				id: "questsicons:chapter_lock"
+			}
+			id: "6ED527BB2B46A64F"
+			tasks: [{
+				id: "25F113975162F17C"
+				item: { count: 1, id: "minecraft:oak_log" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6ED527BB2B46A64F"]
+			icon: {
+				id: "questsicons:chapter_lock"
+			}
+			id: "5FC95208AB0B6DD2"
+			tasks: [{
+				id: "511A3DFCA41D8EFB"
+				item: { count: 1, id: "minecraft:oak_log" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5FC95208AB0B6DD2"]
+			icon: {
+				id: "questsicons:chapter_lock"
+			}
+			id: "6CE6563AC615110B"
+			tasks: [{
+				id: "3A375F5EEE061B28"
+				item: { count: 1, id: "minecraft:oak_log" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: 0.0d
+		}
+	]
+}

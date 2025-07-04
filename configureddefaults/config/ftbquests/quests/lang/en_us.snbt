@@ -1,6 +1,24 @@
 {
+	chapter.03E1E566DC01F5AC.title: "Building \\& Aesthetics"
+	chapter.3BA37B507026C661.title: "Exploration \\& Adventure"
 	chapter.5D7EC23DDBC63A9D.title: "Introduction"
-	quest.01C42C6AFEBA735F.title: "Lightly"
+	chapter.628410B8B465AC62.title: "Quality of Life \\& Utilities"
+	quest.037BE0895F34A409.quest_desc: [
+		"&bEMI - Recipe and Item Information&r"
+		"This system shows you recipes, uses, and detailed information about any item in the game."
+		"&eInterface Features:&r"
+		"- &aItem panel&r - Browse all available items on the right side of your inventory"
+		"- &aSearch bar&r - Find specific items using the search box at the bottom"
+		"- &aPinned items&r - Keep frequently used items easily accessible"
+		"{@pagebreak}"
+		"&eBasic Controls:&r"
+		"- &aR key&r - View how to craft an item (hover over the item first)"
+		"- &aU key&r - See what recipes use this item as an ingredient"
+		"- &aA key&r - Pin/unpin items to save them in your favorites list"
+		"&eDetailed Information:&r"
+		"This guide provides much more than just crafting recipes - you can find fuel burn times, villager trades, ore generation heights, treasure chest loot tables, mob drops, and more. "
+	]
+	quest.037BE0895F34A409.title: "EMI"
 	quest.0CD182F95931DCD7.quest_desc: [
 		"&bShared Progress with Teams&r"
 		"Teams allow you to create groups that share quest progress and have private chat channels."
@@ -12,10 +30,10 @@
 		"This is especially useful for cooperative multiplayer sessions."
 	]
 	quest.0CD182F95931DCD7.title: "Shared Quests"
-	quest.10244A373EF41952.title: "Arrows Info"
-	quest.1339B89AFECAF0CD.title: "Inventory Management"
-	quest.1A0ED9BDEFDDDA05.title: "Mob Plaques"
-	quest.1A27C86C661CF926.title: "Staaaak"
+	quest.0FA8152C1BAF6A69.title: "Potted Farm"
+	quest.1774BC64FB411198.title: "Notes"
+	quest.17EACE0A13673FB7.title: "Movement \\& Building"
+	quest.1A5477F202AB0015.title: "Quick Rightclick"
 	quest.1BAB9E73BF88F737.quest_desc: [
 		"&6Three Main Quest Paths&r"
 		"The quests are organized into three main areas, each focusing on different aspects of gameplay:"
@@ -27,7 +45,20 @@
 		"Feel free to follow whichever paths interest you most - there's no required order."
 	]
 	quest.1BAB9E73BF88F737.title: "The Three Main Branches"
-	quest.2A9FD79B43BD33EB.title: "Simple HUD Enhanced"
+	quest.2888386FCF0C472C.title: "Measurements"
+	quest.288E1BF482053378.quest_desc: [
+		"&bWorld Favorites&r"
+		"Keep your most important worlds safe and easily accessible with the world bookmarking system."
+		""
+		"&eHow it Works:&r"
+		"- Star icons appear next to each world in your world selection screen"
+		"- Click the star to bookmark a world you want to protect and prioritize"
+		"- You can't accidentally delete bookmarked worlds - they're protected until you unmark them"
+		"{@pagebreak}"
+		"This is especially useful for keeping your main survival worlds, creative builds, or multiplayer servers easily accessible and safe from accidental deletion."
+	]
+	quest.288E1BF482053378.title: "Cherished Worlds"
+	quest.2D786B9F7D856C4F.title: "Better Days"
 	quest.3A1B393D02161650.quest_desc: [
 		"&bPersonalized Loot&r"
 		"Lootr ensures every player gets their own loot from chests in generated structures - no more fighting over treasure!"
@@ -39,7 +70,6 @@
 		"Each player sees their own loot, so everyone gets a fair share."
 	]
 	quest.3A1B393D02161650.title: "Lootr"
-	quest.3AD30D11AC2B1046.title: "Overflowing Bars"
 	quest.3C135771D89A32F7.quest_desc: [
 		"&6What Makes This Pack Special:&r"
 		"&bResource Pack Surprise&r - I've pre-loaded some eye candy! Don't like my taste? No worries, disable away!"
@@ -69,9 +99,6 @@
 		"You'll discover inventory management tools, automation helpers, and various conveniences that enhance the overall Minecraft experience."
 	]
 	quest.3F2C1F2B141FC4C9.title: "Quality of Life \\& Utilities"
-	quest.41493FE59E5AFBAF.title: "Pickup Notifier"
-	quest.42CBB74C75E48C56.quest_desc: ["The following quests are works in progress"]
-	quest.42CBB74C75E48C56.title: "WIP"
 	quest.458508D71CFD8B6E.quest_desc: [
 		"&bShared Advancements&r"
 		"Minecraft advancements can be shared across players, so everyone benefits from each other's progress."
@@ -85,6 +112,7 @@
 		"When one player earns an advancement, all team members receive it."
 	]
 	quest.458508D71CFD8B6E.title: "Shared advancements"
+	quest.465E42174D8FFDF3.title: "Magnum Torch"
 	quest.48A7AE55AE5FAD30.title: "Inventory Profiles Next"
 	quest.4F1BBE6F95E04055.quest_desc: [
 		"&bParty Time with Essential!&r"
@@ -106,9 +134,6 @@
 		"These mods add depth to the survival experience while maintaining the core Minecraft gameplay you know and love."
 	]
 	quest.510C6CF3102B084C.title: "Exploration \\& Adventure"
-	quest.54635A4F155697C6.title: "Tools \\& Mechanics"
-	quest.560A7DD834A56979.title: "Drop Confirm"
-	quest.57F237C7F65E4B96.title: "Equipment Compare"
 	quest.58C5E511FA95102B.quest_desc: [
 		"&6Welcome to &lThe Wonder Years&r&6!"
 		"Ready for an adventure that feels like coming home? This isn't just another modpack - it's your childhood Minecraft dreams with a grown-up twist! I've sprinkled in some magical new structures, gave those mobs a serious workout routine, and added quality-of-life improvements that'll make you wonder how you ever lived without them."
@@ -118,7 +143,10 @@
 		"&cDon't Forget:&r Click the checkmark on this quest when you're done reading to unlock the next ones!"
 	]
 	quest.58C5E511FA95102B.title: "Welcome to The Wonder Years ⭐"
-	quest.61254BCF5AF59870.title: "HUD Basics"
+	quest.5ACD859576060323.title: "Reacharound"
+	quest.5CB3EFFE2C67D13A.title: "HUD Basics"
+	quest.5FC95208AB0B6DD2.title: "Environmental Control"
+	quest.6082A45A24401498.title: "Basic Inventory \\& Interaction"
 	quest.614FC15CB90122BE.quest_desc: [
 		"&cImportant:&r Your world saves are valuable, so let's set up some protection. Backups work like save points - they'll help you recover if something goes wrong with your world."
 		""
@@ -144,33 +172,17 @@
 		"You'll learn about tools and features that make construction projects easier and more enjoyable."
 	]
 	quest.642F86CBE6E0FE90.title: "Building \\& Aesthetics"
-	quest.69CEFECDE36BA712.quest_desc: [
-		"&bEMI - Recipe and Item Information&r"
-		"This system shows you recipes, uses, and detailed information about any item in the game."
-		""
-		"&eInterface Features:&r"
-		"- &aItem panel&r - Browse all available items on the right side of your inventory"
-		"- &aSearch bar&r - Find specific items using the search box at the bottom"
-		"- &aPinned items&r - Keep frequently used items easily accessible"
-		"{@pagebreak}"
-		"&eBasic Controls:&r"
-		"- &aR key&r - View how to craft an item (hover over the item first)"
-		"- &aU key&r - See what recipes use this item as an ingredient"
-		"- &aA key&r - Pin/unpin items to save them in your favorites list"
-		""
-		"&eDetailed Information:&r"
-		""
-		"This guide provides much more than just crafting recipes - you can find fuel burn times, villager trades, ore generation heights, treasure chest loot tables, mob drops, and more."
-	]
-	quest.69CEFECDE36BA712.title: "Recipe and Item Guide"
+	quest.65B0D3EED6DE3D56.title: "Enhanced Interface"
+	quest.6945D3F7DAA3850E.title: "Right Click Harvest"
 	quest.6A79ABC395FC4C4A.quest_desc: [
 		"&bFeed Other Players&r"
 		"You can right-click other players while holding food to feed them directly."
 		"This is handy for sharing food during adventures or helping teammates who are low on hunger."
 	]
 	quest.6A79ABC395FC4C4A.title: "Let Your Friends Eat"
-	quest.6BDB747E13F181D1.title: "Jade"
-	quest.6DF03A56D0DBAFCC.title: "Dynamic Tooltips"
+	quest.6C9BCF240824B04D.title: "Pickup TNT"
+	quest.6CE6563AC615110B.title: "System"
+	quest.6ED527BB2B46A64F.title: "Farm \\& Automation"
 	quest.6FBB9B957FC4AB09.quest_desc: [
 		"&bHow Quests Work:&r"
 		"- &aSubmit items&r - Click the item icon under tasks to turn in what's needed"
@@ -184,6 +196,8 @@
 		"I'll show you how to craft those as you progress through the quests."
 	]
 	quest.6FBB9B957FC4AB09.title: "How Quests Work"
+	quest.7107F50F940E18E9.title: "Rain Be Gone Ritual"
+	quest.7211800E46FC2619.title: "Carry On"
 	quest.761B2EFE96F5E786.quest_desc: [
 		"&bPing System&r"
 		"Quick visual communication tool for multiplayer coordination."
@@ -193,8 +207,8 @@
 		"Useful for pointing out interesting locations, dangers, or resources without typing in chat."
 	]
 	quest.761B2EFE96F5E786.title: "Ping Wheel"
-	quest.76A767C876BF6BF1.title: "Information Display"
-	quest.7A8F02B467ACA1F9.title: "Visual Enhancements"
+	quest.7A7DEFB5DEB6A81B.title: "Extreme Sound Muffler"
+	quest.7E4416A245D9C6BC.title: "Vanilla Backport"
 	task.03A7D435A34006C3.title: "Understood"
 	task.24578182A25E26CE.title: "Understood"
 	task.27FB2B7FCDDDF657.title: "Understood"
@@ -202,6 +216,7 @@
 	task.5AB2B995B4026AD8.title: "Understood"
 	task.6656326F98CE8BFD.title: "Understood"
 	task.666A39C4DE7D9D31.title: "Understood"
+	task.679217536CF7548F.title: "Understood"
 	task.6B6F08ABB5B38285.title: "Understood"
 	task.7535DD93AC43F284.title: "Understood"
 	task.7D4FCE810B454120.title: "Understood"
