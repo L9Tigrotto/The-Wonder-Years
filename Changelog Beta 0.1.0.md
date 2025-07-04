@@ -46,5 +46,8 @@
 **Modern Fix:**
 - Enabled some optimizations.
 
+**RightClickHarvest:**
+- Increased hunger consumption on use.
+
 **Options:**
 - Removed essential zoom.
