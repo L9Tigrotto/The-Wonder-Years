@@ -13,16 +13,6 @@
 
 ---
 
-## ❌ Mods Removed
-*List all mods that were removed with reasons. Remove this section if no mods were removed.*
-
-- **Mod Name 1**: Incompatible with new Forge version
-- **Mod Name 2**: Replaced by better alternative
-- **Mod Name 3**: Causing performance issues
-- **Mod Name 4**: No longer maintained by author
-
----
-
 ## ➕ Mods Added
 *List all newly added mods with reasons.*
 
