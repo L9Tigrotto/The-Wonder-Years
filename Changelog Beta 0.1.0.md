@@ -36,6 +36,7 @@
 
 - **Sneak Through Berries**: Sneak through berry bushes without taking damage.
 - **Just Mob Heads**: Mobs have a chance to drop heads. Dummy can have mob head to calculate specific damage bonus (eg. smite is applied with zombie head).
+- **Fabric Shot**: Take large screenshots.
 
 ---
 
