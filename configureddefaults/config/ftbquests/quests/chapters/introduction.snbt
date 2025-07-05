@@ -93,6 +93,9 @@
 		}
 		{
 			dependencies: ["4F1BBE6F95E04055"]
+			icon: {
+				id: "minecraft:bookshelf"
+			}
 			id: "0CD182F95931DCD7"
 			tasks: [{
 				id: "6656326F98CE8BFD"

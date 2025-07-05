@@ -48,3 +48,6 @@
 
 **Options:**
 - Removed essential zoom.
+
+**FTB Quests:**
+- Added a preliminar "Quality of Life & Utilities" quest branch.
