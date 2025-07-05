@@ -1,13 +1,5 @@
 # The Wonder Years Changelog Version 0.1.0
 
-## 📖 README.md Modifications
-*List any changes made to the README.md file, if any. Remove this section if no changes were made.*
-
-- Updated installation instructions
-- Added new FAQ section
-
----
-
 ## ⬆️ Mods Updated
 *List all mods that were updated with their version changes.*
 
@@ -38,6 +30,7 @@
 - **Just Mob Heads**: Mobs have a chance to drop heads. Dummy can have mob head to calculate specific damage bonus (eg. smite is applied with zombie head).
 - **Fabric Shot**: Take large screenshots.
 - **Villager Names**: Villagers are given a pre-defined name from  a list of over 5000 names.
+- **Numismatic Overhaul**: Adds a currency system. Villagers trade Currency instead of Emeralds. Also introduce the Shop, which serves as an easy way to trade items between players.
 
 ---
 
