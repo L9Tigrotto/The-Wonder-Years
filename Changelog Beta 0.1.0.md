@@ -17,6 +17,7 @@
 - **Essential**: `v1.3.8.3` → `v1.3.8.4` (bug fix)
 - **Modern Fix**: `v5.24.0` → `v5.24.1` (bug fix)
 - **Staaaaak**: `v1.5-75` → `v1.7`
+- **Luki's Crazy Chambers**: `v1.0` → `v1.0.1`
 
 ---
 
