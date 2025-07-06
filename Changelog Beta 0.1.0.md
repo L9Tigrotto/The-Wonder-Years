@@ -12,6 +12,7 @@
 *List all mods that were removed with reasons.*
 
 - **Reforged**: TieredZ offers a better reroll system and tiers.
+- **Hand glider**: There's already the umbrella from artifacts.
 
 ---
 
