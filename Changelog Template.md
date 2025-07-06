@@ -1,13 +1,5 @@
 # The Wonder Years Changelog Version X.X.X
 
-## 📖 README.md Modifications
-*List any changes made to the README.md file, if any. Remove this section if no changes were made.*
-
-- Updated installation instructions
-- Added new FAQ section
-
----
-
 ## ⬆️ Mods Updated
 *List all mods that were updated with their version changes. Remove this section if no mods were updated.*
 
