@@ -44,3 +44,6 @@
 - Removed Auto Smelth enchantment (topaz tools have it by default).
 - Removed Poison Aspect enchantment (periodot tools have it by default).
 
+**Wraith Waystones:**
+- Removed level cost.
+
