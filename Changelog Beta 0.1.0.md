@@ -42,5 +42,5 @@
 **Better Enchanting:**
 - Added missing ingredients for chitical hit enchant.
 - Removed Auto Smelth enchantment (topaz tools have it by default).
-- Removed Poison Pspect enchantment (periodot tools have it by default).
+- Removed Poison Aspect enchantment (periodot tools have it by default).
 
