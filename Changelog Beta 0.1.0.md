@@ -1,43 +1,48 @@
-# The Wonder Years Changelog Version 0.1.0
+# The Wonder Years Changelog Version 0.2.0
 
 ## ⬆️ Mods Updated
-*List all mods that were updated with their version changes.*
+*List all mods that were updated with their version changes. Remove this section if no mods were updated.*
 
-- **Accessorify**: `v2.0.1` → `v2.1.1` (added lanter slot, compatible with dynamic mod)
-- **FTB Quests**: `v2101.1.11` → `v2101.1.12` (bug fix)
-- **Resource Library**: `v2.6.1` → `v2.7.0`
-- **Essential**: `v1.3.8.3` → `v1.3.8.4` (bug fix)
-- **Modern Fix**: `v5.24.0` → `v5.24.1` (bug fix)
-- **Staaaaak**: `v1.5-75` → `v1.7`
-- **Luki's Crazy Chambers**: `v1.0` → `v1.0.1`
+- **Mod Name 1**: `v1.2.3` → `v1.3.0`
+- **Mod Name 2**: `v2.1.0` → `v2.1.5`
+- **Mod Name 3**: `v0.8.2` → `v1.0.0`
+
+---
+
+## ❌ Mods Removed
+*List all mods that were removed with reasons. Remove this section if no mods were removed.*
+
+- **Mod Name 1**: Incompatible with new Forge version
+- **Mod Name 2**: Replaced by better alternative
+- **Mod Name 3**: Causing performance issues
+- **Mod Name 4**: No longer maintained by author
 
 ---
 
 ## ➕ Mods Added
-*List all newly added mods with reasons.*
+*List all newly added mods with reasons. Remove this section if no mods were added.*
 
-- **Sneak Through Berries**: Sneak through berry bushes without taking damage.
-- **Just Mob Heads**: Mobs have a chance to drop heads. Dummy can have mob head to calculate specific damage bonus (eg. smite is applied with zombie head).
-- **Fabric Shot**: Take large screenshots.
-- **Villager Names**: Villagers are given a pre-defined name from  a list of over 5000 names.
-- **Numismatic Overhaul**: Adds a currency system. Villagers trade Currency instead of Emeralds. Also introduce the Shop, which serves as an easy way to trade items between players.
+- **Mod Name 1**: Adds quality of life improvements for inventory management
+- **Mod Name 2**: Enhances world generation with new biomes
+- **Mod Name 3**: Provides better performance optimization
+- **Mod Name 4**: Requested by community for enhanced building options
 
 ---
 
 ## ⚙️ Settings Changed
-*List all configuration changes organized by mod.*
+*List all configuration changes organized by mod. Remove this section if no settings were changed.*
 
-**Biome Replacer:**
-- Now correctly removes teralith sky island.
+**Mod Name 1:**
+- Increased spawn rate of custom ores
+- Disabled certain recipes for balance
+- Modified energy consumption rates
 
-**Modern Fix:**
-- Enabled some optimizations.
+**Mod Name 2:**
+- Enabled advanced tooltip features
+- Changed keybind defaults
+- Adjusted GUI scaling options
 
-**RightClickHarvest:**
-- Increased hunger consumption on use.
-
-**Options:**
-- Removed essential zoom.
-
-**FTB Quests:**
-- Added a preliminar "Quality of Life & Utilities" quest branch.
+**Mod Name 3:**
+- Updated world generation parameters
+- Modified biome weights
+- Enabled compatibility mode
