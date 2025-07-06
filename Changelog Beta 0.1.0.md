@@ -1,31 +1,28 @@
 # The Wonder Years Changelog Version 0.2.0
 
 ## ⬆️ Mods Updated
-*List all mods that were updated with their version changes. Remove this section if no mods were updated.*
+*List all mods that were updated with their version changes.*
 
-- **Mod Name 1**: `v1.2.3` → `v1.3.0`
-- **Mod Name 2**: `v2.1.0` → `v2.1.5`
-- **Mod Name 3**: `v0.8.2` → `v1.0.0`
+- **Luki's Crazy Chambers**: `v1.0.1` → `v1.0.2`
+- **Entity Culling**: `v1.8.0` → `v1.8.1`
 
 ---
 
 ## ❌ Mods Removed
-*List all mods that were removed with reasons. Remove this section if no mods were removed.*
+*List all mods that were removed with reasons.*
 
-- **Mod Name 1**: Incompatible with new Forge version
-- **Mod Name 2**: Replaced by better alternative
-- **Mod Name 3**: Causing performance issues
-- **Mod Name 4**: No longer maintained by author
+- **Reforged**: TieredZ offers a better reroll system and tiers.
 
 ---
 
 ## ➕ Mods Added
-*List all newly added mods with reasons. Remove this section if no mods were added.*
+*List all newly added mods with reasons.*
 
-- **Mod Name 1**: Adds quality of life improvements for inventory management
-- **Mod Name 2**: Enhances world generation with new biomes
-- **Mod Name 3**: Provides better performance optimization
-- **Mod Name 4**: Requested by community for enhanced building options
+- **EMI Loot**
+- **EMI Professions**: Disable librarian profession.
+- **Not Enough Librarian**[Datapack]: Disable librarian profession.
+- **TieredZ**: Every tool and armor piece you make will have a special modifier.
+- **Stylish Effects**: Overhauls how status effects are displayed.
 
 ---
 
@@ -34,4 +31,16 @@
 
 **FTB Quests:**
 - Overhauled and refined multiple quest descriptions.
+
+**Crafting:**
+- Removed unused trashcan recipes.
+- Removed vanilla ender chest.
+- Changed Abyss Watcher recipe to integrate better enchanting essence.
+- Changed Explorer's Compass recipe to integrate Mythic Upgrades Shards.
+- Changed Nature's Compass recipe to integrate Mythic Upgrades Shards.
+
+**Better Enchanting:**
+- Added missing ingredients for chitical hit enchant.
+- Removed Auto Smelth enchantment (topaz tools have it by default).
+- Removed Poison Pspect enchantment (periodot tools have it by default).
 

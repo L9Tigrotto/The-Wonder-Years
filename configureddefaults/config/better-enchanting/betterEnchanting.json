@@ -1,6 +1,7 @@
 {
   "disabledEnchants": [
-    "namespace:enchantment"
+    "enchantplus:tools/auto_smelt",
+    "enchantplus:sword/poison_aspect"
   ],
   "allowBookInAnvil": false,
   "shardFillingLapisCost": 3,
