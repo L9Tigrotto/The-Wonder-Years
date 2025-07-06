@@ -1,0 +1,278 @@
+{
+	autofocus_id: "5CB3EFFE2C67D13A"
+	default_hide_dependency_lines: false
+	default_min_width: 300
+	default_quest_shape: ""
+	filename: "quality_of_life__utilities"
+	group: ""
+	hide_quest_until_deps_complete: true
+	icon: {
+		id: "questsicons:quest_portal_three"
+	}
+	id: "628410B8B465AC62"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["6082A45A24401498"]
+			icon: {
+				id: "minecraft:comparator"
+			}
+			id: "48A7AE55AE5FAD30"
+			tasks: [{
+				id: "17EFA1A719C3E4DE"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3F2C1F2B141FC4C9"]
+			icon: {
+				id: "questsicons:chapter_lock"
+			}
+			id: "5CB3EFFE2C67D13A"
+			tasks: [{
+				count: 10L
+				id: "10FB3DBF9F4E47F9"
+				item: { count: 1, id: "numismatic-overhaul:bronze_coin" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5CB3EFFE2C67D13A"]
+			icon: {
+				id: "questsicons:chapter_lock"
+			}
+			id: "6082A45A24401498"
+			tasks: [{
+				count: 10L
+				id: "2E5C27C8B7F3D8A6"
+				item: { count: 10, id: "numismatic-overhaul:bronze_coin" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5CB3EFFE2C67D13A"]
+			icon: {
+				id: "minecraft:crafter"
+			}
+			id: "037BE0895F34A409"
+			tasks: [{
+				id: "65BEDA388BE10FF1"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6082A45A24401498"]
+			icon: {
+				id: "minecraft:wheat_seeds"
+			}
+			id: "6945D3F7DAA3850E"
+			tasks: [{
+				id: "65F6C8A800754722"
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["17EACE0A13673FB7"]
+			icon: {
+				id: "minecraft:minecart"
+			}
+			id: "7211800E46FC2619"
+			tasks: [{
+				id: "177FA0CC8CB7A228"
+				type: "checkmark"
+			}]
+			x: 6.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["17EACE0A13673FB7"]
+			icon: {
+				id: "minecraft:scaffolding"
+			}
+			id: "5ACD859576060323"
+			tasks: [{
+				id: "2796A39523E603DF"
+				type: "checkmark"
+			}]
+			x: 7.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6082A45A24401498"]
+			icon: {
+				id: "minecraft:paper"
+			}
+			id: "1774BC64FB411198"
+			tasks: [{
+				id: "66E82EFBEFAD0C2D"
+				type: "checkmark"
+			}]
+			x: 4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["17EACE0A13673FB7"]
+			icon: {
+				id: "minecraft:lead"
+			}
+			id: "2888386FCF0C472C"
+			tasks: [{
+				id: "1A5B89489E550C73"
+				type: "checkmark"
+			}]
+			x: 8.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5FC95208AB0B6DD2"]
+			icon: {
+				id: "minecraft:sunflower"
+			}
+			id: "7107F50F940E18E9"
+			tasks: [{
+				id: "2D9CF1BEC3DC4A90"
+				type: "checkmark"
+			}]
+			x: 11.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5FC95208AB0B6DD2"]
+			icon: {
+				id: "minecraft:torch"
+			}
+			id: "465E42174D8FFDF3"
+			tasks: [{
+				id: "6B52038F265813D5"
+				type: "checkmark"
+			}]
+			x: 10.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["65B0D3EED6DE3D56"]
+			icon: {
+				id: "minecraft:sculk_sensor"
+			}
+			id: "7A7DEFB5DEB6A81B"
+			tasks: [{
+				id: "39EB4FCCC9D83B2F"
+				type: "checkmark"
+			}]
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6CE6563AC615110B"]
+			icon: {
+				id: "minecraft:ghast_tear"
+			}
+			id: "7E4416A245D9C6BC"
+			tasks: [{
+				id: "46B18C6E36AE74EA"
+				type: "checkmark"
+			}]
+			x: 12.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["6ED527BB2B46A64F"]
+			icon: {
+				id: "minecraft:flower_pot"
+			}
+			id: "0FA8152C1BAF6A69"
+			tasks: [{
+				id: "7C263C8FF21196E3"
+				type: "checkmark"
+			}]
+			x: 8.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["6082A45A24401498"]
+			icon: {
+				id: "questsicons:chapter_lock"
+			}
+			id: "65B0D3EED6DE3D56"
+			tasks: [{
+				count: 10L
+				id: "57AFEC191B397D0A"
+				item: { count: 1, id: "numismatic-overhaul:bronze_coin" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["65B0D3EED6DE3D56"]
+			icon: {
+				id: "questsicons:chapter_lock"
+			}
+			id: "17EACE0A13673FB7"
+			tasks: [{
+				count: 10L
+				id: "511B48F0B0B05E35"
+				item: { count: 1, id: "numismatic-overhaul:bronze_coin" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["17EACE0A13673FB7"]
+			icon: {
+				id: "questsicons:chapter_lock"
+			}
+			id: "6ED527BB2B46A64F"
+			tasks: [{
+				count: 10L
+				id: "25F113975162F17C"
+				item: { count: 1, id: "numismatic-overhaul:bronze_coin" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6ED527BB2B46A64F"]
+			icon: {
+				id: "questsicons:chapter_lock"
+			}
+			id: "5FC95208AB0B6DD2"
+			tasks: [{
+				count: 10L
+				id: "511A3DFCA41D8EFB"
+				item: { count: 1, id: "numismatic-overhaul:bronze_coin" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5FC95208AB0B6DD2"]
+			icon: {
+				id: "questsicons:chapter_lock"
+			}
+			id: "6CE6563AC615110B"
+			tasks: [{
+				count: 10L
+				id: "3A375F5EEE061B28"
+				item: { count: 1, id: "numismatic-overhaul:bronze_coin" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: 0.0d
+		}
+	]
+}
