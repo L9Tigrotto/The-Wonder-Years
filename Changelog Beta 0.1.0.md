@@ -30,19 +30,8 @@
 ---
 
 ## ⚙️ Settings Changed
-*List all configuration changes organized by mod. Remove this section if no settings were changed.*
+*List all configuration changes organized by mod.*
 
-**Mod Name 1:**
-- Increased spawn rate of custom ores
-- Disabled certain recipes for balance
-- Modified energy consumption rates
+**FTB Quests:**
+- Overhauled and refined multiple quest descriptions.
 
-**Mod Name 2:**
-- Enabled advanced tooltip features
-- Changed keybind defaults
-- Adjusted GUI scaling options
-
-**Mod Name 3:**
-- Updated world generation parameters
-- Modified biome weights
-- Enabled compatibility mode

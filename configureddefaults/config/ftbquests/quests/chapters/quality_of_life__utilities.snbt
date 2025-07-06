@@ -124,7 +124,7 @@
 		{
 			dependencies: ["17EACE0A13673FB7"]
 			icon: {
-				id: "minecraft:lead"
+				id: "measurements:tape_measure"
 			}
 			id: "2888386FCF0C472C"
 			tasks: [{
