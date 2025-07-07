@@ -5,6 +5,10 @@
 
 - **Luki's Crazy Chambers**: `v1.0.1` → `v1.0.2`
 - **Entity Culling**: `v1.8.0` → `v1.8.1`
+- **Skin Layer 3D**: `v1.8.0` → `v1.8.1`
+- **Jade**: `v15.10.1` → `v15.10.2`
+- **Particle Rain**: `v3.0.5` → `v4.0.0-alpha-2`
+- **Not Enough ANimations**: `v1.10.0` → `v1.10.1`
 
 ---
 
@@ -13,6 +17,8 @@
 
 - **Reforged**: TieredZ offers a better reroll system and tiers.
 - **Hand glider**: There's already the umbrella from artifacts.
+- **Redstone Pen**: Make redstone too convoluted.
+- **Gen's Recipes Plus**: Made massive log file throwing errors.
 
 ---
 
