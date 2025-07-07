@@ -26,7 +26,7 @@
 *List all newly added mods with reasons.*
 
 - **EMI Loot**
-- **EMI Professions**: Disable librarian profession.
+- **EMI Professions**: Show the block villagers get theyr job.
 - **Not Enough Librarian**[Datapack]: Disable librarian profession.
 - **TieredZ**: Every tool and armor piece you make will have a special modifier.
 - **Stylish Effects**: Overhauls how status effects are displayed.
