@@ -35,8 +35,6 @@
 - **Stylish Effects**: Overhauls how status effects are displayed.
 - **Just Enought Items**: Used for some recipe compatibility.
 - **Just Enought Breeding**: JEI plugin that shows how to breed animsls.
-- **BlazeandCave's Advancements Pack** [datapack]: Adds lots of advancements.
-- **BlazeandCave's Advancements Pack Terralith+Incendium** [datapack]: Addon for Incendium and Terralith advancements.
 
 ---
 
@@ -60,7 +58,4 @@
 
 **Wraith Waystones:**
 - Removed level cost.
-
-**Paxi:**
-- Made BlazeandCave's Advancements Pack and its addon load in the correct order.
 
