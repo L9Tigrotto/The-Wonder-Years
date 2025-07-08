@@ -8,7 +8,9 @@
 - **Skin Layer 3D**: `v1.8.0` → `v1.8.1`
 - **Jade**: `v15.10.1` → `v15.10.2`
 - **Particle Rain**: `v3.0.5` → `v4.0.0-alpha-2`
-- **Not Enough ANimations**: `v1.10.0` → `v1.10.1`
+- **Not Enough Animations**: `v1.10.0` → `v1.10.1`
+- **Skeleton AI Fix**: `v21.1.0` → `v21.1.1`
+- **Lithostiched**: `v1.4.10` → `v1.4.11`
 
 ---
 
@@ -19,6 +21,7 @@
 - **Hand glider**: There's already the umbrella from artifacts.
 - **Redstone Pen**: Make redstone too convoluted.
 - **Gen's Recipes Plus**: Made massive log file throwing errors.
+- **UnionLib**: Death dependency.
 
 ---
 
@@ -30,6 +33,8 @@
 - **Not Enough Librarian**[Datapack]: Disable librarian profession.
 - **TieredZ**: Every tool and armor piece you make will have a special modifier.
 - **Stylish Effects**: Overhauls how status effects are displayed.
+- **Just Enought Items**: Used for some recipe compatibility.
+- **Just Enought Breeding**: JEI plugin that shows how to breed animsls.
 
 ---
 
