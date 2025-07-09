@@ -11,6 +11,7 @@
 - **Not Enough Animations**: `v1.10.0` → `v1.10.1`
 - **Skeleton AI Fix**: `v21.1.0` → `v21.1.1`
 - **Lithostiched**: `v1.4.10` → `v1.4.11`
+- **ImmediatelyFast**: `v1.6.5` → `v1.6.6`
 
 ---
 

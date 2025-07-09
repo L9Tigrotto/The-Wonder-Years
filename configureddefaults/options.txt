@@ -2,7 +2,7 @@ version:3955
 betterBiomeBlendRadius:14
 ao:true
 biomeBlendRadius:2
-enableVsync:true
+enableVsync:false
 entityDistanceScaling:1.0
 entityShadows:true
 forceUnicodeFont:false
@@ -50,7 +50,7 @@ damageTiltStrength:1.0
 highContrast:false
 narratorHotkey:true
 resourcePacks:["vanilla","fabric","moonlight:mods_dynamic_assets","continuity:glass_pane_culling_fix","continuity:default","minecraft:supporteatinganimation","file/FreshAnimations_v1.9.2.zip","file/FA+Objects-v1.1.1.zip","file/Faithful 32x - 1.21.1.zip","file/Faithful32x-FreshAnimations-v1.9.1.zip","file/New Faithful Overlays - 1.21.1.zip","file/Bushy Leaves For Faithful 32x V1.4.zip","file/Faithful 32x AppleSkin - 1.21.1.zip","resource_nether_ores:resource_nether_ores_x32","file/CTM Faithful 0.4.1+1.20.x-1.21.x.zip","file/cubic-sun-moon-v1.8.3a.zip","mythicupgrades:32x","file/§a§lVocal Villagers §r§71.2.zip","file/skt-sg v1.1.zip","file/Sparkles_1.21.x_v1.1.4.zip","$polymer-resources","file/better-boss-bars-1.21.zip"]
-incompatibleResourcePacks:["ambientenvironment","appleskin","artifacts","awesomedungeonocean","balm","bedspreads","betterbiomeblend","betterdays","biomemusic","bookshelf","carryon","catalogue","cherishedworlds","comforts","controlling","crafttweaker","draggable_lists","dragonfight","elytratrims","enchdesc","essential","extremesoundmuffler","forgivingvoid","horseshoes","immersivedamageindicators","immersivemessages","immersiveui","jade","jmi","kleeslabs","konkrete","medievalmusic","modernfix","modernworldcreation","mr_dungeons_andtavernsendcastlestandalone","mr_dungeons_andtavernswoodlandmansionreplacement","mr_neoenchant","mr_recipes_plus","mr_withering_heights","netherportalfix","polylib","redstonepen","resource_nether_ores","resourcelibrary","resourcify","searchables","simplehats","spectrelib","starterkit","tectonic","tiered","tipsmod","toms_storage","txnilib","unionlib","unloadedactivity","watut","xercapaint","yet_another_config_lib_v3","file/Bushy Leaves For Faithful 32x V1.4.zip"]
+incompatibleResourcePacks:["ambientenvironment","appleskin","artifacts","awesomedungeonocean","balm","bedspreads","betterbiomeblend","betterdays","biomemusic","bookshelf","carryon","catalogue","cherishedworlds","comforts","controlling","crafttweaker","draggable_lists","dragonfight","elytratrims","emiprofessions","enchdesc","essential","extremesoundmuffler","forgivingvoid","horseshoes","immersivedamageindicators","immersivemessages","immersiveui","jade","jmi","kleeslabs","konkrete","medievalmusic","modernfix","modernworldcreation","mr_dungeons_andtavernsendcastlestandalone","mr_dungeons_andtavernswoodlandmansionreplacement","mr_neoenchant","mr_recipes_plus","mr_withering_heights","netherportalfix","polylib","redstonepen","resource_nether_ores","resourcelibrary","resourcify","searchables","simplehats","spectrelib","starterkit","tectonic","tiered","tipsmod","toms_storage","txnilib","unionlib","unloadedactivity","watut","xercapaint","yet_another_config_lib_v3","file/Bushy Leaves For Faithful 32x V1.4.zip"]
 lastServer:
 lang:en_us
 chatVisibility:0
@@ -127,6 +127,7 @@ key_key.dynamic_fps.toggle_forced:key.keyboard.unknown
 key_key.dynamic_fps.toggle_disabled:key.keyboard.unknown
 key_key.drop_confirm.toggle:key.keyboard.unknown
 key_key.dynamictooltips.show_details:key.keyboard.left.shift
+key_key.fabrishot.screenshot:key.keyboard.f9
 key_key.ftbquests.quests:key.keyboard.unknown
 key_key.ftbteams.open_gui:key.keyboard.unknown
 key_legendarytooltips.key.scrollTooltips:key.keyboard.left.shift
@@ -170,8 +171,41 @@ key_key.toggleCarriedItemTooltips:key.keyboard.unknown
 key_key.jade.config:key.keyboard.unknown
 key_key.jade.show_overlay:key.keyboard.unknown
 key_key.jade.toggle_liquid:key.keyboard.unknown
+key_key.jade.show_recipes:key.keyboard.keypad.3
+key_key.jade.show_uses:key.keyboard.keypad.4
 key_key.jade.narrate:key.keyboard.unknown
 key_key.jade.show_details_alternative:key.keyboard.unknown
+key_key.jei.toggleOverlay:key.keyboard.o
+key_key.jei.focusSearch:key.keyboard.f
+key_key.jei.previousPage:key.keyboard.unknown
+key_key.jei.nextPage:key.keyboard.unknown
+key_key.jei.toggleBookmarkOverlay:key.keyboard.unknown
+key_key.jei.bookmark:key.keyboard.a
+key_key.jei.showRecipe:key.keyboard.r
+key_key.jei.showRecipe2:key.mouse.left
+key_key.jei.showUses:key.keyboard.u
+key_key.jei.showUses2:key.mouse.right
+key_key.jei.transferRecipeBookmark:key.mouse.left
+key_key.jei.maxTransferRecipeBookmark:key.mouse.left
+key_key.jei.clearSearchBar:key.mouse.right
+key_key.jei.previousSearch:key.keyboard.up
+key_key.jei.nextSearch:key.keyboard.down
+key_key.jei.toggleCheatMode:key.keyboard.unknown
+key_key.jei.cheatOneItem:key.mouse.left
+key_key.jei.cheatOneItem2:key.mouse.right
+key_key.jei.cheatItemStack:key.mouse.left
+key_key.jei.cheatItemStack2:key.mouse.middle
+key_key.jei.toggleCheatModeConfigButton:key.mouse.left
+key_key.jei.toggleEditMode:key.keyboard.unknown
+key_key.jei.toggleHideIngredient:key.mouse.left
+key_key.jei.toggleWildcardHideIngredient:key.mouse.right
+key_key.jei.recipeBack:key.keyboard.backspace
+key_key.jei.previousRecipePage:key.keyboard.page.up
+key_key.jei.nextRecipePage:key.keyboard.page.down
+key_key.jei.previousCategory:key.keyboard.page.up
+key_key.jei.nextCategory:key.keyboard.page.down
+key_key.jei.closeRecipeGui:key.keyboard.escape
+key_key.jei.copy.recipe.id:key.keyboard.unknown
 key_key.journeymap.zoom_in:key.keyboard.keypad.add
 key_key.journeymap.zoom_out:key.keyboard.minus
 key_key.journeymap.minimap_type:key.keyboard.unknown
@@ -211,7 +245,6 @@ key_key.shetiphiancore.tool.previous:key.keyboard.unknown
 key_key.simplehudenhanced.toggle_hud:key.keyboard.unknown
 key_key.spyglass-improvements.use:key.keyboard.z
 key_key.toms_storage.open_terminal:key.keyboard.unknown
-key_key.unionlib.open_union_inventory:key.keyboard.unknown
 key_key.weaponmaster_ydm.opengui:key.keyboard.p
 key_iris.keybind.reload:key.keyboard.unknown
 key_iris.keybind.toggleShaders:key.keyboard.unknown
@@ -233,7 +266,7 @@ key_keybind.name.EMOTE_SLOT_6:key.keyboard.unknown
 key_keybind.name.EMOTE_SLOT_7:key.keyboard.unknown
 key_keybind.name.EMOTE_SLOT_8:key.keyboard.unknown
 key_keybind.name.ZOOM:key.keyboard.unknown
-soundCategory_master:0.5060740894039735
+soundCategory_master:0.5077323054635762
 soundCategory_music:0.20825264084507025
 soundCategory_record:1.0
 soundCategory_weather:1.0
