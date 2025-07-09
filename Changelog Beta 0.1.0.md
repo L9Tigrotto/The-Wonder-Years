@@ -1,5 +1,8 @@
 # The Wonder Years Changelog Version 0.2.0
 
+- updated the modpack description.
+- disabled the distant horinzon mod by default due to high resource usage.
+
 ## ⬆️ Mods Updated
 *List all mods that were updated with their version changes.*
 
@@ -60,3 +63,5 @@
 **Wraith Waystones:**
 - Removed level cost.
 
+**Simple HUD Enhanced:**
+- System time format changed to 24 hour.

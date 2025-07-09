@@ -1,4 +1,4 @@
-toggleEffectsStatus = true
+toggleEffectsStatus = false
 colorMode = "Effect"
 toggleMovementStatus = false
 toggleEquipmentStatus = true
@@ -49,7 +49,7 @@ toggleGameDayCounter = false
 toggleSystemTime = true
 textScale = 100
 textBackground = false
-toggleSystemTime24Hour = false
+toggleSystemTime24Hour = true
 
 [statusElements.counters]
 toggleEntityCount = false
