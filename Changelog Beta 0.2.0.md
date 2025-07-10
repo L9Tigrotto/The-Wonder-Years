@@ -29,8 +29,14 @@
 **Better Enchanting:**
 
 - Added missing ingredients for critical hit enchant.
+- Removed Fire Aspect enchantment (topaz tools have it by default).
+- Removed Mending enchantment (too op, item repair is experience free).
+- Removed Leaping enchantment (jade armor have it by default).
+- Removed Agility enchantment (jade armor have it by default).
+- Removed Poison Aspect enchantment (peridot tools and armor have it by default).
+- Removed Last Hope enchantment (too op).
 - Removed Auto Smelth enchantment (topaz tools have it by default).
-- Removed Poison Aspect enchantment (peridot tools have it by default).
+- Removed Bedrock Breaker enchantment (too op).
 
 **Wraith Waystones:**
 

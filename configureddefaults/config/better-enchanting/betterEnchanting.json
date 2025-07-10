@@ -1,7 +1,14 @@
 {
   "disabledEnchants": [
+	"minecraft:fire_aspect"
+	"minecraft:mending"
+	"enchantplus:leggings/leaping",
     "enchantplus:tools/auto_smelt",
-    "enchantplus:sword/poison_aspect"
+	"enchantplus:boots/agility",
+    "enchantplus:sword/poison_aspect",
+    "enchantplus:sword/last_hope",
+    "enchantplus:tools/auto_smelt",
+    "enchantplus:pickaxe/bedrock_breaker"
   ],
   "allowBookInAnvil": false,
   "shardFillingLapisCost": 3,
