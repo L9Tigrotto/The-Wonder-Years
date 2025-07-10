@@ -9,7 +9,212 @@
 		id: "questsicons:quest_portal_two"
 	}
 	id: "3BA37B507026C661"
-	order_index: 3
+	order_index: 4
 	quest_links: [ ]
-	quests: [ ]
+	quests: [
+		{
+			id: "40214E598581B31C"
+			tasks: [{
+				id: "4EAE28840FEA46FC"
+				item: { count: 1, id: "numismatic-overhaul:bronze_coin" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["40214E598581B31C"]
+			id: "6A05A1E59DB24B6D"
+			tasks: [{
+				id: "3FF4F5C64BB24968"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["328234B5084C729B"]
+			id: "07B8CBD59695030C"
+			tasks: [{
+				id: "590725278E307BA4"
+				type: "checkmark"
+			}]
+			x: 8.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["40214E598581B31C"]
+			id: "084092582B137F1E"
+			tasks: [{
+				id: "6816541F0BBFA372"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["40214E598581B31C"]
+			id: "745479A7DC7712B3"
+			tasks: [{
+				id: "427B15BCCD2887BF"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["71CA85242CCB2E06"]
+			id: "4477BDF2F5E5B536"
+			tasks: [{
+				id: "1DB63E6969957ECE"
+				type: "checkmark"
+			}]
+			x: 5.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["084092582B137F1E"]
+			id: "71CA85242CCB2E06"
+			tasks: [{
+				id: "0757FAC281CE2B7F"
+				item: { count: 1, id: "numismatic-overhaul:bronze_coin" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["71CA85242CCB2E06"]
+			id: "680FC69363D67D31"
+			tasks: [{
+				id: "66E7A5E93CBE906F"
+				type: "checkmark"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["35C61541032F166A"]
+			id: "331A61B30B18A481"
+			tasks: [{
+				id: "19DA282876B22ADA"
+				type: "checkmark"
+			}]
+			x: 2.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["35C61541032F166A"]
+			id: "69ECC8D5F658D182"
+			tasks: [{
+				id: "636C827777A34DFD"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["71CA85242CCB2E06"]
+			id: "08A29EA10D12B361"
+			tasks: [{
+				id: "3E2CD6C741472EE8"
+				type: "checkmark"
+			}]
+			x: 5.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["4477BDF2F5E5B536"]
+			id: "328234B5084C729B"
+			tasks: [{
+				id: "7FD8F5D27DD420A5"
+				item: { count: 1, id: "numismatic-overhaul:bronze_coin" }
+				type: "item"
+			}]
+			x: 8.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["328234B5084C729B"]
+			id: "4F25BC9B17314D40"
+			tasks: [{
+				id: "6A03E349F8C86EDB"
+				type: "checkmark"
+			}]
+			x: 9.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["328234B5084C729B"]
+			id: "155F7AC672984BDF"
+			tasks: [{
+				id: "435AEB980C8C01A5"
+				type: "checkmark"
+			}]
+			x: 10.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["328234B5084C729B"]
+			id: "422D50CDB10FA287"
+			tasks: [{
+				id: "12B359A563B91BEA"
+				type: "checkmark"
+			}]
+			x: 11.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["680FC69363D67D31"]
+			id: "7597C5D783EF1976"
+			tasks: [{
+				id: "4BD5BB89901D8396"
+				item: { count: 1, id: "numismatic-overhaul:bronze_coin" }
+				type: "item"
+			}]
+			x: 8.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7597C5D783EF1976"]
+			id: "2C0A3EA676B77D4C"
+			tasks: [{
+				id: "39E1380D02047F92"
+				type: "checkmark"
+			}]
+			x: 10.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["7597C5D783EF1976"]
+			id: "276B7AA9B430F782"
+			tasks: [{
+				id: "70E62194EB0FE0B7"
+				type: "checkmark"
+			}]
+			x: 10.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["7597C5D783EF1976"]
+			id: "0B2BD57EC5EC4367"
+			tasks: [{
+				id: "6E7C64255D038568"
+				type: "checkmark"
+			}]
+			x: 11.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6A05A1E59DB24B6D"]
+			id: "35C61541032F166A"
+			tasks: [{
+				id: "50E2B8805DBECF87"
+				item: { count: 1, id: "numismatic-overhaul:bronze_coin" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: -2.5d
+		}
+	]
 }

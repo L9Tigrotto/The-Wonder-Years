@@ -9,7 +9,562 @@
 		id: "questsicons:quest_portal_one"
 	}
 	id: "03E1E566DC01F5AC"
-	order_index: 1
+	order_index: 2
 	quest_links: [ ]
-	quests: [ ]
+	quests: [
+		{
+			dependencies: ["1528D50AEAADB677"]
+			icon: {
+				id: "questsicons:chapter_lock"
+			}
+			id: "42D41E58F3BA58C6"
+			shape: "gear"
+			size: 1.2d
+			tasks: [{
+				id: "5D9EF4695A9E72C0"
+				item: { count: 1, id: "numismatic-overhaul:bronze_coin" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["42D41E58F3BA58C6"]
+			icon: {
+				id: "storagedrawers:oak_full_drawers_1"
+			}
+			id: "05F0A66B6473444B"
+			tasks: [{
+				id: "773D06A41D465029"
+				type: "checkmark"
+			}]
+			x: 6.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["42D41E58F3BA58C6"]
+			icon: {
+				id: "toms_storage:storage_terminal"
+			}
+			id: "1FA3DFFC983B6AEF"
+			tasks: [{
+				id: "13E1A8C6403EF4AC"
+				type: "checkmark"
+			}]
+			x: 5.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["42D41E58F3BA58C6"]
+			icon: {
+				id: "bagofholding:leather_bag_of_holding"
+			}
+			id: "1BFCF17A7E1A7492"
+			tasks: [{
+				id: "08F72D4A53F1196D"
+				type: "checkmark"
+			}]
+			x: 6.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["42D41E58F3BA58C6"]
+			icon: {
+				id: "reinfchest:iron_chest"
+			}
+			id: "2FD70B0E8900312B"
+			tasks: [{
+				id: "4DE6B00BDF2F6F73"
+				type: "checkmark"
+			}]
+			x: 7.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["4283D8CA2C3B3D77"]
+			icon: {
+				id: "handcrafted:spruce_chair"
+			}
+			id: "1528D50AEAADB677"
+			tasks: [{
+				id: "5AC6D1BF5359FFA8"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["1528D50AEAADB677"]
+			icon: {
+				id: "questsicons:chapter_lock"
+			}
+			id: "7C550694B73E8282"
+			shape: "gear"
+			size: 1.2d
+			tasks: [{
+				id: "2243634D1DDA1F46"
+				item: { count: 1, id: "numismatic-overhaul:bronze_coin" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["7C550694B73E8282"]
+			icon: {
+				id: "minecraft:glass"
+			}
+			id: "6588C10E8367F123"
+			tasks: [{
+				id: "10B71F30BBFE8193"
+				type: "checkmark"
+			}]
+			x: 5.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["7C550694B73E8282"]
+			icon: {
+				id: "sawmill:sawmill"
+			}
+			id: "40F3884CCA562B39"
+			tasks: [{
+				id: "698CD0A5DE9D2C0E"
+				type: "checkmark"
+			}]
+			x: 6.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["7C550694B73E8282"]
+			icon: {
+				id: "trowel:trowel"
+			}
+			id: "221B914346D4C84C"
+			tasks: [{
+				id: "3CAB44EC98EE0031"
+				type: "checkmark"
+			}]
+			x: 7.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["4283D8CA2C3B3D77"]
+			icon: {
+				id: "strawstatues:straw_statue"
+			}
+			id: "54AAEB88C6EA8234"
+			tasks: [{
+				id: "044B9E0CAC91AA8F"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["7C550694B73E8282"]
+			icon: {
+				id: "quartzelv:quartz_elevator"
+			}
+			id: "277FF13C1EA4B576"
+			tasks: [{
+				id: "24E0DEAEA74853D7"
+				type: "checkmark"
+			}]
+			x: 6.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["54AAEB88C6EA8234"]
+			icon: {
+				id: "questsicons:chapter_lock"
+			}
+			id: "027A8BF7EEB01CAB"
+			shape: "gear"
+			size: 1.2d
+			tasks: [{
+				id: "79CB8E92619C4740"
+				item: { count: 1, id: "numismatic-overhaul:bronze_coin" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["1FDE0D0A9BBC2DCF"]
+			icon: {
+				components: {
+					"xercapaint:palette_basic_colors": [B;
+						1b
+						1b
+						1b
+						1b
+						1b
+						1b
+						1b
+						1b
+						1b
+						1b
+						1b
+						1b
+						1b
+						1b
+						1b
+						1b
+					]
+				}
+				id: "xercapaint:item_palette"
+			}
+			id: "0D5340BD2CE74872"
+			tasks: [{
+				id: "5D9937F6FF06AFDC"
+				type: "checkmark"
+			}]
+			x: 6.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["1FDE0D0A9BBC2DCF"]
+			icon: {
+				id: "camerapture:camera"
+			}
+			id: "55C53A15D9B94AA7"
+			tasks: [{
+				id: "71799D9F9BDA619D"
+				type: "checkmark"
+			}]
+			x: 7.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["31863067B7EF8747"]
+			icon: {
+				id: "additionalredstone:and_gate"
+			}
+			id: "5D734B4736AF1541"
+			tasks: [{
+				id: "3C14F2DA06AD897D"
+				type: "checkmark"
+			}]
+			x: 10.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["42D41E58F3BA58C6"]
+			icon: {
+				id: "enderchests:ender_chest"
+			}
+			id: "0050352CBEBAC24D"
+			tasks: [{
+				id: "061B2B188C4973D9"
+				type: "checkmark"
+			}]
+			x: 3.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["31863067B7EF8747"]
+			icon: {
+				id: "trashcans:item_trash_can"
+			}
+			id: "1654C23ACAE5E41C"
+			tasks: [{
+				id: "5632A1017BBB06EE"
+				type: "checkmark"
+			}]
+			x: 11.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["027A8BF7EEB01CAB"]
+			icon: {
+				components: {
+					"minecraft:banner_patterns": [
+						{
+							color: "cyan"
+							pattern: {
+								asset_id: "minecraft:rhombus"
+								translation_key: "block.minecraft.banner.rhombus"
+							}
+						}
+						{
+							color: "light_gray"
+							pattern: {
+								asset_id: "minecraft:stripe_bottom"
+								translation_key: "block.minecraft.banner.stripe_bottom"
+							}
+						}
+						{
+							color: "gray"
+							pattern: {
+								asset_id: "minecraft:stripe_center"
+								translation_key: "block.minecraft.banner.stripe_center"
+							}
+						}
+						{
+							color: "light_gray"
+							pattern: {
+								asset_id: "minecraft:border"
+								translation_key: "block.minecraft.banner.border"
+							}
+						}
+						{
+							color: "black"
+							pattern: {
+								asset_id: "minecraft:stripe_middle"
+								translation_key: "block.minecraft.banner.stripe_middle"
+							}
+						}
+						{
+							color: "light_gray"
+							pattern: {
+								asset_id: "minecraft:half_horizontal"
+								translation_key: "block.minecraft.banner.half_horizontal"
+							}
+						}
+						{
+							color: "light_gray"
+							pattern: {
+								asset_id: "minecraft:circle"
+								translation_key: "block.minecraft.banner.circle"
+							}
+						}
+						{
+							color: "black"
+							pattern: {
+								asset_id: "minecraft:border"
+								translation_key: "block.minecraft.banner.border"
+							}
+						}
+					]
+					"minecraft:hide_additional_tooltip": { }
+					"minecraft:item_name": "{\"color\":\"gold\",\"translate\":\"block.minecraft.ominous_banner\"}"
+				}
+				id: "minecraft:white_banner"
+			}
+			id: "3E1A7164C8086641"
+			tasks: [{
+				id: "1EA34778D330C1E8"
+				type: "checkmark"
+			}]
+			x: 5.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["027A8BF7EEB01CAB"]
+			icon: {
+				id: "minecraft:axolotl_bucket"
+			}
+			id: "40AA09CDDAB60AFF"
+			tasks: [{
+				id: "08828F5085D7A159"
+				type: "checkmark"
+			}]
+			x: 6.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["1FDE0D0A9BBC2DCF"]
+			icon: {
+				id: "plushie_buddies:plushie_dolphin"
+			}
+			id: "39DF412BF35AD666"
+			tasks: [{
+				id: "2456886540E63E1F"
+				type: "checkmark"
+			}]
+			x: 6.5d
+			y: -0.5d
+		}
+		{
+			icon: {
+				id: "questsicons:chapter_lock"
+			}
+			id: "4283D8CA2C3B3D77"
+			shape: "gear"
+			size: 1.2d
+			tasks: [{
+				id: "49BBD28F0E71AB65"
+				item: { count: 1, id: "numismatic-overhaul:bronze_coin" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["277FF13C1EA4B576"]
+			icon: {
+				id: "questsicons:chapter_lock"
+			}
+			id: "31863067B7EF8747"
+			shape: "gear"
+			size: 1.2d
+			tasks: [{
+				id: "3D610990AC56B941"
+				item: { count: 1, id: "numismatic-overhaul:bronze_coin" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["1528D50AEAADB677"]
+			icon: {
+				id: "questsicons:chapter_lock"
+			}
+			id: "1FDE0D0A9BBC2DCF"
+			shape: "gear"
+			size: 1.2d
+			tasks: [{
+				id: "3618F57C08241581"
+				item: { count: 1, id: "numismatic-overhaul:bronze_coin" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["0050352CBEBAC24D"]
+			icon: {
+				components: {
+					"enderchests:network": {
+						code: "555"
+					}
+				}
+				id: "enderchests:ender_chest"
+			}
+			id: "6AEE6F3DF0906349"
+			tasks: [{
+				id: "2A945AA049113E66"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["0050352CBEBAC24D"]
+			icon: {
+				components: {
+					"enderchests:network": {
+						code: "444"
+					}
+				}
+				id: "enderchests:ender_bag"
+			}
+			id: "21EF518A238B97B5"
+			tasks: [{
+				id: "5781303F32C5DF2B"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["0050352CBEBAC24D"]
+			icon: {
+				id: "questsicons:end_lock"
+			}
+			id: "22A08B952F1036C6"
+			tasks: [{
+				id: "15A8F8A26C042C05"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["05F0A66B6473444B"]
+			icon: {
+				id: "storagedrawers:compacting_drawers_3"
+			}
+			id: "0C40D3F7C1B26BE7"
+			tasks: [{
+				id: "01E7A724E4D8AD73"
+				type: "checkmark"
+			}]
+			x: 8.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["05F0A66B6473444B"]
+			icon: {
+				id: "storagedrawers:controller"
+			}
+			id: "5AAAC4CED3BC1A4A"
+			tasks: [{
+				id: "25EB0066EAF9FE20"
+				type: "checkmark"
+			}]
+			x: 8.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["1FA3DFFC983B6AEF"]
+			icon: {
+				id: "toms_storage:wireless_terminal"
+			}
+			id: "632B00D1B9DD8F5E"
+			tasks: [{
+				id: "678E1E71A9FB95FF"
+				type: "checkmark"
+			}]
+			x: 6.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["1FA3DFFC983B6AEF"]
+			icon: {
+				id: "toms_storage:inventory_connector"
+			}
+			id: "5F98229CE8F2BF00"
+			tasks: [{
+				id: "24005F67CF90521C"
+				type: "checkmark"
+			}]
+			x: 3.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["1FA3DFFC983B6AEF"]
+			icon: {
+				id: "toms_storage:basic_inventory_hopper"
+			}
+			id: "287A68ADF09D7292"
+			tasks: [{
+				id: "0B94092A1295FD2B"
+				type: "checkmark"
+			}]
+			x: 5.0d
+			y: 11.0d
+		}
+		{
+			dependencies: [
+				"5AAAC4CED3BC1A4A"
+				"5F98229CE8F2BF00"
+			]
+			icon: {
+				id: "toms_storage:inventory_cable"
+			}
+			id: "759AA3F89279A3DA"
+			tasks: [{
+				id: "777FE941D4A3A2DE"
+				type: "checkmark"
+			}]
+			x: 6.0d
+			y: 12.5d
+		}
+		{
+			dependencies: ["31863067B7EF8747"]
+			icon: {
+				id: "minecraft:beacon"
+			}
+			id: "3C460787DD108576"
+			tasks: [{
+				id: "56A4D1ABB3B7D495"
+				type: "checkmark"
+			}]
+			x: 10.5d
+			y: 5.5d
+		}
+	]
 }
