@@ -61,6 +61,7 @@
 - **Redstone Pen**: Makes redstone too convoluted.
 - **Gen's Recipes Plus**: Made massive log file throwing errors.
 - **UnionLib**: Dead dependency.
+- **Hopper Gadgetry**: Toms simple storage already has items to filter input/output, keep things simple.
 
 ---
 
@@ -75,6 +76,10 @@
 - **Stylish Effects**: Overhauls how status effects are displayed.
 - **Just Enought Items**: Used for some recipe compatibility.
 - **Just Enought Breeding**: JEI plugin that shows how to breed animals.
+- **CERBON's Better Beacons**: Improved version of Minecraft's beacon.
+- **Chunks Loader**: Allows to keep chunks loaded with different tiers of chunk loaders.
+- **FTB Chunks**: Allows to claim chunks to protect your blocks.
+- **Just Enough Beacons Reforged**: Adds 3 new JEI categories: Beacon Base Blocks, Beacon Payments and Conduit Frame Blocks.
 
 ---
 
