@@ -56,6 +56,10 @@
 
 - decreased the number of slots of higher tier bags to encourage the use of Ender Chests bags.
 
+**Jade:**
+
+- Disabled entity informations.
+
 ---
 
 ## ❌ Mods Removed
