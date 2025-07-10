@@ -44,6 +44,7 @@
 
 - Increased the max slots to 54 (double chest).
 - Disabled Ender Pouch.
+- Modified the items for small and large slot upgrades. Mythic Upgrades nether gems for small upgrades and Mythic Upgrades end gems for large upgrades.
 
 ---
 
