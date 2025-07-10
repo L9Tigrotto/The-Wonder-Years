@@ -1,7 +1,7 @@
 {
   "disabledEnchants": [
-	"minecraft:fire_aspect"
-	"minecraft:mending"
+	"minecraft:fire_aspect",
+	"minecraft:mending",
 	"enchantplus:leggings/leaping",
     "enchantplus:tools/auto_smelt",
 	"enchantplus:boots/agility",
