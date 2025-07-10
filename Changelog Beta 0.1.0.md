@@ -15,6 +15,9 @@
 - **Skeleton AI Fix**: `v21.1.0` → `v21.1.1`
 - **Lithostiched**: `v1.4.10` → `v1.4.11`
 - **ImmediatelyFast**: `v1.6.5` → `v1.6.6`
+- **LibIPN**: `v6.5.0` → `v6.5.1`
+- **DashLoader**: `v5.0.0-beta.4` → `v5.0.0-beta.5`
+- **Accessories**: `v1.1.0 (5/20)` → `v1.1.0 (7/10)`
 
 ---
 
