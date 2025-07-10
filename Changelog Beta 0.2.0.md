@@ -72,6 +72,8 @@
 - **Gen's Recipes Plus**: Made massive log file throwing errors.
 - **UnionLib**: Dead dependency.
 - **Hopper Gadgetry**: Toms simple storage already has items to filter input/output, keep things simple.
+- **Klee Slabs**
+- **Forgiving Void**
 
 ---
 
