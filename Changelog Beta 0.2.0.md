@@ -118,4 +118,3 @@
 - **DashLoader**: `v5.0.0-beta.4` → `v5.0.0-beta.5`
 - **Accessories**: `v1.1.0 (5/20)` → `v1.1.0 (7/10)`
 - **Structurify**: `v1.0.17` → `v1.0.18 (7/10)`
-- **DropConfirm**: `v5.0.0` → `v5.0.0-beta.1` (updated to the previous versione. drop reset dalay is not handled correctly, so double tap q wont let player drops items)
