@@ -60,6 +60,10 @@
 
 - Disabled entity informations.
 
+**Nature's Compass:**
+
+- Blacklisted disabled biomes.
+
 ---
 
 ## ❌ Mods Removed
