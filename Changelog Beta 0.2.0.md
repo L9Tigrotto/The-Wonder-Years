@@ -116,5 +116,6 @@
 - **ImmediatelyFast**: `v1.6.5` → `v1.6.6`
 - **LibIPN**: `v6.5.0` → `v6.5.1`
 - **DashLoader**: `v5.0.0-beta.4` → `v5.0.0-beta.5`
+- **Accessorify**: `v2.1.1` → `v2.1.2`
 - **Accessories**: `v1.1.0 (5/20)` → `v1.1.0 (7/10)`
-- **Structurify**: `v1.0.17` → `v1.0.18 (7/10)`
+- **Structurify**: `v1.0.17` → `v1.0.18`
