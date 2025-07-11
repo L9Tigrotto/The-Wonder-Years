@@ -38,10 +38,6 @@
 - Removed Auto Smelth enchantment (topaz tools have it by default).
 - Removed Bedrock Breaker enchantment (too op).
 
-**Wraith Waystones:**
-
-- Removed level cost.
-
 **Simple HUD Enhanced:**
 
 - System time format changed to 24 hour.
