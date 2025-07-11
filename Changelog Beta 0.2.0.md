@@ -72,8 +72,10 @@
 - **Gen's Recipes Plus**: Made massive log file throwing errors.
 - **UnionLib**: Dead dependency.
 - **Hopper Gadgetry**: Toms simple storage already has items to filter input/output, keep things simple.
-- **Klee Slabs**
-- **Forgiving Void**
+- **Klee Slabs** Annoying animation: when a block composed of two slabs is broken, only the half the player is looking at drops, while the other half blinks for a second before reappearing
+- **Forgiving Void** There is a specific enchant of Neo Enchant that save the player from the void.
+- **Shared Advancements** There is no config file and by default the achievements are shared globally.
+- **Unloaded Activity** Not needed when there are chunk loaders.
 
 ---
 
@@ -83,15 +85,19 @@
 
 - **EMI Loot**: Displays loot tables and some drops.
 - **EMI Professions**: Show the block villagers get their job.
-- **Not Enough Librarian**[Datapack]: Disable librarian profession.
-- **TieredZ**: Every tool and armor piece you make will have a special modifier.
-- **Stylish Effects**: Overhauls how status effects are displayed.
-- **Just Enought Items**: Used for some recipe compatibility.
+- **Just Enought Items**: Used for some recipe compatibility (JEI is hidden by EMI).
 - **Just Enought Breeding**: JEI plugin that shows how to breed animals.
-- **CERBON's Better Beacons**: Improved version of Minecraft's beacon.
+- **Just Enough Beacons Reforged**: Adds 3 new JEI categories: Beacon Base Blocks, Beacon Payments and Conduit Frame Blocks.
+- **Not Enough Librarian**[Datapack]: Disable librarian profession.
+
 - **Chunks Loader**: Allows to keep chunks loaded with different tiers of chunk loaders.
 - **FTB Chunks**: Allows to claim chunks to protect your blocks.
-- **Just Enough Beacons Reforged**: Adds 3 new JEI categories: Beacon Base Blocks, Beacon Payments and Conduit Frame Blocks.
+- **Spark**: Performance profiler.
+
+- **TieredZ**: Every tool and armor piece you make will have a special modifier.
+
+- **CERBON's Better Beacons**: Improved version of Minecraft's beacon.
+- **Stylish Effects**: Overhauls how status effects are displayed.
 
 ---
 
