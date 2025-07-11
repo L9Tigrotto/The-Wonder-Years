@@ -64,6 +64,10 @@
 
 - Blacklisted disabled biomes.
 
+**Explorer's Compass:**
+
+- Blacklisted disabled structures, replaced structures and buried treasure.
+
 ---
 
 ## ❌ Mods Removed
