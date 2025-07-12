@@ -64,6 +64,10 @@
 
 - Blacklisted disabled structures, replaced structures and buried treasure.
 
+**Overlay Tweaks:**
+
+- Lowered the shield height.
+
 ---
 
 ## ❌ Mods Removed
@@ -80,6 +84,7 @@
 - **Forgiving Void** There is a specific enchant of Neo Enchant that save the player from the void.
 - **Shared Advancements** There is no config file and by default the achievements are shared globally.
 - **Unloaded Activity** Not needed when there are chunk loaders.
+- **Passive Shield** Overlay Tweaks allows to reduce the on screen shield overlay when equiped.
 
 ---
 
