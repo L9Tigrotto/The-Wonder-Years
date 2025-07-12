@@ -414,62 +414,48 @@
     "betterenchanting:essence_of_fear",
     "betterenchanting:essence_of_fear"
   ],
-  "spell_engine:spell_infinity": [
-    "betterenchanting:essence_of_spell_infinity"
+  "enchantplus:mace/teluric_wave": [
+    "minecraft:deepslate"
   ],
-  "spell_power:energize": [
-    "minecraft:redstone",
-    "minecraft:end_rod",
-    "minecraft:copper_block",
+  
+  "enchantplus:trident/gungnir_breath": [
     "minecraft:trident",
-    "betterenchanting:essence_of_energy"
+    "minecraft:nautilus_shell", 
+    "bettertridents:trident_fragment"
   ],
-  "spell_power:magic_protection": [
-    "minecraft:iron_ingot",
-    "minecraft:copper_grate",
-    "minecraft:crying_obsidian",
-    "betterenchanting:essence_of_magic_protection"
+  
+  "enchantplus:hoe/harvest": [
+    "minecraft:wheat",
+    "minecraft:hay_block",
+    "betterenchanting:essence_of_capacity"
   ],
-  "spell_power:critical_damage": [
-    "minecraft:gunpowder",
-    "minecraft:lapis_lazuli",
-    "minecraft:tnt",
-    "minecraft:fire_charge",
-    "betterenchanting:essence_of_critical_spell"
+  
+  "enchantplus:sword/death_touch": [
+    "minecraft:wither_skeleton_skull"
   ],
-  "spell_power:critical_chance": [
-    "minecraft:redstone",
-    "minecraft:glowstone_dust",
-    "minecraft:fire_charge",
-    "minecraft:ghast_tear",
-    "betterenchanting:essence_of_critical_spell"
+  
+  "enchantplus:leggings/dwarfed": [
+    "minecraft:short_grass",
+    "minecraft:small_amethyst_bud",
+    "minecraft:shroomlight",
+    "minecraft:small_dripleaf",
+    "betterenchanting:essence_of_longfoot"
   ],
-  "spell_power:haste": [
-    "minecraft:sugar",
-    "minecraft:glow_berries",
-    "minecraft:emerald",
-    "minecraft:glowstone",
-    "betterenchanting:essence_of_haste"
+  
+  "enchantplus:leggings/oversize": [
+    "minecraft:large_amethyst_bud",
+    "minecraft:big_dripleaf", 
+    "minecraft:tall_grass",
+    "betterenchanting:essence_of_refill"
   ],
-  "spell_power:soulfrost": [
-    "minecraft:snowball",
-    "minecraft:powder_snow_bucket",
-    "minecraft:packed_ice",
-    "minecraft:blue_ice",
-    "betterenchanting:essence_of_soulfrost"
+  
+  "enchantplus:bow/eternal_frost": [
+    "minecraft:blue_ice"
   ],
-  "spell_power:sunfire": [
-    "minecraft:coal",
-    "minecraft:soul_campfire",
-    "minecraft:soul_campfire",
-    "minecraft:blaze_powder",
-    "betterenchanting:essence_of_sunfire"
-  ],
-  "spell_power:spell_power": [
-    "minecraft:diamond",
-    "minecraft:redstone_block",
-    "minecraft:emerald_block",
-    "minecraft:diamond_block",
-    "betterenchanting:essence_of_spell_power"
+  
+  "enchantplus:bow/rebound": [
+    "minecraft:slime_ball",
+    "minecraft:slime_block",
+    "betterenchanting:essence_of_multi_roll"
   ]
 }

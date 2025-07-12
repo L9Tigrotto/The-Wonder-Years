@@ -25,6 +25,7 @@
 - Changed Explorer's Compass recipe to integrate Mythic Upgrades Shards.
 - Changed Nature's Compass recipe to integrate Mythic Upgrades Shards.
 - Changed Ender Pouch recipe to integrate Better Enchanting Essence
+- Added Mythic Upgrades gems recipe cause they do not spawn in overworld/nether dimension.
 
 **Better Enchanting:**
 
@@ -37,6 +38,8 @@
 - Removed Last Hope enchantment (too op).
 - Removed Auto Smelth enchantment (topaz tools have it by default).
 - Removed Bedrock Breaker enchantment (too op).
+- Removed Life Steal enchantment (Scarlet Dagger from Incendium has the same effect).
+- Removed Accuracy Shot enchantment (Ragnarok from Incendium has the same effect).
 
 **Simple HUD Enhanced:**
 
