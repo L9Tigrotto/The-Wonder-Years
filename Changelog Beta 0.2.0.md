@@ -2,9 +2,10 @@
 
 ## 📋 General Updates
 
-- Updated the modpack description.
-- Disabled the Distant Horizons mod by default due to high resource usage.
-- Known bug: crash when a stack with more than 99 items is hovered, waiting for tieredz or legendary tooltips mods to fix it.
+- I truly believe the modpack is very close to its first release. Most of the elements are as i envisioned them. Still, some minor changes need to be made,
+- Updated the modpack description..
+- Disabled the Distant Horizons mod by default due to high resource usage (even if render is off).
+- Known Bug: Aa crash occurs when hovering over a stack with more than 99 items. Waiting a fix from the TieredZ or Legendary Tooltips mods.
 
 ## ⚙️ Settings Changed
 
@@ -14,9 +15,9 @@
 
 - Complete rewrite of Introduction chapter.
 - Separated Multiplayer quests from the introduction (now have their own chapter).
-- Complete rewrite of Utility & Quality of Life chapter.
-- New Building & Aesthetics chapter.
-- New Exploration & Adventure quests.
+- Complete rewrite of the Utility chapter.
+- New Building & Beauty chapter.
+- New Exploration & Adventure chapter.
 
 **Crafting:**
 
@@ -25,36 +26,36 @@
 - Changed Abyss Watcher recipe to integrate Better Enchanting Essence.
 - Changed Explorer's Compass recipe to integrate Mythic Upgrades Shards.
 - Changed Nature's Compass recipe to integrate Mythic Upgrades Shards.
-- Changed Ender Pouch recipe to integrate Better Enchanting Essence
-- Added Mythic Upgrades gems recipe cause they do not spawn in overworld/nether dimension.
+- Changed Ender Pouch recipe to integrate Better Enchanting Essence.
+- Added Mythic Upgrades gems recipe since they do not spawn in overworld/nether dimension.
 
 **Better Enchanting:**
 
-- Added missing ingredients for critical hit enchant.
+- Added missing ingredients for the Critical Hit enchant.
 - Removed Fire Aspect enchantment (topaz tools have it by default).
 - Removed Mending enchantment (too op, item repair is experience free).
-- Removed Leaping enchantment (jade armor have it by default).
-- Removed Agility enchantment (jade armor have it by default).
+- Removed Leaping enchantment (jade armor has it by default).
+- Removed Agility enchantment (jade armor has it by default).
 - Removed Poison Aspect enchantment (peridot tools and armor have it by default).
 - Removed Last Hope enchantment (too op).
-- Removed Auto Smelth enchantment (topaz tools have it by default).
+- Removed Auto Smelt enchantment (topaz tools have it by default).
 - Removed Bedrock Breaker enchantment (too op).
 - Removed Life Steal enchantment (Scarlet Dagger from Incendium has the same effect).
 - Removed Accuracy Shot enchantment (Ragnarok from Incendium has the same effect).
 
 **Simple HUD Enhanced:**
 
-- System time format changed to 24 hour.
+- System time format changed to 24-hour.
 
 **Ender Chests:**
 
 - Increased the max slots to 54 (double chest).
 - Disabled Ender Pouch.
-- Modified the items for small and large slot upgrades. Mythic Upgrades nether gems for small upgrades and Mythic Upgrades end gems for large upgrades.
+- Modified the items for small and large slot upgrades: Mythic Upgrades nether gems for small upgrades and Mythic Upgrades end gems for large upgrades.
 
 **Bag Of Holding:**
 
-- decreased the number of slots of higher tier bags to encourage the use of Ender Chests bags.
+- Decreased the number of slots for higher-tier bags to encourage the use of Ender Chests bags.
 
 **Jade:**
 
@@ -79,16 +80,16 @@
 *List all mods that were removed with reasons.*
 
 - **Reforged**: TieredZ offers a better reroll system and tiers.
-- **Hand glider**: There's already the umbrella from artifacts.
+- **Hand Glider**: There's already the umbrella from Artifacts.
 - **Redstone Pen**: Makes redstone too convoluted.
-- **Gen's Recipes Plus**: Made massive log file throwing errors.
+- **Gen's Recipes Plus**: Generates massive log file of errors.
 - **UnionLib**: Dead dependency.
-- **Hopper Gadgetry**: Toms simple storage already has items to filter input/output, keep things simple.
-- **Klee Slabs** Annoying animation: when a block composed of two slabs is broken, only the half the player is looking at drops, while the other half blinks for a second before reappearing
-- **Forgiving Void** There is a specific enchant of Neo Enchant that save the player from the void.
+- **Hopper Gadgetry**: Toms Simple Storage already has items to filter input/output. Keeping things simple.
+- **Klee Slabs** Annoying animation: when a block composed of two slabs is broken, only the half the player is looking at drops, while the other half blinks for a second before reappearing.
+- **Forgiving Void** There is a specific enchant from Neo Enchant that saves the player from the void.
 - **Shared Advancements** There is no config file and by default the achievements are shared globally.
 - **Unloaded Activity** Not needed when there are chunk loaders.
-- **Passive Shield** Overlay Tweaks allows to reduce the on screen shield overlay when equiped.
+- **Passive Shield** Overlay Tweaks allows to reduce the on screen shield overlay when equipped.
 
 ---
 
