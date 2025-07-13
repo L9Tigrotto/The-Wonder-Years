@@ -43,6 +43,7 @@
 - Removed Bedrock Breaker enchantment (too op).
 - Removed Life Steal enchantment (Scarlet Dagger from Incendium has the same effect).
 - Removed Accuracy Shot enchantment (Ragnarok from Incendium has the same effect).
+- Removed give back chances.
 
 **Simple HUD Enhanced:**
 
@@ -92,6 +93,7 @@
 - **Unloaded Activity** Not needed when there are chunk loaders.
 - **Passive Shield** Overlay Tweaks allows to reduce the on screen shield overlay when equipped.
 - **DNT Stronghold Overhaul** It was hiding between mods.
+- **Quick Right Click** Not compatible with Visual Workbench.
 
 ---
 
@@ -116,6 +118,8 @@
 - **Stylish Effects**: Overhauls how status effects are displayed.
 
 - **Cube Without Borders**: Allows borderless fullscreen window.
+
+- **Visual Workbench**: Makes items put into a crafting table stay inside.
 
 ---
 

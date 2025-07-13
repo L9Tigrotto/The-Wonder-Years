@@ -20,7 +20,7 @@
   "consecutiveEnchantIncrease": 0.05,
   "baseEnchantmentCost": 8,
   "tresaureMultiplier": 2.0,
-  "catalystGivebackChance": 10,
+  "catalystGivebackChance": 0,
   "catalystCombinationMultiplier": 1.8,
-  "magicShardGiveBackChance": 65
+  "magicShardGiveBackChance": 0
 }
