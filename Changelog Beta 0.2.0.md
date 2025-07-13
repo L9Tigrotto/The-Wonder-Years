@@ -132,3 +132,4 @@
 - **Accessories**: `v1.1.0 (5/20)` → `v1.1.0 (7/10)`
 - **Structurify**: `v1.0.17` → `v1.0.18`
 - **Untitled Duck Mod**: `v0.8.1` → `v1.1.5`
+- **Distant Horizons**: `v2.3.2` → `v2.3.3`
