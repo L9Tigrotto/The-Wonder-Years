@@ -90,6 +90,7 @@
 - **Shared Advancements** There is no config file and by default the achievements are shared globally.
 - **Unloaded Activity** Not needed when there are chunk loaders.
 - **Passive Shield** Overlay Tweaks allows to reduce the on screen shield overlay when equipped.
+- **DNT Stronghold Overhaul** It was hiding between mods.
 
 ---
 
@@ -137,3 +138,4 @@
 - **Structurify**: `v1.0.17` → `v1.0.18`
 - **Untitled Duck Mod**: `v0.8.1` → `v1.1.5`
 - **Distant Horizons**: `v2.3.2` → `v2.3.3`
+- **Charged Mobs**: `v2.1.0` → `v2.1.1`
