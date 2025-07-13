@@ -4,6 +4,7 @@
 
 - Updated the modpack description.
 - Disabled the Distant Horizons mod by default due to high resource usage.
+- Known bug: crash when a stack with more than 99 items is hovered, waiting for tieredz or legendary tooltips mods to fix it.
 
 ## ⚙️ Settings Changed
 
