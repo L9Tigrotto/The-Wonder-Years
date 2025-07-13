@@ -112,6 +112,8 @@
 - **CERBON's Better Beacons**: Improved version of Minecraft's beacon.
 - **Stylish Effects**: Overhauls how status effects are displayed.
 
+- **Cube Without Borders**: Allows borderless fullscreen window.
+
 ---
 
 ## ⬆️ Mods Updated
