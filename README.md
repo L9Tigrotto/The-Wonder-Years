@@ -36,7 +36,7 @@ Mix and match however you want. The quest system introduces these three branches
 
 ## 🎮 Getting Started
 
-Requirements: Minecraft 1.21.1, 4GB+ RAM, curiosity about what Minecraft could be.
+Requirements: Minecraft 1.21.1, 2GB RAM minimum (4GB recommended), curiosity about what Minecraft could be.
 
 Installation: Download from CurseForge, let it handle setup, create a world, play.
 
