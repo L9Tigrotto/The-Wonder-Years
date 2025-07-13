@@ -12,7 +12,7 @@
 	"enchantplus:sword/life_steal",
 	"enchantplus:bow/accuracy_shot"
   ],
-  "allowBookInAnvil": true,
+  "allowBookInAnvil": false,
   "shardFillingLapisCost": 3,
   "shardFillingExperienceCost": 5,
   "overideItemCost": false,

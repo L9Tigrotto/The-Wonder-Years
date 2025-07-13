@@ -28,6 +28,7 @@
 - Changed Nature's Compass recipe to integrate Mythic Upgrades Shards.
 - Changed Ender Pouch recipe to integrate Better Enchanting Essence.
 - Added Mythic Upgrades gems recipe since they do not spawn in overworld/nether dimension.
+- Removed Recipes of all Better Enchanting Essences.
 
 **Better Enchanting:**
 
