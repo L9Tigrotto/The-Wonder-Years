@@ -6,6 +6,7 @@
 - Updated the modpack description..
 - Disabled the Distant Horizons mod by default due to high resource usage (even if render is off).
 - Known Bug: Aa crash occurs when hovering over a stack with more than 99 items. Waiting a fix from the TieredZ or Legendary Tooltips mods.
+- Removed Tectonic, Terralith and Geophilic to add them as datapack with the corrersponding compatibility packs.
 
 ## ⚙️ Settings Changed
 
