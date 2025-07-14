@@ -116,10 +116,11 @@
 
 - **CERBON's Better Beacons**: Improved version of Minecraft's beacon.
 - **Stylish Effects**: Overhauls how status effects are displayed.
+- **Visual Workbench**: Makes items put into a crafting table stay inside.
 
 - **Cube Without Borders**: Allows borderless fullscreen window.
 
-- **Visual Workbench**: Makes items put into a crafting table stay inside.
+- **Hopo Better Underwater Ruins**: Improves underwater ruins.
 
 ---
 
@@ -145,3 +146,5 @@
 - **Distant Horizons**: `v2.3.2` → `v2.3.3`
 - **Charged Mobs**: `v2.1.0` → `v2.1.1`
 - **Modern Fix**: `v5.24.1` → `v5.24.3`
+- **Convenient Effects**: `v21.1.0` → `v21.1.1`
+- **Inventory Profiles Next**: `v2.1.9` → `v2.1.10`
