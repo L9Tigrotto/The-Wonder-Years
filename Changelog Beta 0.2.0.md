@@ -144,3 +144,4 @@
 - **Untitled Duck Mod**: `v0.8.1` → `v1.1.5`
 - **Distant Horizons**: `v2.3.2` → `v2.3.3`
 - **Charged Mobs**: `v2.1.0` → `v2.1.1`
+- **Modern Fix**: `v5.24.1` → `v5.24.3`

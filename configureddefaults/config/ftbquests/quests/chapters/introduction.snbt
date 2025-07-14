@@ -41,7 +41,7 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["288E1BF482053378"]
+			dependencies: ["6FBB9B957FC4AB09"]
 			icon: {
 				id: "minecraft:barrel"
 			}
@@ -50,8 +50,8 @@
 				id: "5AB2B995B4026AD8"
 				type: "checkmark"
 			}]
-			x: 4.5d
-			y: -4.0d
+			x: 4.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["6FBB9B957FC4AB09"]
@@ -64,91 +64,7 @@
 				type: "checkmark"
 			}]
 			x: 4.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["6FBB9B957FC4AB09"]
-			icon: {
-				id: "minecraft:compass"
-			}
-			id: "3C135771D89A32F7"
-			tasks: [{
-				id: "27FB2B7FCDDDF657"
-				type: "checkmark"
-			}]
-			x: 2.5d
-			y: 2.0d
-		}
-		{
-			dependencies: ["1BAB9E73BF88F737"]
-			icon: {
-				id: "questsicons:quest_portal_one"
-			}
-			id: "642F86CBE6E0FE90"
-			shape: "octagon"
-			size: 1.25d
-			tasks: [{
-				id: "03A7D435A34006C3"
-				type: "checkmark"
-			}]
-			x: 5.625d
-			y: -1.875d
-		}
-		{
-			dependencies: ["1BAB9E73BF88F737"]
-			icon: {
-				id: "questsicons:quest_portal_three"
-			}
-			id: "3F2C1F2B141FC4C9"
-			shape: "octagon"
-			size: 1.25d
-			tasks: [{
-				id: "2CC495BD20D1AB1E"
-				type: "checkmark"
-			}]
-			x: 6.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["1BAB9E73BF88F737"]
-			icon: {
-				id: "questsicons:quest_portal_two"
-			}
-			id: "510C6CF3102B084C"
-			shape: "octagon"
-			size: 1.25d
-			tasks: [{
-				id: "27C96E4D5266779A"
-				type: "checkmark"
-			}]
-			x: 5.625d
-			y: 1.875d
-		}
-		{
-			dependencies: ["6FBB9B957FC4AB09"]
-			icon: {
-				id: "minecraft:firework_rocket"
-			}
-			id: "288E1BF482053378"
-			tasks: [{
-				id: "679217536CF7548F"
-				type: "checkmark"
-			}]
-			x: 2.5d
-			y: -2.0d
-		}
-		{
-			dependencies: ["3C135771D89A32F7"]
-			icon: {
-				id: "minecraft:redstone"
-			}
-			id: "32CB421761ED2569"
-			tasks: [{
-				id: "3E01FE244B426CC6"
-				type: "checkmark"
-			}]
-			x: 4.5d
-			y: 4.0d
+			y: -1.0d
 		}
 	]
 }

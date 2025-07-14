@@ -27,7 +27,7 @@
 			y: 3.0d
 		}
 		{
-			dependencies: ["3F2C1F2B141FC4C9"]
+			dependencies: ["1BAB9E73BF88F737"]
 			icon: {
 				id: "questsicons:chapter_lock"
 			}
@@ -89,7 +89,7 @@
 		{
 			dependencies: ["17EACE0A13673FB7"]
 			icon: {
-				id: "minecraft:minecart"
+				id: "minecraft:chest_minecart"
 			}
 			id: "7211800E46FC2619"
 			tasks: [{
@@ -178,16 +178,16 @@
 			y: -1.0d
 		}
 		{
-			dependencies: ["6CE6563AC615110B"]
+			dependencies: ["5FC95208AB0B6DD2"]
 			icon: {
-				id: "minecraft:ghast_tear"
+				id: "minecraft:command_block"
 			}
 			id: "7E4416A245D9C6BC"
 			tasks: [{
 				id: "46B18C6E36AE74EA"
 				type: "checkmark"
 			}]
-			x: 8.0d
+			x: 6.5d
 			y: -3.0d
 		}
 		{
@@ -252,23 +252,6 @@
 				type: "item"
 			}]
 			x: 4.0d
-			y: -3.0d
-		}
-		{
-			dependencies: ["5FC95208AB0B6DD2"]
-			icon: {
-				id: "questsicons:chapter_lock"
-			}
-			id: "6CE6563AC615110B"
-			shape: "gear"
-			size: 1.2d
-			tasks: [{
-				count: 10L
-				id: "3A375F5EEE061B28"
-				item: { count: 1, id: "numismatic-overhaul:bronze_coin" }
-				type: "item"
-			}]
-			x: 6.0d
 			y: -3.0d
 		}
 	]
