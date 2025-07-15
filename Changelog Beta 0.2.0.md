@@ -123,6 +123,8 @@
 
 - **Hopo Better Underwater Ruins**: Improves underwater ruins.
 
+- **Potion Stacking**: Make potions stack up to 16.
+
 ---
 
 ## ⬆️ Mods Updated

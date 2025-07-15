@@ -5,16 +5,16 @@ import crafttweaker.api.util.math.RandomSource;
  * Main function to apply a random tier to an item based on its type and the current dimension.
  * Different item types have different numbers of tier variants available.
  */
-public function applyRandomTier(item as IItemStack, dimension as string, random as RandomSource) as IItemStack
+public function applyRandomTier(item as IItemStack, random as RandomSource, dimension as string) as IItemStack
 {
     // Check item type and apply appropriate tier with specific variant count
-    if (isArmor(item)) { return itemWithTier(item, dimension, random, "armor", 4); }
-    if (isElytra(item)) { return itemWithTier(item, dimension, random, "elytra", 2); }
-    if (isMaleeWeapon(item)) { return itemWithTier(item, dimension, random, "malee", 4); }
-    if (isRangedWeapon(item)) { return itemWithTier(item, dimension, random, "ranged", 4); }
-    if (isShield(item)) { return itemWithTier(item, dimension, random, "shield", 4); }
-    if (isFishingRod(item)) { return itemWithTier(item, dimension, random, "fishing", 2); }
-    if (isTool(item)) { return itemWithTier(item, dimension, random, "tool", 4); }
+    if (isArmor(item)) { return itemWithTier(item, random, dimension, "armor", 4); }
+    if (isElytra(item)) { return itemWithTier(item, random, dimension, "elytra", 2); }
+    if (isMaleeWeapon(item)) { return itemWithTier(item, random, dimension, "melee", 4); }
+    if (isRangedWeapon(item)) { return itemWithTier(item, random, dimension, "ranged", 4); }
+    if (isShield(item)) { return itemWithTier(item, random, dimension, "shield", 4); }
+    if (isFishingRod(item)) { return itemWithTier(item, random, dimension, "fishing", 2); }
+    if (isTool(item)) { return itemWithTier(item, random, dimension, "tool", 4); }
 
     // Return unchanged item if it doesn't match any supported category
     println("[WARNING] in applyRandomTier recived an un-tierable item.");
@@ -41,10 +41,10 @@ function isTool(item as IItemStack) as bool { return <tag:item:c:tools>.contains
  * Applies a tiered component to an item with a randomly selected tier and variant.
  * The tier follows the format: "tiered:{tier}_{item_type}_{variant}"
  */
-function itemWithTier(item as IItemStack, dimension as string, random as RandomSource, item_type as string, item_variants as int) as IItemStack
+function itemWithTier(item as IItemStack, random as RandomSource, dimension as string, item_type as string, item_variants as int) as IItemStack
 {
     // Get a random tier based on dimension-specific probabilities or return original item if tier selection failed
-    val random_tier = pickRandomTier(dimension, random);
+    val random_tier = pickRandomTier(random, dimension);
     if (random_tier == "error") { return item; }
 
     // Generate random variant number (1-based indexing)
@@ -70,7 +70,7 @@ function itemWithTier(item as IItemStack, dimension as string, random as RandomS
  * Higher-tier dimensions (Nether, End) have better odds for rare items.
  * Uses cumulative probability ranges for weighted random selection.
  */
-function pickRandomTier(dimension as string, random as RandomSource) as string
+function pickRandomTier(random as RandomSource, dimension as string) as string
 {
     // Available tier names in ascending rarity order
     val tiers = [
