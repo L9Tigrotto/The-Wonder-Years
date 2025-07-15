@@ -149,3 +149,4 @@
 - **Modern Fix**: `v5.24.1` → `v5.24.3`
 - **Convenient Effects**: `v21.1.0` → `v21.1.1`
 - **Inventory Profiles Next**: `v2.1.9` → `v2.1.10`
+- **Drop Confirm**: `v5.0.0` → `v5.0.1`
