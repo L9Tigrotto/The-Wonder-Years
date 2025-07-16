@@ -4,77 +4,80 @@ import crafttweaker.api.util.math.RandomSource;
 
 import stdlib.List;
 
-public function applyRandomBeneficialEnchantments(item as IItemStack, random as RandomSource, dimension as string) as IItemStack
+public function applyRandomApplicableEnchantments(item as IItemStack, random as RandomSource, dimension as string) as IItemStack
 {
     var enchantments = new List<Enchantment>();
     var min_reduction = 0.0;
 
-    if (dimension == "overworld") { enchantments = overworldBeneficialEnchantments(item); min_reduction = 0.2; }
-    else if (dimension == "nether")  { enchantments = netherBeneficialEnchantments(item);  min_reduction = 0.4; }
-    else if (dimension == "end") { enchantments = endBeneficialEnchantments(item);  min_reduction = 0.7; }
+    if (dimension == "overworld") { overworldBeneficialEnchantments(enchantments, item); min_reduction = 0.2; }
+    else if (dimension == "nether")
+    { 
+        overworldBeneficialEnchantments(enchantments, item);
+        netherBeneficialEnchantments(enchantments, item); min_reduction = 0.4;
+    }
+    else if (dimension == "end")
+    {
+        overworldBeneficialEnchantments(enchantments, item);
+        netherBeneficialEnchantments(enchantments, item);
+        endBeneficialEnchantments(enchantments, item); min_reduction = 0.7;
+    }
     else 
     { 
         println("[ERROR]: in applyRandomBeneficialEnchantments recived '" + dimension + "' dimension. not supported.");
         return item;
     }
 
-    /*
-    val length = enchantments.length as int;
-    if (max > length) { max = length; }
-    if (min > max) { min = max; }
+    item = applyRandomEnchantmentsFromList(item, random, enchantments, min_reduction);
+    return item;
+}
 
-    var number_of_enchantments = random.nextInt(min, max);
-    var levels = new List<int> as List<int>;
+public function applyRandomBeneficialEnchantments(item as IItemStack, random as RandomSource, dimension as string) as IItemStack
+{
+    var enchantments = new List<Enchantment>();
+    var min_reduction = 0.0;
 
-    for i in 0 .. number_of_enchantments
-    {
-        val enchantment = enchantments[i];
-        levels.add(random.nextInt(1, enchantment.maxLevel + 1));
+    if (dimension == "overworld") { overworldBeneficialEnchantments(enchantments, item); min_reduction = 0.2; }
+    else if (dimension == "nether")  { netherBeneficialEnchantments(enchantments, item); min_reduction = 0.4; }
+    else if (dimension == "end") { endBeneficialEnchantments(enchantments, item); min_reduction = 0.7; }
+    else 
+    { 
+        println("[ERROR]: in applyRandomBeneficialEnchantments recived '" + dimension + "' dimension. not supported.");
+        return item;
     }
-    */
 
-    item = applyRandomEnchantments(item, random, enchantments, min_reduction);
+    item = applyRandomEnchantmentsFromList(item, random, enchantments, min_reduction);
     return item;
 }
 
 public function applyRandomHarmfulEnchantments(item as IItemStack, random as RandomSource, dimension as string) as IItemStack
 {
     var enchantments = new List<Enchantment>();
+    var min_reduction = 0.0;
 
-    if (dimension == "overworld") { enchantments = overworldHarmfulEnchantments(item); }
-    else if (dimension == "nether")  { enchantments = netherHarmfulEnchantments(item); }
-    else if (dimension == "end") { enchantments = endHarmfulEnchantments(item); }
+    if (dimension == "overworld") { overworldHarmfulEnchantments(enchantments, item); min_reduction = 0.2; }
+    else if (dimension == "nether")  { netherHarmfulEnchantments(enchantments, item); min_reduction = 0.4; }
+    else if (dimension == "end") { endHarmfulEnchantments(enchantments, item); min_reduction = 0.7; }
     else 
     { 
-        println("[ERROR]: in applyRandomBeneficialEnchantments recived '" + dimension + "' dimension. not supported.");
+        println("[ERROR]: in applyRandomHarmfulEnchantments recived '" + dimension + "' dimension. not supported.");
         return item;
     }
-/*
-    val length = enchantments.length as int;
-    if (max > length) { max = length; }
-    if (min > max) { min = max; }
 
-    var number_of_enchantments = random.nextInt(min, max);
-    for i in 0 .. number_of_enchantments
-    {
-        val enchantment = enchantments[i];
-        levels[i] = random.nextInt(1, enchantment.maxLevel + 1);
-    }
-*/
+    item = applyRandomEnchantmentsFromList(item, random, enchantments, min_reduction);
     return item;
 }
 
-function applyRandomEnchantments(item as IItemStack, random as RandomSource, enchantments as List<Enchantment>, min_reduction as float) as IItemStack
+public function applyRandomEnchantmentsFromList(item as IItemStack, random as RandomSource, enchantments as List<Enchantment>, min_reduction as float) as IItemStack
 {
     if (min_reduction > 1.0)
     {
-        println("[WARNING]: in applyRandomEnchantments recived min_reduction > 1, set to 0.");
+        println("[WARNING]: in applyRandomEnchantmentsFromList recived min_reduction > 1, set to 0.");
         min_reduction = 0;
     }
 
     if (min_reduction < 0.0)
     {
-        println("[WARNING]: in applyRandomEnchantments recived min_reduction < 0, set to 0.");
+        println("[WARNING]: in applyRandomEnchantmentsFromList recived min_reduction < 0, set to 0.");
         min_reduction = 0;
     }
 
@@ -86,23 +89,24 @@ function applyRandomEnchantments(item as IItemStack, random as RandomSource, enc
     {
         val random_index = random.nextInt(0, length);
         val enchantment = enchantments[random_index];
+        enchantments.remove(random_index);
+
+        if (!enchantment.canEnchant(item)) { continue; }
+
         val max_level = enchantment.maxLevel + 1;
         var level_reduction = (max_level * min_reduction) as int;
         if (level_reduction < 1) { level_reduction = 1; }
         val level = random.nextInt(level_reduction, max_level);
 
         item = item.withEnchantment(enchantment, level);
-        enchantments.remove(random_index);
         length--;
     }
     
     return item;
 }
 
-function overworldBeneficialEnchantments(item as IItemStack) as List<Enchantment>
+function overworldBeneficialEnchantments(enchantments as List<Enchantment>, item as IItemStack) as  void
 {
-    var enchantments = new List<Enchantment>();
-    
     // Helmet enchantments
     if (<tag:item:minecraft:enchantable/head_armor>.contains(item)) {
         enchantments.add(<enchantment:minecraft:aqua_affinity>);
@@ -183,14 +187,10 @@ function overworldBeneficialEnchantments(item as IItemStack) as List<Enchantment
     if (<tag:item:minecraft:enchantable/durability>.contains(item)) {
         enchantments.add(<enchantment:minecraft:unbreaking>);
     }
-    
-    return enchantments;
 }
 
-function netherBeneficialEnchantments(item as IItemStack) as List<Enchantment>
+function netherBeneficialEnchantments(enchantments as List<Enchantment>, item as IItemStack) as void
 {
-    var enchantments = new List<Enchantment>();
-    
     // Advanced helmet enchantments
     if (<tag:item:minecraft:enchantable/head_armor>.contains(item)) {
         enchantments.add(<enchantment:enchantplus:helmet/bright_vision>);
@@ -270,11 +270,9 @@ function netherBeneficialEnchantments(item as IItemStack) as List<Enchantment>
     if (<tag:item:minecraft:hoes>.contains(item)) {
         enchantments.add(<enchantment:enchantplus:hoe/scyther>);
     }
-    
-    return enchantments;
 }
 
-function endBeneficialEnchantments(item as IItemStack) as List<Enchantment>
+function endBeneficialEnchantments(enchantments as List<Enchantment>, item as IItemStack) as void
 {
     var enchantments = new List<Enchantment>();
     
@@ -331,13 +329,10 @@ function endBeneficialEnchantments(item as IItemStack) as List<Enchantment>
         enchantments.add(<enchantment:enchantplus:bow/eternal_frost>);
         enchantments.add(<enchantment:enchantplus:bow/rebound>);
     }
-    return enchantments;
 }
 
-function overworldHarmfulEnchantments(item as IItemStack) as List<Enchantment>
+function overworldHarmfulEnchantments(enchantments as List<Enchantment>, item as IItemStack) as void
 {
-    var enchantments = new List<Enchantment>();
-    
     // Curse of Vanishing - Can be applied to any enchantable item
     if (<tag:item:minecraft:enchantable/vanishing>.contains(item)) {
         enchantments.add(<enchantment:minecraft:vanishing_curse>);
@@ -347,30 +342,20 @@ function overworldHarmfulEnchantments(item as IItemStack) as List<Enchantment>
     if (<tag:item:minecraft:enchantable/equippable>.contains(item)) {
         enchantments.add(<enchantment:minecraft:binding_curse>);
     }
-    
-    return enchantments;
 }
 
-function netherHarmfulEnchantments(item as IItemStack) as List<Enchantment>
+function netherHarmfulEnchantments(enchantments as List<Enchantment>, item as IItemStack) as void
 {
-    var enchantments = new List<Enchantment>();
-    
     // Curse of Breaking - Applies to items with durability (makes them break faster)
     if (<tag:item:minecraft:enchantable/durability>.contains(item)) {
         enchantments.add(<enchantment:enchantplus:durability/curse_of_breaking>);
     }
-    
-    return enchantments;
 }
 
-function endHarmfulEnchantments(item as IItemStack) as List<Enchantment>
+function endHarmfulEnchantments(enchantments as List<Enchantment>, item as IItemStack) as void
 {
-    var enchantments = new List<Enchantment>();
-    
     // Curse of Enchant - Most severe curse, applies to items with durability
     if (<tag:item:minecraft:enchantable/durability>.contains(item)) {
         enchantments.add(<enchantment:enchantplus:durability/curse_of_enchant>);
     }
-    
-    return enchantments;
 }

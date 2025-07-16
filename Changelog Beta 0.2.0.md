@@ -95,7 +95,7 @@
 - **Passive Shield** Overlay Tweaks allows to reduce the on screen shield overlay when equipped.
 - **DNT Stronghold Overhaul** It was hiding between mods.
 - **Quick Right Click** Not compatible with Visual Workbench.
-- **Sneaky Curses** Not compatible with Visual Workbench.
+- **Sneaky Curses** Not hiding curses properly with the tooltip mod.
 
 ---
 
@@ -153,3 +153,5 @@
 - **Convenient Effects**: `v21.1.0` → `v21.1.1`
 - **Inventory Profiles Next**: `v2.1.9` → `v2.1.10`
 - **Drop Confirm**: `v5.0.0` → `v5.0.1`
+- **MidnightLib**: `v1.6.9` → `v1.7.5`
+- **Fzzy Config**: `v0.7.0` → `v0.7.1`
