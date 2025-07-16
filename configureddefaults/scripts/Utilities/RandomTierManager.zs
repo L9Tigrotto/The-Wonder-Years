@@ -4,6 +4,12 @@ import crafttweaker.api.util.math.RandomSource;
 /**
  * Main function to apply a random tier to an item based on its type and the current dimension.
  * Different item types have different numbers of tier variants available.
+ * This system creates tiered versions of items with varying rarity based on dimension difficulty.
+ * 
+ * @param item The Minecraft item stack to apply a tier to (must be a supported item type)
+ * @param random Random source for generating tier selection and variant numbers
+ * @param dimension The dimension context that affects tier probability ("overworld", "nether", "end")
+ * @return The item with applied tier component, or original item if not tierable
  */
 public function applyRandomTier(item as IItemStack, random as RandomSource, dimension as string) as IItemStack
 {
@@ -40,6 +46,14 @@ function isTool(item as IItemStack) as bool { return <tag:item:c:tools>.contains
 /**
  * Applies a tiered component to an item with a randomly selected tier and variant.
  * The tier follows the format: "tiered:{tier}_{item_type}_{variant}"
+ * This creates the actual tiered item by adding JSON component data.
+ * 
+ * @param item The base item to apply the tier to
+ * @param random Random source for generating tier and variant selection
+ * @param dimension The dimension context affecting tier probability distribution
+ * @param item_type The category of item (e.g., "armor", "melee", "tool") used in tier string
+ * @param item_variants The number of visual/functional variants available for this item type (1-indexed)
+ * @return The item with applied tier component, or original item if tier generation fails
  */
 function itemWithTier(item as IItemStack, random as RandomSource, dimension as string, item_type as string, item_variants as int) as IItemStack
 {
@@ -69,6 +83,18 @@ function itemWithTier(item as IItemStack, random as RandomSource, dimension as s
  * Selects a random tier based on dimension-specific probability distributions.
  * Higher-tier dimensions (Nether, End) have better odds for rare items.
  * Uses cumulative probability ranges for weighted random selection.
+ * 
+ * The tier system progression:
+ * - Common: Most basic tier, common drops
+ * - Uncommon: Slightly better than common
+ * - Rare: Noticeably improved stats/appearance
+ * - Epic: High-quality items with significant bonuses
+ * - Legendary: Very rare items with powerful effects
+ * - Unique: Extremely rare items with special properties
+ * 
+ * @param random Random source for probability calculation (generates 0-100 float)
+ * @param dimension The dimension affecting probability weights ("overworld", "nether", "end")
+ * @return The selected tier name as a string, or "error" if selection fails
  */
 function pickRandomTier(random as RandomSource, dimension as string) as string
 {
