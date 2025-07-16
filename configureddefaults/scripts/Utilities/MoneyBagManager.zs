@@ -27,7 +27,7 @@ public function addMoneyBagWithProbability(
     prestige as int) as void
 {
     // Check if money bag should be added based on probability
-    if (random.nextFloat() * 100 > probability) { return; }
+    if (random.nextFloat() * 100.0 > probability) { return; }
 
      // Clamp prestige to valid range
     if (prestige < 0) { prestige = 0; }
