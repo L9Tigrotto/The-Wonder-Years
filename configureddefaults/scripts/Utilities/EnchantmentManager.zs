@@ -202,19 +202,7 @@ public function applyRandomEnchantmentsFromList(item as IItemStack, random as Ra
      // Apply selected enchantments with random levels
     for enchantment in selected_enchantments
     {
-        // Enchantments are 1-indexed (level 1 to maxLevel), so to generate
-        // levels 1-5 for Sharpness V, we need random.nextInt(min, 6)
-        val max_level = enchantment.maxLevel + 1;
-
-        // Calculate minimum level based on min_reduction percentage
-        // This ensures higher-tier dimensions get higher minimum enchantment levels
-        var level_reduction = (max_level * min_reduction);
-
-        // Ensure we don't go below level 1 (enchantments start at level 1)
-        if (level_reduction < 1.0) { level_reduction = 1; }
-
-        // Generate random level from level_reduction (inclusive) to max_level (exclusive)
-        val level = random.nextInt(level_reduction as int, max_level);
+        val level = random.nextInt(1, enchantment.maxLevel + 1);
         
         // Apply the enchantment with the calculated level
         item = item.withEnchantment(enchantment, level);
