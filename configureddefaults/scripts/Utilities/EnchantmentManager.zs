@@ -4,26 +4,51 @@ import crafttweaker.api.util.math.RandomSource;
 
 import stdlib.List;
 
+/**
+ * Applies random enchantments that are applicable to an item.
+ * This function builds up enchantment pools from overworld -> nether -> end
+ * based on the specified dimension, creating cumulative enchantment sets.
+ * 
+ * @param item The item to enchant
+ * @param random Random source for RNG operations
+ * @param dimension The dimension context ("overworld", "nether", or "end")
+ * @return The enchanted item
+ */
 public function applyRandomApplicableEnchantments(item as IItemStack, random as RandomSource, dimension as string) as IItemStack
 {
     var enchantments = new List<Enchantment>();
-    var min_reduction = 0.0;
+    var min_reduction = 0.0; // minimum enchantments from pool
 
-    if (dimension == "overworld") { overworldBeneficialEnchantments(enchantments, item); min_reduction = 0.2; }
-    else if (dimension == "nether")
+    // Build cumulative enchantment pools based on dimension progression
+    if (dimension == "overworld") 
     { 
+        overworldBeneficialEnchantments(enchantments, item); 
+        overworldHarmfulEnchantments(enchantments, item);
+        min_reduction = 0.2; 
+    }
+    else if (dimension == "nether")
+    {
+        // Nether includes overworld + nether enchantments
         overworldBeneficialEnchantments(enchantments, item);
-        netherBeneficialEnchantments(enchantments, item); min_reduction = 0.4;
+        overworldHarmfulEnchantments(enchantments, item);
+        netherBeneficialEnchantments(enchantments, item);
+        netherHarmfulEnchantments(enchantments, item);
+        min_reduction = 0.4;
     }
     else if (dimension == "end")
     {
+        // End includes all enchantments from previous dimensions
         overworldBeneficialEnchantments(enchantments, item);
+        overworldHarmfulEnchantments(enchantments, item);
         netherBeneficialEnchantments(enchantments, item);
-        endBeneficialEnchantments(enchantments, item); min_reduction = 0.7;
+        netherHarmfulEnchantments(enchantments, item);
+        endBeneficialEnchantments(enchantments, item);
+        endHarmfulEnchantments(enchantments, item);
+         min_reduction = 0.7;
     }
     else 
     { 
-        println("[ERROR]: in applyRandomBeneficialEnchantments recived '" + dimension + "' dimension. not supported.");
+        println("[ERROR]: in applyRandomApplicableEnchantments recived '" + dimension + "' dimension. not supported.");
         return item;
     }
 
@@ -31,14 +56,38 @@ public function applyRandomApplicableEnchantments(item as IItemStack, random as 
     return item;
 }
 
+/**
+ * Applies random beneficial enchantments to an item.
+ * This function builds up enchantment pools from overworld -> nether -> end
+ * based on the specified dimension, creating cumulative enchantment sets.
+ * 
+ * @param item The item to enchant
+ * @param random Random source for RNG operations
+ * @param dimension The dimension context ("overworld", "nether", or "end")
+ * @return The enchanted item
+ */
 public function applyRandomBeneficialEnchantments(item as IItemStack, random as RandomSource, dimension as string) as IItemStack
 {
     var enchantments = new List<Enchantment>();
     var min_reduction = 0.0;
 
+    // Build cumulative enchantment pools based on dimension progression
     if (dimension == "overworld") { overworldBeneficialEnchantments(enchantments, item); min_reduction = 0.2; }
-    else if (dimension == "nether")  { netherBeneficialEnchantments(enchantments, item); min_reduction = 0.4; }
-    else if (dimension == "end") { endBeneficialEnchantments(enchantments, item); min_reduction = 0.7; }
+    else if (dimension == "nether")
+    {
+        // Nether includes overworld + nether enchantments
+        overworldBeneficialEnchantments(enchantments, item);
+        netherBeneficialEnchantments(enchantments, item);
+        min_reduction = 0.4;
+    }
+    else if (dimension == "end")
+    {
+        // End includes all enchantments from previous dimensions
+        overworldBeneficialEnchantments(enchantments, item);
+        netherBeneficialEnchantments(enchantments, item);
+        endBeneficialEnchantments(enchantments, item);
+        min_reduction = 0.7;
+    }
     else 
     { 
         println("[ERROR]: in applyRandomBeneficialEnchantments recived '" + dimension + "' dimension. not supported.");
@@ -49,14 +98,35 @@ public function applyRandomBeneficialEnchantments(item as IItemStack, random as 
     return item;
 }
 
+/**
+ * Applies random harmful/curse enchantments to an item.
+ * Harmful enchantments become more severe in higher-tier dimensions.
+ * 
+ * @param item The item to enchant
+ * @param random Random source for RNG operations
+ * @param dimension The dimension context ("overworld", "nether", or "end")
+ * @return The enchanted item
+ */
 public function applyRandomHarmfulEnchantments(item as IItemStack, random as RandomSource, dimension as string) as IItemStack
 {
     var enchantments = new List<Enchantment>();
     var min_reduction = 0.0;
 
+    // Build cumulative enchantment pools based on dimension progression
     if (dimension == "overworld") { overworldHarmfulEnchantments(enchantments, item); min_reduction = 0.2; }
-    else if (dimension == "nether")  { netherHarmfulEnchantments(enchantments, item); min_reduction = 0.4; }
-    else if (dimension == "end") { endHarmfulEnchantments(enchantments, item); min_reduction = 0.7; }
+    else if (dimension == "nether")
+    { 
+        overworldHarmfulEnchantments(enchantments, item);
+        netherHarmfulEnchantments(enchantments, item); 
+        min_reduction = 0.4;
+    }
+    else if (dimension == "end")
+    {
+        overworldHarmfulEnchantments(enchantments, item);
+        netherHarmfulEnchantments(enchantments, item); 
+        endHarmfulEnchantments(enchantments, item);
+        min_reduction = 0.7;
+    }
     else 
     { 
         println("[ERROR]: in applyRandomHarmfulEnchantments recived '" + dimension + "' dimension. not supported.");
@@ -67,8 +137,19 @@ public function applyRandomHarmfulEnchantments(item as IItemStack, random as Ran
     return item;
 }
 
+/**
+ * Core enchantment application function that randomly selects and applies
+ * enchantments from a provided list while respecting exclusivity rules.
+ * 
+ * @param item The item to enchant
+ * @param random Random source for RNG operations
+ * @param enchantments List of possible enchantments to choose from
+ * @param min_reduction Minimum percentage of enchantments to apply (0.0-1.0)
+ * @return The enchanted item with applied enchantments
+ */
 public function applyRandomEnchantmentsFromList(item as IItemStack, random as RandomSource, enchantments as List<Enchantment>, min_reduction as float) as IItemStack
 {
+    // Validate min_reduction parameter bounds
     if (min_reduction > 1.0)
     {
         println("[WARNING]: in applyRandomEnchantmentsFromList recived min_reduction > 1, set to 0.");
@@ -81,30 +162,75 @@ public function applyRandomEnchantmentsFromList(item as IItemStack, random as Ra
         min_reduction = 0;
     }
 
+     // Calculate how many enchantments to apply
     val length = enchantments.length as int;
     val length_reduction = (length * min_reduction) as int;
     val number_of_enchantments = random.nextInt(length_reduction, length);
 
-    for i in 1 .. number_of_enchantments
+    var selected_enchantments = new List<Enchantment>();
+    
+    // Select random enchantments while avoiding conflicts
+    for k in 1 .. number_of_enchantments
     {
         val random_index = random.nextInt(0, length);
         val enchantment = enchantments[random_index];
         enchantments.remove(random_index);
+        length--; // Update length after removal
 
-        if (!enchantment.canEnchant(item)) { continue; }
+        // Check for enchantment exclusivity conflicts
+        val exclusive = enchantment.exclusiveSet; // Get enchantments that conflict with this one
+        var not_contained = true; // Flag to track if enchantment conflicts with already selected ones
+        var i = 0;
 
+        // Check each exclusive enchantment against already selected enchantments
+        while not_contained && i < exclusive.length as int
+        {
+            var j = 0;
+            while not_contained && j < selected_enchantments.length as int
+            {
+                // Compare command strings to check for equals
+                not_contained = exclusive[i].commandString != selected_enchantments[j].commandString;
+                j++;
+            }
+            i++;
+        }
+
+        // Only add if no conflicts found
+        if not_contained { selected_enchantments.add(enchantment); }
+    }
+
+     // Apply selected enchantments with random levels
+    for enchantment in selected_enchantments
+    {
+        // Enchantments are 1-indexed (level 1 to maxLevel), so to generate
+        // levels 1-5 for Sharpness V, we need random.nextInt(min, 6)
         val max_level = enchantment.maxLevel + 1;
-        var level_reduction = (max_level * min_reduction) as int;
-        if (level_reduction < 1) { level_reduction = 1; }
-        val level = random.nextInt(level_reduction, max_level);
 
+        // Calculate minimum level based on min_reduction percentage
+        // This ensures higher-tier dimensions get higher minimum enchantment levels
+        var level_reduction = (max_level * min_reduction);
+
+        // Ensure we don't go below level 1 (enchantments start at level 1)
+        if (level_reduction < 1.0) { level_reduction = 1; }
+
+        // Generate random level from level_reduction (inclusive) to max_level (exclusive)
+        val level = random.nextInt(level_reduction as int, max_level);
+        
+        // Apply the enchantment with the calculated level
         item = item.withEnchantment(enchantment, level);
-        length--;
     }
     
     return item;
 }
 
+/**
+ * Populates the enchantments list with basic/common beneficial enchantments
+ * suitable for the overworld dimension. These are generally safe, standard
+ * enchantments that improve item functionality without major risks.
+ * 
+ * @param enchantments The list to populate with enchantments
+ * @param item The item to check compatibility against
+ */
 function overworldBeneficialEnchantments(enchantments as List<Enchantment>, item as IItemStack) as  void
 {
     // Helmet enchantments
@@ -189,6 +315,15 @@ function overworldBeneficialEnchantments(enchantments as List<Enchantment>, item
     }
 }
 
+
+/**
+ * Populates the enchantments list with advanced beneficial enchantments
+ * suitable for the nether dimension. These are more powerful and specialized
+ * enchantments that provide significant advantages.
+ * 
+ * @param enchantments The list to populate with enchantments
+ * @param item The item to check compatibility against
+ */
 function netherBeneficialEnchantments(enchantments as List<Enchantment>, item as IItemStack) as void
 {
     // Advanced helmet enchantments
@@ -272,10 +407,16 @@ function netherBeneficialEnchantments(enchantments as List<Enchantment>, item as
     }
 }
 
+/**
+ * Populates the enchantments list with the most powerful beneficial enchantments
+ * suitable for the end dimension. These are end-game enchantments with
+ * extremely powerful effects.
+ * 
+ * @param enchantments The list to populate with enchantments
+ * @param item The item to check compatibility against
+ */
 function endBeneficialEnchantments(enchantments as List<Enchantment>, item as IItemStack) as void
 {
-    var enchantments = new List<Enchantment>();
-    
     // Powerful helmet enchantments
     if (<tag:item:minecraft:enchantable/head_armor>.contains(item)) {
         enchantments.add(<enchantment:enchantplus:helmet/voidless>);
@@ -331,6 +472,14 @@ function endBeneficialEnchantments(enchantments as List<Enchantment>, item as II
     }
 }
 
+/**
+ * Populates the enchantments list with harmful/curse enchantments
+ * suitable for the overworld dimension. These are basic curses that
+ * add negative effects to items.
+ * 
+ * @param enchantments The list to populate with enchantments
+ * @param item The item to check compatibility against
+ */
 function overworldHarmfulEnchantments(enchantments as List<Enchantment>, item as IItemStack) as void
 {
     // Curse of Vanishing - Can be applied to any enchantable item
@@ -344,6 +493,14 @@ function overworldHarmfulEnchantments(enchantments as List<Enchantment>, item as
     }
 }
 
+/**
+ * Populates the enchantments list with harmful/curse enchantments
+ * suitable for the nether dimension. These are more severe curses
+ * that significantly impact item durability.
+ * 
+ * @param enchantments The list to populate with enchantments
+ * @param item The item to check compatibility against
+ */
 function netherHarmfulEnchantments(enchantments as List<Enchantment>, item as IItemStack) as void
 {
     // Curse of Breaking - Applies to items with durability (makes them break faster)
@@ -352,6 +509,14 @@ function netherHarmfulEnchantments(enchantments as List<Enchantment>, item as II
     }
 }
 
+/**
+ * Populates the enchantments list with the most severe harmful/curse enchantments
+ * suitable for the end dimension. These represent the worst possible curses
+ * that can be applied to items.
+ * 
+ * @param enchantments The list to populate with enchantments
+ * @param item The item to check compatibility against
+ */
 function endHarmfulEnchantments(enchantments as List<Enchantment>, item as IItemStack) as void
 {
     // Curse of Enchant - Most severe curse, applies to items with durability
