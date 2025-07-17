@@ -137,7 +137,6 @@ key_key.ftbchunks.add_waypoint:key.keyboard.unknown
 key_key.ftbchunks.waypoint_manager:key.keyboard.unknown
 key_key.ftbquests.quests:key.keyboard.unknown
 key_key.ftbteams.open_gui:key.keyboard.unknown
-key_legendarytooltips.key.scrollTooltips:key.keyboard.unknown
 key_key.wildfire_gender.gender_menu:key.keyboard.g
 key_accessories.key.open_accessories_screen:key.keyboard.unknown
 key_key.accessorify.use_spyglass:key.keyboard.unknown
@@ -155,7 +154,7 @@ key_key.buildguide.openbuildguide:key.keyboard.b
 key_key.buildguide.toggleenable:key.keyboard.unknown
 key_key.buildguide.setorigin:key.keyboard.unknown
 key_key.buildguide.setglobalorigin:key.keyboard.unknown
-key_key.carry.desc:key.keyboard.left.shift
+key_key.carry.desc:key.keyboard.unknown
 key_key.cavedust.toggle:key.keyboard.unknown
 key_key.cavedust.reload:key.keyboard.unknown
 key_chunkloaders.keys.open_screen:key.keyboard.unknown
