@@ -74,6 +74,10 @@
 
 - Lowered the shield height.
 
+**Charged Mobs:**
+
+- Lowered spawn rate.
+
 ---
 
 ## ❌ Mods Removed
