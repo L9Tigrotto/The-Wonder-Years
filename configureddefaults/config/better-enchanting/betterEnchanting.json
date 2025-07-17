@@ -1,6 +1,16 @@
 {
   "disabledEnchants": [
-    "namespace:enchantment"
+    "minecraft:fire_aspect",
+    "minecraft:mending",
+    "enchantplus:leggings/leaping",
+    "enchantplus:tools/auto_smelt",
+    "enchantplus:boots/agility",
+    "enchantplus:sword/poison_aspect",
+    "enchantplus:sword/last_hope",
+    "enchantplus:tools/auto_smelt",
+    "enchantplus:pickaxe/bedrock_breaker",
+	"enchantplus:sword/life_steal",
+	"enchantplus:bow/accuracy_shot"
   ],
   "allowBookInAnvil": false,
   "shardFillingLapisCost": 3,
@@ -10,7 +20,7 @@
   "consecutiveEnchantIncrease": 0.05,
   "baseEnchantmentCost": 8,
   "tresaureMultiplier": 2.0,
-  "catalystGivebackChance": 10,
+  "catalystGivebackChance": 0,
   "catalystCombinationMultiplier": 1.8,
-  "magicShardGiveBackChance": 65
+  "magicShardGiveBackChance": 0
 }

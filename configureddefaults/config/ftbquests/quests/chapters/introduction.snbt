@@ -2,7 +2,7 @@
 	autofocus_id: "58C5E511FA95102B"
 	default_hide_dependency_lines: false
 	default_min_width: 300
-	default_quest_shape: ""
+	default_quest_shape: "rsquare"
 	filename: "introduction"
 	group: ""
 	hide_quest_until_deps_complete: true
@@ -18,6 +18,7 @@
 				id: "minecraft:oak_sapling"
 			}
 			id: "58C5E511FA95102B"
+			shape: "heart"
 			size: 2.0d
 			tasks: [{
 				id: "7535DD93AC43F284"
@@ -49,8 +50,8 @@
 				id: "5AB2B995B4026AD8"
 				type: "checkmark"
 			}]
-			x: 2.0d
-			y: -2.0d
+			x: 4.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["6FBB9B957FC4AB09"]
@@ -63,153 +64,7 @@
 				type: "checkmark"
 			}]
 			x: 4.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["6FBB9B957FC4AB09"]
-			icon: {
-				id: "minecraft:compass"
-			}
-			id: "3C135771D89A32F7"
-			tasks: [{
-				id: "27FB2B7FCDDDF657"
-				type: "checkmark"
-			}]
-			x: 2.0d
-			y: 2.0d
-		}
-		{
-			dependencies: ["614FC15CB90122BE"]
-			icon: {
-				id: "minecraft:player_head"
-			}
-			id: "4F1BBE6F95E04055"
-			tasks: [{
-				id: "666A39C4DE7D9D31"
-				type: "checkmark"
-			}]
-			x: 2.0d
-			y: -4.0d
-		}
-		{
-			dependencies: ["4F1BBE6F95E04055"]
-			icon: {
-				id: "minecraft:bookshelf"
-			}
-			id: "0CD182F95931DCD7"
-			tasks: [{
-				id: "6656326F98CE8BFD"
-				type: "checkmark"
-			}]
-			x: 0.0d
-			y: -4.0d
-		}
-		{
-			dependencies: ["4F1BBE6F95E04055"]
-			icon: {
-				id: "minecraft:experience_bottle"
-			}
-			id: "458508D71CFD8B6E"
-			tasks: [{
-				id: "3F57B229B2EFC87F"
-				type: "checkmark"
-			}]
-			x: 0.5d
-			y: -5.5d
-		}
-		{
-			dependencies: ["4F1BBE6F95E04055"]
-			icon: {
-				id: "minecraft:chest"
-			}
-			id: "3A1B393D02161650"
-			tasks: [{
-				id: "6C99CAF49C9A2E04"
-				type: "checkmark"
-			}]
-			x: 2.0d
-			y: -6.0d
-		}
-		{
-			dependencies: ["4F1BBE6F95E04055"]
-			icon: {
-				id: "minecraft:golden_apple"
-			}
-			id: "6A79ABC395FC4C4A"
-			tasks: [{
-				id: "4396F708F63EB9A7"
-				type: "checkmark"
-			}]
-			x: 3.5d
-			y: -5.5d
-		}
-		{
-			dependencies: ["4F1BBE6F95E04055"]
-			icon: {
-				id: "minecraft:spectral_arrow"
-			}
-			id: "761B2EFE96F5E786"
-			tasks: [{
-				id: "18285CD72EBF9F8E"
-				type: "checkmark"
-			}]
-			x: 4.0d
-			y: -4.0d
-		}
-		{
-			dependencies: ["1BAB9E73BF88F737"]
-			icon: {
-				id: "questsicons:quest_portal_one"
-			}
-			id: "642F86CBE6E0FE90"
-			size: 1.25d
-			tasks: [{
-				id: "03A7D435A34006C3"
-				type: "checkmark"
-			}]
-			x: 6.0d
-			y: -2.0d
-		}
-		{
-			dependencies: ["1BAB9E73BF88F737"]
-			icon: {
-				id: "questsicons:quest_portal_three"
-			}
-			id: "3F2C1F2B141FC4C9"
-			size: 1.25d
-			tasks: [{
-				id: "2CC495BD20D1AB1E"
-				type: "checkmark"
-			}]
-			x: 6.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["1BAB9E73BF88F737"]
-			icon: {
-				id: "questsicons:quest_portal_two"
-			}
-			id: "510C6CF3102B084C"
-			size: 1.25d
-			tasks: [{
-				id: "27C96E4D5266779A"
-				type: "checkmark"
-			}]
-			x: 6.0d
-			y: 2.0d
-		}
-		{
-			dependencies: ["614FC15CB90122BE"]
-			icon: {
-				id: "minecraft:firework_rocket"
-			}
-			id: "288E1BF482053378"
-			tasks: [{
-				id: "679217536CF7548F"
-				type: "checkmark"
-			}]
-			x: 4.0d
-			y: -2.0d
+			y: -1.0d
 		}
 	]
 }

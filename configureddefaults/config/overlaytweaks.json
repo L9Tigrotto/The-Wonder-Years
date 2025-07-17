@@ -20,7 +20,7 @@
 	"customVignetteDarkness": false,
 	"customVignetteDarknessValue": 0.0,
 	"suffocationOverlayBrightness": 10.0,
-	"customShieldHeight": 0.0,
+	"customShieldHeight": -0.2,
 	"customShieldOpacity": 100.0,
 	"colorShieldCooldown": false,
 	"shieldColorHigh": -65536,

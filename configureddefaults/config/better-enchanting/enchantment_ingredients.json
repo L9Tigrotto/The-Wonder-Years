@@ -407,5 +407,55 @@
   ],
   "enchantplus:sword/fear": [
     "betterenchanting:essence_of_fear"
+  ],
+  "enchantplus:sword/critical": [
+    "betterenchanting:essence_of_fear",
+    "betterenchanting:essence_of_fear",
+    "betterenchanting:essence_of_fear",
+    "betterenchanting:essence_of_fear"
+  ],
+  "enchantplus:mace/teluric_wave": [
+    "minecraft:deepslate"
+  ],
+  
+  "enchantplus:trident/gungnir_breath": [
+    "minecraft:trident",
+    "minecraft:nautilus_shell", 
+    "bettertridents:trident_fragment"
+  ],
+  
+  "enchantplus:hoe/harvest": [
+    "minecraft:wheat",
+    "minecraft:hay_block",
+    "betterenchanting:essence_of_capacity"
+  ],
+  
+  "enchantplus:sword/death_touch": [
+    "minecraft:wither_skeleton_skull"
+  ],
+  
+  "enchantplus:leggings/dwarfed": [
+    "minecraft:short_grass",
+    "minecraft:small_amethyst_bud",
+    "minecraft:shroomlight",
+    "minecraft:small_dripleaf",
+    "betterenchanting:essence_of_longfoot"
+  ],
+  
+  "enchantplus:leggings/oversize": [
+    "minecraft:large_amethyst_bud",
+    "minecraft:big_dripleaf", 
+    "minecraft:tall_grass",
+    "betterenchanting:essence_of_refill"
+  ],
+  
+  "enchantplus:bow/eternal_frost": [
+    "minecraft:blue_ice"
+  ],
+  
+  "enchantplus:bow/rebound": [
+    "minecraft:slime_ball",
+    "minecraft:slime_block",
+    "betterenchanting:essence_of_multi_roll"
   ]
 }

@@ -11,37 +11,47 @@
 			"ftbteams:my_team": {
 				enabled: true
 				x: 0
-				y: 1
+				y: 0
 			}
 			"ftbquests:quests": {
 				enabled: true
 				x: 1
+				y: 0
+			}
+			"ftbchunks:chunks": {
+				enabled: false
+				x: 0
 				y: 1
 			}
 			"ftblibrary:toggle/night": {
 				enabled: false
-				x: 2
-				y: 0
+				x: -1
+				y: -1
 			}
 			"ftblibrary:toggle/gamemode": {
 				enabled: false
-				x: 0
-				y: 0
+				x: -1
+				y: -1
 			}
 			"ftblibrary:config": {
 				enabled: false
-				x: 2
+				x: -1
+				y: -1
+			}
+			"ftbchunks:claim_chunks": {
+				enabled: true
+				x: 1
 				y: 1
 			}
 			"ftblibrary:toggle/day": {
 				enabled: false
-				x: 1
-				y: 0
+				x: -1
+				y: -1
 			}
 			"ftblibrary:toggle/rain": {
 				enabled: false
-				x: 3
-				y: 0
+				x: -1
+				y: -1
 			}
 		}
 		

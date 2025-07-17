@@ -1,0 +1,69 @@
+{
+	autofocus_id: "4F1BBE6F95E04055"
+	default_hide_dependency_lines: false
+	default_min_width: 300
+	default_quest_shape: ""
+	filename: "multiplayer"
+	group: ""
+	hide_quest_until_deps_complete: true
+	icon: {
+		id: "minecraft:campfire"
+	}
+	id: "65ABE122EEB46C2C"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["6FBB9B957FC4AB09"]
+			icon: {
+				id: "minecraft:player_head"
+			}
+			id: "4F1BBE6F95E04055"
+			tasks: [{
+				id: "666A39C4DE7D9D31"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4F1BBE6F95E04055"]
+			icon: {
+				id: "minecraft:bookshelf"
+			}
+			id: "0CD182F95931DCD7"
+			tasks: [{
+				id: "6656326F98CE8BFD"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["4F1BBE6F95E04055"]
+			icon: {
+				id: "minecraft:spectral_arrow"
+			}
+			id: "761B2EFE96F5E786"
+			tasks: [{
+				id: "18285CD72EBF9F8E"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4F1BBE6F95E04055"]
+			icon: {
+				id: "minecraft:shield"
+			}
+			id: "24FF0C108F1217CE"
+			tasks: [{
+				id: "5CF6D64A0F6A1F00"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: -1.5d
+		}
+	]
+}
