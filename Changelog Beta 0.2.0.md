@@ -2,7 +2,7 @@
 
 ## 📋 General Updates
 
-- I truly believe the modpack is very close to its first release. Most of the elements are as i envisioned them. Still, some minor changes need to be made,
+- I truly believe the modpack is very close to its first release. Most of the elements are as i envisioned them. Still, some minor changes need to be made.
 - Updated the modpack description.
 - Disabled the Distant Horizons mod by default due to high resource usage (even if render is off).
 
