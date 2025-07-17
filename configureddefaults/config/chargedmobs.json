@@ -2,7 +2,7 @@
   "autoGenerate": true,
   "NaturallyCharged": true,
   "NaturallyChargedNeedRain": false,
-  "ChargedChange": 0.1,
+  "ChargedChange": 0.01,
   "damageMul": {},
   "damageAdd": {
     "minecraft:enderman": 4.0
@@ -12,7 +12,8 @@
     "minecraft:zombie": 4.0,
     "minecraft:drowned": 4.0,
     "minecraft:zombie_villager": 4.0,
-    "minecraft:husk": 4.0
+    "minecraft:husk": 4.0,
+    "vanillabackport:creaking": 4.0
   },
   "toughnessMul": {},
   "toughnessAdd": {},
