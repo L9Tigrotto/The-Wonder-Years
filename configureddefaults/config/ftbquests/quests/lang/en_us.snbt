@@ -239,6 +239,7 @@
 	]
 	quest.5D734B4736AF1541.title: "&aLogic Components&r"
 	quest.5EB0D532B2CD4E50.quest_desc: ["&5Relic of the vanished Iceologers. &rOne of the final artifacts before these frost masters disappeared mysteriously from the realm."]
+	quest.5F388C02B5C37971.quest_desc: ["Shield reflecting attacks with blinding light. Counter to smite attackers with holy radiance. The Inferno sometimes drops this rainbow defender."]
 	quest.5F98229CE8F2BF00.quest_desc: ["&2Build your first storage network. &rPlace the connector touching any container. Add the terminal directly on the connector. Connect more chests by placing them adjacent."]
 	quest.5F98229CE8F2BF00.title: "&aStorage Network Foundation&r"
 	quest.5FC95208AB0B6DD2.quest_desc: ["&9Shape the world to your needs. &rManage weather, prevent mob spawns, control your environment. These tools give you mastery over nature itself."]
@@ -317,6 +318,25 @@
 	quest.7E4416A245D9C6BC.quest_desc: ["&9Fresh features for classic gameplay. &rEnjoy contemporary improvements that fit naturally into your world."]
 	quest.7E4416A245D9C6BC.title: "&bModern Features&r"
 	quest.7F6D5AF439666207.quest_desc: ["Shield reflecting attacks with blinding light. Counter to smite attackers with holy radiance. The Inferno sometimes drops this rainbow defender."]
+	reward_table.03C58CAB8678C762.title: "Daybreaker"
+	reward_table.0998C572A57B090D.title: "Withersbane"
+	reward_table.192FA65951C90B9D.title: "Sentry's Wrath"
+	reward_table.1A887E6DA1D56878.title: "Prismatic Shield 2"
+	reward_table.1A9AD1723C710786.title: "Chilling Blade"
+	reward_table.204B188FE817D7E5.title: "Infernal Wings"
+	reward_table.288E6A69E302794F.title: "Scarlet Dagger"
+	reward_table.2C7EFA4114191953.title: "Scout's Battle Helm"
+	reward_table.48C289507A659309.title: "Necrotic Shield"
+	reward_table.4E6EDFF599E727C8.title: "Ragnarok"
+	reward_table.4F3F6B1C8FB2A2D9.title: "Holy Wrath"
+	reward_table.5326C9BB3CC13E13.title: "Warping Witherblade"
+	reward_table.5D042D5876BBEC5C.title: "Firestorm"
+	reward_table.5FCC97DA5833BC47.title: "Trailblazer"
+	reward_table.66D77E1E3360113A.title: "Hefty Pickaxe"
+	reward_table.685548FE3ED1C339.title: "Greatsword of Sacrifice"
+	reward_table.6ECC5563FE3E73F9.title: "Prismatic Shield 1"
+	reward_table.71BB067D3608237D.title: "Blazing Hatcet"
+	reward_table.7E67CD3F90CD278D.title: "Multiplex"
 	task.01E7A724E4D8AD73.title: "Understood"
 	task.035637EBAF9A88F5.title: "Understood"
 	task.03A7D435A34006C3.title: "Understood"

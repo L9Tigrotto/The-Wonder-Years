@@ -9,15 +9,13 @@
 
 ## ⚙️ Settings Changed
 
-*List all configuration changes organized by mod. Remove this section if no settings were changed.*
+*List all configuration changes organized by mod.*
 
-**Mod Name 1:**
+**FTB Quests:**
 
-- Increased spawn rate of custom ores
-
-**Mod Name 2:**
-
-- Enabled advanced tooltip features
+- Incendium items will no longer be consumed upon quest completion.
+- End remastered eyes will no longer be consumed upon quest completion.
+- Completing Incendium quests now rewards you with a random unique tier variant of Incendium items
 
 ---
 
