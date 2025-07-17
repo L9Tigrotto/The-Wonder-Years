@@ -5,7 +5,6 @@
 - I truly believe the modpack is very close to its first release. Most of the elements are as i envisioned them. Still, some minor changes need to be made,
 - Updated the modpack description.
 - Disabled the Distant Horizons mod by default due to high resource usage (even if render is off).
-- Known Bug: Aa crash occurs when hovering over a stack with more than 99 items. Waiting a fix from the TieredZ or Legendary Tooltips mods.
 
 ## ⚙️ Settings Changed
 
@@ -97,6 +96,7 @@
 - **Sneaky Curses** Not hiding curses properly with the tooltip mod.
 - **Geophilic** Significantly slow down the world generation.
 - **Amecs** Sometims make drop stop working properly.
+- **Legendsry Tooltips** Mame simple storage crash when item stacks have a size greater than 99.
 
 ---
 
@@ -126,6 +126,10 @@
 - **Hopo Better Underwater Ruins**: Improves underwater ruins.
 
 - **Potion Stacking**: Make potions stack up to 16.
+
+- **Durability Tooltip**: Color durability.
+- **Clean Tooltips**: Color enchantments names.
+- **Enchantment Level Cap Indicator**: Indicate the enchantment level cap with a star.
 
 ---
 
