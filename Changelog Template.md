@@ -43,7 +43,9 @@
 
 ## ⬆️ Mods Updated
 
-*List all mods that were updated with their version changes. Remove this section if no mods were updated.*
+*List all mods that were updated with their version changes.*
 
-- **Mod Name 1**: `v1.2.3` → `v1.3.0`
-- **Mod Name 2**: `v2.1.0` → `v2.1.5`
+- **Balm**: `v21.0.46` → `v21.0.47`
+- **Skin Layer 3D**: `v1.8.1` → `v1.8.2`
+- **Dynamic Crosshair**: `v9.6` → `v9.8`
+- **Entity Culling**: `v1.8.1` → `v1.8.2`
