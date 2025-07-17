@@ -3,7 +3,7 @@
 ## 📋 General Updates
 
 - I truly believe the modpack is very close to its first release. Most of the elements are as i envisioned them. Still, some minor changes need to be made,
-- Updated the modpack description..
+- Updated the modpack description.
 - Disabled the Distant Horizons mod by default due to high resource usage (even if render is off).
 - Known Bug: Aa crash occurs when hovering over a stack with more than 99 items. Waiting a fix from the TieredZ or Legendary Tooltips mods.
 
@@ -96,6 +96,7 @@
 - **Quick Right Click** Not compatible with Visual Workbench.
 - **Sneaky Curses** Not hiding curses properly with the tooltip mod.
 - **Geophilic** Significantly slow down the world generation.
+- **Amecs** Sometims make drop stop working properly.
 
 ---
 

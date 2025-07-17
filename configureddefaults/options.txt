@@ -143,15 +143,6 @@ key_accessories.key.open_accessories_screen:key.keyboard.unknown
 key_key.accessorify.use_spyglass:key.keyboard.unknown
 key_key.accessorify.open_shulker_box:key.keyboard.unknown
 key_key.accessorify.open_ender_chest:key.keyboard.unknown
-key_key.amecs.toggle_auto_jump:key.keyboard.unknown
-key_key.amecs.toggle_cape:key.keyboard.unknown
-key_key.amecs.toggle_jacket:key.keyboard.unknown
-key_key.amecs.toggle_left_sleeve:key.keyboard.unknown
-key_key.amecs.toggle_right_sleeve:key.keyboard.unknown
-key_key.amecs.toggle_left_pants_leg:key.keyboard.unknown
-key_key.amecs.toggle_right_pants_leg:key.keyboard.unknown
-key_key.amecs.toggle_hat:key.keyboard.unknown
-key_key.amecs.alternative_escape:key.keyboard.unknown
 key_artifacts.key.helium_flamingo.activate:key.keyboard.unknown
 key_artifacts.key.charm_of_shrinking.toggle:key.keyboard.unknown
 key_artifacts.key.charm_of_sinking.toggle:key.keyboard.unknown
@@ -274,7 +265,7 @@ key_keybind.name.EMOTE_SLOT_6:key.keyboard.unknown
 key_keybind.name.EMOTE_SLOT_7:key.keyboard.unknown
 key_keybind.name.EMOTE_SLOT_8:key.keyboard.unknown
 key_keybind.name.ZOOM:key.keyboard.unknown
-soundCategory_master:0.5077323054635762
+soundCategory_master:0.5093879346026491
 soundCategory_music:0.20825264084507025
 soundCategory_record:1.0
 soundCategory_weather:1.0
