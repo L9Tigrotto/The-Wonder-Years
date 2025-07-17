@@ -131,6 +131,8 @@
 - **Clean Tooltips**: Color enchantments names.
 - **Enchantment Level Cap Indicator**: Indicate the enchantment level cap with a star.
 
+- **No Mob Farms**: Prevent mob farms.
+
 ---
 
 ## ⬆️ Mods Updated
