@@ -17,14 +17,16 @@ import stdlib.List;
 public function applyRandomApplicableEnchantments(item as IItemStack, random as RandomSource, dimension as string) as IItemStack
 {
     var enchantments = new List<Enchantment>();
-    var min_reduction = 0.0; // minimum enchantments from pool
+    var min_count = 0.0;
+    var max_level = 0.0;
 
     // Build cumulative enchantment pools based on dimension progression
     if (dimension == "overworld") 
     { 
         overworldBeneficialEnchantments(enchantments, item); 
         overworldHarmfulEnchantments(enchantments, item);
-        min_reduction = 0.2; 
+        min_count = 0.2;
+        min_count = 0.4; 
     }
     else if (dimension == "nether")
     {
@@ -33,7 +35,8 @@ public function applyRandomApplicableEnchantments(item as IItemStack, random as 
         overworldHarmfulEnchantments(enchantments, item);
         netherBeneficialEnchantments(enchantments, item);
         netherHarmfulEnchantments(enchantments, item);
-        min_reduction = 0.4;
+        min_count = 0.4;
+        min_count = 0.7;
     }
     else if (dimension == "end")
     {
@@ -44,7 +47,8 @@ public function applyRandomApplicableEnchantments(item as IItemStack, random as 
         netherHarmfulEnchantments(enchantments, item);
         endBeneficialEnchantments(enchantments, item);
         endHarmfulEnchantments(enchantments, item);
-         min_reduction = 0.7;
+         min_count = 0.7;
+         min_count = 1.0;
     }
     else 
     { 
@@ -52,7 +56,7 @@ public function applyRandomApplicableEnchantments(item as IItemStack, random as 
         return item;
     }
 
-    item = applyRandomEnchantmentsFromList(item, random, enchantments, min_reduction);
+    item = applyRandomEnchantmentsFromList(item, random, enchantments, min_count, max_level);
     return item;
 }
 
@@ -69,16 +73,23 @@ public function applyRandomApplicableEnchantments(item as IItemStack, random as 
 public function applyRandomBeneficialEnchantments(item as IItemStack, random as RandomSource, dimension as string) as IItemStack
 {
     var enchantments = new List<Enchantment>();
-    var min_reduction = 0.0;
+    var min_count = 0.0;
+    var max_level = 0.0;
 
     // Build cumulative enchantment pools based on dimension progression
-    if (dimension == "overworld") { overworldBeneficialEnchantments(enchantments, item); min_reduction = 0.2; }
+    if (dimension == "overworld")
+    { 
+        overworldBeneficialEnchantments(enchantments, item);
+        min_count = 0.2;
+        max_level = 0.4;
+    }
     else if (dimension == "nether")
     {
         // Nether includes overworld + nether enchantments
         overworldBeneficialEnchantments(enchantments, item);
         netherBeneficialEnchantments(enchantments, item);
-        min_reduction = 0.4;
+        min_count = 0.4;
+        max_level = 0.7;
     }
     else if (dimension == "end")
     {
@@ -86,7 +97,8 @@ public function applyRandomBeneficialEnchantments(item as IItemStack, random as 
         overworldBeneficialEnchantments(enchantments, item);
         netherBeneficialEnchantments(enchantments, item);
         endBeneficialEnchantments(enchantments, item);
-        min_reduction = 0.7;
+        min_count = 0.7;
+        max_level = 1.0;
     }
     else 
     { 
@@ -94,7 +106,7 @@ public function applyRandomBeneficialEnchantments(item as IItemStack, random as 
         return item;
     }
 
-    item = applyRandomEnchantmentsFromList(item, random, enchantments, min_reduction);
+    item = applyRandomEnchantmentsFromList(item, random, enchantments, min_count, max_level);
     return item;
 }
 
@@ -110,22 +122,30 @@ public function applyRandomBeneficialEnchantments(item as IItemStack, random as 
 public function applyRandomHarmfulEnchantments(item as IItemStack, random as RandomSource, dimension as string) as IItemStack
 {
     var enchantments = new List<Enchantment>();
-    var min_reduction = 0.0;
+    var min_count = 0.0;
+    var max_level = 0.0;
 
     // Build cumulative enchantment pools based on dimension progression
-    if (dimension == "overworld") { overworldHarmfulEnchantments(enchantments, item); min_reduction = 0.2; }
+    if (dimension == "overworld")
+    {
+        overworldHarmfulEnchantments(enchantments, item);
+        min_count = 0.2;
+        max_level = 0.4;
+    }
     else if (dimension == "nether")
     { 
         overworldHarmfulEnchantments(enchantments, item);
         netherHarmfulEnchantments(enchantments, item); 
-        min_reduction = 0.4;
+        min_count = 0.4;
+        max_level = 0.7;
     }
     else if (dimension == "end")
     {
         overworldHarmfulEnchantments(enchantments, item);
         netherHarmfulEnchantments(enchantments, item); 
         endHarmfulEnchantments(enchantments, item);
-        min_reduction = 0.7;
+        min_count = 0.7;
+        max_level = 1.0;
     }
     else 
     { 
@@ -133,7 +153,7 @@ public function applyRandomHarmfulEnchantments(item as IItemStack, random as Ran
         return item;
     }
 
-    item = applyRandomEnchantmentsFromList(item, random, enchantments, min_reduction);
+    item = applyRandomEnchantmentsFromList(item, random, enchantments, min_count, max_level);
     return item;
 }
 
@@ -147,25 +167,41 @@ public function applyRandomHarmfulEnchantments(item as IItemStack, random as Ran
  * @param min_reduction Minimum percentage of enchantments to apply (0.0-1.0)
  * @return The enchanted item with applied enchantments
  */
-public function applyRandomEnchantmentsFromList(item as IItemStack, random as RandomSource, enchantments as List<Enchantment>, min_reduction as float) as IItemStack
+public function applyRandomEnchantmentsFromList(
+    item as IItemStack, random as RandomSource,
+    enchantments as List<Enchantment>,
+    min_enchament_count_percentage as float, max_level_percentage as float) as IItemStack
 {
-    // Validate min_reduction parameter bounds
-    if (min_reduction > 1.0)
+    // Validate min_enchament_count_percentage parameter bounds
+    if (min_enchament_count_percentage > 1.0)
     {
-        println("[WARNING]: in applyRandomEnchantmentsFromList recived min_reduction > 1, set to 0.");
-        min_reduction = 0;
+        println("[WARNING]: in applyRandomEnchantmentsFromList recived min_enchament_count_percentage > 1, set to 0.");
+        min_enchament_count_percentage = 0;
     }
 
-    if (min_reduction < 0.0)
+    if (min_enchament_count_percentage < 0.0)
     {
-        println("[WARNING]: in applyRandomEnchantmentsFromList recived min_reduction < 0, set to 0.");
-        min_reduction = 0;
+        println("[WARNING]: in applyRandomEnchantmentsFromList recived min_enchament_count_percentage < 0, set to 0.");
+        min_enchament_count_percentage = 0;
+    }
+
+    // Validate max_level_percentage parameter bounds
+    if (max_level_percentage > 1.0)
+    {
+        println("[WARNING]: in applyRandomEnchantmentsFromList recived max_level_percentage > 1, set to 0.");
+        max_level_percentage = 0;
+    }
+
+    if (max_level_percentage < 0.0)
+    {
+        println("[WARNING]: in applyRandomEnchantmentsFromList recived max_level_percentage < 0, set to 0.");
+        max_level_percentage = 0;
     }
 
      // Calculate how many enchantments to apply
     val length = enchantments.length as int;
-    val length_reduction = (length * min_reduction) as int;
-    val number_of_enchantments = random.nextInt(length_reduction, length);
+    val min_length_increase = (length * min_enchament_count_percentage) as int;
+    val number_of_enchantments = random.nextInt(min_length_increase, length);
 
     var selected_enchantments = new List<Enchantment>();
     
@@ -199,10 +235,13 @@ public function applyRandomEnchantmentsFromList(item as IItemStack, random as Ra
         if not_contained { selected_enchantments.add(enchantment); }
     }
 
-     // Apply selected enchantments with random levels
+    // Apply selected enchantments with random levels
     for enchantment in selected_enchantments
     {
-        val level = random.nextInt(1, enchantment.maxLevel + 1);
+        // Calculate maximum level to use and ensure it is at least level 1
+        var max_level_decrease = (enchantment.maxLevel * max_level_percentage) as int;
+        if (max_level_decrease < 1) { max_level_decrease = 1; }
+        val level = random.nextInt(1, max_level_decrease + 1);
         
         // Apply the enchantment with the calculated level
         item = item.withEnchantment(enchantment, level);
@@ -225,7 +264,6 @@ function overworldBeneficialEnchantments(enchantments as List<Enchantment>, item
     if (<tag:item:minecraft:enchantable/head_armor>.contains(item)) {
         enchantments.add(<enchantment:minecraft:aqua_affinity>);
         enchantments.add(<enchantment:minecraft:respiration>);
-        enchantments.add(<enchantment:enchantplus:helmet/auto_feed>);
     }
     
     // Chestplate enchantments
@@ -249,7 +287,6 @@ function overworldBeneficialEnchantments(enchantments as List<Enchantment>, item
     if (<tag:item:minecraft:enchantable/foot_armor>.contains(item)) {
         enchantments.add(<enchantment:minecraft:feather_falling>);
         enchantments.add(<enchantment:minecraft:depth_strider>);
-        enchantments.add(<enchantment:enchantplus:boots/step_assist>);
         enchantments.add(<enchantment:enchantplus:boots/agility>);
     }
     
@@ -267,7 +304,7 @@ function overworldBeneficialEnchantments(enchantments as List<Enchantment>, item
         enchantments.add(<enchantment:minecraft:power>);
         enchantments.add(<enchantment:minecraft:punch>);
         enchantments.add(<enchantment:minecraft:flame>);
-        enchantments.add(<enchantment:minecraft:infinity>);
+        // MOVED infinity to Nether (removes resource management)
     }
     
     // Crossbow enchantments
@@ -339,6 +376,7 @@ function netherBeneficialEnchantments(enchantments as List<Enchantment>, item as
         enchantments.add(<enchantment:enchantplus:boots/lava_walker>);
         enchantments.add(<enchantment:minecraft:frost_walker>);
         enchantments.add(<enchantment:minecraft:swift_sneak>);
+        enchantments.add(<enchantment:enchantplus:boots/step_assist>);
     }
     
     // Advanced sword enchantments
@@ -365,6 +403,7 @@ function netherBeneficialEnchantments(enchantments as List<Enchantment>, item as
     if (<tag:item:minecraft:enchantable/bow>.contains(item)) {
         enchantments.add(<enchantment:enchantplus:bow/accuracy_shot>);
         enchantments.add(<enchantment:enchantplus:bow/echo_shot>);
+        enchantments.add(<enchantment:minecraft:infinity>);
     }
     
     // Advanced crossbow enchantments
@@ -408,6 +447,7 @@ function endBeneficialEnchantments(enchantments as List<Enchantment>, item as II
     // Powerful helmet enchantments
     if (<tag:item:minecraft:enchantable/head_armor>.contains(item)) {
         enchantments.add(<enchantment:enchantplus:helmet/voidless>);
+        enchantments.add(<enchantment:enchantplus:helmet/auto_feed>);
     }
     
     // Powerful armor enchantments (all armor pieces)
