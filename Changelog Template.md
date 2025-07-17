@@ -17,6 +17,10 @@
 - End remastered eyes will no longer be consumed upon quest completion.
 - Completing Incendium quests now rewards you with a random unique tier variant of Incendium items
 
+**Jade:**
+
+- Disable storage to show its content.
+
 ---
 
 ## ❌ Mods Removed

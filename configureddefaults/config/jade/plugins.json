@@ -10,7 +10,7 @@
     "harvest_tool.effective_tool": true,
     "energy_storage.style": "PROGRESS_BAR",
     "item_storage.normal_amount": 9,
-    "item_storage": true,
+    "item_storage": false,
     "harvest_tool": true,
     "armor_stand": true,
     "fluid_storage.detailed": false,
