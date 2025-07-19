@@ -40,7 +40,7 @@ loot.modifiers.register(
 		
 		performWeightedPool(loot, random, 4, 8, 91, 10, pool1_items, pool1_weights, pool1_min_counts, pool1_max_counts);
 		
-		// POOL 2: Useful materials and essences (3-5 rolls, total weight: 32 + 0 empty weight = 32)
+		// POOL 2: Useful materials (3-5 rolls, total weight: 32 + 0 empty weight = 32)
 		// chance per roll = weight / total weight
 		// chance per pool = 1 - (1 - chance per roll)^expected_rolls, where expected_rolls = (min + max) / 2 = 4
 		// item											chance per roll				chance per pool
@@ -58,31 +58,26 @@ loot.modifiers.register(
 		
 		performWeightedPool(loot, random, 3, 5, 32, 0, pool2_items, pool2_weights, pool2_min_counts, pool2_max_counts);
 		
-		// 30% chance for old_eye
-		if (random.nextFloat() * 100.0 < 30.0) { loot.add(<item:endrem:old_eye>); }
+		// 20% chance for old_eye
+		if (random.nextFloat() * 100.0 <= 20.0) { loot.add(<item:endrem:old_eye>); }
 
-		// 20% chance for obsidian_skull
-		if (random.nextFloat() * 100.0 < 20.0) { loot.add(<item:artifacts:obsidian_skull>); }
+		// 15% chance for obsidian_skull
+		if (random.nextFloat() * 100.0 <= 15.0) { loot.add(<item:artifacts:obsidian_skull>); }
 
-		// 20% chance for essences
-		if (random.nextFloat() * 100.0 < 20.0) { loot.add(<item:betterenchanting:essence_of_blast_protection>); }
-		if (random.nextFloat() * 100.0 < 20.0) { loot.add(<item:betterenchanting:essence_of_capacity>); }
-		if (random.nextFloat() * 100.0 < 20.0) { loot.add(<item:betterenchanting:essence_of_foraging>); }
+		// 20.0% chance for leather tier horse stuff
+		if (random.nextFloat() * 100.0 <= 20.0) { loot.add(<item:minecraft:leather_horse_armor>); }
 
-		// 20% chance for leather tier horse stuff
-		if (random.nextFloat() * 100.0 < 20.0) { loot.add(<item:minecraft:leather_horse_armor>); }
-
-		// 15% chance for iron tier horse stuff
-		if (random.nextFloat() * 100.0 < 15.0) { loot.add(<item:minecraft:iron_horse_armor>); }
-		if (random.nextFloat() * 100.0 < 15.0) { loot.add(<item:horseshoes:iron_horseshoes>); }
+		// 15.0% chance for iron tier horse stuff
+		if (random.nextFloat() * 100.0 <= 15.0) { loot.add(<item:minecraft:iron_horse_armor>); }
+		if (random.nextFloat() * 100.0 <= 15.0) { loot.add(<item:horseshoes:iron_horseshoes>); }
 
 		// 10% chance for gold tier horse stuff
-		if (random.nextFloat() * 100.0 < 10.0) { loot.add(<item:minecraft:golden_horse_armor>); }
-		if (random.nextFloat() * 100.0 < 10.0) { loot.add(<item:horseshoes:diamond_horseshoes>); }
+		if (random.nextFloat() * 100.0 <= 10.0) { loot.add(<item:minecraft:golden_horse_armor>); }
+		if (random.nextFloat() * 100.0 <= 10.0) { loot.add(<item:horseshoes:diamond_horseshoes>); }
 
 		// 10% chance for trims
-		if (random.nextFloat() * 100.0 < 10.0) { loot.add(<item:minecraft:dune_armor_trim_smithing_template>); }
-		if (random.nextFloat() * 100.0 < 10.0) { loot.add(<item:mythicupgrades:topaz_upgrade_smithing_template>); }
+		if (random.nextFloat() * 100.0 <= 10.0) { loot.add(<item:minecraft:dune_armor_trim_smithing_template>); }
+		if (random.nextFloat() * 100.0 <= 10.0) { loot.add(<item:mythicupgrades:topaz_upgrade_smithing_template>); }
 		
 		// 30% chance with prestige 5 and 70% chance with prestige 2 cause 6 chests are spawned
 		addMoneyBagWithProbability(loot, random, 30.0, "overworld", 5); 
@@ -124,12 +119,12 @@ loot.modifiers.register(
 		
 		performWeightedPool(loot, random, 5, 8, 39, 0, pool1_items, pool1_weights, pool1_min_counts, pool1_max_counts);
 		
-		// 20% chance for essences
-		if (random.nextFloat() * 100.0 < 50.0) { loot.add(<item:betterenchanting:essence_of_foraging>); }
+		// 40% chance for essences
+		if (random.nextFloat() * 100.0 <= 40.0) { loot.add(<item:betterenchanting:essence_of_foraging>); }
 
 		// 25% chance for common hat bags and 15% chance for uncommon hat bags
-		if (random.nextFloat() * 100.0 < 25.0) { loot.add(<item:simplehats:hatbag_common>); }
-		if (random.nextFloat() * 100.0 < 15.0) { loot.add(<item:simplehats:hatbag_uncommon>); }
+		if (random.nextFloat() * 100.0 <= 25.0) { loot.add(<item:simplehats:hatbag_common>); }
+		if (random.nextFloat() * 100.0 <= 15.0) { loot.add(<item:simplehats:hatbag_uncommon>); }
 
 		// 75% chance with prestige 0
 		addMoneyBagWithProbability(loot, random, 75.0, "overworld", 0);
@@ -184,14 +179,14 @@ loot.modifiers.register(
 		performWeightedPool(loot, random, 4, 5, 30, 0, pool2_items, pool2_weights, pool2_min_counts, pool2_max_counts);
 		
 		// 60% chance for a random potion
-		if (random.nextFloat() * 100.0 < 60.0) { loot.add(generateRandomEffectPotion(random, "overworld")); }
-		if (random.nextFloat() * 100.0 < 60.0) { loot.add(generateRandomEffectPotion(random, "overworld")); }
-		if (random.nextFloat() * 100.0 < 60.0) { loot.add(generateRandomEffectPotion(random, "overworld")); }
-		if (random.nextFloat() * 100.0 < 60.0) { loot.add(generateRandomEffectPotion(random, "overworld")); }
+		if (random.nextFloat() * 100.0 <= 60.0) { loot.add(generateRandomEffectPotion(random, "overworld")); }
+		if (random.nextFloat() * 100.0 <= 60.0) { loot.add(generateRandomEffectPotion(random, "overworld")); }
+		if (random.nextFloat() * 100.0 <= 60.0) { loot.add(generateRandomEffectPotion(random, "overworld")); }
+		if (random.nextFloat() * 100.0 <= 60.0) { loot.add(generateRandomEffectPotion(random, "overworld")); }
 
 		// 25% chance for common hat bags and 15% chance for uncommon hat bags
-		if (random.nextFloat() * 100.0 < 25.0) { loot.add(<item:simplehats:hatbag_common>); }
-		if (random.nextFloat() * 100.0 < 15.0) { loot.add(<item:simplehats:hatbag_uncommon>); }
+		if (random.nextFloat() * 100.0 <= 25.0) { loot.add(<item:simplehats:hatbag_common>); }
+		if (random.nextFloat() * 100.0 <= 15.0) { loot.add(<item:simplehats:hatbag_uncommon>); }
 
 		// 75% chance with prestige 2
 		addMoneyBagWithProbability(loot, random, 80, "overworld", 2);
@@ -227,12 +222,11 @@ loot.modifiers.register(
 		performWeightedPool(loot, random, 2, 11, 42, 0, pool1_items, pool1_weights, pool1_min_counts, pool1_max_counts);
 		
 		// 20% chance for essences
-		if (random.nextFloat() * 100.0 < 20.0) { loot.add(getRandomEssence(random)); }
-		if (random.nextFloat() * 100.0 < 20.0) { loot.add(getRandomEssence(random)); }
+		if (random.nextFloat() * 100.0 <= 20.0) { loot.add(getRandomEssence(random)); }
 		
 		// 25% chance for common hat bags and 15% chance for uncommon hat bags
-		if (random.nextFloat() * 100.0 < 25.0) { loot.add(<item:simplehats:hatbag_common>); }
-		if (random.nextFloat() * 100.0 < 15.0) { loot.add(<item:simplehats:hatbag_uncommon>); }
+		if (random.nextFloat() * 100.0 <= 25.0) { loot.add(<item:simplehats:hatbag_common>); }
+		if (random.nextFloat() * 100.0 <= 15.0) { loot.add(<item:simplehats:hatbag_uncommon>); }
 		
 		// 70% chance with prestige 2
 		addMoneyBagWithProbability(loot, random, 75, "overworld", 2);
@@ -301,8 +295,8 @@ loot.modifiers.register(
 		performWeightedPool(loot, random, 4, 7, 35, 0, pool1_items, pool1_weights, pool1_min_counts, pool1_max_counts);
 		
 		// 25% chance for common hat bags and 15% chance for uncommon hat bags
-		if (random.nextFloat() * 100.0 < 25.0) { loot.add(<item:simplehats:hatbag_common>); }
-		if (random.nextFloat() * 100.0 < 15.0) { loot.add(<item:simplehats:hatbag_uncommon>); }
+		if (random.nextFloat() * 100.0 <= 25.0) { loot.add(<item:simplehats:hatbag_common>); }
+		if (random.nextFloat() * 100.0 <= 15.0) { loot.add(<item:simplehats:hatbag_uncommon>); }
 		
 		// Money bag for pot
 		addMoneyBagWithProbability(loot, random, 60, "overworld", 1);
@@ -336,8 +330,11 @@ loot.modifiers.register(
 		performWeightedPool(loot, random, 1, 3, 20, 0, pool1_items, pool1_weights, pool1_min_counts, pool1_max_counts);
 		
 		// 25% chance for common hat bags and 15% chance for uncommon hat bags
-		if (random.nextFloat() * 100.0 < 25.0) { loot.add(<item:simplehats:hatbag_common>); }
-		if (random.nextFloat() * 100.0 < 15.0) { loot.add(<item:simplehats:hatbag_uncommon>); }
+		if (random.nextFloat() * 100.0 <= 25.0) { loot.add(<item:simplehats:hatbag_common>); }
+		if (random.nextFloat() * 100.0 <= 15.0) { loot.add(<item:simplehats:hatbag_uncommon>); }
+
+		// 50% chance for essences
+		if (random.nextFloat() * 100.0 <= 50.0) { loot.add(<item:betterenchanting:essence_of_blast_protection>); }
 		
 		// 70% chance with prestige 2
 		addMoneyBagWithProbability(loot, random, 70, "overworld", 2);
@@ -386,12 +383,12 @@ loot.modifiers.register(
 		
 		performWeightedPool(loot, random, 3, 6, 500, 0, pool1_items, pool1_weights, pool1_min_counts, pool1_max_counts);
 		
-		// 20% chance for essences
-		if (random.nextFloat() * 100.0 < 50.0) { loot.add(<item:betterenchanting:essence_of_capacity>); }
+		// 10% chance for essences
+		if (random.nextFloat() * 100.0 <= 10.0) { loot.add(<item:betterenchanting:essence_of_capacity>); }
 		
 		// 25% chance for common hat bags and 15% chance for uncommon hat bags
-		if (random.nextFloat() * 100.0 < 25.0) { loot.add(<item:simplehats:hatbag_common>); }
-		if (random.nextFloat() * 100.0 < 15.0) { loot.add(<item:simplehats:hatbag_uncommon>); }
+		if (random.nextFloat() * 100.0 <= 25.0) { loot.add(<item:simplehats:hatbag_common>); }
+		if (random.nextFloat() * 100.0 <= 15.0) { loot.add(<item:simplehats:hatbag_uncommon>); }
 		
 		// 75% chance with prestige 3
 		addMoneyBagWithProbability(loot, random, 75, "overworld", 3);
@@ -445,8 +442,8 @@ loot.modifiers.register(
 		performWeightedPool(loot, random, 4, 5, 50, 0, pool2_items, pool2_weights, pool2_min_counts, pool2_max_counts);
 		
 		// 25% chance for common hat bags and 15% chance for uncommon hat bags
-		if (random.nextFloat() * 100.0 < 25.0) { loot.add(<item:simplehats:hatbag_common>); }
-		if (random.nextFloat() * 100.0 < 15.0) { loot.add(<item:simplehats:hatbag_uncommon>); }
+		if (random.nextFloat() * 100.0 <= 25.0) { loot.add(<item:simplehats:hatbag_common>); }
+		if (random.nextFloat() * 100.0 <= 15.0) { loot.add(<item:simplehats:hatbag_uncommon>); }
 		
 		// 65% chance with prestige 1
 		addMoneyBagWithProbability(loot, random, 65, "overworld", 1);
@@ -501,8 +498,8 @@ loot.modifiers.register(
 		performWeightedPool(loot, random, 4, 5, 50, 0, pool2_items, pool2_weights, pool2_min_counts, pool2_max_counts);
 		
 		// 25% chance for common hat bags and 15% chance for uncommon hat bags
-		if (random.nextFloat() * 100.0 < 25.0) { loot.add(<item:simplehats:hatbag_common>); }
-		if (random.nextFloat() * 100.0 < 15.0) { loot.add(<item:simplehats:hatbag_uncommon>); }
+		if (random.nextFloat() * 100.0 <= 25.0) { loot.add(<item:simplehats:hatbag_common>); }
+		if (random.nextFloat() * 100.0 <= 15.0) { loot.add(<item:simplehats:hatbag_uncommon>); }
 		
 		// 85% chance with prestige 3
 		addMoneyBagWithProbability(loot, random, 85, "overworld", 3);
@@ -538,7 +535,7 @@ loot.modifiers.register(
 
 		val pool1_weights = 	[5, 5, 5, 2, 2, 2, 2, 5, 3] as int[];
 		val pool1_min_counts = 	[2, 2, 2, 1, 1, 1, 1, 2, 1] as int[];
-		val pool1_max_counts = 	[6, 6, 4, 3, 3, 3, 3, 5, 4] as int[];
+		val pool1_max_counts = 	[6, 6, 4, 3, 3, 3, 3, 5, 1] as int[];
 
 		performWeightedPool(loot, random, 3, 7, 31, 0, pool1_items, pool1_weights, pool1_min_counts, pool1_max_counts);
 		
@@ -546,73 +543,73 @@ loot.modifiers.register(
 		// each piece has a random tier and random enchantments
 		for i in 0 .. 3 
 		{
-			if (random.nextFloat() * 100.0 < 10.0)
+			if (random.nextFloat() * 100.0 <= 10.0)
 			{
 				loot.add(applyRandomApplicableEnchantments(
 					applyRandomTier(<item:minecraft:leather_helmet>, random, "overworld"),
 					random, "overworld"));
 			}
-			if (random.nextFloat() * 100.0 < 10.0)
+			if (random.nextFloat() * 100.0 <= 10.0)
 			{
 				loot.add(applyRandomApplicableEnchantments(
 					applyRandomTier(<item:minecraft:leather_chestplate>, random, "overworld"),
 					random, "overworld"));
 			}
-			if (random.nextFloat() * 100.0 < 10.0)
+			if (random.nextFloat() * 100.0 <= 10.0)
 			{
 				loot.add(applyRandomApplicableEnchantments(
 					applyRandomTier(<item:minecraft:leather_leggings>, random, "overworld"),
 					random, "overworld"));
 			}
-			if (random.nextFloat() * 100.0 < 10.0)
+			if (random.nextFloat() * 100.0 <= 10.0)
 			{
 				loot.add(applyRandomApplicableEnchantments(
 					applyRandomTier(<item:minecraft:leather_boots>, random, "overworld"),
 					random, "overworld"));
 			}
-			if (random.nextFloat() * 100.0 < 10.0)
+			if (random.nextFloat() * 100.0 <= 10.0)
 			{
 				loot.add(applyRandomApplicableEnchantments(
 					applyRandomTier(<item:minecraft:chainmail_helmet>, random, "overworld"),
 					random, "overworld"));
 			}
-			if (random.nextFloat() * 100.0 < 10.0)
+			if (random.nextFloat() * 100.0 <= 10.0)
 			{
 				loot.add(applyRandomApplicableEnchantments(
 					applyRandomTier(<item:minecraft:chainmail_chestplate>, random, "overworld"),
 					random, "overworld"));
 			}
-			if (random.nextFloat() * 100.0 < 10.0)
+			if (random.nextFloat() * 100.0 <= 10.0)
 			{
 				loot.add(applyRandomApplicableEnchantments(
 					applyRandomTier(<item:minecraft:chainmail_leggings>, random, "overworld"),
 					random, "overworld"));
 			}
-			if (random.nextFloat() * 100.0 < 10.0)
+			if (random.nextFloat() * 100.0 <= 10.0)
 			{
 				loot.add(applyRandomApplicableEnchantments(
 					applyRandomTier(<item:minecraft:chainmail_boots>, random, "overworld"),
 					random, "overworld"));
 			}
-			if (random.nextFloat() * 100.0 < 10.0)
+			if (random.nextFloat() * 100.0 <= 10.0)
 			{
 				loot.add(applyRandomApplicableEnchantments(
 					applyRandomTier(<item:minecraft:golden_helmet>, random, "overworld"),
 					random, "overworld"));
 			}
-			if (random.nextFloat() * 100.0 < 10.0)
+			if (random.nextFloat() * 100.0 <= 10.0)
 			{
 				loot.add(applyRandomApplicableEnchantments(
 					applyRandomTier(<item:minecraft:golden_chestplate>, random, "overworld"),
 					random, "overworld"));
 			}
-			if (random.nextFloat() * 100.0 < 10.0)
+			if (random.nextFloat() * 100.0 <= 10.0)
 			{
 				loot.add(applyRandomApplicableEnchantments(
 					applyRandomTier(<item:minecraft:golden_leggings>, random, "overworld"),
 					random, "overworld"));
 			}
-			if (random.nextFloat() * 100.0 < 10.0)
+			if (random.nextFloat() * 100.0 <= 10.0)
 			{
 				loot.add(applyRandomApplicableEnchantments(
 					applyRandomTier(<item:minecraft:golden_boots>, random, "overworld"),
@@ -621,19 +618,19 @@ loot.modifiers.register(
 		}
 
 		// 20% chance for leather tier horse stuff
-		if (random.nextFloat() * 100.0 < 20.0) { loot.add(<item:minecraft:leather_horse_armor>); }
+		if (random.nextFloat() * 100.0 <= 20.0) { loot.add(<item:minecraft:leather_horse_armor>); }
 
 		// 15% chance for iron tier horse stuff
-		if (random.nextFloat() * 100.0 < 15.0) { loot.add(<item:minecraft:iron_horse_armor>); }
-		if (random.nextFloat() * 100.0 < 15.0) { loot.add(<item:horseshoes:iron_horseshoes>); }
+		if (random.nextFloat() * 100.0 <= 15.0) { loot.add(<item:minecraft:iron_horse_armor>); }
+		if (random.nextFloat() * 100.0 <= 15.0) { loot.add(<item:horseshoes:iron_horseshoes>); }
 
 		// 10% chance for gold tier horse stuff
-		if (random.nextFloat() * 100.0 < 10.0) { loot.add(<item:minecraft:golden_horse_armor>); }
-		if (random.nextFloat() * 100.0 < 10.0) { loot.add(<item:horseshoes:diamond_horseshoes>); }
+		if (random.nextFloat() * 100.0 <= 10.0) { loot.add(<item:minecraft:golden_horse_armor>); }
+		if (random.nextFloat() * 100.0 <= 10.0) { loot.add(<item:horseshoes:diamond_horseshoes>); }
 
 		// 25% chance for common hat bags and 15% chance for uncommon hat bags
-		if (random.nextFloat() * 100.0 < 25.0) { loot.add(<item:simplehats:hatbag_common>); }
-		if (random.nextFloat() * 100.0 < 15.0) { loot.add(<item:simplehats:hatbag_uncommon>); }
+		if (random.nextFloat() * 100.0 <= 25.0) { loot.add(<item:simplehats:hatbag_common>); }
+		if (random.nextFloat() * 100.0 <= 15.0) { loot.add(<item:simplehats:hatbag_uncommon>); }
 		
 		// 70% chance with prestige 2
 		addMoneyBagWithProbability(loot, random, 70, "overworld", 2);
