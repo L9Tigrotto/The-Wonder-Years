@@ -22,6 +22,10 @@
 
 - Disable storage to show its content.
 
+**Dungeon Difficulties:**
+
+- Disabled mod tier system.
+
 ---
 
 ## ❌ Mods Removed
