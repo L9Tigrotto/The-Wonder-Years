@@ -33,6 +33,7 @@
 *List all mods that were removed with reasons.*
 
 - **YUNG's Better Mineshaft**: Replaced with Hopo Better Mineshaft
+- **Clean Tooltips**: Hide enchantment defscription and duplicate the durability tooltip
 
 ---
 
