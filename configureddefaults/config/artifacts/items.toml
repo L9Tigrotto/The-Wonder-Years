@@ -42,7 +42,7 @@
 	jumpStrengthBonus = 0.4
 	#Whether the Bunny Hoppers change the player's hurt sounds
 	#Allowed Values: true, false
-	modifyHurtSounds = true
+	modifyHurtSounds = false
 	#The amount of extra safe fall distance in blocks that is granted by the Bunny Hoppers
 	#Range: -Infinity ~ Infinity
 	safeFallDistanceBonus = 10.0
@@ -174,7 +174,7 @@
 	attackSpeedBonus = 0.3
 	#Whether this item can be found in structures or drop from entities
 	#Allowed Values: true, false
-	generateAsLoot = true
+	generateAsLoot = false
 
 [fire_gauntlet]
 	#How long an entity is set on fire for after being attacked by an entity wearing the Fire Gauntlet
@@ -256,7 +256,7 @@
 [night_vision_goggles]
 	#Whether this item can be found in structures or drop from entities
 	#Allowed Values: true, false
-	generateAsLoot = true
+	generateAsLoot = false
 	#The strength of the night vision effect applied by the Night Vision Goggles
 	#Range: 0.0 ~ 1.0
 	strength = 0.15
@@ -314,7 +314,7 @@
 	enabled = true
 	#Whether this item can be found in structures or drop from entities
 	#Allowed Values: true, false
-	generateAsLoot = true
+	generateAsLoot = false
 
 [plastic_drinking_hat]
 	#How much the Plastic Drinking Hat increases the wearer's drinking speed
@@ -360,7 +360,7 @@
 [running_shoes]
 	#Whether this item can be found in structures or drop from entities
 	#Allowed Values: true, false
-	generateAsLoot = true
+	generateAsLoot = false
 	#How much the Running Shoes increase the wearer's sprinting speed
 	#Range: -Infinity ~ Infinity
 	sprintingSpeedBonus = 0.4
@@ -429,7 +429,7 @@
 [strider_shoes]
 	#Whether the Strider Shoes make the wearer immune to hot floor damage
 	#Allowed Values: true, false
-	cancelHotFloorDamage = true
+	cancelHotFloorDamage = false
 	#Whether the Strider Shoes allow sneaking on lava
 	#Allowed Values: true, false
 	enabled = true
@@ -490,7 +490,7 @@
 	absorptionRatio = 0.2
 	#Whether this item can be found in structures or drop from entities
 	#Allowed Values: true, false
-	generateAsLoot = true
+	generateAsLoot = false
 	#The maximum amount of healing that can be absorbed in a single hit when attacking an entity while wearing the Vampiric Glove
 	#Range: > 0
 	maxHealingPerHit = 6
@@ -534,7 +534,7 @@
 	cooldown = 0
 	#Whether this item can be found in structures or drop from entities
 	#Allowed Values: true, false
-	generateAsLoot = true
+	generateAsLoot = false
 	#The probability that the Withered Bracelet inflicts a wither effect
 	#Range: 0.0 ~ 1.0
 	witherChance = 0.3
