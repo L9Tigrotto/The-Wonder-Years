@@ -22,71 +22,71 @@ import stdlib.List;
  * @param prestige Room prestige level (0-5, where 0=common room, 5=secret room)
  */
 public function addMoneyBagWithProbability(
-    loot as List<IItemStack>, random as RandomSource,
-    probability as float, dimension as string,
-    prestige as int) as void
+	loot as List<IItemStack>, random as RandomSource,
+	probability as float, dimension as string,
+	prestige as int) as void
 {
-    // Check if money bag should be added based on probability
-    if (random.nextFloat() * 100.0 > probability) { return; }
+	// Check if money bag should be added based on probability
+	if (random.nextFloat() * 100.0 > probability) { return; }
 
-     // Clamp prestige to valid range
-    if (prestige < 0) { prestige = 0; }
-    if (prestige > 5) { prestige = 5; }
-    
-    // Money value encoding: GGSSBB (gold * 10000 + silver * 100 + bronze)
-    // eg: 2 gold, 15 silver, 50 bronze = 2 * 10000 + 15 * 100 + 50 = 21550
-    var min_value = 0;  var max_value = 0;
+	 // Clamp prestige to valid range
+	if (prestige < 0) { prestige = 0; }
+	if (prestige > 5) { prestige = 5; }
+	
+	// Money value encoding: GGSSBB (gold * 10000 + silver * 100 + bronze)
+	// eg: 2 gold, 15 silver, 50 bronze = 2 * 10000 + 15 * 100 + 50 = 021550
+	var min_value = 0;  var max_value = 0;
 
-    if (dimension == "overworld")
-    {
-        if (prestige == 0) {  min_value = 30;           max_value = 150; }      // 30 bronze - 1.5 silver
-        else if (prestige == 1) { min_value = 150;      max_value = 600; }      // 1.5-6 silver
-        else if (prestige == 2) { min_value = 600;      max_value = 2000; }     // 6-20 silver
-        else if (prestige == 3) { min_value = 2000;     max_value = 6000; }     // 20-60 silver
-        else if (prestige == 4) { min_value = 6000;     max_value = 20000; }    // 60 silver - 2 gold
-        else if (prestige == 5) { min_value = 30000;    max_value = 100000; }   // 3-10 gold
-    }
-    else if (dimension == "nether")
-    {
-        if (prestige == 0) {  min_value = 80;           max_value = 300; }      // 80 bronze - 3 silver
-        else if (prestige == 1) { min_value = 300;      max_value = 1200; }     // 3-12 silver
-        else if (prestige == 2) { min_value = 1200;     max_value = 4000; }     // 12-40 silver
-        else if (prestige == 3) { min_value = 4000;     max_value = 12000; }    // 40 silver - 1.2 gold
-        else if (prestige == 4) { min_value = 12000;    max_value = 35000; }    // 1.2-3.5 gold
-        else if (prestige == 5) { min_value = 80000;    max_value = 160000; }   // 8-16 gold
-    }
-    else if (dimension == "end")
-    {
-        if (prestige == 0) {  min_value = 200;          max_value = 1000; }     // 2-10 silver
-        else if (prestige == 1) { min_value = 1000;     max_value = 4000; }     // 10-40 silver
-        else if (prestige == 2) { min_value = 4000;     max_value = 10000; }    // 40 silver - 1 gold
-        else if (prestige == 3) { min_value = 10000;    max_value = 30000; }    // 1-3 gold
-        else if (prestige == 4) { min_value = 30000;    max_value = 80000; }    // 3-8 gold
-        else if (prestige == 5) { min_value = 150000;   max_value = 300000; }   // 15-30 gold
-    }
-    else 
-    {
-        println("[ERROR]: in addMoneyBagWithProbability recived '" + dimension + "' dimension. not supported.");
-        return;
-    }
-    
-    // Generate random value within range
-    var generated_value = random.nextInt(min_value, max_value + 1);
+	if (dimension == "overworld")
+	{
+		if (prestige == 0) 		{ min_value = 10;		max_value = 15; }		// 10		bronze - 15		bronze
+		else if (prestige == 1) { min_value = 15;		max_value = 25; }		// 15		bronze - 25		bronze
+		else if (prestige == 2) { min_value = 25;		max_value = 45; }		// 25		bronze - 45		bronze
+		else if (prestige == 3) { min_value = 45;		max_value = 75; }		// 45		bronze - 75		bronze
+		else if (prestige == 4) { min_value = 75;		max_value = 115; }		// 75		bronze - 1.15	silver
+		else if (prestige == 5) { min_value = 115;		max_value = 165; }		// 1.15		silver - 1.65	silver
+	}
+	else if (dimension == "nether")
+	{
+		if (prestige == 0) 		{ min_value = 200;		max_value = 700; }		// 2		silver - 7		silver
+		else if (prestige == 1) { min_value = 1200;		max_value = 2000; }		// 12		silver - 20		silver
+		else if (prestige == 2) { min_value = 2000;		max_value = 3000; }		// 20		silver - 30		silver
+		else if (prestige == 3) { min_value = 3000;		max_value = 5000; }		// 30		silver - 50		silver
+		else if (prestige == 4) { min_value = 5000;		max_value = 8000; }		// 50		silver - 80		silver
+		else if (prestige == 5) { min_value = 8000;		max_value = 12000; }	// 80		silver - 1.20	gold
+	}
+	else if (dimension == "end")
+	{
+		if (prestige == 0) 		{ min_value = 200;		max_value = 700; }		// 1		gold - 1.5		gold
+		else if (prestige == 1) { min_value = 1200;		max_value = 2000; }		// 1.5		gold - 2.5		gold
+		else if (prestige == 2) { min_value = 2000;		max_value = 3000; }		// 2.5		gold - 4		gold
+		else if (prestige == 3) { min_value = 3000;		max_value = 5000; }		// 4		gold - 6		gold
+		else if (prestige == 4) { min_value = 5000;		max_value = 8000; }		// 6		gold - 8.5		gold
+		else if (prestige == 5) { min_value = 8000;		max_value = 12000; }	// 8.5		gold - 12		gold
+	}
+	else 
+	{
+		println("[ERROR]: in addMoneyBagWithProbability recived '" + dimension + "' dimension. not supported.");
+		return;
+	}
+	
+	// Generate random value within range
+	var generated_value = random.nextInt(min_value, max_value + 1);
 
-    // Decode money value back into individual coin types
-    val bronze_coin = generated_value % 100;
-    generated_value = (generated_value - bronze_coin) / 100;
+	// Decode money value back into individual coin types
+	val bronze_coin = generated_value % 100;
+	generated_value = (generated_value - bronze_coin) / 100;
 
-    val silver_coin = generated_value % 100;
-    generated_value = (generated_value - silver_coin) / 100;
+	val silver_coin = generated_value % 100;
+	generated_value = (generated_value - silver_coin) / 100;
 
-    val gold_coin = generated_value;
+	val gold_coin = generated_value;
 
-    // Create money bag with calculated coin amounts
-    val money_bag = <item:numismatic-overhaul:money_bag>.withJsonComponent(
-        <componenttype:numismatic-overhaul:money_bag>, 
-        {gold: gold_coin, silver: silver_coin, bronze: bronze_coin}
-    );
+	// Create money bag with calculated coin amounts
+	val money_bag = <item:numismatic-overhaul:money_bag>.withJsonComponent(
+		<componenttype:numismatic-overhaul:money_bag>, 
+		{gold: gold_coin, silver: silver_coin, bronze: bronze_coin}
+	);
 
-    loot.add(money_bag);
+	loot.add(money_bag);
 }
