@@ -34,10 +34,9 @@
 
 ## ➕ Mods Added
 
-*List all newly added mods with reasons. Remove this section if no mods were added.*
+*List all newly added mods with reasons.*
 
-- **Mod Name 1**: Adds quality of life improvements for inventory management
-- **Mod Name 2**: Enhances world generation with new biomes
+- **Wavey Capes**: Brings capes to life with smooth animations and realistic physics.
 
 ---
 
@@ -45,7 +44,9 @@
 
 *List all mods that were updated with their version changes.*
 
-- **Balm**: `v21.0.46` → `v21.0.47`
+- **Balm**: `v21.0.47` → `v21.0.48`
 - **Skin Layer 3D**: `v1.8.1` → `v1.8.2`
 - **Dynamic Crosshair**: `v9.6` → `v9.8`
 - **Entity Culling**: `v1.8.1` → `v1.8.2`
+- **Luki's Grand Capitals**: `v1.1.1` → `v1.1.2`
+- **Structorify**: `v1.0.18` → `v1.0.19`
