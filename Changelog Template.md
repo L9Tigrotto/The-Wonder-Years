@@ -39,6 +39,7 @@
 - **Wavey Capes**: Brings capes to life with smooth animations and realistic physics.
 - **Hopo Better Mineshaft**: Mineshaft are cooler.
 - **Underlay**: Lets you place carpets (and more) under any block with space beneath it.
+- **Two Players One Horse**: Allows two players to mount on the same horse.
 
 ---
 
