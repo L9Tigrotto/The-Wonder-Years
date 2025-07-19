@@ -13,6 +13,7 @@
 
 **FTB Quests:**
 
+- Fixed a bug were unnamed chapters apper after world reloading. 
 - Incendium items will no longer be consumed upon quest completion.
 - End remastered eyes will no longer be consumed upon quest completion.
 - Completing Incendium quests now rewards you with a random unique tier variant of Incendium items
@@ -25,9 +26,9 @@
 
 ## ❌ Mods Removed
 
-*List all mods that were removed with reasons. Remove this section if no mods were removed.*
+*List all mods that were removed with reasons.*
 
-- **YUNG's Better Minecraft**: Replaced with Hopo Better Mineshaft
+- **YUNG's Better Mineshaft**: Replaced with Hopo Better Mineshaft
 
 ---
 
