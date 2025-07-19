@@ -13,7 +13,7 @@
 
 **FTB Quests:**
 
-- Fixed a bug were unnamed chapters apper after world reloading. 
+- Fixed a bug were unnamed chapters apper after world reloading.
 - Incendium items will no longer be consumed upon quest completion.
 - End remastered eyes will no longer be consumed upon quest completion.
 - Completing Incendium quests now rewards you with a random unique tier variant of Incendium items
@@ -40,6 +40,7 @@
 - **Hopo Better Mineshaft**: Mineshaft are cooler.
 - **Underlay**: Lets you place carpets (and more) under any block with space beneath it.
 - **Two Players One Horse**: Allows two players to mount on the same horse.
+- **EXP Counter**: Sisplays the experience points you've gathered toward your next level.
 
 ---
 
