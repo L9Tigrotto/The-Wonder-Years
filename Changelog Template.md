@@ -27,8 +27,7 @@
 
 *List all mods that were removed with reasons. Remove this section if no mods were removed.*
 
-- **Mod Name 1**: Incompatible with new Forge version
-- **Mod Name 2**: Replaced by better alternative
+- **YUNG's Better Minecraft**: Replaced with Hopo Better Mineshaft
 
 ---
 
@@ -37,6 +36,7 @@
 *List all newly added mods with reasons.*
 
 - **Wavey Capes**: Brings capes to life with smooth animations and realistic physics.
+- **Hopo Better Mineshaft**: Mineshaft are cooler.
 
 ---
 
