@@ -118,9 +118,6 @@ loot.modifiers.register(
 		val pool1_max_counts = 	[12, 3, 12, 6, 1, 1, 6, 3, 5, 12] as int[];
 		
 		performWeightedPool(loot, random, 5, 8, 39, 0, pool1_items, pool1_weights, pool1_min_counts, pool1_max_counts);
-		
-		// 40% chance for essences
-		if (random.nextFloat() * 100.0 <= 40.0) { loot.add(<item:betterenchanting:essence_of_foraging>); }
 
 		// 25% chance for common hat bags and 15% chance for uncommon hat bags
 		if (random.nextFloat() * 100.0 <= 25.0) { loot.add(<item:simplehats:hatbag_common>); }
@@ -220,9 +217,6 @@ loot.modifiers.register(
 		val pool1_max_counts = 	[7,  1, 1, 3] as int[];
 		
 		performWeightedPool(loot, random, 2, 11, 42, 0, pool1_items, pool1_weights, pool1_min_counts, pool1_max_counts);
-		
-		// 20% chance for essences
-		if (random.nextFloat() * 100.0 <= 20.0) { loot.add(getRandomEssence(random)); }
 		
 		// 25% chance for common hat bags and 15% chance for uncommon hat bags
 		if (random.nextFloat() * 100.0 <= 25.0) { loot.add(<item:simplehats:hatbag_common>); }
@@ -332,9 +326,6 @@ loot.modifiers.register(
 		// 25% chance for common hat bags and 15% chance for uncommon hat bags
 		if (random.nextFloat() * 100.0 <= 25.0) { loot.add(<item:simplehats:hatbag_common>); }
 		if (random.nextFloat() * 100.0 <= 15.0) { loot.add(<item:simplehats:hatbag_uncommon>); }
-
-		// 50% chance for essences
-		if (random.nextFloat() * 100.0 <= 50.0) { loot.add(<item:betterenchanting:essence_of_blast_protection>); }
 		
 		// 70% chance with prestige 2
 		addMoneyBagWithProbability(loot, random, 70, "overworld", 2);
@@ -382,13 +373,6 @@ loot.modifiers.register(
 		val pool1_max_counts = [8, 3, 3, 6, 5, 4, 4,	6, 8, 12, 6, 3, 6, 8, 12, 6, 12] as int[];
 		
 		performWeightedPool(loot, random, 3, 6, 500, 0, pool1_items, pool1_weights, pool1_min_counts, pool1_max_counts);
-		
-		// 10% chance for essences
-		if (random.nextFloat() * 100.0 <= 10.0) { loot.add(<item:betterenchanting:essence_of_capacity>); }
-		
-		// 25% chance for common hat bags and 15% chance for uncommon hat bags
-		if (random.nextFloat() * 100.0 <= 25.0) { loot.add(<item:simplehats:hatbag_common>); }
-		if (random.nextFloat() * 100.0 <= 15.0) { loot.add(<item:simplehats:hatbag_uncommon>); }
 		
 		// 75% chance with prestige 3
 		addMoneyBagWithProbability(loot, random, 75, "overworld", 3);
