@@ -3,7 +3,7 @@
 	default_hide_dependency_lines: false
 	default_min_width: 300
 	default_quest_shape: ""
-	filename: "building__aesthetics"
+	filename: "building__beauty"
 	group: ""
 	hide_quest_until_deps_complete: true
 	icon: {
@@ -22,8 +22,9 @@
 			shape: "gear"
 			size: 1.2d
 			tasks: [{
-				id: "5D9EF4695A9E72C0"
-				item: { count: 1, id: "numismatic-overhaul:bronze_coin" }
+				count: 4L
+				id: "0445DB03357372BD"
+				item: { count: 4, id: "minecraft:chest" }
 				type: "item"
 			}]
 			x: 5.0d
@@ -103,8 +104,8 @@
 			shape: "gear"
 			size: 1.2d
 			tasks: [{
-				id: "2243634D1DDA1F46"
-				item: { count: 1, id: "numismatic-overhaul:bronze_coin" }
+				id: "077AF630216DD896"
+				item: { count: 1, id: "minecraft:stonecutter" }
 				type: "item"
 			}]
 			x: 5.0d
@@ -184,8 +185,8 @@
 			shape: "gear"
 			size: 1.2d
 			tasks: [{
-				id: "79CB8E92619C4740"
-				item: { count: 1, id: "numismatic-overhaul:bronze_coin" }
+				id: "2A70E7790642CE31"
+				item: { count: 1, id: "minecraft:armor_stand" }
 				type: "item"
 			}]
 			x: 4.0d
@@ -386,8 +387,9 @@
 			shape: "gear"
 			size: 1.2d
 			tasks: [{
-				id: "49BBD28F0E71AB65"
-				item: { count: 1, id: "numismatic-overhaul:bronze_coin" }
+				count: 8L
+				id: "7C02C5294F147405"
+				item: { count: 8, id: "minecraft:stick" }
 				type: "item"
 			}]
 			x: 0.0d
@@ -402,8 +404,9 @@
 			shape: "gear"
 			size: 1.2d
 			tasks: [{
-				id: "3D610990AC56B941"
-				item: { count: 1, id: "numismatic-overhaul:bronze_coin" }
+				count: 8L
+				id: "4F01CDCCD4988E61"
+				item: { count: 8, id: "minecraft:redstone" }
 				type: "item"
 			}]
 			x: 9.0d
@@ -418,8 +421,9 @@
 			shape: "gear"
 			size: 1.2d
 			tasks: [{
-				id: "3618F57C08241581"
-				item: { count: 1, id: "numismatic-overhaul:bronze_coin" }
+				count: 2L
+				id: "4FB4C37FACEBAA0F"
+				item: { count: 2, id: "minecraft:painting" }
 				type: "item"
 			}]
 			x: 5.0d

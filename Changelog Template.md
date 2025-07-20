@@ -14,9 +14,10 @@
 **FTB Quests:**
 
 - Fixed a bug were unnamed chapters apper after world reloading.
-- Incendium items will no longer be consumed upon quest completion.
 - End remastered eyes will no longer be consumed upon quest completion.
 - Completing Incendium quests now rewards you with a random unique tier variant of Incendium items
+- Added task for gear quests
+- Added artifact quests
 
 **Jade:**
 

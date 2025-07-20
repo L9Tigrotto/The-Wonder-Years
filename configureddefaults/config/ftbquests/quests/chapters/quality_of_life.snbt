@@ -3,7 +3,7 @@
 	default_hide_dependency_lines: false
 	default_min_width: 300
 	default_quest_shape: ""
-	filename: "quality_of_life__utilities"
+	filename: "quality_of_life"
 	group: ""
 	hide_quest_until_deps_complete: true
 	icon: {
@@ -35,9 +35,9 @@
 			shape: "gear"
 			size: 1.2d
 			tasks: [{
-				count: 10L
-				id: "10FB3DBF9F4E47F9"
-				item: { count: 1, id: "numismatic-overhaul:bronze_coin" }
+				count: 4L
+				id: "0FEB68A6D227C800"
+				item: { count: 4, id: "minecraft:oak_planks" }
 				type: "item"
 			}]
 			x: 0.0d
@@ -52,9 +52,9 @@
 			shape: "gear"
 			size: 1.2d
 			tasks: [{
-				count: 10L
-				id: "2E5C27C8B7F3D8A6"
-				item: { count: 10, id: "numismatic-overhaul:bronze_coin" }
+				count: 2L
+				id: "1C2145CE4766ECFE"
+				item: { count: 1, id: "minecraft:copper_ingot" }
 				type: "item"
 			}]
 			x: 4.0d
@@ -212,9 +212,9 @@
 			shape: "gear"
 			size: 1.2d
 			tasks: [{
-				count: 10L
-				id: "511B48F0B0B05E35"
-				item: { count: 1, id: "numismatic-overhaul:bronze_coin" }
+				count: 3L
+				id: "141AC2519E574BEE"
+				item: { count: 1, id: "minecraft:iron_ingot" }
 				type: "item"
 			}]
 			x: 6.0d
@@ -229,9 +229,9 @@
 			shape: "gear"
 			size: 1.2d
 			tasks: [{
-				count: 10L
-				id: "25F113975162F17C"
-				item: { count: 1, id: "numismatic-overhaul:bronze_coin" }
+				count: 12L
+				id: "3D6A59122805E6C8"
+				item: { count: 12, id: "minecraft:gold_ingot" }
 				type: "item"
 			}]
 			x: 7.5d
@@ -246,9 +246,8 @@
 			shape: "gear"
 			size: 1.2d
 			tasks: [{
-				count: 10L
-				id: "511A3DFCA41D8EFB"
-				item: { count: 1, id: "numismatic-overhaul:bronze_coin" }
+				id: "224E28059B55725A"
+				item: { count: 1, id: "minecraft:diamond" }
 				type: "item"
 			}]
 			x: 4.0d
