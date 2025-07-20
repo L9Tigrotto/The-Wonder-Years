@@ -16,7 +16,7 @@
 - Fixed a bug were unnamed chapters apper after world reloading.
 - End remastered eyes will no longer be consumed upon quest completion.
 - Completing Incendium quests now rewards you with a random unique tier variant of Incendium items
-- Added task for gear quests
+- Added task for gear-shaped quests
 - Added artifact quests
 
 **FTB Chunks:**

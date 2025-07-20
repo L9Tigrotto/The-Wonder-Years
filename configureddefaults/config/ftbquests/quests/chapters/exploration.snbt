@@ -23,8 +23,8 @@
 				id: "6E7C64255D038568"
 				type: "checkmark"
 			}]
-			x: 16.5d
-			y: 6.0d
+			x: 23.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["65612A9627402849"]
@@ -233,7 +233,7 @@
 				id: "161896A783CE5948"
 				type: "checkmark"
 			}]
-			x: 5.5d
+			x: 3.5d
 			y: 8.5d
 		}
 		{
@@ -477,7 +477,7 @@
 				id: "69A07D364748F1E5"
 				type: "checkmark"
 			}]
-			x: 20.0d
+			x: 23.0d
 			y: 3.0d
 		}
 		{
@@ -493,7 +493,7 @@
 				item: { count: 1, id: "numismatic-overhaul:gold_coin" }
 				type: "item"
 			}]
-			x: 15.0d
+			x: 18.0d
 			y: 3.0d
 		}
 		{
@@ -505,8 +505,8 @@
 				item: { count: 1, id: "endrem:black_eye" }
 				type: "item"
 			}]
-			x: 21.0d
-			y: 7.0d
+			x: 20.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["1872C0B0FB550113"]
@@ -517,8 +517,8 @@
 				item: { count: 1, id: "endrem:cold_eye" }
 				type: "item"
 			}]
-			x: 23.5d
-			y: 1.0d
+			x: 26.5d
+			y: 5.0d
 		}
 		{
 			dependencies: ["1872C0B0FB550113"]
@@ -529,8 +529,8 @@
 				item: { count: 1, id: "endrem:corrupted_eye" }
 				type: "item"
 			}]
-			x: 21.0d
-			y: -1.0d
+			x: 27.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["1872C0B0FB550113"]
@@ -542,7 +542,7 @@
 				type: "item"
 			}]
 			x: 24.0d
-			y: 4.0d
+			y: 7.0d
 		}
 		{
 			dependencies: ["1872C0B0FB550113"]
@@ -553,8 +553,8 @@
 				item: { count: 1, id: "endrem:lost_eye" }
 				type: "item"
 			}]
-			x: 20.0d
-			y: -1.0d
+			x: 26.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["1872C0B0FB550113"]
@@ -565,8 +565,8 @@
 				item: { count: 1, id: "endrem:nether_eye" }
 				type: "item"
 			}]
-			x: 23.0d
-			y: 6.0d
+			x: 22.0d
+			y: 7.0d
 		}
 		{
 			dependencies: ["1872C0B0FB550113"]
@@ -577,8 +577,8 @@
 				item: { count: 1, id: "endrem:rogue_eye" }
 				type: "item"
 			}]
-			x: 22.0d
-			y: -0.5d
+			x: 27.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["1872C0B0FB550113"]
@@ -589,8 +589,8 @@
 				item: { count: 1, id: "endrem:cursed_eye" }
 				type: "item"
 			}]
-			x: 23.0d
-			y: 0.0d
+			x: 27.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["1872C0B0FB550113"]
@@ -601,8 +601,8 @@
 				item: { count: 1, id: "endrem:magical_eye" }
 				type: "item"
 			}]
-			x: 19.0d
-			y: -1.0d
+			x: 25.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["1872C0B0FB550113"]
@@ -614,7 +614,7 @@
 				type: "item"
 			}]
 			x: 19.0d
-			y: 7.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["1872C0B0FB550113"]
@@ -625,8 +625,8 @@
 				item: { count: 1, id: "endrem:guardian_eye" }
 				type: "item"
 			}]
-			x: 20.0d
-			y: 7.0d
+			x: 19.5d
+			y: 5.0d
 		}
 		{
 			dependencies: ["1872C0B0FB550113"]
@@ -637,8 +637,8 @@
 				item: { count: 1, id: "endrem:wither_eye" }
 				type: "item"
 			}]
-			x: 23.5d
-			y: 5.0d
+			x: 23.0d
+			y: 7.0d
 		}
 		{
 			dependencies: ["1872C0B0FB550113"]
@@ -649,8 +649,8 @@
 				item: { count: 1, id: "endrem:witch_eye" }
 				type: "item"
 			}]
-			x: 24.0d
-			y: 3.0d
+			x: 25.0d
+			y: 6.5d
 		}
 		{
 			dependencies: ["1872C0B0FB550113"]
@@ -661,8 +661,8 @@
 				item: { count: 1, id: "endrem:undead_eye" }
 				type: "item"
 			}]
-			x: 24.0d
-			y: 2.0d
+			x: 26.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["1872C0B0FB550113"]
@@ -673,7 +673,7 @@
 				item: { count: 1, id: "endrem:exotic_eye" }
 				type: "item"
 			}]
-			x: 22.0d
+			x: 21.0d
 			y: 6.5d
 		}
 		{
@@ -945,8 +945,8 @@
 				item: { count: 1, id: "mythicupgrades:ruby" }
 				type: "item"
 			}]
-			x: 15.5d
-			y: 7.0d
+			x: 22.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["0B2BD57EC5EC4367"]
@@ -956,8 +956,8 @@
 				item: { count: 1, id: "mythicupgrades:topaz" }
 				type: "item"
 			}]
-			x: 15.5d
-			y: 5.0d
+			x: 22.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["0B2BD57EC5EC4367"]
@@ -967,8 +967,8 @@
 				item: { count: 1, id: "mythicupgrades:peridot" }
 				type: "item"
 			}]
-			x: 16.5d
-			y: 4.5d
+			x: 23.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["0B2BD57EC5EC4367"]
@@ -978,8 +978,8 @@
 				item: { count: 1, id: "mythicupgrades:jade" }
 				type: "item"
 			}]
-			x: 18.0d
-			y: 6.0d
+			x: 24.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["0B2BD57EC5EC4367"]
@@ -989,8 +989,8 @@
 				item: { count: 1, id: "mythicupgrades:aquamarine" }
 				type: "item"
 			}]
-			x: 17.5d
-			y: 7.0d
+			x: 24.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["0B2BD57EC5EC4367"]
@@ -1000,8 +1000,8 @@
 				item: { count: 1, id: "mythicupgrades:sapphire" }
 				type: "item"
 			}]
-			x: 16.5d
-			y: 7.5d
+			x: 24.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["0B2BD57EC5EC4367"]
@@ -1011,8 +1011,8 @@
 				item: { count: 1, id: "mythicupgrades:ametrine" }
 				type: "item"
 			}]
-			x: 15.0d
-			y: 6.0d
+			x: 21.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["3DEFAEC17E67F162"]
@@ -1047,7 +1047,7 @@
 			y: -6.0d
 		}
 		{
-			dependencies: ["7449054DFEA0EDF7"]
+			dependencies: ["0E5AAD455C793640"]
 			id: "6EC86C6506B6D7CE"
 			tasks: [{
 				consume_items: false
@@ -1055,11 +1055,11 @@
 				item: { count: 1, id: "artifacts:umbrella" }
 				type: "item"
 			}]
-			x: 3.5d
-			y: 11.0d
+			x: -1.0d
+			y: 8.5d
 		}
 		{
-			dependencies: ["7449054DFEA0EDF7"]
+			dependencies: ["26B729FF2128DEA5"]
 			id: "72EDE1B973D4FDCE"
 			tasks: [{
 				consume_items: false
@@ -1067,11 +1067,11 @@
 				item: { count: 1, id: "artifacts:everlasting_beef" }
 				type: "item"
 			}]
-			x: 3.5d
-			y: 12.0d
+			x: 8.5d
+			y: 14.5d
 		}
 		{
-			dependencies: ["7449054DFEA0EDF7"]
+			dependencies: ["0E5AAD455C793640"]
 			id: "25A7EF4BD68FDD83"
 			tasks: [
 				{
@@ -1087,11 +1087,11 @@
 					type: "item"
 				}
 			]
-			x: 3.5d
-			y: 13.0d
+			x: 0.0d
+			y: 8.5d
 		}
 		{
-			dependencies: ["7449054DFEA0EDF7"]
+			dependencies: ["0E5AAD455C793640"]
 			id: "77F79FDF011B29FA"
 			tasks: [{
 				consume_items: false
@@ -1099,11 +1099,11 @@
 				item: { count: 1, id: "artifacts:snorkel" }
 				type: "item"
 			}]
-			x: 3.5d
-			y: 14.0d
+			x: 1.0d
+			y: 9.0d
 		}
 		{
-			dependencies: ["7449054DFEA0EDF7"]
+			dependencies: ["26B729FF2128DEA5"]
 			id: "66708C0672A623D5"
 			tasks: [{
 				consume_items: false
@@ -1111,11 +1111,11 @@
 				item: { count: 1, id: "artifacts:villager_hat" }
 				type: "item"
 			}]
-			x: 3.5d
-			y: 15.0d
+			x: 9.0d
+			y: 15.5d
 		}
 		{
-			dependencies: ["7449054DFEA0EDF7"]
+			dependencies: ["26B729FF2128DEA5"]
 			id: "42E00B9B61CBC6B8"
 			tasks: [{
 				consume_items: false
@@ -1123,11 +1123,11 @@
 				item: { count: 1, id: "artifacts:superstitious_hat" }
 				type: "item"
 			}]
-			x: 3.5d
-			y: 16.0d
+			x: 9.0d
+			y: 16.5d
 		}
 		{
-			dependencies: ["7449054DFEA0EDF7"]
+			dependencies: ["0E5AAD455C793640"]
 			id: "597333E0D85EAEBC"
 			tasks: [{
 				consume_items: false
@@ -1135,11 +1135,11 @@
 				item: { count: 1, id: "artifacts:cowboy_hat" }
 				type: "item"
 			}]
-			x: 3.5d
-			y: 17.0d
+			x: -2.0d
+			y: 8.5d
 		}
 		{
-			dependencies: ["7449054DFEA0EDF7"]
+			dependencies: ["0E5AAD455C793640"]
 			id: "1F8DCA5B2F267155"
 			tasks: [{
 				consume_items: false
@@ -1147,11 +1147,11 @@
 				item: { count: 1, id: "artifacts:anglers_hat" }
 				type: "item"
 			}]
-			x: 3.5d
-			y: 18.0d
+			x: -1.0d
+			y: 16.5d
 		}
 		{
-			dependencies: ["7449054DFEA0EDF7"]
+			dependencies: ["26B729FF2128DEA5"]
 			id: "07D2296165C75F0C"
 			tasks: [{
 				consume_items: false
@@ -1159,11 +1159,11 @@
 				item: { count: 1, id: "artifacts:lucky_scarf" }
 				type: "item"
 			}]
-			x: 2.5d
-			y: 11.0d
+			x: 9.0d
+			y: 17.5d
 		}
 		{
-			dependencies: ["7449054DFEA0EDF7"]
+			dependencies: ["26B729FF2128DEA5"]
 			id: "1BAFBE49066F430C"
 			tasks: [{
 				consume_items: false
@@ -1171,11 +1171,11 @@
 				item: { count: 1, id: "artifacts:scarf_of_invisibility" }
 				type: "item"
 			}]
-			x: 2.5d
-			y: 12.0d
+			x: 8.5d
+			y: 18.5d
 		}
 		{
-			dependencies: ["7449054DFEA0EDF7"]
+			dependencies: ["1CE5C805FEA11CD1"]
 			id: "4E3BCABD6C52CAFB"
 			tasks: [{
 				consume_items: false
@@ -1183,11 +1183,11 @@
 				item: { count: 1, id: "artifacts:cross_necklace" }
 				type: "item"
 			}]
-			x: 2.5d
-			y: 13.0d
+			x: 4.0d
+			y: 20.5d
 		}
 		{
-			dependencies: ["7449054DFEA0EDF7"]
+			dependencies: ["0E5AAD455C793640"]
 			id: "496191BA2530938A"
 			tasks: [{
 				consume_items: false
@@ -1195,11 +1195,11 @@
 				item: { count: 1, id: "artifacts:panic_necklace" }
 				type: "item"
 			}]
-			x: 2.5d
-			y: 14.0d
+			x: -3.0d
+			y: 9.0d
 		}
 		{
-			dependencies: ["7449054DFEA0EDF7"]
+			dependencies: ["26B729FF2128DEA5"]
 			id: "09B64FA14E758693"
 			tasks: [{
 				consume_items: false
@@ -1207,11 +1207,11 @@
 				item: { count: 1, id: "artifacts:shock_pendant" }
 				type: "item"
 			}]
-			x: 2.5d
-			y: 15.0d
+			x: 8.0d
+			y: 19.5d
 		}
 		{
-			dependencies: ["7449054DFEA0EDF7"]
+			dependencies: ["26B729FF2128DEA5"]
 			id: "580D4FC75680A51C"
 			tasks: [{
 				consume_items: false
@@ -1219,11 +1219,11 @@
 				item: { count: 1, id: "artifacts:flame_pendant" }
 				type: "item"
 			}]
-			x: 2.5d
-			y: 16.0d
+			x: 7.0d
+			y: 20.0d
 		}
 		{
-			dependencies: ["7449054DFEA0EDF7"]
+			dependencies: ["26B729FF2128DEA5"]
 			id: "72341F303E3B7AC8"
 			tasks: [{
 				consume_items: false
@@ -1231,11 +1231,11 @@
 				item: { count: 1, id: "artifacts:thorn_pendant" }
 				type: "item"
 			}]
-			x: 2.5d
-			y: 17.0d
+			x: 6.0d
+			y: 20.5d
 		}
 		{
-			dependencies: ["7449054DFEA0EDF7"]
+			dependencies: ["0E5AAD455C793640"]
 			id: "3FC8FA773B99E528"
 			tasks: [{
 				consume_items: false
@@ -1243,11 +1243,11 @@
 				item: { count: 1, id: "artifacts:charm_of_sinking" }
 				type: "item"
 			}]
-			x: 2.5d
-			y: 18.0d
+			x: -4.0d
+			y: 9.5d
 		}
 		{
-			dependencies: ["7449054DFEA0EDF7"]
+			dependencies: ["0E5AAD455C793640"]
 			id: "06D0FC5525960102"
 			tasks: [{
 				consume_items: false
@@ -1255,11 +1255,11 @@
 				item: { count: 1, id: "artifacts:charm_of_shrinking" }
 				type: "item"
 			}]
-			x: 2.5d
-			y: 19.0d
+			x: 0.0d
+			y: 16.5d
 		}
 		{
-			dependencies: ["7449054DFEA0EDF7"]
+			dependencies: ["0E5AAD455C793640"]
 			id: "1947F85AD4AD7579"
 			tasks: [{
 				consume_items: false
@@ -1267,11 +1267,11 @@
 				item: { count: 1, id: "artifacts:cloud_in_a_bottle" }
 				type: "item"
 			}]
-			x: 1.5d
-			y: 11.0d
+			x: -2.0d
+			y: 16.5d
 		}
 		{
-			dependencies: ["7449054DFEA0EDF7"]
+			dependencies: ["26B729FF2128DEA5"]
 			id: "727918AF30A38518"
 			tasks: [{
 				consume_items: false
@@ -1279,11 +1279,11 @@
 				item: { count: 1, id: "artifacts:obsidian_skull" }
 				type: "item"
 			}]
-			x: 1.5d
-			y: 12.0d
+			x: 5.0d
+			y: 20.5d
 		}
 		{
-			dependencies: ["7449054DFEA0EDF7"]
+			dependencies: ["1CE5C805FEA11CD1"]
 			id: "7345E47C5F385C5E"
 			tasks: [{
 				consume_items: false
@@ -1291,11 +1291,11 @@
 				item: { count: 1, id: "artifacts:antidote_vessel" }
 				type: "item"
 			}]
-			x: 1.5d
-			y: 13.0d
+			x: 3.5d
+			y: 22.0d
 		}
 		{
-			dependencies: ["7449054DFEA0EDF7"]
+			dependencies: ["0E5AAD455C793640"]
 			id: "43FB6C5A454C1C97"
 			tasks: [{
 				consume_items: false
@@ -1303,11 +1303,11 @@
 				item: { count: 1, id: "artifacts:universal_attractor" }
 				type: "item"
 			}]
-			x: 1.5d
-			y: 14.0d
+			x: -3.0d
+			y: 16.0d
 		}
 		{
-			dependencies: ["7449054DFEA0EDF7"]
+			dependencies: ["26B729FF2128DEA5"]
 			id: "4EBBFE7C849B0DBD"
 			tasks: [{
 				consume_items: false
@@ -1315,11 +1315,11 @@
 				item: { count: 1, id: "artifacts:crystal_heart" }
 				type: "item"
 			}]
-			x: 1.5d
-			y: 15.0d
+			x: 3.0d
+			y: 13.0d
 		}
 		{
-			dependencies: ["7449054DFEA0EDF7"]
+			dependencies: ["0E5AAD455C793640"]
 			id: "78EF30C918458970"
 			tasks: [{
 				consume_items: false
@@ -1327,22 +1327,22 @@
 				item: { count: 1, id: "artifacts:helium_flamingo" }
 				type: "item"
 			}]
-			x: 1.5d
-			y: 16.0d
+			x: -4.0d
+			y: 15.5d
 		}
 		{
-			dependencies: ["7449054DFEA0EDF7"]
+			dependencies: ["1CE5C805FEA11CD1"]
 			id: "1B5162AEF636FB25"
 			tasks: [{
 				id: "1D4B26E7C8458E06"
 				item: { count: 1, id: "artifacts:chorus_totem" }
 				type: "item"
 			}]
-			x: 1.5d
-			y: 17.0d
+			x: 2.0d
+			y: 22.5d
 		}
 		{
-			dependencies: ["7449054DFEA0EDF7"]
+			dependencies: ["1CE5C805FEA11CD1"]
 			id: "34A904AFC4237395"
 			tasks: [{
 				consume_items: false
@@ -1350,11 +1350,11 @@
 				item: { count: 1, id: "artifacts:warp_drive" }
 				type: "item"
 			}]
-			x: 1.5d
-			y: 18.0d
+			x: 0.5d
+			y: 22.0d
 		}
 		{
-			dependencies: ["7449054DFEA0EDF7"]
+			dependencies: ["26B729FF2128DEA5"]
 			id: "1AD478D0E29CDB84"
 			tasks: [{
 				consume_items: false
@@ -1362,11 +1362,11 @@
 				item: { count: 1, id: "artifacts:digging_claws" }
 				type: "item"
 			}]
-			x: 0.5d
-			y: 11.0d
+			x: 4.0d
+			y: 12.5d
 		}
 		{
-			dependencies: ["7449054DFEA0EDF7"]
+			dependencies: ["1CE5C805FEA11CD1"]
 			id: "1135C3924C9775EF"
 			tasks: [{
 				consume_items: false
@@ -1374,11 +1374,11 @@
 				item: { count: 1, id: "artifacts:power_glove" }
 				type: "item"
 			}]
-			x: 0.5d
-			y: 12.0d
+			x: 0.0d
+			y: 20.5d
 		}
 		{
-			dependencies: ["7449054DFEA0EDF7"]
+			dependencies: ["26B729FF2128DEA5"]
 			id: "0FE8379F6F091D0D"
 			tasks: [{
 				consume_items: false
@@ -1386,11 +1386,11 @@
 				item: { count: 1, id: "artifacts:fire_gauntlet" }
 				type: "item"
 			}]
-			x: 0.5d
-			y: 13.0d
+			x: 5.0d
+			y: 12.5d
 		}
 		{
-			dependencies: ["7449054DFEA0EDF7"]
+			dependencies: ["0E5AAD455C793640"]
 			id: "3FA30454CAF85346"
 			tasks: [{
 				consume_items: false
@@ -1398,11 +1398,11 @@
 				item: { count: 1, id: "artifacts:pocket_piston" }
 				type: "item"
 			}]
-			x: 0.5d
-			y: 14.0d
+			x: -4.5d
+			y: 14.5d
 		}
 		{
-			dependencies: ["7449054DFEA0EDF7"]
+			dependencies: ["1CE5C805FEA11CD1"]
 			id: "60B5861E4E2AA0B8"
 			tasks: [{
 				consume_items: false
@@ -1410,11 +1410,11 @@
 				item: { count: 1, id: "artifacts:golden_hook" }
 				type: "item"
 			}]
-			x: 0.5d
-			y: 15.0d
+			x: 1.0d
+			y: 19.0d
 		}
 		{
-			dependencies: ["7449054DFEA0EDF7"]
+			dependencies: ["0E5AAD455C793640"]
 			id: "35118D82CF436157"
 			tasks: [{
 				consume_items: false
@@ -1422,8 +1422,8 @@
 				item: { count: 1, id: "artifacts:onion_ring" }
 				type: "item"
 			}]
-			x: 0.5d
-			y: 16.0d
+			x: -5.0d
+			y: 13.5d
 		}
 		{
 			dependencies: ["7BFEA239C33A5358"]
@@ -1437,7 +1437,7 @@
 			y: 8.5d
 		}
 		{
-			dependencies: ["7449054DFEA0EDF7"]
+			dependencies: ["26B729FF2128DEA5"]
 			id: "293B0F066ECB32DD"
 			tasks: [{
 				consume_items: false
@@ -1445,11 +1445,11 @@
 				item: { count: 1, id: "artifacts:aqua_dashers" }
 				type: "item"
 			}]
-			x: -0.5d
-			y: 11.0d
+			x: 6.0d
+			y: 12.5d
 		}
 		{
-			dependencies: ["7449054DFEA0EDF7"]
+			dependencies: ["0E5AAD455C793640"]
 			id: "40138D90E76A817A"
 			tasks: [{
 				consume_items: false
@@ -1457,11 +1457,11 @@
 				item: { count: 1, id: "artifacts:kitty_slippers" }
 				type: "item"
 			}]
-			x: -0.5d
-			y: 12.0d
+			x: -5.0d
+			y: 12.5d
 		}
 		{
-			dependencies: ["7449054DFEA0EDF7"]
+			dependencies: ["0E5AAD455C793640"]
 			id: "158B2247E45F683C"
 			tasks: [{
 				consume_items: false
@@ -1469,11 +1469,11 @@
 				item: { count: 1, id: "artifacts:snowshoes" }
 				type: "item"
 			}]
-			x: -0.5d
-			y: 13.0d
+			x: -5.0d
+			y: 11.5d
 		}
 		{
-			dependencies: ["7449054DFEA0EDF7"]
+			dependencies: ["26B729FF2128DEA5"]
 			id: "7E3D608F93791F43"
 			tasks: [{
 				consume_items: false
@@ -1481,11 +1481,11 @@
 				item: { count: 1, id: "artifacts:steadfast_spikes" }
 				type: "item"
 			}]
-			x: -0.5d
-			y: 14.0d
+			x: 7.0d
+			y: 13.0d
 		}
 		{
-			dependencies: ["7449054DFEA0EDF7"]
+			dependencies: ["0E5AAD455C793640"]
 			id: "0F4461441386E5B7"
 			tasks: [{
 				consume_items: false
@@ -1493,11 +1493,11 @@
 				item: { count: 1, id: "artifacts:flippers" }
 				type: "item"
 			}]
-			x: -0.5d
-			y: 15.0d
+			x: -4.5d
+			y: 10.5d
 		}
 		{
-			dependencies: ["7449054DFEA0EDF7"]
+			dependencies: ["26B729FF2128DEA5"]
 			id: "4A2C8C3105AFBF00"
 			tasks: [{
 				consume_items: false
@@ -1505,8 +1505,41 @@
 				item: { count: 1, id: "artifacts:rooted_boots" }
 				type: "item"
 			}]
-			x: -0.5d
-			y: 16.0d
+			x: 8.0d
+			y: 13.5d
+		}
+		{
+			dependencies: ["7449054DFEA0EDF7"]
+			id: "0E5AAD455C793640"
+			tasks: [{
+				id: "733CBC6938DF6F5A"
+				item: { count: 1, id: "minecraft:water_bucket" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 12.5d
+		}
+		{
+			dependencies: ["0E5AAD455C793640"]
+			id: "26B729FF2128DEA5"
+			tasks: [{
+				id: "300348C3469FE28A"
+				item: { count: 1, id: "minecraft:lava_bucket" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 16.5d
+		}
+		{
+			dependencies: ["26B729FF2128DEA5"]
+			id: "1CE5C805FEA11CD1"
+			tasks: [{
+				id: "1E33CAA83E0E420A"
+				item: { count: 1, id: "minecraft:bucket" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 20.5d
 		}
 	]
 }
