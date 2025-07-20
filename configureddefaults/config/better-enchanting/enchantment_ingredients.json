@@ -271,7 +271,16 @@
   "enchantplus:bow/eternal_frost": [
     "betterenchanting:essence_of_ice"
   ],
-  
+  "enchantplus:tools/miningplus": [
+    "betterenchanting:essence_of_mining"
+  ],
+  "nova_structures:illagers_bane": [
+    "minecraft:cactus",
+    "minecraft:iron_sword",
+    "minecraft:iron_block",
+    "minecraft:ominous_bottle",
+    "betterenchanting:essence_of_combat"
+  ],
 
   
   
@@ -324,9 +333,6 @@
   "enchantplus:helmet/voidless": [
     "betterenchanting:essence_of_levitation"
   ],
-  "enchantplus:tools/miningplus": [
-    "betterenchanting:essence_of_mining"
-  ],
   "nova_structures:photosynthesis": [
     "betterenchanting:essence_of_photosynthesis"
   ],
@@ -373,13 +379,6 @@
     "minecraft:iron_block",
     "minecraft:obsidian",
     "betterenchanting:essence_of_protection"
-  ],
-  "nova_structures:illagers_bane": [
-    "minecraft:cactus",
-    "minecraft:iron_sword",
-    "minecraft:iron_block",
-    "minecraft:ominous_bottle",
-    "betterenchanting:essence_of_combat"
   ],
   "minecraft:fire_aspect": [
     "minecraft:fire_charge",

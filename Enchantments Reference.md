@@ -79,6 +79,7 @@ This document contains a comprehensive list of enchantments from both vanilla Mi
 | Wind Burst            | III       | Table		| Mace                                      | Enchantment Table     |
 | XpBoost               | III       | Table		| Sword                                     | Enchantment Table     |
 | Illger Bane           | V	        | Table		| Mace                                      | Enchantment Table     |
+| Mining Plus           | I	        | Overworld | Tools                                     | Found/Loot            |
 
 # Essence Locations
 

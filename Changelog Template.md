@@ -18,6 +18,7 @@
 - Completing Incendium quests now rewards you with a random unique tier variant of Incendium items
 - Added task for gear-shaped quests
 - Added artifact quests
+- Added essence quests
 
 **FTB Chunks:**
 

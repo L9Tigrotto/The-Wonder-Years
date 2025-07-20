@@ -221,7 +221,7 @@
 				type: "checkmark"
 			}]
 			x: 10.5d
-			y: 5.5d
+			y: 8.5d
 		}
 		{
 			dependencies: ["7BFEA239C33A5358"]
@@ -247,7 +247,7 @@
 				type: "checkmark"
 			}]
 			x: 7.5d
-			y: 5.5d
+			y: 8.5d
 		}
 		{
 			dependencies: ["6DF23DB968F7423C"]
@@ -1067,8 +1067,8 @@
 				item: { count: 1, id: "artifacts:everlasting_beef" }
 				type: "item"
 			}]
-			x: 8.5d
-			y: 14.5d
+			x: 7.0d
+			y: 13.5d
 		}
 		{
 			dependencies: ["0E5AAD455C793640"]
@@ -1111,8 +1111,8 @@
 				item: { count: 1, id: "artifacts:villager_hat" }
 				type: "item"
 			}]
-			x: 9.0d
-			y: 15.5d
+			x: 7.5d
+			y: 14.5d
 		}
 		{
 			dependencies: ["26B729FF2128DEA5"]
@@ -1123,8 +1123,8 @@
 				item: { count: 1, id: "artifacts:superstitious_hat" }
 				type: "item"
 			}]
-			x: 9.0d
-			y: 16.5d
+			x: 7.5d
+			y: 15.5d
 		}
 		{
 			dependencies: ["0E5AAD455C793640"]
@@ -1159,8 +1159,8 @@
 				item: { count: 1, id: "artifacts:lucky_scarf" }
 				type: "item"
 			}]
-			x: 9.0d
-			y: 17.5d
+			x: 7.5d
+			y: 16.5d
 		}
 		{
 			dependencies: ["26B729FF2128DEA5"]
@@ -1171,8 +1171,8 @@
 				item: { count: 1, id: "artifacts:scarf_of_invisibility" }
 				type: "item"
 			}]
-			x: 8.5d
-			y: 18.5d
+			x: 7.0d
+			y: 17.5d
 		}
 		{
 			dependencies: ["1CE5C805FEA11CD1"]
@@ -1183,8 +1183,8 @@
 				item: { count: 1, id: "artifacts:cross_necklace" }
 				type: "item"
 			}]
-			x: 4.0d
-			y: 20.5d
+			x: 2.0d
+			y: 20.0d
 		}
 		{
 			dependencies: ["0E5AAD455C793640"]
@@ -1207,8 +1207,8 @@
 				item: { count: 1, id: "artifacts:shock_pendant" }
 				type: "item"
 			}]
-			x: 8.0d
-			y: 19.5d
+			x: 6.5d
+			y: 18.5d
 		}
 		{
 			dependencies: ["26B729FF2128DEA5"]
@@ -1219,8 +1219,8 @@
 				item: { count: 1, id: "artifacts:flame_pendant" }
 				type: "item"
 			}]
-			x: 7.0d
-			y: 20.0d
+			x: 5.5d
+			y: 19.0d
 		}
 		{
 			dependencies: ["26B729FF2128DEA5"]
@@ -1231,8 +1231,8 @@
 				item: { count: 1, id: "artifacts:thorn_pendant" }
 				type: "item"
 			}]
-			x: 6.0d
-			y: 20.5d
+			x: 4.5d
+			y: 19.5d
 		}
 		{
 			dependencies: ["0E5AAD455C793640"]
@@ -1279,8 +1279,8 @@
 				item: { count: 1, id: "artifacts:obsidian_skull" }
 				type: "item"
 			}]
-			x: 5.0d
-			y: 20.5d
+			x: 3.5d
+			y: 19.5d
 		}
 		{
 			dependencies: ["1CE5C805FEA11CD1"]
@@ -1291,8 +1291,8 @@
 				item: { count: 1, id: "artifacts:antidote_vessel" }
 				type: "item"
 			}]
-			x: 3.5d
-			y: 22.0d
+			x: 1.5d
+			y: 21.5d
 		}
 		{
 			dependencies: ["0E5AAD455C793640"]
@@ -1315,8 +1315,8 @@
 				item: { count: 1, id: "artifacts:crystal_heart" }
 				type: "item"
 			}]
-			x: 3.0d
-			y: 13.0d
+			x: 1.5d
+			y: 12.0d
 		}
 		{
 			dependencies: ["0E5AAD455C793640"]
@@ -1338,8 +1338,8 @@
 				item: { count: 1, id: "artifacts:chorus_totem" }
 				type: "item"
 			}]
-			x: 2.0d
-			y: 22.5d
+			x: 0.0d
+			y: 22.0d
 		}
 		{
 			dependencies: ["1CE5C805FEA11CD1"]
@@ -1350,8 +1350,8 @@
 				item: { count: 1, id: "artifacts:warp_drive" }
 				type: "item"
 			}]
-			x: 0.5d
-			y: 22.0d
+			x: -1.5d
+			y: 21.5d
 		}
 		{
 			dependencies: ["26B729FF2128DEA5"]
@@ -1362,8 +1362,8 @@
 				item: { count: 1, id: "artifacts:digging_claws" }
 				type: "item"
 			}]
-			x: 4.0d
-			y: 12.5d
+			x: 2.5d
+			y: 11.5d
 		}
 		{
 			dependencies: ["1CE5C805FEA11CD1"]
@@ -1374,8 +1374,8 @@
 				item: { count: 1, id: "artifacts:power_glove" }
 				type: "item"
 			}]
-			x: 0.0d
-			y: 20.5d
+			x: -2.0d
+			y: 20.0d
 		}
 		{
 			dependencies: ["26B729FF2128DEA5"]
@@ -1386,8 +1386,8 @@
 				item: { count: 1, id: "artifacts:fire_gauntlet" }
 				type: "item"
 			}]
-			x: 5.0d
-			y: 12.5d
+			x: 3.5d
+			y: 11.5d
 		}
 		{
 			dependencies: ["0E5AAD455C793640"]
@@ -1410,8 +1410,8 @@
 				item: { count: 1, id: "artifacts:golden_hook" }
 				type: "item"
 			}]
-			x: 1.0d
-			y: 19.0d
+			x: -1.5d
+			y: 18.5d
 		}
 		{
 			dependencies: ["0E5AAD455C793640"]
@@ -1427,13 +1427,15 @@
 		}
 		{
 			dependencies: ["7BFEA239C33A5358"]
+			icon: {
+				id: "minecraft:enchanting_table"
+			}
 			id: "098F23CE45C6508E"
 			tasks: [{
-				id: "71E2E6FB54675FE2"
-				item: { count: 1, id: "minecraft:enchanting_table" }
-				type: "item"
+				id: "310EC255505A773C"
+				type: "checkmark"
 			}]
-			x: 12.5d
+			x: 13.5d
 			y: 8.5d
 		}
 		{
@@ -1445,8 +1447,8 @@
 				item: { count: 1, id: "artifacts:aqua_dashers" }
 				type: "item"
 			}]
-			x: 6.0d
-			y: 12.5d
+			x: 4.5d
+			y: 11.5d
 		}
 		{
 			dependencies: ["0E5AAD455C793640"]
@@ -1481,8 +1483,8 @@
 				item: { count: 1, id: "artifacts:steadfast_spikes" }
 				type: "item"
 			}]
-			x: 7.0d
-			y: 13.0d
+			x: 5.5d
+			y: 12.0d
 		}
 		{
 			dependencies: ["0E5AAD455C793640"]
@@ -1505,41 +1507,700 @@
 				item: { count: 1, id: "artifacts:rooted_boots" }
 				type: "item"
 			}]
-			x: 8.0d
-			y: 13.5d
+			x: 6.5d
+			y: 12.5d
 		}
 		{
 			dependencies: ["7449054DFEA0EDF7"]
+			icon: {
+				id: "minecraft:water_bucket"
+			}
 			id: "0E5AAD455C793640"
 			tasks: [{
-				id: "733CBC6938DF6F5A"
-				item: { count: 1, id: "minecraft:water_bucket" }
-				type: "item"
+				id: "11FDA7732E7AF598"
+				type: "checkmark"
 			}]
 			x: -1.0d
 			y: 12.5d
 		}
 		{
 			dependencies: ["0E5AAD455C793640"]
+			icon: {
+				id: "minecraft:lava_bucket"
+			}
 			id: "26B729FF2128DEA5"
 			tasks: [{
-				id: "300348C3469FE28A"
-				item: { count: 1, id: "minecraft:lava_bucket" }
-				type: "item"
+				id: "256D4A637DB83760"
+				type: "checkmark"
 			}]
-			x: 5.0d
-			y: 16.5d
+			x: 3.5d
+			y: 15.5d
 		}
 		{
 			dependencies: ["26B729FF2128DEA5"]
+			icon: {
+				id: "minecraft:bucket"
+			}
 			id: "1CE5C805FEA11CD1"
 			tasks: [{
-				id: "1E33CAA83E0E420A"
-				item: { count: 1, id: "minecraft:bucket" }
+				id: "57738F85BF8E7DBE"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 20.0d
+		}
+		{
+			dependencies: ["098F23CE45C6508E"]
+			icon: {
+				id: "betterenchanting:enchantment_catalyst"
+			}
+			id: "3ADA0678306408A9"
+			tasks: [{
+				id: "01692A1EA1DC597C"
+				type: "checkmark"
+			}]
+			x: 14.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["098F23CE45C6508E"]
+			icon: {
+				id: "minecraft:bookshelf"
+			}
+			id: "583A17C6F7CA789A"
+			tasks: [{
+				id: "0C27E8DA413C3002"
+				type: "checkmark"
+			}]
+			x: 15.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["54CF56DC3CFE7C4F"]
+			icon: {
+				id: "minecraft:bucket"
+			}
+			id: "1AFCB82F08BF1FD5"
+			tasks: [{
+				id: "02DE38F7D82440A3"
+				type: "checkmark"
+			}]
+			x: 22.0d
+			y: 23.0d
+		}
+		{
+			dependencies: ["2AAC522AD5A572ED"]
+			icon: {
+				id: "minecraft:lava_bucket"
+			}
+			id: "54CF56DC3CFE7C4F"
+			tasks: [{
+				id: "21CCFD033604D7BE"
+				type: "checkmark"
+			}]
+			x: 26.0d
+			y: 18.0d
+		}
+		{
+			dependencies: ["098F23CE45C6508E"]
+			icon: {
+				id: "minecraft:water_bucket"
+			}
+			id: "2AAC522AD5A572ED"
+			tasks: [{
+				id: "069092F36FB514D0"
+				type: "checkmark"
+			}]
+			x: 18.5d
+			y: 12.0d
+		}
+		{
+			dependencies: ["2AAC522AD5A572ED"]
+			id: "14976831BA60C296"
+			tasks: [{
+				consume_items: false
+				id: "0009BCD3CA45C72A"
+				item: { count: 1, id: "betterenchanting:essence_of_arthropods" }
 				type: "item"
 			}]
-			x: 2.0d
-			y: 20.5d
+			x: 13.5d
+			y: 13.0d
+		}
+		{
+			dependencies: ["2AAC522AD5A572ED"]
+			id: "492385311047D99F"
+			tasks: [{
+				consume_items: false
+				id: "7F5E537515BEFE67"
+				item: { count: 1, id: "betterenchanting:essence_of_channeling" }
+				type: "item"
+			}]
+			x: 20.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["2AAC522AD5A572ED"]
+			id: "18B2B3CB52554C6C"
+			tasks: [{
+				consume_items: false
+				id: "63173DF42566D4C9"
+				item: { count: 1, id: "betterenchanting:essence_of_impaling" }
+				type: "item"
+			}]
+			x: 19.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["2AAC522AD5A572ED"]
+			id: "7D77F2F8735710C5"
+			tasks: [{
+				consume_items: false
+				id: "0A25D93A4CF7AEC1"
+				item: { count: 1, id: "betterenchanting:essence_of_knockback" }
+				type: "item"
+			}]
+			x: 13.5d
+			y: 12.0d
+		}
+		{
+			dependencies: ["2AAC522AD5A572ED"]
+			id: "77DEE704118377EA"
+			tasks: [{
+				consume_items: false
+				id: "1CF93F3CCBBF505F"
+				item: { count: 1, id: "betterenchanting:essence_of_smite" }
+				type: "item"
+			}]
+			x: 14.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["2AAC522AD5A572ED"]
+			id: "1941F8DE7741C05A"
+			tasks: [{
+				consume_items: false
+				id: "355FCD6015FF33CF"
+				item: { count: 1, id: "betterenchanting:essence_of_ice" }
+				type: "item"
+			}]
+			x: 14.5d
+			y: 15.0d
+		}
+		{
+			dependencies: ["2AAC522AD5A572ED"]
+			id: "3350F6ADA9D48697"
+			tasks: [{
+				consume_items: false
+				id: "17C36F9F6AE9B3CB"
+				item: { count: 1, id: "betterenchanting:essence_of_loyalty" }
+				type: "item"
+			}]
+			x: 17.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["2AAC522AD5A572ED"]
+			id: "123EE4F5AB97B354"
+			tasks: [{
+				consume_items: false
+				id: "1BB660E96AA879CD"
+				item: { count: 1, id: "betterenchanting:essence_of_lure" }
+				type: "item"
+			}]
+			x: 23.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["2AAC522AD5A572ED"]
+			id: "4B15924924209C94"
+			tasks: [{
+				consume_items: false
+				id: "7D094584A28AA18C"
+				item: { count: 1, id: "betterenchanting:essence_of_projectile_protection" }
+				type: "item"
+			}]
+			x: 16.5d
+			y: 16.5d
+		}
+		{
+			dependencies: ["2AAC522AD5A572ED"]
+			id: "736921E79CAADF8A"
+			tasks: [{
+				consume_items: false
+				id: "6F0ACD5FCD2FA723"
+				item: { count: 1, id: "betterenchanting:essence_of_respiration" }
+				type: "item"
+			}]
+			x: 23.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["2AAC522AD5A572ED"]
+			id: "3BD335DD4232A515"
+			tasks: [{
+				consume_items: false
+				id: "0019837FFD8645DC"
+				item: { count: 1, id: "betterenchanting:essence_of_riptide" }
+				type: "item"
+			}]
+			x: 18.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["2AAC522AD5A572ED"]
+			id: "054C3E00600E0A64"
+			tasks: [{
+				consume_items: false
+				id: "778DCACE8C9D6ECC"
+				item: { count: 1, id: "betterenchanting:essence_of_sea_luck" }
+				type: "item"
+			}]
+			x: 22.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["2AAC522AD5A572ED"]
+			id: "3EFC6231668DD9CD"
+			tasks: [{
+				consume_items: false
+				id: "4237BBA4874502E5"
+				item: { count: 1, id: "betterenchanting:essence_of_efficiency" }
+				type: "item"
+			}]
+			x: 19.5d
+			y: 17.0d
+		}
+		{
+			dependencies: ["2AAC522AD5A572ED"]
+			id: "2D92AD9FBF242B3F"
+			tasks: [{
+				consume_items: false
+				id: "252CDC76F311B632"
+				item: { count: 1, id: "betterenchanting:essence_of_piercing" }
+				type: "item"
+			}]
+			x: 23.5d
+			y: 12.0d
+		}
+		{
+			dependencies: ["2AAC522AD5A572ED"]
+			id: "0561B68941C149BC"
+			tasks: [{
+				consume_items: false
+				id: "6666233E396C5905"
+				item: { count: 1, id: "betterenchanting:essence_of_sea" }
+				type: "item"
+			}]
+			x: 21.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["2AAC522AD5A572ED"]
+			id: "3A36416AAC243FDF"
+			tasks: [{
+				consume_items: false
+				id: "58EA0206419FE738"
+				item: { count: 1, id: "betterenchanting:essence_of_fear" }
+				type: "item"
+			}]
+			x: 15.5d
+			y: 16.0d
+		}
+		{
+			dependencies: ["2AAC522AD5A572ED"]
+			id: "6268219483738A4D"
+			tasks: [{
+				consume_items: false
+				id: "15A73313464C33A7"
+				item: { count: 1, id: "betterenchanting:essence_of_foraging" }
+				type: "item"
+			}]
+			x: 18.5d
+			y: 17.0d
+		}
+		{
+			dependencies: ["2AAC522AD5A572ED"]
+			id: "3D2BED402545E30F"
+			tasks: [{
+				consume_items: false
+				id: "000D5D5B09EB1114"
+				item: { count: 1, id: "betterenchanting:essence_of_sight" }
+				type: "item"
+			}]
+			x: 17.5d
+			y: 17.0d
+		}
+		{
+			dependencies: ["54CF56DC3CFE7C4F"]
+			id: "780AEAAF1EBF90FF"
+			tasks: [{
+				consume_items: false
+				id: "2206F57ED673560F"
+				item: { count: 1, id: "betterenchanting:essence_of_blast_protection" }
+				type: "item"
+			}]
+			x: 29.0d
+			y: 22.0d
+		}
+		{
+			dependencies: ["54CF56DC3CFE7C4F"]
+			id: "151691774A10AE09"
+			tasks: [{
+				consume_items: false
+				id: "1E9F34022348A58C"
+				item: { count: 1, id: "betterenchanting:essence_of_feather" }
+				type: "item"
+			}]
+			x: 30.0d
+			y: 21.0d
+		}
+		{
+			dependencies: ["54CF56DC3CFE7C4F"]
+			id: "2B19AFB19A58776B"
+			tasks: [{
+				consume_items: false
+				id: "41D9F7072DEC5B6D"
+				item: { count: 1, id: "betterenchanting:essence_of_fire_protection" }
+				type: "item"
+			}]
+			x: 27.0d
+			y: 23.0d
+		}
+		{
+			dependencies: ["54CF56DC3CFE7C4F"]
+			id: "3E90B63D790828D3"
+			tasks: [{
+				consume_items: false
+				id: "3D43A90990C30622"
+				item: { count: 1, id: "betterenchanting:essence_of_multishot" }
+				type: "item"
+			}]
+			x: 27.0d
+			y: 13.0d
+		}
+		{
+			dependencies: ["54CF56DC3CFE7C4F"]
+			id: "235F2DFC5DB22FBC"
+			tasks: [{
+				consume_items: false
+				id: "572C983018792CDF"
+				item: { count: 1, id: "betterenchanting:essence_of_sneak_1" }
+				type: "item"
+			}]
+			x: 30.0d
+			y: 15.0d
+		}
+		{
+			dependencies: ["54CF56DC3CFE7C4F"]
+			id: "30C11895FE094378"
+			tasks: [{
+				consume_items: false
+				id: "536FCCE047ECCEC1"
+				item: { count: 1, id: "betterenchanting:essence_of_sneak_2" }
+				type: "item"
+			}]
+			x: 30.5d
+			y: 16.0d
+		}
+		{
+			dependencies: ["54CF56DC3CFE7C4F"]
+			id: "4B8820F1DDCD7200"
+			tasks: [{
+				consume_items: false
+				id: "0B49AE5C713E61E5"
+				item: { count: 1, id: "betterenchanting:essence_of_sneak_3" }
+				type: "item"
+			}]
+			x: 31.0d
+			y: 17.0d
+		}
+		{
+			dependencies: ["54CF56DC3CFE7C4F"]
+			id: "4279D773DC59AD7B"
+			tasks: [{
+				consume_items: false
+				id: "6AA3E1226AB74627"
+				item: { count: 1, id: "betterenchanting:soul_essence_1" }
+				type: "item"
+			}]
+			x: 31.0d
+			y: 18.0d
+		}
+		{
+			dependencies: ["54CF56DC3CFE7C4F"]
+			id: "273BF5F78AA12690"
+			tasks: [{
+				consume_items: false
+				id: "450D030753D35828"
+				item: { count: 1, id: "betterenchanting:soul_essence_2" }
+				type: "item"
+			}]
+			x: 31.0d
+			y: 19.0d
+		}
+		{
+			dependencies: ["54CF56DC3CFE7C4F"]
+			id: "49709876416B8094"
+			tasks: [{
+				consume_items: false
+				id: "6BDC77E9E89A45A0"
+				item: { count: 1, id: "betterenchanting:soul_essence_3" }
+				type: "item"
+			}]
+			x: 30.5d
+			y: 20.0d
+		}
+		{
+			dependencies: ["54CF56DC3CFE7C4F"]
+			id: "1B957014BB245C6E"
+			tasks: [{
+				consume_items: false
+				id: "3E36BC45CBEDC42F"
+				item: { count: 1, id: "betterenchanting:essence_of_sweeping" }
+				type: "item"
+			}]
+			x: 21.0d
+			y: 19.0d
+		}
+		{
+			dependencies: ["54CF56DC3CFE7C4F"]
+			id: "2870F13B6FAE2F9B"
+			tasks: [{
+				consume_items: false
+				id: "2406A892C27D0AEE"
+				item: { count: 1, id: "betterenchanting:essence_of_poison_protection" }
+				type: "item"
+			}]
+			x: 26.0d
+			y: 23.0d
+		}
+		{
+			dependencies: ["54CF56DC3CFE7C4F"]
+			id: "5BC105580B81E589"
+			tasks: [{
+				consume_items: false
+				id: "220933B2ADA441CC"
+				item: { count: 1, id: "betterenchanting:essence_of_quick_charge" }
+				type: "item"
+			}]
+			x: 26.0d
+			y: 13.0d
+		}
+		{
+			dependencies: ["54CF56DC3CFE7C4F"]
+			id: "3A794FCC7E1B7B8F"
+			tasks: [{
+				consume_items: false
+				id: "75BD1A4C4CB6F5D8"
+				item: { count: 1, id: "betterenchanting:essence_of_density" }
+				type: "item"
+			}]
+			x: 21.0d
+			y: 17.0d
+		}
+		{
+			dependencies: ["54CF56DC3CFE7C4F"]
+			id: "11650E84CF68357C"
+			tasks: [{
+				consume_items: false
+				id: "53DF70D1403CBBD6"
+				item: { count: 1, id: "betterenchanting:essence_of_sharpness" }
+				type: "item"
+			}]
+			x: 22.0d
+			y: 21.0d
+		}
+		{
+			dependencies: ["54CF56DC3CFE7C4F"]
+			id: "2B0E45850625159C"
+			tasks: [{
+				consume_items: false
+				id: "506306F70C589B3E"
+				item: { count: 1, id: "betterenchanting:essence_of_breach" }
+				type: "item"
+			}]
+			x: 21.0d
+			y: 18.0d
+		}
+		{
+			dependencies: ["54CF56DC3CFE7C4F"]
+			id: "211003D56BA9E52B"
+			tasks: [{
+				consume_items: false
+				id: "5AC1A958E6957A99"
+				item: { count: 1, id: "betterenchanting:essence_of_fortune" }
+				type: "item"
+			}]
+			x: 24.0d
+			y: 13.5d
+		}
+		{
+			dependencies: ["54CF56DC3CFE7C4F"]
+			id: "3806116DA302EDB4"
+			tasks: [{
+				consume_items: false
+				id: "65CDF7ADE5758A93"
+				item: { count: 1, id: "betterenchanting:essence_of_looting" }
+				type: "item"
+			}]
+			x: 24.0d
+			y: 22.5d
+		}
+		{
+			dependencies: ["54CF56DC3CFE7C4F"]
+			id: "24100998E1CEA227"
+			tasks: [{
+				consume_items: false
+				id: "58527A338055C9E6"
+				item: { count: 1, id: "betterenchanting:essence_of_arrows" }
+				type: "item"
+			}]
+			x: 29.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["54CF56DC3CFE7C4F"]
+			id: "6F119731A5D2E615"
+			tasks: [{
+				consume_items: false
+				id: "278AECA3C44A3A4C"
+				item: { count: 1, id: "betterenchanting:essence_of_combat" }
+				type: "item"
+			}]
+			x: 21.5d
+			y: 20.0d
+		}
+		{
+			dependencies: ["54CF56DC3CFE7C4F"]
+			id: "44045906632B4528"
+			tasks: [{
+				consume_items: false
+				id: "249E4D1BA1C11BA9"
+				item: { count: 1, id: "betterenchanting:essence_of_mining" }
+				type: "item"
+			}]
+			x: 23.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["54CF56DC3CFE7C4F"]
+			id: "1C7A1CD2697F8ECF"
+			tasks: [{
+				consume_items: false
+				id: "1012BA0ED99E84C9"
+				item: { count: 1, id: "betterenchanting:essence_of_power" }
+				type: "item"
+			}]
+			x: 28.0d
+			y: 13.5d
+		}
+		{
+			dependencies: ["54CF56DC3CFE7C4F"]
+			id: "2406A707DDD4F07C"
+			tasks: [{
+				consume_items: false
+				id: "34668C8ECBAB2F4D"
+				item: { count: 1, id: "betterenchanting:essence_of_silk_touch" }
+				type: "item"
+			}]
+			x: 25.0d
+			y: 13.0d
+		}
+		{
+			dependencies: ["54CF56DC3CFE7C4F"]
+			id: "5727D9739E6042DC"
+			tasks: [{
+				consume_items: false
+				id: "17FC95489609CCFE"
+				item: { count: 1, id: "betterenchanting:essence_of_wind" }
+				type: "item"
+			}]
+			x: 21.5d
+			y: 16.0d
+		}
+		{
+			dependencies: ["54CF56DC3CFE7C4F"]
+			id: "0381CE80730E7258"
+			tasks: [{
+				consume_items: false
+				id: "46FB359C7E6603E0"
+				item: { count: 1, id: "betterenchanting:essence_of_unbreaking" }
+				type: "item"
+			}]
+			x: 25.0d
+			y: 23.0d
+		}
+		{
+			dependencies: ["54CF56DC3CFE7C4F"]
+			id: "1136DF44FF8E5D02"
+			tasks: [{
+				consume_items: false
+				id: "17CCA8C332C65A9F"
+				item: { count: 1, id: "betterenchanting:essence_of_protection" }
+				type: "item"
+			}]
+			x: 28.0d
+			y: 22.5d
+		}
+		{
+			dependencies: ["1AFCB82F08BF1FD5"]
+			id: "193C99249AB69B9E"
+			tasks: [{
+				consume_items: false
+				id: "2C61617E335EFEDC"
+				item: { count: 1, id: "betterenchanting:essence_of_thorn" }
+				type: "item"
+			}]
+			x: 20.5d
+			y: 21.5d
+		}
+		{
+			dependencies: ["1AFCB82F08BF1FD5"]
+			id: "6725A58D4229BA90"
+			tasks: [{
+				consume_items: false
+				id: "6EB606ABEC76C23F"
+				item: { count: 1, id: "betterenchanting:essence_of_experience" }
+				type: "item"
+			}]
+			x: 23.5d
+			y: 24.5d
+		}
+		{
+			dependencies: ["1AFCB82F08BF1FD5"]
+			id: "7B0DEA0B13E37D0A"
+			tasks: [{
+				consume_items: false
+				id: "7CFF9969F7EF206E"
+				item: { count: 1, id: "betterenchanting:essence_of_health" }
+				type: "item"
+			}]
+			x: 22.0d
+			y: 25.0d
+		}
+		{
+			dependencies: ["1AFCB82F08BF1FD5"]
+			id: "04C837B810B5C356"
+			tasks: [{
+				consume_items: false
+				id: "50F09D00976E90BB"
+				item: { count: 1, id: "betterenchanting:essence_of_wings" }
+				type: "item"
+			}]
+			x: 20.5d
+			y: 24.5d
+		}
+		{
+			dependencies: ["1AFCB82F08BF1FD5"]
+			id: "3D09C25AC8D88139"
+			tasks: [{
+				consume_items: false
+				id: "44A70752E6041518"
+				item: { count: 1, id: "betterenchanting:essence_of_vampirism" }
+				type: "item"
+			}]
+			x: 20.0d
+			y: 23.0d
 		}
 	]
 }
