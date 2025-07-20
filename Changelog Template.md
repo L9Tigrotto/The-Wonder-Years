@@ -53,6 +53,10 @@
 - **YUNG's Better Mineshaft**: Replaced with Hopo Better Mineshaft
 - **Clean Tooltips**: Hide enchantment defscription and duplicate the durability tooltip
 - **Untitled Duck Mod**: I dont like it
+- **Cat Loaf**: Not working with the fersh animation resource pack
+- **Cat Jam**: Not working with the fersh animation resource pack
+- **Prism**: Dead dependecy
+- **JeckoLib**: Dead dependecy
 
 ---
 
@@ -82,3 +86,6 @@
 - **Entity Culling**: `v1.8.1` → `v1.8.2`
 - **Luki's Grand Capitals**: `v1.1.1` → `v1.1.2`
 - **Structorify**: `v1.0.18` → `v1.0.19`
+- **Distant Horizons**: `v2.3.3` → `v2.3.4b` (stil disabled)
+- **Resourcify**: `v1.7.3` → `v1.7.4`
+- **Moonlight Lib**: `v2.19.5` → `v2.20.0`
