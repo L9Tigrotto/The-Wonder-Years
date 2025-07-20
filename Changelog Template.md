@@ -56,6 +56,7 @@
 - **Underlay**: Lets you place carpets (and more) under any block with space beneath it.
 - **Two Players One Horse**: Allows two players to mount on the same horse.
 - **EXP Counter**: Sisplays the experience points you've gathered toward your next level.
+- **Village Spawn Point**: Sets the spawn point of a new world to always be in the center of a village.
 
 ---
 
