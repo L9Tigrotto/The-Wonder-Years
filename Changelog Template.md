@@ -31,6 +31,10 @@
 
 - Disabled mod tier system.
 
+**Just Mob Heads:**
+
+- Lowered the head drop rate from 1 over 100 kills to 1 over 1000 kills.
+
 ---
 
 ## ❌ Mods Removed
