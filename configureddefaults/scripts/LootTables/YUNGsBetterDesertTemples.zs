@@ -61,9 +61,6 @@ loot.modifiers.register(
 		// 20% chance for old_eye
 		if (random.nextFloat() * 100.0 <= 20.0) { loot.add(<item:endrem:old_eye>); }
 
-		// 15% chance for obsidian_skull
-		if (random.nextFloat() * 100.0 <= 15.0) { loot.add(<item:artifacts:obsidian_skull>); }
-
 		// 20.0% chance for leather tier horse stuff
 		if (random.nextFloat() * 100.0 <= 20.0) { loot.add(<item:minecraft:leather_horse_armor>); }
 
@@ -251,6 +248,10 @@ loot.modifiers.register(
 		loot.add(<item:minecraft:sand> * random.nextInt(4, 8));
 		loot.add(<item:minecraft:sand> * random.nextInt(4, 8));
 		
+		addRandomEssence(loot, random, "overworld");
+		addRandomEssence(loot, random, "overworld");
+		addRandomArtifact(loot, random, "overworld");
+
 		// 100% chance with prestige 5 and 70% chance with prestige 2
 		addMoneyBagWithProbability(loot, random, 100, "overworld", 5);
 		addMoneyBagWithProbability(loot, random, 70.0, "overworld", 2);
@@ -523,83 +524,11 @@ loot.modifiers.register(
 
 		performWeightedPool(loot, random, 3, 7, 31, 0, pool1_items, pool1_weights, pool1_min_counts, pool1_max_counts);
 		
-		// 10% chance for each armor pieces (helmet, chestplate, leggens and boots)
-		// each piece has a random tier and random enchantments
-		for i in 0 .. 3 
-		{
-			if (random.nextFloat() * 100.0 <= 10.0)
-			{
-				loot.add(applyRandomApplicableEnchantments(
-					applyRandomTier(<item:minecraft:leather_helmet>, random, "overworld"),
-					random, "overworld"));
-			}
-			if (random.nextFloat() * 100.0 <= 10.0)
-			{
-				loot.add(applyRandomApplicableEnchantments(
-					applyRandomTier(<item:minecraft:leather_chestplate>, random, "overworld"),
-					random, "overworld"));
-			}
-			if (random.nextFloat() * 100.0 <= 10.0)
-			{
-				loot.add(applyRandomApplicableEnchantments(
-					applyRandomTier(<item:minecraft:leather_leggings>, random, "overworld"),
-					random, "overworld"));
-			}
-			if (random.nextFloat() * 100.0 <= 10.0)
-			{
-				loot.add(applyRandomApplicableEnchantments(
-					applyRandomTier(<item:minecraft:leather_boots>, random, "overworld"),
-					random, "overworld"));
-			}
-			if (random.nextFloat() * 100.0 <= 10.0)
-			{
-				loot.add(applyRandomApplicableEnchantments(
-					applyRandomTier(<item:minecraft:chainmail_helmet>, random, "overworld"),
-					random, "overworld"));
-			}
-			if (random.nextFloat() * 100.0 <= 10.0)
-			{
-				loot.add(applyRandomApplicableEnchantments(
-					applyRandomTier(<item:minecraft:chainmail_chestplate>, random, "overworld"),
-					random, "overworld"));
-			}
-			if (random.nextFloat() * 100.0 <= 10.0)
-			{
-				loot.add(applyRandomApplicableEnchantments(
-					applyRandomTier(<item:minecraft:chainmail_leggings>, random, "overworld"),
-					random, "overworld"));
-			}
-			if (random.nextFloat() * 100.0 <= 10.0)
-			{
-				loot.add(applyRandomApplicableEnchantments(
-					applyRandomTier(<item:minecraft:chainmail_boots>, random, "overworld"),
-					random, "overworld"));
-			}
-			if (random.nextFloat() * 100.0 <= 10.0)
-			{
-				loot.add(applyRandomApplicableEnchantments(
-					applyRandomTier(<item:minecraft:golden_helmet>, random, "overworld"),
-					random, "overworld"));
-			}
-			if (random.nextFloat() * 100.0 <= 10.0)
-			{
-				loot.add(applyRandomApplicableEnchantments(
-					applyRandomTier(<item:minecraft:golden_chestplate>, random, "overworld"),
-					random, "overworld"));
-			}
-			if (random.nextFloat() * 100.0 <= 10.0)
-			{
-				loot.add(applyRandomApplicableEnchantments(
-					applyRandomTier(<item:minecraft:golden_leggings>, random, "overworld"),
-					random, "overworld"));
-			}
-			if (random.nextFloat() * 100.0 <= 10.0)
-			{
-				loot.add(applyRandomApplicableEnchantments(
-					applyRandomTier(<item:minecraft:golden_boots>, random, "overworld"),
-					random, "overworld"));
-			}
-		}
+		// 40% for gears
+		addRandomGearWithProbability(loot, random, 0.40, "overworld");
+		addRandomGearWithProbability(loot, random, 0.40, "overworld");
+		addRandomGearWithProbability(loot, random, 0.40, "overworld");
+		addRandomGearWithProbability(loot, random, 0.40, "overworld");
 
 		// 20% chance for leather tier horse stuff
 		if (random.nextFloat() * 100.0 <= 20.0) { loot.add(<item:minecraft:leather_horse_armor>); }
