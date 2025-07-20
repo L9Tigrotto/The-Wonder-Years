@@ -43,6 +43,7 @@
 
 - **YUNG's Better Mineshaft**: Replaced with Hopo Better Mineshaft
 - **Clean Tooltips**: Hide enchantment defscription and duplicate the durability tooltip
+- **Untitled Duck Mod**: I dont like it
 
 ---
 
