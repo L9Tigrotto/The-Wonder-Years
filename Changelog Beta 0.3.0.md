@@ -1,32 +1,25 @@
 # The Wonder Years Changelog Version 0.3.0
 
-## 📋 General Updates
-
-*List administrative changes, modpack-wide modifications, and other general updates. Remove this section if no general changes were made.*
-
-- Updating modpack description and documentation.
-- Disabling resource-intensive mods by default for performance.
-
 ## ⚙️ Settings Changed
 
 *List all configuration changes organized by mod.*
 
 **FTB Quests:**
 
-- Fixed a bug were unnamed chapters apper after world reloading.
+- Fixed a bug where unnamed chapters appear after world reloading.
 - End remastered eyes will no longer be consumed upon quest completion.
-- Completing Incendium quests now rewards you with a random unique tier variant of Incendium items
-- Added task for gear-shaped quests
-- Added artifact quests
-- Added essence quests
+- Completing Incendium quests now rewards you with a random unique tier variant of Incendium items.
+- Added task for gear-shaped quests.
+- Added artifact quests.
+- Added essence quests.
 
 **FTB Chunks:**
 
-- Increased the maximum amount of claimable chunks
+- Increased the maximum amount of claimable chunksm.
 
 **Jade:**
 
-- Disable storage to show its content.
+- Disabled storage from showing its content.
 
 **Dungeon Difficulties:**
 
@@ -38,7 +31,7 @@
 
 **Structorify:**
 
-- Disable some structure from spawning.
+- Disabled some structures from spawning.
 
 **Better Enchantments:**
 
@@ -50,13 +43,13 @@
 
 *List all mods that were removed with reasons.*
 
-- **YUNG's Better Mineshaft**: Replaced with Hopo Better Mineshaft
-- **Clean Tooltips**: Hide enchantment defscription and duplicate the durability tooltip
-- **Untitled Duck Mod**: I dont like it
-- **Cat Loaf**: Not working with the fersh animation resource pack
-- **Cat Jam**: Not working with the fersh animation resource pack
-- **Prism**: Dead dependecy
-- **JeckoLib**: Dead dependecy
+- **YUNG's Better Mineshaft**: Replaced with Hopo Better Mineshaft.
+- **Clean Tooltips**: Hide enchantment defscription and duplicate the durability tooltip.
+- **Untitled Duck Mod**: I don't like it.
+- **Cat Loaf**: Not working with the fresh animation resource pack.
+- **Cat Jam**: Not working with the fresh animation resource pack.
+- **Prism**: Dead dependency.
+- **JeckoLib**: Dead dependency.
 
 ---
 
@@ -65,13 +58,13 @@
 *List all newly added mods with reasons.*
 
 - **Wavey Capes**: Brings capes to life with smooth animations and realistic physics.
-- **Hopo Better Mineshaft**: Mineshaft are cooler.
+- **Hopo Better Mineshaft**: Mineshafts are cooler.
 - **Underlay**: Lets you place carpets (and more) under any block with space beneath it.
 - **Two Players One Horse**: Allows two players to mount on the same horse.
-- **EXP Counter**: Sisplays the experience points you've gathered toward your next level.
+- **EXP Counter**: Displays the experience points you've gathered toward your next level.
 - **Village Spawn Point**: Sets the spawn point of a new world to always be in the center of a village.
 - **Macaw's Series**: Mods adding decorations.
-- **Mighty Mail**: Allows to send mail to other players on your server.
+- **Mighty Mail**: Allows you to send mail to other players on your server.
 - **Serene Seasons**: Adds seasons.
 
 ---
@@ -86,6 +79,6 @@
 - **Entity Culling**: `v1.8.1` → `v1.8.2`
 - **Luki's Grand Capitals**: `v1.1.1` → `v1.1.2`
 - **Structorify**: `v1.0.18` → `v1.0.19`
-- **Distant Horizons**: `v2.3.3` → `v2.3.4b` (stil disabled)
+- **Distant Horizons**: `v2.3.3` → `v2.3.4b` (still disabled)
 - **Resourcify**: `v1.7.3` → `v1.7.4`
 - **Moonlight Lib**: `v2.19.5` → `v2.20.0`
