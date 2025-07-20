@@ -35,6 +35,10 @@
 
 - Lowered the head drop rate from 1 over 100 kills to 1 over 1000 kills.
 
+**Structorify:**
+
+- Disable some structure from spawning.
+
 ---
 
 ## ❌ Mods Removed

@@ -1,6 +1,6 @@
 {
   "config_version": "1.0.19",
-  "config_datetime": "2025-07-19_11-58-03",
+  "config_datetime": "2025-07-19_21-56-44",
   "general": {
     "min_structure_distance_from_world_center": 0,
     "disable_all_structures": false,
@@ -298,6 +298,23 @@
       "blacklisted_biomes": []
     },
     {
+      "name": "incendium:nether_reactor",
+      "is_disabled": true,
+      "enable_flatness_check": false,
+      "flatness_check_distance": 80,
+      "flatness_check_threshold": 10,
+      "enable_biome_check": false,
+      "biome_check_distance": 80,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#is_river",
+        "#is_ocean",
+        "#is_beach"
+      ],
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
       "name": "incendium:piglin_village",
       "is_disabled": true,
       "enable_flatness_check": false,
@@ -373,6 +390,23 @@
       "blacklisted_biomes": []
     },
     {
+      "name": "repurposed_structures:bastion_underground",
+      "is_disabled": true,
+      "enable_flatness_check": false,
+      "flatness_check_distance": 0,
+      "flatness_check_threshold": 10,
+      "enable_biome_check": false,
+      "biome_check_distance": 0,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#is_river",
+        "#is_ocean",
+        "#is_beach"
+      ],
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
       "name": "repurposed_structures:city_overworld",
       "is_disabled": true,
       "enable_flatness_check": false,
@@ -398,6 +432,23 @@
       "biome_check_mode": "BLACKLIST",
       "biome_check_blacklisted_biomes": [
         "#is_river"
+      ],
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "repurposed_structures:fortress_jungle_yungs",
+      "is_disabled": true,
+      "enable_flatness_check": false,
+      "flatness_check_distance": 116,
+      "flatness_check_threshold": 10,
+      "enable_biome_check": false,
+      "biome_check_distance": 116,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#is_river",
+        "#is_ocean",
+        "#is_beach"
       ],
       "whitelisted_biomes": [],
       "blacklisted_biomes": []
