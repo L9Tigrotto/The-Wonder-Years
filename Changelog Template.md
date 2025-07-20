@@ -39,6 +39,10 @@
 
 - Disable some structure from spawning.
 
+**Better Enchantments:**
+
+- Added ingredients for some enchantments.
+
 ---
 
 ## ❌ Mods Removed
