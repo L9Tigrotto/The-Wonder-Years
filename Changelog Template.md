@@ -19,6 +19,10 @@
 - Added task for gear quests
 - Added artifact quests
 
+**FTB Chunks:**
+
+- Increased the maximum amount of claimable chunks
+
 **Jade:**
 
 - Disable storage to show its content.
