@@ -246,8 +246,9 @@
 			shape: "gear"
 			size: 1.2d
 			tasks: [{
-				id: "224E28059B55725A"
-				item: { count: 1, id: "minecraft:diamond" }
+				count: 24L
+				id: "1E0C62F59FFC077C"
+				item: { count: 24, id: "minecraft:lapis_lazuli" }
 				type: "item"
 			}]
 			x: 4.0d

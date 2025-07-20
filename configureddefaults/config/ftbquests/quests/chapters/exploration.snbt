@@ -272,7 +272,7 @@
 			id: "1CD6B75A997A07BE"
 			tasks: [
 				{
-					count: 30L
+					count: 10L
 					id: "38A50B5DEEB867BF"
 					item: { count: 30, id: "numismatic-overhaul:gold_coin" }
 					type: "item"
@@ -370,7 +370,7 @@
 			id: "58BE6ABE166CD4B8"
 			tasks: [
 				{
-					count: 25L
+					count: 5L
 					id: "50D8DB55FFCD5B13"
 					item: { count: 1, id: "numismatic-overhaul:gold_coin" }
 					type: "item"
@@ -488,7 +488,7 @@
 			id: "132820EC14414F20"
 			shape: "gear"
 			tasks: [{
-				count: 40L
+				count: 10L
 				id: "49D8D84957B24942"
 				item: { count: 1, id: "numismatic-overhaul:gold_coin" }
 				type: "item"
