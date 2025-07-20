@@ -585,5 +585,18 @@
 			x: 9.0d
 			y: 2.0d
 		}
+		{
+			dependencies: ["4283D8CA2C3B3D77"]
+			icon: {
+				id: "mighty_mail:oak_mail_box"
+			}
+			id: "2D72E13DD4F8CC2A"
+			tasks: [{
+				id: "7B36D92102E6A5C4"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
 	]
 }

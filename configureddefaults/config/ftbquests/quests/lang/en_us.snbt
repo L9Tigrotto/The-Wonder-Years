@@ -185,6 +185,12 @@
 	quest.2B0E45850625159C.quest_desc: ["used for breach enchant"]
 	quest.2B19AFB19A58776B.quest_desc: ["used for fire protection enchant"]
 	quest.2BD891772E4F6B8C.quest_desc: ["Crossbow wreathed in eternal flames. Spectral arrows become explosive lightning bolts. Born from the Inferno's rage, this weapon turns arrows into divine punishment."]
+	quest.2D72E13DD4F8CC2A.quest_desc: [
+		"&2Send and receive items safely. &rUse post boxes to send packages and mailboxes receive them. Limited to one mailbox per player."
+		""
+		"&aSearch &7\\\"@mighty\\\" &rfor all mail items."
+	]
+	quest.2D72E13DD4F8CC2A.title: "&aPlayer Mail System&r"
 	quest.2D92AD9FBF242B3F.quest_desc: ["used for piercing enchant"]
 	quest.2E6BC4D52A2B97FF.quest_desc: ["Slow blade spreading wither's curse. Most strikes inflict the deadly decay. Defeating the Wither in warped forests may yield this corrupted weapon."]
 	quest.2E727A50A56F990F.quest_desc: ["&5Claimed from fallen Evokers. &rWithout this eye, the Evoker holds no mystical power."]
@@ -228,6 +234,7 @@
 	]
 	quest.3ADA0678306408A9.quest_subtitle: "Enchantment Crystal"
 	quest.3ADA0678306408A9.title: "&dMagical Accumulator&r"
+	quest.3B50133CA80F323D.quest_desc: ["used for punch enchant"]
 	quest.3BD335DD4232A515.quest_desc: ["used for riptide enchant"]
 	quest.3C460787DD108576.quest_desc: ["&2More than just buffs. &rUse copper in pyramid construction. Different materials give different ranges. Tinted glass reduces beam brightness. Stronger pyramid blocks provide more powerful effects."]
 	quest.3C460787DD108576.title: "&aBeacons Enhanced&r"
@@ -441,6 +448,7 @@
 	]
 	quest.761B2EFE96F5E786.title: "&eMark Locations&r"
 	quest.77ADD23FE648BA79.quest_desc: ["Diamond axe (upgradable with netherite) burning with inner fire. Launches foes skyward in flame bursts. Logs become charcoal instantly. Found where the Pyromaniac once ruled with fiery fury."]
+	quest.77CC64A2135F14EF.quest_desc: ["used for flame enchant"]
 	quest.77DEE704118377EA.quest_desc: ["used for smite enchant"]
 	quest.77E5A1413D9BB438.quest_desc: ["Patient crossbow firing slow lightning orbs. Wait for the cooldown or suffer electric backlash. Captured sentries still guard this weapon in copper chambers."]
 	quest.77F79FDF011B29FA.quest_desc: ["Enchanted breathing gear that &bextends underwater breathing time&r, allowing deeper ocean exploration."]
@@ -462,6 +470,7 @@
 	quest.7C550694B73E8282.quest_desc: ["&2Master builders need master tools. &rDiscover equipment that makes building faster, more precise, and more enjoyable."]
 	quest.7C550694B73E8282.title: "&2Construction Mastery&r"
 	quest.7D77F2F8735710C5.quest_desc: ["used for knockback enchant"]
+	quest.7DB293DB046361AE.quest_desc: ["used for builder arms enchant"]
 	quest.7E33DD624A45B3D7.quest_desc: ["Shield spreading death's touch. Blocking inflicts wither on attackers. Darkness defends those who embrace it."]
 	quest.7E3D608F93791F43.quest_desc: ["Heavy boots that &8prevent knockback&r from enemy attacks, keeping you grounded."]
 	quest.7E3D608F93791F43.title: "&dKnockback Resistance&r"
@@ -548,6 +557,7 @@
 	task.773D06A41D465029.title: "Understood"
 	task.777FE941D4A3A2DE.title: "Understood"
 	task.77A55D1F05BC8CA7.title: "Understood"
+	task.7B36D92102E6A5C4.title: "Understood"
 	task.7C263C8FF21196E3.title: "Understood"
 	task.7D4FCE810B454120.title: "Understood"
 }
