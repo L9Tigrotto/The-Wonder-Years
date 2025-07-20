@@ -62,6 +62,7 @@
 - **EXP Counter**: Sisplays the experience points you've gathered toward your next level.
 - **Village Spawn Point**: Sets the spawn point of a new world to always be in the center of a village.
 - **Macaw's Series**: Mods adding decorations.
+- **Mighty Mail**: Allows to send mail to other players on your server.
 
 ---
 
