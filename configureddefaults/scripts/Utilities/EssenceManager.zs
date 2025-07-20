@@ -11,7 +11,7 @@ import stdlib.List;
  * @param random - Random source for probability calculations
  * @param dimension - The dimension where the loot is being generated ("overworld", "nether", "end")
  */
-public function addEssenceWithProbability(loot as List<IItemStack>, random as RandomSource, dimension as string) as void
+public function addRandomEssence(loot as List<IItemStack>, random as RandomSource, dimension as string) as void
 {
 	// Validate dimension
 	if (dimension != "overworld" && dimension != "nether" && dimension != "end")
@@ -20,11 +20,8 @@ public function addEssenceWithProbability(loot as List<IItemStack>, random as Ra
 		return;
 	}
 
-	// Base chance for any essence to drop (75%)
-	val drop_probability = 0.75 as float;
-
 	// Early exit if the random roll fails the base drop chance
-	if (random.nextFloat() > drop_probability) { return; }
+	if (random.nextFloat() > 0.75) { return; }
 
 	// Initialize dimension-specific probabilities
 	var overworld_probability = 0.0 as float;
@@ -93,7 +90,10 @@ function overworldEssences() as IItemStack[]
 		<item:betterenchanting:essence_of_sea>,
 		<item:betterenchanting:essence_of_fear>,
 		<item:betterenchanting:essence_of_foraging>,
-		<item:betterenchanting:essence_of_sight>
+		<item:betterenchanting:essence_of_sight>,
+		<item:betterenchanting:essence_of_building>,
+		<item:betterenchanting:essence_of_fire>,
+		<item:betterenchanting:essence_of_punch>
 	];
 
 	return essences;
@@ -148,9 +148,6 @@ function endEssences() as IItemStack[]
 		<item:betterenchanting:essence_of_experience>,
 		<item:betterenchanting:essence_of_health>,
 		<item:betterenchanting:essence_of_wings>,
-		<item:minecraft:shulker_shell>,
-		<item:minecraft:popped_chorus_fruit>,
-		<item:minecraft:end_stone_bricks>,
 		<item:betterenchanting:essence_of_vampirism>
 	];
 
