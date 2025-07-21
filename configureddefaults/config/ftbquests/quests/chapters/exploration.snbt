@@ -1,0 +1,2239 @@
+{
+	autofocus_id: "65612A9627402849"
+	default_hide_dependency_lines: false
+	default_min_width: 300
+	default_quest_shape: ""
+	filename: "exploration"
+	group: ""
+	hide_quest_until_deps_complete: true
+	icon: {
+		id: "questsicons:quest_portal_two"
+	}
+	id: "3BA37B507026C661"
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["1872C0B0FB550113"]
+			icon: {
+				id: "mythicupgrades:necoium_ingot"
+			}
+			id: "0B2BD57EC5EC4367"
+			tasks: [{
+				id: "6E7C64255D038568"
+				type: "checkmark"
+			}]
+			x: 23.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["65612A9627402849"]
+			icon: {
+				id: "questsicons:chapter_lock"
+			}
+			id: "5D1A295BD31BDC71"
+			shape: "gear"
+			tasks: [{
+				count: 10L
+				id: "4955299E15E32736"
+				item: { count: 10, id: "numismatic-overhaul:bronze_coin" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5D1A295BD31BDC71"]
+			icon: {
+				id: "minecraft:map"
+			}
+			id: "19DB64CB3DFBEA7A"
+			tasks: [{
+				id: "0AC61E4744CAF3C3"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5D1A295BD31BDC71"]
+			icon: {
+				components: {
+					"minecraft:attribute_modifiers": {
+						modifiers: [ ]
+						show_in_tooltip: 0b
+					}
+					"minecraft:custom_data": {
+						"$polymer:stack": {
+							id: "universal_graves:visual_grave"
+						}
+					}
+					"minecraft:enchantment_glint_override": 0b
+					"minecraft:hide_additional_tooltip": { }
+					"minecraft:item_name": "{\"color\":\"white\",\"extra\":[{\"fallback\":\"Gravestone\",\"translate\":\"block.universal_graves.container_grave\"}],\"text\":\"\"}"
+					"minecraft:lore": ["{\"color\":\"white\",\"extra\":[{\"color\":\"blue\",\"italic\":true,\"text\":\"Universal Graves\"}],\"italic\":false,\"text\":\"\"}"]
+					"minecraft:rarity": "common"
+				}
+				id: "minecraft:skeleton_skull"
+			}
+			id: "0A374397E31C7E84"
+			tasks: [{
+				id: "404E0B25DEF8A387"
+				type: "checkmark"
+			}]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5D1A295BD31BDC71"]
+			icon: {
+				id: "comforts:sleeping_bag_white"
+			}
+			id: "48A622DDA4B19FBF"
+			tasks: [{
+				id: "1F1F0168B9937150"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["48A622DDA4B19FBF"]
+			icon: {
+				id: "questsicons:chapter_lock"
+			}
+			id: "578D0B4888DF97B6"
+			shape: "gear"
+			tasks: [{
+				count: 80L
+				id: "1654FA1ED1E7C6D5"
+				item: { count: 1, id: "numismatic-overhaul:bronze_coin" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["578D0B4888DF97B6"]
+			icon: {
+				id: "explorerscompass:explorerscompass"
+			}
+			id: "3AB9403FB7C8E6DD"
+			tasks: [{
+				id: "35CFB0BC6449C981"
+				type: "checkmark"
+			}]
+			x: 3.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["578D0B4888DF97B6"]
+			icon: {
+				id: "naturescompass:naturescompass"
+			}
+			id: "6DF23DB968F7423C"
+			tasks: [{
+				id: "06D1218919C4AAE7"
+				type: "checkmark"
+			}]
+			x: 6.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["1BAB9E73BF88F737"]
+			icon: {
+				id: "numismatic-overhaul:gold_coin"
+			}
+			id: "65612A9627402849"
+			tasks: [{
+				id: "213C699AB87E05A3"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["19DB64CB3DFBEA7A"]
+			icon: {
+				id: "questsicons:chapter_lock"
+			}
+			id: "3DEFAEC17E67F162"
+			shape: "gear"
+			tasks: [{
+				count: 2L
+				id: "12F89A308CE2D99D"
+				item: { count: 2, id: "numismatic-overhaul:silver_coin" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["3DEFAEC17E67F162"]
+			icon: {
+				id: "fwaystones:blackstone_brick_waystone"
+			}
+			id: "302C40EDAFFDBBCD"
+			tasks: [{
+				id: "217AFC89D67553FE"
+				type: "checkmark"
+			}]
+			x: 4.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["3DEFAEC17E67F162"]
+			icon: {
+				id: "horseexpert:monocle"
+			}
+			id: "4E0D9D537B5A8719"
+			tasks: [{
+				id: "6B3DD338B868B5C7"
+				type: "checkmark"
+			}]
+			x: 3.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["3AB9403FB7C8E6DD"]
+			icon: {
+				id: "questsicons:chapter_lock"
+			}
+			id: "7BFEA239C33A5358"
+			shape: "gear"
+			tasks: [{
+				count: 20L
+				id: "51038DD5835C78EE"
+				item: { count: 20, id: "numismatic-overhaul:silver_coin" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["7BFEA239C33A5358"]
+			icon: {
+				id: "dummmmmmy:target_dummy"
+			}
+			id: "62698ACF363DD358"
+			tasks: [{
+				id: "355C6156B7C0AB4B"
+				type: "checkmark"
+			}]
+			x: 10.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["7BFEA239C33A5358"]
+			icon: {
+				id: "artifacts:panic_necklace"
+			}
+			id: "7449054DFEA0EDF7"
+			tasks: [{
+				id: "161896A783CE5948"
+				type: "checkmark"
+			}]
+			x: 3.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["7BFEA239C33A5358"]
+			icon: {
+				id: "minecraft:anvil"
+			}
+			id: "3098213760C64AD1"
+			tasks: [{
+				id: "5B955F6FFE392E0C"
+				type: "checkmark"
+			}]
+			x: 7.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["6DF23DB968F7423C"]
+			icon: {
+				id: "questsicons:chapter_lock"
+			}
+			id: "25CE25694201EF88"
+			shape: "gear"
+			tasks: [{
+				id: "69F5DB6B42175C03"
+				item: { count: 1, id: "numismatic-overhaul:gold_coin" }
+				type: "item"
+			}]
+			x: 11.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["25CE25694201EF88"]
+			icon: {
+				id: "minecraft:blackstone_stairs"
+			}
+			id: "1CD6B75A997A07BE"
+			tasks: [
+				{
+					count: 10L
+					id: "38A50B5DEEB867BF"
+					item: { count: 30, id: "numismatic-overhaul:gold_coin" }
+					type: "item"
+				}
+				{
+					id: "2506E0773C7645B2"
+					structure: "incendium:forbidden_castle"
+					type: "structure"
+				}
+			]
+			x: 8.0d
+			y: -0.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["1CD6B75A997A07BE"]
+			id: "02C043D329FE7641"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "54AD60FB6EF81947"
+				table_id: 691519638994618637L
+				type: "random"
+			}]
+			tasks: [{
+				id: "638AB46624D936F8"
+				item: { components: { "minecraft:custom_data": { incendium: { item: "withersbane" } }, "minecraft:custom_model_data": 1450007, "minecraft:custom_name": "{\"color\":\"#FFEE99\",\"fallback\":\"Withersbane\",\"italic\":false,\"translate\":\"incendium.item.withersbane.name\"}", "minecraft:enchantments": { levels: { "minecraft:mending": 1, "minecraft:unbreaking": 8 } }, "minecraft:lore": [ "{\"color\":\"#FFDD66\",\"fallback\":\"An ancient blade to smite\",\"italic\":true,\"translate\":\"incendium.item.withersbane.desc1\"}", "{\"color\":\"#FFDD66\",\"fallback\":\"the impurity from the Nether\",\"italic\":true,\"translate\":\"incendium.item.withersbane.desc2\"}", "\"\"", "{\"color\":\"#FF8000\",\"fallback\":\"Incendium\",\"italic\":true,\"translate\":\"incendium\"}" ] }, count: 1, id: "minecraft:golden_sword" }
+				match_components: "fuzzy"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 1.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["1CD6B75A997A07BE"]
+			id: "69A4C7B9CADCF5DE"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "521BAA14ECB63674"
+				table_id: 1917074879970084742L
+				type: "random"
+			}]
+			tasks: [{
+				id: "128EB052F48FB813"
+				item: { components: { "minecraft:custom_data": { incendium: { item: "chilling_blade" } }, "minecraft:custom_model_data": 1450003, "minecraft:custom_name": "{\"color\":\"#0088FF\",\"fallback\":\"Chilling Blade\",\"italic\":false,\"translate\":\"incendium.item.chilling_blade.name\"}", "minecraft:lore": [ "{\"color\":\"#0055AA\",\"fallback\":\"Freezes souls to the core\",\"italic\":true,\"translate\":\"incendium.item.chilling_blade.desc1\"}", "\"\"", "{\"color\":\"#FF8000\",\"fallback\":\"Incendium\",\"italic\":true,\"translate\":\"incendium\"}" ] }, count: 1, id: "minecraft:diamond_sword" }
+				match_components: "fuzzy"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 1.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["1CD6B75A997A07BE"]
+			id: "2EFF546DA1619A7F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2285AB0B707C4E0C"
+				table_id: 2922390211222731087L
+				type: "random"
+			}]
+			tasks: [{
+				id: "567FA89C292B26BF"
+				item: { components: { "minecraft:attribute_modifiers": { modifiers: [ { amount: -2.4000000953674316d, id: "minecraft:base", operation: "add_value", slot: "mainhand", type: "minecraft:generic.attack_speed" }, { amount: 0.05000000074505806d, id: "minecraft:sakuya", operation: "add_multiplied_base", slot: "mainhand", type: "minecraft:generic.attack_speed" }, { amount: 6.79353666305542d, id: "minecraft:remilia_scarlet", operation: "add_value", slot: "mainhand", type: "minecraft:generic.attack_damage" } ] }, "minecraft:custom_data": { incendium: { item: "scarlet_dagger" } }, "minecraft:custom_model_data": 1450005, "minecraft:custom_name": "{\"color\":\"#FF0000\",\"fallback\":\"Scarlet Dagger\",\"italic\":false,\"translate\":\"incendium.item.scarlet_dagger.name\"}", "minecraft:lore": [ "{\"color\":\"#990000\",\"fallback\":\"Drains the life of its slain victims\",\"italic\":true,\"translate\":\"incendium.item.scarlet_dagger.desc1\"}", "\"\"", "{\"color\":\"#FF8000\",\"fallback\":\"Incendium\",\"italic\":true,\"translate\":\"incendium\"}" ] }, count: 1, id: "minecraft:netherite_sword" }
+				match_components: "fuzzy"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -1.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["1CD6B75A997A07BE"]
+			id: "67E3A75D05891D29"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4639EA19D9C8CB91"
+				table_id: 7517995409777738553L
+				type: "random"
+			}]
+			tasks: [{
+				id: "12A1DF8467F3E52D"
+				item: { components: { "minecraft:attribute_modifiers": { modifiers: [ { amount: -0.44999998807907104d, id: "minecraft:base", operation: "add_multiplied_base", slot: "mainhand", type: "minecraft:generic.attack_speed" }, { amount: 14.964370727539062d, id: "minecraft:base", operation: "add_value", slot: "mainhand", type: "minecraft:generic.attack_damage" } ] }, "minecraft:custom_data": { incendium: { item: "greatsword_of_sacrifice" } }, "minecraft:custom_model_data": 1450004, "minecraft:custom_name": "{\"color\":\"#FF0000\",\"fallback\":\"Greatsword of Sacrifice\",\"italic\":false,\"translate\":\"incendium.item.greatsword.name\"}", "minecraft:lore": [ "{\"color\":\"#990000\",\"fallback\":\"Drains the life of its wielder\",\"italic\":true,\"translate\":\"incendium.item.greatsword.desc1\"}", "{\"color\":\"#990000\",\"fallback\":\"to inflict massive damage\",\"italic\":true,\"translate\":\"incendium.item.greatsword.desc2\"}", "\"\"", "{\"color\":\"#FF8000\",\"fallback\":\"Incendium\",\"italic\":true,\"translate\":\"incendium\"}" ] }, count: 1, id: "minecraft:netherite_sword" }
+				match_components: "fuzzy"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["25CE25694201EF88"]
+			icon: {
+				id: "minecraft:smooth_quartz_stairs"
+			}
+			id: "58BE6ABE166CD4B8"
+			tasks: [
+				{
+					count: 5L
+					id: "50D8DB55FFCD5B13"
+					item: { count: 1, id: "numismatic-overhaul:gold_coin" }
+					type: "item"
+				}
+				{
+					id: "15C60936B25D028A"
+					structure: "incendium:sanctum"
+					type: "structure"
+				}
+			]
+			x: 15.0d
+			y: -0.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["58BE6ABE166CD4B8"]
+			id: "0ECC1EAA4DD967DC"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "215BCA0280DE08FB"
+				table_id: 271778020849141602L
+				type: "random"
+			}]
+			tasks: [{
+				id: "7C6CA398341F31C0"
+				item: { components: { "minecraft:attribute_modifiers": { modifiers: [ { amount: -2.4000000953674316d, id: "minecraft:base", operation: "add_value", slot: "mainhand", type: "minecraft:generic.attack_speed" }, { amount: 0.29126793146133423d, id: "minecraft:d", operation: "add_multiplied_base", slot: "mainhand", type: "minecraft:generic.attack_speed" }, { amount: 5.853885650634766d, id: "minecraft:d", operation: "add_value", slot: "mainhand", type: "minecraft:generic.attack_damage" } ] }, "minecraft:custom_data": { incendium: { item: "daybreaker" } }, "minecraft:custom_model_data": 1450000, "minecraft:custom_name": "{\"color\":\"#FFCC00\",\"fallback\":\"Daybreaker\",\"italic\":false,\"translate\":\"incendium.item.daybreaker.name\"}", "minecraft:lore": [ "{\"color\":\"#CC9900\",\"fallback\":\"Has a chance to drop gold\",\"italic\":true,\"translate\":\"incendium.item.daybreaker.desc1\"}", "{\"color\":\"#CC9900\",\"fallback\":\"when killing any mob\",\"italic\":true,\"translate\":\"incendium.item.daybreaker.desc2\"}", "\"\"", "{\"color\":\"#333333\",\"fallback\":\"Patron Item\",\"italic\":true,\"translate\":\"incendium.system.patron_item\"}", "\"\"", "{\"color\":\"#FF8000\",\"fallback\":\"Incendium\",\"italic\":true,\"translate\":\"incendium\"}" ] }, count: 1, id: "minecraft:netherite_sword" }
+				match_components: "fuzzy"
+				type: "item"
+			}]
+			x: 15.5d
+			y: -2.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["58BE6ABE166CD4B8"]
+			id: "06CC68E7DF1FD5E5"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "023EB219AF21B233"
+				table_id: 5651700828338595784L
+				type: "random"
+			}]
+			tasks: [{
+				id: "6F28ADF84DE10BDD"
+				item: { components: { "minecraft:custom_data": { incendium: { item: "ragnarok" } }, "minecraft:custom_model_data": 1450105, "minecraft:custom_name": "{\"color\":\"#CCEBDB\",\"fallback\":\"Ragnarok\",\"italic\":false,\"translate\":\"incendium.item.ragnarok.name\"}", "minecraft:lore": [ "{\"color\":\"#ABC4B8\",\"fallback\":\"The longer you hold back the bow,\",\"italic\":true,\"translate\":\"incendium.item.ragnarok.desc1\"}", "{\"color\":\"#ABC4B8\",\"fallback\":\"the more powerful the lightning you create\",\"italic\":true,\"translate\":\"incendium.item.ragnarok.desc2\"}", "\"\"", "{\"color\":\"#FF8000\",\"fallback\":\"Incendium\",\"italic\":true,\"translate\":\"incendium\"}" ] }, count: 1, id: "minecraft:bow" }
+				match_components: "fuzzy"
+				type: "item"
+			}]
+			x: 16.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"1CD6B75A997A07BE"
+				"58BE6ABE166CD4B8"
+			]
+			icon: {
+				id: "minecraft:red_sandstone_stairs"
+			}
+			id: "5FF42BE6A11FA80E"
+			require_sequential_tasks: false
+			tasks: [
+				{
+					count: 50L
+					id: "310132E98F59D53F"
+					item: { count: 50, id: "numismatic-overhaul:gold_coin" }
+					type: "item"
+				}
+				{
+					id: "52876C69F7211187"
+					structure: "incendium:infernal_altar"
+					type: "structure"
+				}
+			]
+			x: 11.5d
+			y: -4.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["5FF42BE6A11FA80E"]
+			id: "2BD891772E4F6B8C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5C87A678A65ABECD"
+				table_id: 6702532003406539868L
+				type: "random"
+			}]
+			tasks: [{
+				id: "5B510B51F8798D77"
+				item: { components: { "minecraft:custom_data": { incendium: { item: "firestorm" } }, "minecraft:custom_model_data": 1450101, "minecraft:custom_name": "{\"color\":\"#FF4400\",\"fallback\":\"Firestorm\",\"italic\":false,\"translate\":\"incendium.item.firestorm.name\"}", "minecraft:enchantments": { levels: { "minecraft:mending": 1, "minecraft:piercing": 5, "minecraft:quick_charge": 1 } }, "minecraft:fire_resistant": { }, "minecraft:lore": [ "{\"color\":\"#EB783F\",\"fallback\":\"Turns spectral arrows into\",\"italic\":true,\"translate\":\"incendium.item.firestorm.desc1\"}", "{\"color\":\"#EB783F\",\"fallback\":\"a powerful lightning attack\",\"italic\":true,\"translate\":\"incendium.item.firestorm.desc2\"}", "\"\"", "{\"color\":\"#FF8000\",\"fallback\":\"Incendium\",\"italic\":true,\"translate\":\"incendium\"}" ], "minecraft:repair_cost": 1000 }, count: 1, id: "minecraft:crossbow" }
+				match_components: "fuzzy"
+				type: "item"
+			}]
+			x: 9.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["132820EC14414F20"]
+			icon: {
+				id: "minecraft:end_portal_frame"
+			}
+			id: "1872C0B0FB550113"
+			tasks: [{
+				id: "69A07D364748F1E5"
+				type: "checkmark"
+			}]
+			x: 23.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["25CE25694201EF88"]
+			icon: {
+				id: "questsicons:chapter_lock"
+			}
+			id: "132820EC14414F20"
+			shape: "gear"
+			tasks: [{
+				count: 10L
+				id: "49D8D84957B24942"
+				item: { count: 1, id: "numismatic-overhaul:gold_coin" }
+				type: "item"
+			}]
+			x: 18.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1872C0B0FB550113"]
+			id: "5D0937406F83D4B8"
+			tasks: [{
+				consume_items: false
+				id: "0DB20E4BBA8EFADD"
+				item: { count: 1, id: "endrem:black_eye" }
+				type: "item"
+			}]
+			x: 20.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["1872C0B0FB550113"]
+			id: "5EB0D532B2CD4E50"
+			tasks: [{
+				consume_items: false
+				id: "18C6841C298158C2"
+				item: { count: 1, id: "endrem:cold_eye" }
+				type: "item"
+			}]
+			x: 26.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["1872C0B0FB550113"]
+			id: "0A63FC852258742C"
+			tasks: [{
+				consume_items: false
+				id: "6A3343A88888AEBC"
+				item: { count: 1, id: "endrem:corrupted_eye" }
+				type: "item"
+			}]
+			x: 27.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1872C0B0FB550113"]
+			id: "666D93C5315F8D31"
+			tasks: [{
+				consume_items: false
+				id: "3114651671AA2B22"
+				item: { count: 1, id: "endrem:old_eye" }
+				type: "item"
+			}]
+			x: 24.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["1872C0B0FB550113"]
+			id: "42FA367DA205EAEA"
+			tasks: [{
+				consume_items: false
+				id: "3902295EAF7A8DC4"
+				item: { count: 1, id: "endrem:lost_eye" }
+				type: "item"
+			}]
+			x: 26.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["1872C0B0FB550113"]
+			id: "06F3FE6EF23CDA85"
+			tasks: [{
+				consume_items: false
+				id: "25C7D9E0A0CC7D08"
+				item: { count: 1, id: "endrem:nether_eye" }
+				type: "item"
+			}]
+			x: 22.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["1872C0B0FB550113"]
+			id: "14DF6BDE2AB8A186"
+			tasks: [{
+				consume_items: false
+				id: "670DFC3290F4092B"
+				item: { count: 1, id: "endrem:rogue_eye" }
+				type: "item"
+			}]
+			x: 27.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1872C0B0FB550113"]
+			id: "41513472D00BF4E4"
+			tasks: [{
+				consume_items: false
+				id: "5C6C2DDF1C689D1D"
+				item: { count: 1, id: "endrem:cursed_eye" }
+				type: "item"
+			}]
+			x: 27.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["1872C0B0FB550113"]
+			id: "2E727A50A56F990F"
+			tasks: [{
+				consume_items: false
+				id: "6D655E6097B50445"
+				item: { count: 1, id: "endrem:magical_eye" }
+				type: "item"
+			}]
+			x: 25.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1872C0B0FB550113"]
+			id: "38B26D5857D55795"
+			tasks: [{
+				consume_items: false
+				id: "1ED70DFA80495608"
+				item: { count: 1, id: "endrem:evil_eye" }
+				type: "item"
+			}]
+			x: 19.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["1872C0B0FB550113"]
+			id: "07393E7EDF79B1BE"
+			tasks: [{
+				consume_items: false
+				id: "0BD31D90FA0F7E76"
+				item: { count: 1, id: "endrem:guardian_eye" }
+				type: "item"
+			}]
+			x: 19.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["1872C0B0FB550113"]
+			id: "37AA4B55E17B57D8"
+			tasks: [{
+				consume_items: false
+				id: "4CFC6B964D8B2527"
+				item: { count: 1, id: "endrem:wither_eye" }
+				type: "item"
+			}]
+			x: 23.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["1872C0B0FB550113"]
+			id: "49972BDD0646F3DA"
+			tasks: [{
+				consume_items: false
+				id: "058902ACEF240708"
+				item: { count: 1, id: "endrem:witch_eye" }
+				type: "item"
+			}]
+			x: 25.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["1872C0B0FB550113"]
+			id: "3D23872D560B06D1"
+			tasks: [{
+				consume_items: false
+				id: "5E0020F1E6080381"
+				item: { count: 1, id: "endrem:undead_eye" }
+				type: "item"
+			}]
+			x: 26.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["1872C0B0FB550113"]
+			id: "0E76FC35EB1A251B"
+			tasks: [{
+				consume_items: false
+				id: "54D9438CCD0977C0"
+				item: { count: 1, id: "endrem:exotic_eye" }
+				type: "item"
+			}]
+			x: 21.0d
+			y: 6.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["1CD6B75A997A07BE"]
+			id: "77ADD23FE648BA79"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "51F5DEF68E7A0A35"
+				table_id: 8195151081777931133L
+				type: "random"
+			}]
+			tasks: [{
+				id: "4E98297A5AC63C38"
+				item: { components: { "minecraft:custom_data": { incendium: { item: "blazing_hatchet" } }, "minecraft:custom_model_data": 1450002, "minecraft:custom_name": "{\"color\":\"#FF6622\",\"fallback\":\"Blazing Hatchet\",\"italic\":false,\"translate\":\"incendium.item.blazing_hatchet.name\"}", "minecraft:lore": [ "{\"color\":\"#FF8844\",\"fallback\":\"Packs a fiery, yet powerful punch\",\"italic\":true,\"translate\":\"incendium.item.blazing_hatchet.desc1\"}", "\"\"", "{\"color\":\"#FF8000\",\"fallback\":\"Incendium\",\"italic\":true,\"translate\":\"incendium\"}" ] }, count: 1, id: "minecraft:diamond_axe" }
+				match_components: "fuzzy"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["25CE25694201EF88"]
+			icon: {
+				id: "minecraft:wither_skeleton_skull"
+			}
+			id: "49F5880474D544C0"
+			tasks: [{
+				entity: "minecraft:wither"
+				id: "11C117BBF6B90806"
+				type: "kill"
+				value: 1L
+			}]
+			x: 11.5d
+			y: 1.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["49F5880474D544C0"]
+			id: "2E6BC4D52A2B97FF"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2E4B71AABAEF4C89"
+				table_id: 5991698160278388243L
+				type: "random"
+			}]
+			tasks: [{
+				id: "5C47D8C61FF2DDAB"
+				item: { components: { "minecraft:attribute_modifiers": { modifiers: [ { amount: -0.19786907732486725d, id: "minecraft:d", operation: "add_multiplied_base", slot: "mainhand", type: "minecraft:generic.movement_speed" }, { amount: -2.4000000953674316d, id: "minecraft:d", operation: "add_value", slot: "mainhand", type: "minecraft:generic.attack_speed" }, { amount: 13.0d, id: "minecraft:d", operation: "add_value", slot: "mainhand", type: "minecraft:generic.attack_damage" } ] }, "minecraft:custom_data": { incendium: { item: "warping_witherblade" } }, "minecraft:custom_model_data": 1450001, "minecraft:custom_name": "{\"color\":\"#330099\",\"fallback\":\"Warping Witherblade\",\"italic\":false,\"translate\":\"incendium.item.warping_witherblade.name\"}", "minecraft:lore": [ "{\"color\":\"#006666\",\"extra\":[{\"color\":\"#006666\",\"fallback\":\"For in life all things return\",\"italic\":true,\"translate\":\"incendium.item.warping_witherblade.desc1\"}],\"italic\":true,\"text\":\"\\\"\"}", "{\"color\":\"#006666\",\"fallback\":\"to death, and in death all things\",\"italic\":true,\"translate\":\"incendium.item.warping_witherblade.desc2\"}", "{\"color\":\"#006666\",\"extra\":[\" \",{\"color\":\"#006666\",\"italic\":true,\"obfuscated\":true,\"text\":\"CENSOR\"},{\"color\":\"#006666\",\"italic\":true,\"obfuscated\":false,\"text\":\"\\\"\"}],\"fallback\":\"return to the shadow of\",\"italic\":true,\"translate\":\"incendium.item.warping_witherblade.desc3\"}", "\"\"", "{\"color\":\"#333333\",\"fallback\":\"Patron Item\",\"italic\":true,\"translate\":\"incendium.system.patron_item\"}", "\"\"", "{\"color\":\"#FF8000\",\"fallback\":\"Incendium\",\"italic\":true,\"translate\":\"incendium\"}" ] }, count: 1, id: "minecraft:netherite_sword" }
+				match_components: "fuzzy"
+				type: "item"
+			}]
+			x: 11.5d
+			y: -0.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["1CD6B75A997A07BE"]
+			id: "2973F97213B6C4CE"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "029BE3E39B843AAC"
+				table_id: 9108474444276115341L
+				type: "random"
+			}]
+			tasks: [{
+				id: "1BCDD02D30D5B01C"
+				item: { components: { "minecraft:custom_data": { incendium: { item: "multiplex_crossbow" } }, "minecraft:custom_model_data": 1450102, "minecraft:custom_name": "{\"color\":\"#CCBB44\",\"fallback\":\"Multiplex\",\"italic\":false,\"translate\":\"incendium.item.multiplex.name\"}", "minecraft:lore": [ "{\"color\":\"#DDCC55\",\"fallback\":\"Shoots a blast of fiery\",\"italic\":true,\"translate\":\"incendium.item.multiplex.desc1\"}", "{\"color\":\"#DDCC55\",\"fallback\":\"arrows at a short-range\",\"italic\":true,\"translate\":\"incendium.item.multiplex.desc2\"}", "\"\"", "{\"color\":\"#FF8000\",\"fallback\":\"Incendium\",\"italic\":true,\"translate\":\"incendium\"}" ] }, count: 1, id: "minecraft:crossbow" }
+				match_components: "fuzzy"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -2.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["58BE6ABE166CD4B8"]
+			id: "057D52179A430C2D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2D37154942B05C2B"
+				table_id: 5710400622943183577L
+				type: "random"
+			}]
+			tasks: [{
+				id: "6C112765665004EF"
+				item: { components: { "minecraft:custom_data": { incendium: { item: "holy_wrath" } }, "minecraft:custom_model_data": 1450100, "minecraft:custom_name": "{\"color\":\"#FFEE77\",\"fallback\":\"Holy Wrath\",\"italic\":false,\"translate\":\"incendium.item.holy_wrath.name\"}", "minecraft:lore": [ "{\"color\":\"#CCBB88\",\"fallback\":\"Spawn a spiral of fireballs\",\"italic\":true,\"translate\":\"incendium.item.holy_wrath.desc1\"}", "\"\"", "{\"color\":\"#FF8000\",\"fallback\":\"Incendium\",\"italic\":true,\"translate\":\"incendium\"}" ] }, count: 1, id: "minecraft:crossbow" }
+				match_components: "fuzzy"
+				type: "item"
+			}]
+			x: 15.5d
+			y: 1.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["1CD6B75A997A07BE"]
+			id: "77E5A1413D9BB438"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "17E83C65B9CB4D03"
+				table_id: 1814852077408029597L
+				type: "random"
+			}]
+			tasks: [{
+				id: "1368385AB579408A"
+				item: { components: { "minecraft:custom_data": { incendium: { item: "sentrys_wrath" } }, "minecraft:custom_model_data": 1450103, "minecraft:custom_name": "{\"color\":\"#33CCFF\",\"fallback\":\"Sentry's Wrath\",\"italic\":false,\"translate\":\"incendium.item.sentrys_wrath.name\"}", "minecraft:enchantments": { levels: { "minecraft:mending": 1, "minecraft:piercing": 6 } }, "minecraft:lore": [ "{\"color\":\"#0077BB\",\"fallback\":\"Turns spectral arrows into\",\"italic\":true,\"translate\":\"incendium.item.firestorm.desc1\"}", "{\"color\":\"#0077BB\",\"fallback\":\"a slow, powerful attack.\",\"italic\":true,\"translate\":\"incendium.item.sentrys_wrath.desc2\"}", "{\"color\":\"#0077BB\",\"fallback\":\"Beware the cooldown.\",\"italic\":true,\"translate\":\"incendium.item.sentrys_wrath.desc3\"}", "\"\"", "{\"color\":\"#FF8000\",\"fallback\":\"Incendium\",\"italic\":true,\"translate\":\"incendium\"}" ], "minecraft:repair_cost": 1000 }, count: 1, id: "minecraft:crossbow" }
+				match_components: "fuzzy"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -2.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["5FF42BE6A11FA80E"]
+			id: "6CA270B9DFC88FFC"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "08939F73BEE18B5F"
+				table_id: 6903059292890577991L
+				type: "random"
+			}]
+			tasks: [{
+				id: "481FA36BC3C16ADC"
+				item: { components: { "minecraft:custom_data": { incendium: { item: "trailblazer" } }, "minecraft:custom_model_data": 1450104, "minecraft:custom_name": "{\"color\":\"#F7823E\",\"fallback\":\"Trailblazer\",\"italic\":false,\"translate\":\"incendium.item.trailblazer.name\"}", "minecraft:fire_resistant": { }, "minecraft:lore": [ "{\"color\":\"#C46731\",\"fallback\":\"Fires more powerful arrows\",\"italic\":true,\"translate\":\"incendium.item.trailblazer.desc1\"}", "{\"color\":\"#C46731\",\"fallback\":\"the longer you pull the bow.\",\"italic\":true,\"translate\":\"incendium.item.trailblazer.desc2\"}", "{\"color\":\"#C46731\",\"fallback\":\"Spectral arrows leave\",\"italic\":true,\"translate\":\"incendium.item.trailblazer.desc3\"}", "{\"color\":\"#C46731\",\"fallback\":\"a trail of blaze.\",\"italic\":true,\"translate\":\"incendium.item.trailblazer.desc4\"}", "\"\"", "{\"color\":\"#FF8000\",\"fallback\":\"Incendium\",\"italic\":true,\"translate\":\"incendium\"}" ] }, count: 1, id: "minecraft:bow" }
+				match_components: "fuzzy"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["1CD6B75A997A07BE"]
+			id: "07B9CF2F6F25955C"
+			tasks: [{
+				consume_items: false
+				id: "1FF776930A09EAFD"
+				item: { components: { "minecraft:attribute_modifiers": { modifiers: [{ amount: 12.369300842285156d, id: "minecraft:voltic", operation: "add_value", slot: "mainhand", type: "minecraft:generic.attack_damage" }] }, "minecraft:custom_data": { incendium: { item: "voltaic_trident" } }, "minecraft:custom_model_data": 1450006, "minecraft:custom_name": "{\"color\":\"#8844FF\",\"fallback\":\"Voltaic Trident\",\"italic\":false,\"translate\":\"incendium.item.voltaic_trident.name\"}", "minecraft:enchantments": { levels: { "minecraft:loyalty": 1 } }, "minecraft:lore": [ "{\"color\":\"#4400AA\",\"fallback\":\"Feel its electrical power\",\"italic\":true,\"translate\":\"incendium.item.voltaic_trident.desc1\"}", "\"\"", "{\"color\":\"#FF8000\",\"fallback\":\"Incendium\",\"italic\":true,\"translate\":\"incendium\"}" ] }, count: 1, id: "minecraft:trident" }
+				match_components: "fuzzy"
+				type: "item"
+			}]
+			x: 8.5d
+			y: -2.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["1CD6B75A997A07BE"]
+			id: "5929C313056BDD6F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0910B18EC571E012"
+				table_id: 7410530380037493050L
+				type: "random"
+			}]
+			tasks: [{
+				id: "4C143C4B79DDFEBF"
+				item: { components: { "minecraft:custom_data": { incendium: { item: "hefty_pickaxe" } }, "minecraft:custom_model_data": 1450500, "minecraft:custom_name": "{\"color\":\"#990025\",\"fallback\":\"Hefty Pickaxe\",\"italic\":false,\"translate\":\"incendium.item.hefty_pickaxe.name\"}", "minecraft:lore": [ "{\"color\":\"#880012\",\"fallback\":\"A nether-oriented excavator\",\"italic\":true,\"translate\":\"incendium.item.hefty_pickaxe.desc1\"}", "\"\"", "{\"color\":\"#FF8000\",\"fallback\":\"Incendium\",\"italic\":true,\"translate\":\"incendium\"}" ] }, count: 1, id: "minecraft:diamond_pickaxe" }
+				match_components: "fuzzy"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["5FF42BE6A11FA80E"]
+			id: "33563AB0FD706629"
+			tasks: [{
+				consume_items: false
+				id: "0B078A3860179AFB"
+				item: { components: { "minecraft:attribute_modifiers": { modifiers: [ { amount: 6.0d, id: "minecraft:armor", operation: "add_value", slot: "chest", type: "minecraft:generic.armor" }, { amount: 1.0d, id: "minecraft:armor_toughness", operation: "add_value", slot: "chest", type: "minecraft:generic.armor_toughness" }, { amount: -0.05000000074505806d, id: "minecraft:speed", operation: "add_multiplied_base", slot: "chest", type: "minecraft:generic.movement_speed" } ] }, "minecraft:custom_data": { incendium: { item: "infernal_feather" } }, "minecraft:custom_model_data": 1450201, "minecraft:custom_name": "{\"color\":\"#FF3333\",\"fallback\":\"Infernal Feather\",\"italic\":false,\"translate\":\"incendium.item.infernal_feather.name\"}", "minecraft:enchantment_glint_override": 1b, "minecraft:fire_resistant": { }, "minecraft:lore": [ "{\"color\":\"#FF1234\",\"fallback\":\"The strong piece of scrap\",\"italic\":true,\"translate\":\"incendium.item.infernal_feather.desc1\"}", "{\"color\":\"#FF1234\",\"fallback\":\"forged from the remains\",\"italic\":true,\"translate\":\"incendium.item.infernal_feather.desc2\"}", "{\"color\":\"#FF1234\",\"fallback\":\"of the Hovering Inferno's shields\",\"italic\":true,\"translate\":\"incendium.item.infernal_wings.desc3\"}", "\"\"", "{\"color\":\"#FF8000\",\"fallback\":\"Incendium\",\"italic\":true,\"translate\":\"incendium\"}" ] }, count: 1, id: "minecraft:jigsaw" }
+				type: "item"
+			}]
+			x: 11.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["58BE6ABE166CD4B8"]
+			id: "2745B4B645F2C711"
+			tasks: [{
+				consume_items: false
+				id: "416F62046EB1341E"
+				item: { components: { "minecraft:custom_data": { incendium: { item: "scroll_of_returning" } }, "minecraft:custom_model_data": 1450403, "minecraft:custom_name": "{\"color\":\"#7F32A9\",\"fallback\":\"Scroll of Returning\",\"italic\":false,\"translate\":\"incendium.item.returning_scroll.name\"}", "minecraft:lore": [ "{\"color\":\"#D393F5\",\"fallback\":\"A long forgotten technique\",\"italic\":true,\"translate\":\"incendium.item.returning_scroll.desc1\"}", "{\"color\":\"#D393F5\",\"fallback\":\"to transport back to the\",\"italic\":true,\"translate\":\"incendium.item.returning_scroll.desc2\"}", "{\"color\":\"#D393F5\",\"fallback\":\"overworld, where it all began...\",\"italic\":true,\"translate\":\"incendium.item.returning_scroll.desc3\"}", "\"\"", "{\"color\":\"#333333\",\"fallback\":\"Patron Item\",\"italic\":true,\"translate\":\"incendium.system.patron_item\"}", "\"\"", "{\"color\":\"#FF8000\",\"fallback\":\"Incendium\",\"italic\":true,\"translate\":\"incendium\"}" ], "minecraft:max_stack_size": 1 }, count: 1, id: "minecraft:map" }
+				type: "item"
+			}]
+			x: 16.5d
+			y: -1.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["33563AB0FD706629"]
+			id: "3428B65F3CC0A49E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6B68415EB4F13D1D"
+				table_id: 2326980638820259813L
+				type: "random"
+			}]
+			tasks: [{
+				id: "2AD765DEBB3A5A7B"
+				item: { components: { "minecraft:attribute_modifiers": { modifiers: [ { amount: 6.0d, id: "minecraft:armor", operation: "add_value", slot: "chest", type: "minecraft:generic.armor" }, { amount: 1.0d, id: "minecraft:armor_toughness", operation: "add_value", slot: "chest", type: "minecraft:generic.armor_toughness" }, { amount: -0.05000000074505806d, id: "minecraft:speed", operation: "add_multiplied_base", slot: "chest", type: "minecraft:generic.movement_speed" } ] }, "minecraft:custom_data": { incendium: { item: "infernal_wings" } }, "minecraft:custom_model_data": 1450201, "minecraft:custom_name": "{\"color\":\"#FF3333\",\"fallback\":\"Infernal Wings\",\"italic\":false,\"translate\":\"incendium.item.infernal_wings.name\"}", "minecraft:enchantment_glint_override": 1b, "minecraft:fire_resistant": { }, "minecraft:lore": [ "{\"color\":\"#FF1234\",\"fallback\":\"A pair of armored wings\",\"italic\":true,\"translate\":\"incendium.item.infernal_wings.desc1\"}", "{\"color\":\"#FF1234\",\"fallback\":\"forged from the scraps\",\"italic\":true,\"translate\":\"incendium.item.infernal_wings.desc2\"}", "{\"color\":\"#FF1234\",\"fallback\":\"of the Hovering Inferno's shields\",\"italic\":true,\"translate\":\"incendium.item.infernal_wings.desc3\"}", "\"\"", "{\"color\":\"#FF8000\",\"fallback\":\"Incendium\",\"italic\":true,\"translate\":\"incendium\"}" ] }, count: 1, id: "minecraft:elytra" }
+				match_components: "fuzzy"
+				type: "item"
+			}]
+			x: 11.0d
+			y: -8.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["1CD6B75A997A07BE"]
+			id: "39BEA723A3E9FE5C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0E5CCD5DC848D7C8"
+				table_id: 3206275142151379283L
+				type: "random"
+			}]
+			tasks: [{
+				id: "55165F53E5D88DDC"
+				item: { components: { "minecraft:custom_data": { incendium: { item: "scouts_battle_helm" } }, "minecraft:custom_model_data": 1450200, "minecraft:custom_name": "{\"color\":\"#FF9944\",\"fallback\":\"Scout's Battle Helm\",\"italic\":false,\"translate\":\"incendium.item.battle_helm.name\"}", "minecraft:lore": [ "{\"color\":\"#CCBB88\",\"fallback\":\"You can hide, but you can't\",\"italic\":true,\"translate\":\"incendium.item.battle_helm.desc1\"}", "{\"color\":\"#CCBB88\",\"fallback\":\"outrun TheDancyScout\",\"italic\":true,\"translate\":\"incendium.item.battle_helm.desc2\"}", "\"\"", "{\"color\":\"#333333\",\"fallback\":\"Patron Item\",\"italic\":true,\"translate\":\"incendium.system.patron_item\"}", "\"\"", "{\"color\":\"#FF8000\",\"fallback\":\"Incendium\",\"italic\":true,\"translate\":\"incendium\"}" ], "minecraft:trim": { material: "minecraft:emerald", pattern: "minecraft:sentry" } }, count: 1, id: "minecraft:netherite_helmet" }
+				match_components: "fuzzy"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["5FF42BE6A11FA80E"]
+			id: "7F6D5AF439666207"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "33B51AF937E46D76"
+				table_id: 7983850127376675833L
+				type: "random"
+			}]
+			tasks: [{
+				id: "706B1B3A12EFCF51"
+				item: { components: { "minecraft:attribute_modifiers": { modifiers: [{ amount: -0.005108952522277832d, id: "minecraft:weaken", operation: "add_multiplied_base", slot: "offhand", type: "minecraft:generic.armor_toughness" }] }, "minecraft:banner_patterns": [ { color: "lime", pattern: "minecraft:base" }, { color: "yellow", pattern: "minecraft:half_horizontal" }, { color: "orange", pattern: "minecraft:stripe_top" }, { color: "light_blue", pattern: "minecraft:stripe_bottom" }, { color: "purple", pattern: "minecraft:triangles_bottom" }, { color: "red", pattern: "minecraft:triangles_top" }, { color: "white", pattern: "minecraft:curly_border" } ], "minecraft:custom_data": { incendium: { item: "prismatic_shield" } }, "minecraft:custom_model_data": 1450301, "minecraft:custom_name": "{\"color\":\"#BBDDFF\",\"fallback\":\"Prismatic Shield\",\"italic\":false,\"translate\":\"incendium.item.prismatic_shield.name\"}", "minecraft:hide_additional_tooltip": { }, "minecraft:lore": [ "{\"color\":\"#88AAFF\",\"fallback\":\"Reflects attacks with a\",\"italic\":false,\"translate\":\"incendium.item.prismatic_shield.desc1\"}", "{\"color\":\"#88AAFF\",\"fallback\":\"powerful spark of light\",\"italic\":false,\"translate\":\"incendium.item.prismatic_shield.desc2\"}", "\"\"", "{\"color\":\"#FF8000\",\"fallback\":\"Incendium\",\"italic\":true,\"translate\":\"incendium\"}" ] }, count: 1, id: "minecraft:shield" }
+				match_components: "fuzzy"
+				type: "item"
+			}]
+			x: 12.0d
+			y: -6.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["5FF42BE6A11FA80E"]
+			id: "7E33DD624A45B3D7"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2D426F3C7773C0FE"
+				table_id: 5242903894956544777L
+				type: "random"
+			}]
+			tasks: [{
+				id: "19E7065D56C8B5EA"
+				item: { components: { "minecraft:attribute_modifiers": { modifiers: [{ amount: -0.024473071098327637d, id: "minecraft:weaken", operation: "add_multiplied_base", slot: "offhand", type: "minecraft:generic.attack_damage" }] }, "minecraft:banner_patterns": [ { color: "black", pattern: "minecraft:base" }, { color: "red", pattern: "minecraft:straight_cross" }, { color: "red", pattern: "minecraft:diagonal_left" }, { color: "red", pattern: "minecraft:diagonal_right" }, { color: "black", pattern: "minecraft:skull" }, { color: "black", pattern: "minecraft:curly_border" }, { color: "black", pattern: "minecraft:stripe_top" } ], "minecraft:custom_data": { incendium: { item: "necrotic_shield" } }, "minecraft:custom_model_data": 1450300, "minecraft:custom_name": "{\"color\":\"#993333\",\"fallback\":\"Necrotic Shield\",\"italic\":false,\"translate\":\"incendium.item.necrotic_shield.name\"}", "minecraft:fire_resistant": { }, "minecraft:hide_additional_tooltip": { }, "minecraft:lore": [ "{\"color\":\"#884444\",\"fallback\":\"Reacts to attacks with\",\"italic\":true,\"translate\":\"incendium.item.necrotic_shield.desc1\"}", "{\"color\":\"#884444\",\"fallback\":\"an explosion of death\",\"italic\":true,\"translate\":\"incendium.item.necrotic_shield.desc2\"}", "\"\"", "{\"color\":\"#FF8000\",\"fallback\":\"Incendium\",\"italic\":true,\"translate\":\"incendium\"}" ] }, count: 1, id: "minecraft:shield" }
+				match_components: "fuzzy"
+				type: "item"
+			}]
+			x: 13.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["0B2BD57EC5EC4367"]
+			id: "49805B0EE965DEBD"
+			tasks: [{
+				id: "7E1067519A5CDE8A"
+				item: { count: 1, id: "mythicupgrades:ruby" }
+				type: "item"
+			}]
+			x: 22.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["0B2BD57EC5EC4367"]
+			id: "572C749654ABA309"
+			tasks: [{
+				id: "54E3C527ABB2A2D6"
+				item: { count: 1, id: "mythicupgrades:topaz" }
+				type: "item"
+			}]
+			x: 22.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["0B2BD57EC5EC4367"]
+			id: "13645E209E930DFD"
+			tasks: [{
+				id: "41D7139A114E8AE5"
+				item: { count: 1, id: "mythicupgrades:peridot" }
+				type: "item"
+			}]
+			x: 23.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["0B2BD57EC5EC4367"]
+			id: "51F06D844DA624F1"
+			tasks: [{
+				id: "26B7E426382811D2"
+				item: { count: 1, id: "mythicupgrades:jade" }
+				type: "item"
+			}]
+			x: 24.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["0B2BD57EC5EC4367"]
+			id: "093794AF8B969B8D"
+			tasks: [{
+				id: "6BBB4C9DC420B0F6"
+				item: { count: 1, id: "mythicupgrades:aquamarine" }
+				type: "item"
+			}]
+			x: 24.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["0B2BD57EC5EC4367"]
+			id: "18E3DFB8AF1D60C8"
+			tasks: [{
+				id: "50734BDD6F4677EA"
+				item: { count: 1, id: "mythicupgrades:sapphire" }
+				type: "item"
+			}]
+			x: 24.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["0B2BD57EC5EC4367"]
+			id: "065A79221E048CE3"
+			tasks: [{
+				id: "45D6BA8F25C48B18"
+				item: { count: 1, id: "mythicupgrades:ametrine" }
+				type: "item"
+			}]
+			x: 21.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["3DEFAEC17E67F162"]
+			icon: {
+				id: "horseshoes:gold_horseshoes"
+			}
+			id: "59361949AE338B2D"
+			tasks: [{
+				id: "37E0BF1724C0B99B"
+				type: "checkmark"
+			}]
+			x: 2.5d
+			y: -5.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["5FF42BE6A11FA80E"]
+			id: "5F388C02B5C37971"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "70ACEED0693D48BE"
+				table_id: 1911917051150428280L
+				type: "random"
+			}]
+			tasks: [{
+				id: "0CEBD71E1899627F"
+				item: { components: { "minecraft:attribute_modifiers": { modifiers: [{ amount: -0.017140161246061325d, id: "minecraft:weaken", operation: "add_multiplied_base", slot: "offhand", type: "minecraft:generic.armor_toughness" }] }, "minecraft:banner_patterns": [ { color: "gray", pattern: "minecraft:base" }, { color: "light_gray", pattern: "minecraft:flower" }, { color: "gray", pattern: "minecraft:half_horizontal" }, { color: "yellow", pattern: "minecraft:triangle_top" }, { color: "gray", pattern: "minecraft:stripe_top" }, { color: "white", pattern: "minecraft:gradient" }, { color: "gray", pattern: "minecraft:border" } ], "minecraft:custom_data": { incendium: { item: "prismatic_shield" } }, "minecraft:custom_model_data": 1450303, "minecraft:custom_name": "{\"color\":\"#BBDDFF\",\"fallback\":\"Prismatic Shield\",\"italic\":false,\"translate\":\"incendium.item.prismatic_shield.name\"}", "minecraft:fire_resistant": { }, "minecraft:hide_additional_tooltip": { }, "minecraft:lore": [ "{\"color\":\"#88AAFF\",\"fallback\":\"Reflects attacks with a\",\"italic\":false,\"translate\":\"incendium.item.prismatic_shield.desc1\"}", "{\"color\":\"#88AAFF\",\"fallback\":\"powerful spark of light\",\"italic\":false,\"translate\":\"incendium.item.prismatic_shield.desc2\"}", "\"\"", "{\"color\":\"#FF8000\",\"fallback\":\"Incendium\",\"italic\":true,\"translate\":\"incendium\"}" ] }, count: 1, id: "minecraft:shield" }
+				match_components: "fuzzy"
+				type: "item"
+			}]
+			x: 13.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["0E5AAD455C793640"]
+			id: "6EC86C6506B6D7CE"
+			tasks: [{
+				consume_items: false
+				id: "4441191650CF5D96"
+				item: { count: 1, id: "artifacts:umbrella" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["26B729FF2128DEA5"]
+			id: "72EDE1B973D4FDCE"
+			tasks: [{
+				consume_items: false
+				id: "6AF8EB055E1AE97A"
+				item: { count: 1, id: "artifacts:everlasting_beef" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: 13.5d
+		}
+		{
+			dependencies: ["0E5AAD455C793640"]
+			id: "25A7EF4BD68FDD83"
+			tasks: [
+				{
+					consume_items: false
+					id: "3B6C422FD9A0FF16"
+					item: { count: 1, id: "artifacts:plastic_drinking_hat" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "17A582E8A41FE266"
+					item: { count: 1, id: "artifacts:novelty_drinking_hat" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["0E5AAD455C793640"]
+			id: "77F79FDF011B29FA"
+			tasks: [{
+				consume_items: false
+				id: "374B27B8E18FD42E"
+				item: { count: 1, id: "artifacts:snorkel" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["26B729FF2128DEA5"]
+			id: "66708C0672A623D5"
+			tasks: [{
+				consume_items: false
+				id: "3A5E5345E4E23BB7"
+				item: { count: 1, id: "artifacts:villager_hat" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: 14.5d
+		}
+		{
+			dependencies: ["26B729FF2128DEA5"]
+			id: "42E00B9B61CBC6B8"
+			tasks: [{
+				consume_items: false
+				id: "05227DAD8F029736"
+				item: { count: 1, id: "artifacts:superstitious_hat" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: 15.5d
+		}
+		{
+			dependencies: ["0E5AAD455C793640"]
+			id: "597333E0D85EAEBC"
+			tasks: [{
+				consume_items: false
+				id: "471911138D037A81"
+				item: { count: 1, id: "artifacts:cowboy_hat" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["0E5AAD455C793640"]
+			id: "1F8DCA5B2F267155"
+			tasks: [{
+				consume_items: false
+				id: "3A7C40280D1BB450"
+				item: { count: 1, id: "artifacts:anglers_hat" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 16.5d
+		}
+		{
+			dependencies: ["26B729FF2128DEA5"]
+			id: "07D2296165C75F0C"
+			tasks: [{
+				consume_items: false
+				id: "2CD3D26C38759EAB"
+				item: { count: 1, id: "artifacts:lucky_scarf" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: 16.5d
+		}
+		{
+			dependencies: ["26B729FF2128DEA5"]
+			id: "1BAFBE49066F430C"
+			tasks: [{
+				consume_items: false
+				id: "21619A194839E9A8"
+				item: { count: 1, id: "artifacts:scarf_of_invisibility" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: 17.5d
+		}
+		{
+			dependencies: ["1CE5C805FEA11CD1"]
+			id: "4E3BCABD6C52CAFB"
+			tasks: [{
+				consume_items: false
+				id: "56A4BBE88BD6C753"
+				item: { count: 1, id: "artifacts:cross_necklace" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 20.0d
+		}
+		{
+			dependencies: ["0E5AAD455C793640"]
+			id: "496191BA2530938A"
+			tasks: [{
+				consume_items: false
+				id: "10863C1906359562"
+				item: { count: 1, id: "artifacts:panic_necklace" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["26B729FF2128DEA5"]
+			id: "09B64FA14E758693"
+			tasks: [{
+				consume_items: false
+				id: "100A9851043B3953"
+				item: { count: 1, id: "artifacts:shock_pendant" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: 18.5d
+		}
+		{
+			dependencies: ["26B729FF2128DEA5"]
+			id: "580D4FC75680A51C"
+			tasks: [{
+				consume_items: false
+				id: "3D2FDB69F834ED9D"
+				item: { count: 1, id: "artifacts:flame_pendant" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: 19.0d
+		}
+		{
+			dependencies: ["26B729FF2128DEA5"]
+			id: "72341F303E3B7AC8"
+			tasks: [{
+				consume_items: false
+				id: "19AB50C945417BA1"
+				item: { count: 1, id: "artifacts:thorn_pendant" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 19.5d
+		}
+		{
+			dependencies: ["0E5AAD455C793640"]
+			id: "3FC8FA773B99E528"
+			tasks: [{
+				consume_items: false
+				id: "5E25D5306FEDFB03"
+				item: { count: 1, id: "artifacts:charm_of_sinking" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["0E5AAD455C793640"]
+			id: "06D0FC5525960102"
+			tasks: [{
+				consume_items: false
+				id: "70A2E426D147957C"
+				item: { count: 1, id: "artifacts:charm_of_shrinking" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 16.5d
+		}
+		{
+			dependencies: ["0E5AAD455C793640"]
+			id: "1947F85AD4AD7579"
+			tasks: [{
+				consume_items: false
+				id: "01112CDD46EC4CDF"
+				item: { count: 1, id: "artifacts:cloud_in_a_bottle" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 16.5d
+		}
+		{
+			dependencies: ["26B729FF2128DEA5"]
+			id: "727918AF30A38518"
+			tasks: [{
+				consume_items: false
+				id: "26E596B16E1FA380"
+				item: { count: 1, id: "artifacts:obsidian_skull" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 19.5d
+		}
+		{
+			dependencies: ["1CE5C805FEA11CD1"]
+			id: "7345E47C5F385C5E"
+			tasks: [{
+				consume_items: false
+				id: "1475E986BC969D0C"
+				item: { count: 1, id: "artifacts:antidote_vessel" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 21.5d
+		}
+		{
+			dependencies: ["0E5AAD455C793640"]
+			id: "43FB6C5A454C1C97"
+			tasks: [{
+				consume_items: false
+				id: "3D8333EC9746CE84"
+				item: { count: 1, id: "artifacts:universal_attractor" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 16.0d
+		}
+		{
+			dependencies: ["26B729FF2128DEA5"]
+			id: "4EBBFE7C849B0DBD"
+			tasks: [{
+				consume_items: false
+				id: "27CA3AC3048FE4BE"
+				item: { count: 1, id: "artifacts:crystal_heart" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 12.0d
+		}
+		{
+			dependencies: ["0E5AAD455C793640"]
+			id: "78EF30C918458970"
+			tasks: [{
+				consume_items: false
+				id: "341DC34B31C5948E"
+				item: { count: 1, id: "artifacts:helium_flamingo" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 15.5d
+		}
+		{
+			dependencies: ["1CE5C805FEA11CD1"]
+			id: "1B5162AEF636FB25"
+			tasks: [{
+				id: "1D4B26E7C8458E06"
+				item: { count: 1, id: "artifacts:chorus_totem" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 22.0d
+		}
+		{
+			dependencies: ["1CE5C805FEA11CD1"]
+			id: "34A904AFC4237395"
+			tasks: [{
+				consume_items: false
+				id: "0F56582AFBB74590"
+				item: { count: 1, id: "artifacts:warp_drive" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 21.5d
+		}
+		{
+			dependencies: ["26B729FF2128DEA5"]
+			id: "1AD478D0E29CDB84"
+			tasks: [{
+				consume_items: false
+				id: "17C8E29D21C56B23"
+				item: { count: 1, id: "artifacts:digging_claws" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 11.5d
+		}
+		{
+			dependencies: ["1CE5C805FEA11CD1"]
+			id: "1135C3924C9775EF"
+			tasks: [{
+				consume_items: false
+				id: "0FADE7479005D0FA"
+				item: { count: 1, id: "artifacts:power_glove" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 20.0d
+		}
+		{
+			dependencies: ["26B729FF2128DEA5"]
+			id: "0FE8379F6F091D0D"
+			tasks: [{
+				consume_items: false
+				id: "65121540B13BD92C"
+				item: { count: 1, id: "artifacts:fire_gauntlet" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 11.5d
+		}
+		{
+			dependencies: ["0E5AAD455C793640"]
+			id: "3FA30454CAF85346"
+			tasks: [{
+				consume_items: false
+				id: "5F87D53DD3EEB5C2"
+				item: { count: 1, id: "artifacts:pocket_piston" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: 14.5d
+		}
+		{
+			dependencies: ["1CE5C805FEA11CD1"]
+			id: "60B5861E4E2AA0B8"
+			tasks: [{
+				consume_items: false
+				id: "36B325A2CA3A20F1"
+				item: { count: 1, id: "artifacts:golden_hook" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 18.5d
+		}
+		{
+			dependencies: ["0E5AAD455C793640"]
+			id: "35118D82CF436157"
+			tasks: [{
+				consume_items: false
+				id: "204AFE7CD01A295B"
+				item: { count: 1, id: "artifacts:onion_ring" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: 13.5d
+		}
+		{
+			dependencies: ["7BFEA239C33A5358"]
+			icon: {
+				id: "minecraft:enchanting_table"
+			}
+			id: "098F23CE45C6508E"
+			tasks: [{
+				id: "310EC255505A773C"
+				type: "checkmark"
+			}]
+			x: 13.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["26B729FF2128DEA5"]
+			id: "293B0F066ECB32DD"
+			tasks: [{
+				consume_items: false
+				id: "3E7B1E2C6EDA983A"
+				item: { count: 1, id: "artifacts:aqua_dashers" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 11.5d
+		}
+		{
+			dependencies: ["0E5AAD455C793640"]
+			id: "40138D90E76A817A"
+			tasks: [{
+				consume_items: false
+				id: "5094DA85FAABD058"
+				item: { count: 1, id: "artifacts:kitty_slippers" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: 12.5d
+		}
+		{
+			dependencies: ["0E5AAD455C793640"]
+			id: "158B2247E45F683C"
+			tasks: [{
+				consume_items: false
+				id: "09770ABFCDE1FA1F"
+				item: { count: 1, id: "artifacts:snowshoes" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: 11.5d
+		}
+		{
+			dependencies: ["26B729FF2128DEA5"]
+			id: "7E3D608F93791F43"
+			tasks: [{
+				consume_items: false
+				id: "1C49D4BE0882F019"
+				item: { count: 1, id: "artifacts:steadfast_spikes" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: 12.0d
+		}
+		{
+			dependencies: ["0E5AAD455C793640"]
+			id: "0F4461441386E5B7"
+			tasks: [{
+				consume_items: false
+				id: "535D9EF5946C61BA"
+				item: { count: 1, id: "artifacts:flippers" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["26B729FF2128DEA5"]
+			id: "4A2C8C3105AFBF00"
+			tasks: [{
+				consume_items: false
+				id: "03DAEAB65BBA3CF8"
+				item: { count: 1, id: "artifacts:rooted_boots" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: 12.5d
+		}
+		{
+			dependencies: ["7449054DFEA0EDF7"]
+			icon: {
+				id: "minecraft:water_bucket"
+			}
+			id: "0E5AAD455C793640"
+			tasks: [{
+				id: "11FDA7732E7AF598"
+				type: "checkmark"
+			}]
+			x: -1.0d
+			y: 12.5d
+		}
+		{
+			dependencies: ["0E5AAD455C793640"]
+			icon: {
+				id: "minecraft:lava_bucket"
+			}
+			id: "26B729FF2128DEA5"
+			tasks: [{
+				id: "256D4A637DB83760"
+				type: "checkmark"
+			}]
+			x: 3.5d
+			y: 15.5d
+		}
+		{
+			dependencies: ["26B729FF2128DEA5"]
+			icon: {
+				id: "minecraft:bucket"
+			}
+			id: "1CE5C805FEA11CD1"
+			tasks: [{
+				id: "57738F85BF8E7DBE"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 20.0d
+		}
+		{
+			dependencies: ["098F23CE45C6508E"]
+			icon: {
+				id: "betterenchanting:enchantment_catalyst"
+			}
+			id: "3ADA0678306408A9"
+			tasks: [{
+				id: "01692A1EA1DC597C"
+				type: "checkmark"
+			}]
+			x: 11.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["098F23CE45C6508E"]
+			icon: {
+				id: "minecraft:bookshelf"
+			}
+			id: "583A17C6F7CA789A"
+			tasks: [{
+				id: "0C27E8DA413C3002"
+				type: "checkmark"
+			}]
+			x: 15.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["54CF56DC3CFE7C4F"]
+			icon: {
+				id: "minecraft:bucket"
+			}
+			id: "1AFCB82F08BF1FD5"
+			tasks: [{
+				id: "02DE38F7D82440A3"
+				type: "checkmark"
+			}]
+			x: 22.0d
+			y: 23.0d
+		}
+		{
+			dependencies: ["2AAC522AD5A572ED"]
+			icon: {
+				id: "minecraft:lava_bucket"
+			}
+			id: "54CF56DC3CFE7C4F"
+			tasks: [{
+				id: "21CCFD033604D7BE"
+				type: "checkmark"
+			}]
+			x: 26.0d
+			y: 18.0d
+		}
+		{
+			dependencies: ["098F23CE45C6508E"]
+			icon: {
+				id: "minecraft:water_bucket"
+			}
+			id: "2AAC522AD5A572ED"
+			tasks: [{
+				id: "069092F36FB514D0"
+				type: "checkmark"
+			}]
+			x: 18.5d
+			y: 12.0d
+		}
+		{
+			dependencies: ["2AAC522AD5A572ED"]
+			id: "14976831BA60C296"
+			tasks: [{
+				consume_items: false
+				id: "0009BCD3CA45C72A"
+				item: { count: 1, id: "betterenchanting:essence_of_arthropods" }
+				type: "item"
+			}]
+			x: 13.5d
+			y: 13.0d
+		}
+		{
+			dependencies: ["2AAC522AD5A572ED"]
+			id: "492385311047D99F"
+			tasks: [{
+				consume_items: false
+				id: "7F5E537515BEFE67"
+				item: { count: 1, id: "betterenchanting:essence_of_channeling" }
+				type: "item"
+			}]
+			x: 20.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["2AAC522AD5A572ED"]
+			id: "18B2B3CB52554C6C"
+			tasks: [{
+				consume_items: false
+				id: "63173DF42566D4C9"
+				item: { count: 1, id: "betterenchanting:essence_of_impaling" }
+				type: "item"
+			}]
+			x: 19.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["2AAC522AD5A572ED"]
+			id: "7D77F2F8735710C5"
+			tasks: [{
+				consume_items: false
+				id: "0A25D93A4CF7AEC1"
+				item: { count: 1, id: "betterenchanting:essence_of_knockback" }
+				type: "item"
+			}]
+			x: 13.5d
+			y: 12.0d
+		}
+		{
+			dependencies: ["2AAC522AD5A572ED"]
+			id: "77DEE704118377EA"
+			tasks: [{
+				consume_items: false
+				id: "1CF93F3CCBBF505F"
+				item: { count: 1, id: "betterenchanting:essence_of_smite" }
+				type: "item"
+			}]
+			x: 14.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["2AAC522AD5A572ED"]
+			id: "1941F8DE7741C05A"
+			tasks: [{
+				consume_items: false
+				id: "355FCD6015FF33CF"
+				item: { count: 1, id: "betterenchanting:essence_of_ice" }
+				type: "item"
+			}]
+			x: 14.5d
+			y: 15.0d
+		}
+		{
+			dependencies: ["2AAC522AD5A572ED"]
+			id: "3350F6ADA9D48697"
+			tasks: [{
+				consume_items: false
+				id: "17C36F9F6AE9B3CB"
+				item: { count: 1, id: "betterenchanting:essence_of_loyalty" }
+				type: "item"
+			}]
+			x: 17.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["2AAC522AD5A572ED"]
+			id: "123EE4F5AB97B354"
+			tasks: [{
+				consume_items: false
+				id: "1BB660E96AA879CD"
+				item: { count: 1, id: "betterenchanting:essence_of_lure" }
+				type: "item"
+			}]
+			x: 23.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["2AAC522AD5A572ED"]
+			id: "4B15924924209C94"
+			tasks: [{
+				consume_items: false
+				id: "7D094584A28AA18C"
+				item: { count: 1, id: "betterenchanting:essence_of_projectile_protection" }
+				type: "item"
+			}]
+			x: 16.5d
+			y: 16.5d
+		}
+		{
+			dependencies: ["2AAC522AD5A572ED"]
+			id: "736921E79CAADF8A"
+			tasks: [{
+				consume_items: false
+				id: "6F0ACD5FCD2FA723"
+				item: { count: 1, id: "betterenchanting:essence_of_respiration" }
+				type: "item"
+			}]
+			x: 23.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["2AAC522AD5A572ED"]
+			id: "3BD335DD4232A515"
+			tasks: [{
+				consume_items: false
+				id: "0019837FFD8645DC"
+				item: { count: 1, id: "betterenchanting:essence_of_riptide" }
+				type: "item"
+			}]
+			x: 18.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["2AAC522AD5A572ED"]
+			id: "054C3E00600E0A64"
+			tasks: [{
+				consume_items: false
+				id: "778DCACE8C9D6ECC"
+				item: { count: 1, id: "betterenchanting:essence_of_sea_luck" }
+				type: "item"
+			}]
+			x: 22.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["2AAC522AD5A572ED"]
+			id: "3EFC6231668DD9CD"
+			tasks: [{
+				consume_items: false
+				id: "4237BBA4874502E5"
+				item: { count: 1, id: "betterenchanting:essence_of_efficiency" }
+				type: "item"
+			}]
+			x: 19.5d
+			y: 17.0d
+		}
+		{
+			dependencies: ["2AAC522AD5A572ED"]
+			id: "2D92AD9FBF242B3F"
+			tasks: [{
+				consume_items: false
+				id: "252CDC76F311B632"
+				item: { count: 1, id: "betterenchanting:essence_of_piercing" }
+				type: "item"
+			}]
+			x: 23.5d
+			y: 12.0d
+		}
+		{
+			dependencies: ["2AAC522AD5A572ED"]
+			id: "0561B68941C149BC"
+			tasks: [{
+				consume_items: false
+				id: "6666233E396C5905"
+				item: { count: 1, id: "betterenchanting:essence_of_sea" }
+				type: "item"
+			}]
+			x: 21.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["2AAC522AD5A572ED"]
+			id: "3A36416AAC243FDF"
+			tasks: [{
+				consume_items: false
+				id: "58EA0206419FE738"
+				item: { count: 1, id: "betterenchanting:essence_of_fear" }
+				type: "item"
+			}]
+			x: 15.5d
+			y: 16.0d
+		}
+		{
+			dependencies: ["2AAC522AD5A572ED"]
+			id: "6268219483738A4D"
+			tasks: [{
+				consume_items: false
+				id: "15A73313464C33A7"
+				item: { count: 1, id: "betterenchanting:essence_of_foraging" }
+				type: "item"
+			}]
+			x: 18.5d
+			y: 17.0d
+		}
+		{
+			dependencies: ["2AAC522AD5A572ED"]
+			id: "3D2BED402545E30F"
+			tasks: [{
+				consume_items: false
+				id: "000D5D5B09EB1114"
+				item: { count: 1, id: "betterenchanting:essence_of_sight" }
+				type: "item"
+			}]
+			x: 17.5d
+			y: 17.0d
+		}
+		{
+			dependencies: ["54CF56DC3CFE7C4F"]
+			id: "780AEAAF1EBF90FF"
+			tasks: [{
+				consume_items: false
+				id: "2206F57ED673560F"
+				item: { count: 1, id: "betterenchanting:essence_of_blast_protection" }
+				type: "item"
+			}]
+			x: 29.0d
+			y: 22.0d
+		}
+		{
+			dependencies: ["54CF56DC3CFE7C4F"]
+			id: "151691774A10AE09"
+			tasks: [{
+				consume_items: false
+				id: "1E9F34022348A58C"
+				item: { count: 1, id: "betterenchanting:essence_of_feather" }
+				type: "item"
+			}]
+			x: 30.0d
+			y: 21.0d
+		}
+		{
+			dependencies: ["54CF56DC3CFE7C4F"]
+			id: "2B19AFB19A58776B"
+			tasks: [{
+				consume_items: false
+				id: "41D9F7072DEC5B6D"
+				item: { count: 1, id: "betterenchanting:essence_of_fire_protection" }
+				type: "item"
+			}]
+			x: 27.0d
+			y: 23.0d
+		}
+		{
+			dependencies: ["54CF56DC3CFE7C4F"]
+			id: "3E90B63D790828D3"
+			tasks: [{
+				consume_items: false
+				id: "3D43A90990C30622"
+				item: { count: 1, id: "betterenchanting:essence_of_multishot" }
+				type: "item"
+			}]
+			x: 27.0d
+			y: 13.0d
+		}
+		{
+			dependencies: ["54CF56DC3CFE7C4F"]
+			id: "235F2DFC5DB22FBC"
+			tasks: [{
+				consume_items: false
+				id: "572C983018792CDF"
+				item: { count: 1, id: "betterenchanting:essence_of_sneak_1" }
+				type: "item"
+			}]
+			x: 30.0d
+			y: 15.0d
+		}
+		{
+			dependencies: ["54CF56DC3CFE7C4F"]
+			id: "30C11895FE094378"
+			tasks: [{
+				consume_items: false
+				id: "536FCCE047ECCEC1"
+				item: { count: 1, id: "betterenchanting:essence_of_sneak_2" }
+				type: "item"
+			}]
+			x: 30.5d
+			y: 16.0d
+		}
+		{
+			dependencies: ["54CF56DC3CFE7C4F"]
+			id: "4B8820F1DDCD7200"
+			tasks: [{
+				consume_items: false
+				id: "0B49AE5C713E61E5"
+				item: { count: 1, id: "betterenchanting:essence_of_sneak_3" }
+				type: "item"
+			}]
+			x: 31.0d
+			y: 17.0d
+		}
+		{
+			dependencies: ["54CF56DC3CFE7C4F"]
+			id: "4279D773DC59AD7B"
+			tasks: [{
+				consume_items: false
+				id: "6AA3E1226AB74627"
+				item: { count: 1, id: "betterenchanting:soul_essence_1" }
+				type: "item"
+			}]
+			x: 31.0d
+			y: 18.0d
+		}
+		{
+			dependencies: ["54CF56DC3CFE7C4F"]
+			id: "273BF5F78AA12690"
+			tasks: [{
+				consume_items: false
+				id: "450D030753D35828"
+				item: { count: 1, id: "betterenchanting:soul_essence_2" }
+				type: "item"
+			}]
+			x: 31.0d
+			y: 19.0d
+		}
+		{
+			dependencies: ["54CF56DC3CFE7C4F"]
+			id: "49709876416B8094"
+			tasks: [{
+				consume_items: false
+				id: "6BDC77E9E89A45A0"
+				item: { count: 1, id: "betterenchanting:soul_essence_3" }
+				type: "item"
+			}]
+			x: 30.5d
+			y: 20.0d
+		}
+		{
+			dependencies: ["54CF56DC3CFE7C4F"]
+			id: "1B957014BB245C6E"
+			tasks: [{
+				consume_items: false
+				id: "3E36BC45CBEDC42F"
+				item: { count: 1, id: "betterenchanting:essence_of_sweeping" }
+				type: "item"
+			}]
+			x: 21.0d
+			y: 19.0d
+		}
+		{
+			dependencies: ["54CF56DC3CFE7C4F"]
+			id: "2870F13B6FAE2F9B"
+			tasks: [{
+				consume_items: false
+				id: "2406A892C27D0AEE"
+				item: { count: 1, id: "betterenchanting:essence_of_poison_protection" }
+				type: "item"
+			}]
+			x: 26.0d
+			y: 23.0d
+		}
+		{
+			dependencies: ["54CF56DC3CFE7C4F"]
+			id: "5BC105580B81E589"
+			tasks: [{
+				consume_items: false
+				id: "220933B2ADA441CC"
+				item: { count: 1, id: "betterenchanting:essence_of_quick_charge" }
+				type: "item"
+			}]
+			x: 26.0d
+			y: 13.0d
+		}
+		{
+			dependencies: ["54CF56DC3CFE7C4F"]
+			id: "3A794FCC7E1B7B8F"
+			tasks: [{
+				consume_items: false
+				id: "75BD1A4C4CB6F5D8"
+				item: { count: 1, id: "betterenchanting:essence_of_density" }
+				type: "item"
+			}]
+			x: 21.0d
+			y: 17.0d
+		}
+		{
+			dependencies: ["54CF56DC3CFE7C4F"]
+			id: "11650E84CF68357C"
+			tasks: [{
+				consume_items: false
+				id: "53DF70D1403CBBD6"
+				item: { count: 1, id: "betterenchanting:essence_of_sharpness" }
+				type: "item"
+			}]
+			x: 22.0d
+			y: 21.0d
+		}
+		{
+			dependencies: ["54CF56DC3CFE7C4F"]
+			id: "2B0E45850625159C"
+			tasks: [{
+				consume_items: false
+				id: "506306F70C589B3E"
+				item: { count: 1, id: "betterenchanting:essence_of_breach" }
+				type: "item"
+			}]
+			x: 21.0d
+			y: 18.0d
+		}
+		{
+			dependencies: ["54CF56DC3CFE7C4F"]
+			id: "211003D56BA9E52B"
+			tasks: [{
+				consume_items: false
+				id: "5AC1A958E6957A99"
+				item: { count: 1, id: "betterenchanting:essence_of_fortune" }
+				type: "item"
+			}]
+			x: 24.0d
+			y: 13.5d
+		}
+		{
+			dependencies: ["54CF56DC3CFE7C4F"]
+			id: "3806116DA302EDB4"
+			tasks: [{
+				consume_items: false
+				id: "65CDF7ADE5758A93"
+				item: { count: 1, id: "betterenchanting:essence_of_looting" }
+				type: "item"
+			}]
+			x: 24.0d
+			y: 22.5d
+		}
+		{
+			dependencies: ["54CF56DC3CFE7C4F"]
+			id: "24100998E1CEA227"
+			tasks: [{
+				consume_items: false
+				id: "58527A338055C9E6"
+				item: { count: 1, id: "betterenchanting:essence_of_arrows" }
+				type: "item"
+			}]
+			x: 29.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["54CF56DC3CFE7C4F"]
+			id: "6F119731A5D2E615"
+			tasks: [{
+				consume_items: false
+				id: "278AECA3C44A3A4C"
+				item: { count: 1, id: "betterenchanting:essence_of_combat" }
+				type: "item"
+			}]
+			x: 21.5d
+			y: 20.0d
+		}
+		{
+			dependencies: ["54CF56DC3CFE7C4F"]
+			id: "44045906632B4528"
+			tasks: [{
+				consume_items: false
+				id: "249E4D1BA1C11BA9"
+				item: { count: 1, id: "betterenchanting:essence_of_mining" }
+				type: "item"
+			}]
+			x: 23.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["54CF56DC3CFE7C4F"]
+			id: "1C7A1CD2697F8ECF"
+			tasks: [{
+				consume_items: false
+				id: "1012BA0ED99E84C9"
+				item: { count: 1, id: "betterenchanting:essence_of_power" }
+				type: "item"
+			}]
+			x: 28.0d
+			y: 13.5d
+		}
+		{
+			dependencies: ["54CF56DC3CFE7C4F"]
+			id: "2406A707DDD4F07C"
+			tasks: [{
+				consume_items: false
+				id: "34668C8ECBAB2F4D"
+				item: { count: 1, id: "betterenchanting:essence_of_silk_touch" }
+				type: "item"
+			}]
+			x: 25.0d
+			y: 13.0d
+		}
+		{
+			dependencies: ["54CF56DC3CFE7C4F"]
+			id: "5727D9739E6042DC"
+			tasks: [{
+				consume_items: false
+				id: "17FC95489609CCFE"
+				item: { count: 1, id: "betterenchanting:essence_of_wind" }
+				type: "item"
+			}]
+			x: 21.5d
+			y: 16.0d
+		}
+		{
+			dependencies: ["54CF56DC3CFE7C4F"]
+			id: "0381CE80730E7258"
+			tasks: [{
+				consume_items: false
+				id: "46FB359C7E6603E0"
+				item: { count: 1, id: "betterenchanting:essence_of_unbreaking" }
+				type: "item"
+			}]
+			x: 25.0d
+			y: 23.0d
+		}
+		{
+			dependencies: ["54CF56DC3CFE7C4F"]
+			id: "1136DF44FF8E5D02"
+			tasks: [{
+				consume_items: false
+				id: "17CCA8C332C65A9F"
+				item: { count: 1, id: "betterenchanting:essence_of_protection" }
+				type: "item"
+			}]
+			x: 28.0d
+			y: 22.5d
+		}
+		{
+			dependencies: ["1AFCB82F08BF1FD5"]
+			id: "193C99249AB69B9E"
+			tasks: [{
+				consume_items: false
+				id: "2C61617E335EFEDC"
+				item: { count: 1, id: "betterenchanting:essence_of_thorn" }
+				type: "item"
+			}]
+			x: 20.5d
+			y: 21.5d
+		}
+		{
+			dependencies: ["1AFCB82F08BF1FD5"]
+			id: "6725A58D4229BA90"
+			tasks: [{
+				consume_items: false
+				id: "6EB606ABEC76C23F"
+				item: { count: 1, id: "betterenchanting:essence_of_experience" }
+				type: "item"
+			}]
+			x: 23.5d
+			y: 24.5d
+		}
+		{
+			dependencies: ["1AFCB82F08BF1FD5"]
+			id: "7B0DEA0B13E37D0A"
+			tasks: [{
+				consume_items: false
+				id: "7CFF9969F7EF206E"
+				item: { count: 1, id: "betterenchanting:essence_of_health" }
+				type: "item"
+			}]
+			x: 22.0d
+			y: 25.0d
+		}
+		{
+			dependencies: ["1AFCB82F08BF1FD5"]
+			id: "04C837B810B5C356"
+			tasks: [{
+				consume_items: false
+				id: "50F09D00976E90BB"
+				item: { count: 1, id: "betterenchanting:essence_of_wings" }
+				type: "item"
+			}]
+			x: 20.5d
+			y: 24.5d
+		}
+		{
+			dependencies: ["1AFCB82F08BF1FD5"]
+			id: "3D09C25AC8D88139"
+			tasks: [{
+				consume_items: false
+				id: "44A70752E6041518"
+				item: { count: 1, id: "betterenchanting:essence_of_vampirism" }
+				type: "item"
+			}]
+			x: 20.0d
+			y: 23.0d
+		}
+		{
+			dependencies: ["2AAC522AD5A572ED"]
+			id: "7DB293DB046361AE"
+			tasks: [{
+				id: "0E86C19B35BBFDA0"
+				item: { count: 1, id: "betterenchanting:essence_of_building" }
+				type: "item"
+			}]
+			x: 16.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["2AAC522AD5A572ED"]
+			id: "77CC64A2135F14EF"
+			tasks: [{
+				id: "7C1067C389E1EC6A"
+				item: { count: 1, id: "betterenchanting:essence_of_fire" }
+				type: "item"
+			}]
+			x: 13.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["2AAC522AD5A572ED"]
+			id: "3B50133CA80F323D"
+			tasks: [{
+				id: "527FF56A88A6D64B"
+				item: { count: 1, id: "betterenchanting:essence_of_punch" }
+				type: "item"
+			}]
+			x: 14.0d
+			y: 10.0d
+		}
+	]
+}

@@ -10,7 +10,8 @@
     "enchantplus:tools/auto_smelt",
     "enchantplus:pickaxe/bedrock_breaker",
 	"enchantplus:sword/life_steal",
-	"enchantplus:bow/accuracy_shot"
+	"enchantplus:bow/accuracy_shot",
+	"enchantplus:hoe/harvest"
   ],
   "allowBookInAnvil": false,
   "shardFillingLapisCost": 3,

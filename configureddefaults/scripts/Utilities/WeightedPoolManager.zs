@@ -43,14 +43,14 @@ public function performWeightedPool(
 
     // WEIGHTED SELECTION ALGORITHM
     // Determine how many times to roll from this pool (random between min and max)
-    var rolls = random.nextInt(rolls_min, rolls_max);
+    var rolls = random.nextInt(rolls_min, rolls_max + 1);
 
     // Perform the specified number of rolls
     for i in 0 .. rolls 
     {
         // Generate a random number from 0 to (pool_weight - 1)
         // This represents our "dart throw" at the weighted dartboard
-        var random_weight = random.nextInt(pool_weight);
+        var random_weight = random.nextInt(0, pool_weight);
 
         // Check if we hit the "empty" section of the dartboard
         // If so, skip this roll (no item selected)
