@@ -21,6 +21,10 @@
 
 - Make stars bigger
 
+**Explorer Compass:**
+
+- Unlisted more disabled structures
+
 ---
 
 ## ❌ Mods Removed
