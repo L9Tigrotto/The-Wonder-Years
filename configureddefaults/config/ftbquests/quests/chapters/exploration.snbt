@@ -14,7 +14,7 @@
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["1872C0B0FB550113"]
+			dependencies: ["132820EC14414F20"]
 			icon: {
 				id: "mythicupgrades:necoium_ingot"
 			}
@@ -105,7 +105,7 @@
 			id: "578D0B4888DF97B6"
 			shape: "gear"
 			tasks: [{
-				count: 80L
+				count: 30L
 				id: "1654FA1ED1E7C6D5"
 				item: { count: 1, id: "numismatic-overhaul:bronze_coin" }
 				type: "item"
@@ -160,9 +160,8 @@
 			id: "3DEFAEC17E67F162"
 			shape: "gear"
 			tasks: [{
-				count: 2L
 				id: "12F89A308CE2D99D"
-				item: { count: 2, id: "numismatic-overhaul:silver_coin" }
+				item: { count: 1, id: "numismatic-overhaul:silver_coin" }
 				type: "item"
 			}]
 			x: 3.5d
@@ -202,9 +201,9 @@
 			id: "7BFEA239C33A5358"
 			shape: "gear"
 			tasks: [{
-				count: 20L
+				count: 2L
 				id: "51038DD5835C78EE"
-				item: { count: 20, id: "numismatic-overhaul:silver_coin" }
+				item: { count: 1, id: "numismatic-overhaul:silver_coin" }
 				type: "item"
 			}]
 			x: 9.0d
@@ -468,19 +467,6 @@
 			y: -5.0d
 		}
 		{
-			dependencies: ["132820EC14414F20"]
-			icon: {
-				id: "minecraft:end_portal_frame"
-			}
-			id: "1872C0B0FB550113"
-			tasks: [{
-				id: "69A07D364748F1E5"
-				type: "checkmark"
-			}]
-			x: 23.0d
-			y: 3.0d
-		}
-		{
 			dependencies: ["25CE25694201EF88"]
 			icon: {
 				id: "questsicons:chapter_lock"
@@ -493,11 +479,11 @@
 				item: { count: 1, id: "numismatic-overhaul:gold_coin" }
 				type: "item"
 			}]
-			x: 18.0d
+			x: 23.0d
 			y: 3.0d
 		}
 		{
-			dependencies: ["1872C0B0FB550113"]
+			dependencies: ["132820EC14414F20"]
 			id: "5D0937406F83D4B8"
 			tasks: [{
 				consume_items: false
@@ -509,7 +495,7 @@
 			y: 6.0d
 		}
 		{
-			dependencies: ["1872C0B0FB550113"]
+			dependencies: ["132820EC14414F20"]
 			id: "5EB0D532B2CD4E50"
 			tasks: [{
 				consume_items: false
@@ -521,7 +507,7 @@
 			y: 5.0d
 		}
 		{
-			dependencies: ["1872C0B0FB550113"]
+			dependencies: ["132820EC14414F20"]
 			id: "0A63FC852258742C"
 			tasks: [{
 				consume_items: false
@@ -533,7 +519,7 @@
 			y: 2.0d
 		}
 		{
-			dependencies: ["1872C0B0FB550113"]
+			dependencies: ["132820EC14414F20"]
 			id: "666D93C5315F8D31"
 			tasks: [{
 				consume_items: false
@@ -545,7 +531,7 @@
 			y: 7.0d
 		}
 		{
-			dependencies: ["1872C0B0FB550113"]
+			dependencies: ["132820EC14414F20"]
 			id: "42FA367DA205EAEA"
 			tasks: [{
 				consume_items: false
@@ -557,7 +543,7 @@
 			y: 1.0d
 		}
 		{
-			dependencies: ["1872C0B0FB550113"]
+			dependencies: ["132820EC14414F20"]
 			id: "06F3FE6EF23CDA85"
 			tasks: [{
 				consume_items: false
@@ -569,7 +555,7 @@
 			y: 7.0d
 		}
 		{
-			dependencies: ["1872C0B0FB550113"]
+			dependencies: ["132820EC14414F20"]
 			id: "14DF6BDE2AB8A186"
 			tasks: [{
 				consume_items: false
@@ -581,7 +567,7 @@
 			y: 3.0d
 		}
 		{
-			dependencies: ["1872C0B0FB550113"]
+			dependencies: ["132820EC14414F20"]
 			id: "41513472D00BF4E4"
 			tasks: [{
 				consume_items: false
@@ -593,7 +579,7 @@
 			y: 4.0d
 		}
 		{
-			dependencies: ["1872C0B0FB550113"]
+			dependencies: ["132820EC14414F20"]
 			id: "2E727A50A56F990F"
 			tasks: [{
 				consume_items: false
@@ -605,7 +591,7 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["1872C0B0FB550113"]
+			dependencies: ["132820EC14414F20"]
 			id: "38B26D5857D55795"
 			tasks: [{
 				consume_items: false
@@ -617,7 +603,7 @@
 			y: 4.0d
 		}
 		{
-			dependencies: ["1872C0B0FB550113"]
+			dependencies: ["132820EC14414F20"]
 			id: "07393E7EDF79B1BE"
 			tasks: [{
 				consume_items: false
@@ -629,7 +615,7 @@
 			y: 5.0d
 		}
 		{
-			dependencies: ["1872C0B0FB550113"]
+			dependencies: ["132820EC14414F20"]
 			id: "37AA4B55E17B57D8"
 			tasks: [{
 				consume_items: false
@@ -641,7 +627,7 @@
 			y: 7.0d
 		}
 		{
-			dependencies: ["1872C0B0FB550113"]
+			dependencies: ["132820EC14414F20"]
 			id: "49972BDD0646F3DA"
 			tasks: [{
 				consume_items: false
@@ -653,7 +639,7 @@
 			y: 6.5d
 		}
 		{
-			dependencies: ["1872C0B0FB550113"]
+			dependencies: ["132820EC14414F20"]
 			id: "3D23872D560B06D1"
 			tasks: [{
 				consume_items: false
@@ -665,7 +651,7 @@
 			y: 6.0d
 		}
 		{
-			dependencies: ["1872C0B0FB550113"]
+			dependencies: ["132820EC14414F20"]
 			id: "0E76FC35EB1A251B"
 			tasks: [{
 				consume_items: false
@@ -1548,8 +1534,10 @@
 			}
 			id: "0E5AAD455C793640"
 			tasks: [{
-				id: "11FDA7732E7AF598"
-				type: "checkmark"
+				count: 30L
+				id: "4AEEA29986207359"
+				item: { count: 1, id: "numismatic-overhaul:bronze_coin" }
+				type: "item"
 			}]
 			x: -1.0d
 			y: 12.5d
@@ -1561,8 +1549,10 @@
 			}
 			id: "26B729FF2128DEA5"
 			tasks: [{
-				id: "256D4A637DB83760"
-				type: "checkmark"
+				count: 10L
+				id: "1119B7FB0D1405A4"
+				item: { count: 1, id: "numismatic-overhaul:silver_coin" }
+				type: "item"
 			}]
 			x: 3.5d
 			y: 15.5d
@@ -1574,8 +1564,10 @@
 			}
 			id: "1CE5C805FEA11CD1"
 			tasks: [{
-				id: "57738F85BF8E7DBE"
-				type: "checkmark"
+				count: 80L
+				id: "4F1052EA37B10B40"
+				item: { count: 1, id: "numismatic-overhaul:silver_coin" }
+				type: "item"
 			}]
 			x: 0.0d
 			y: 20.0d
@@ -1613,8 +1605,9 @@
 			}
 			id: "1AFCB82F08BF1FD5"
 			tasks: [{
-				id: "02DE38F7D82440A3"
-				type: "checkmark"
+				id: "132576D64BB22F75"
+				item: { count: 1, id: "numismatic-overhaul:gold_coin" }
+				type: "item"
 			}]
 			x: 22.0d
 			y: 23.0d
@@ -1626,8 +1619,10 @@
 			}
 			id: "54CF56DC3CFE7C4F"
 			tasks: [{
-				id: "21CCFD033604D7BE"
-				type: "checkmark"
+				count: 20L
+				id: "0318E740709A05B4"
+				item: { count: 1, id: "numismatic-overhaul:silver_coin" }
+				type: "item"
 			}]
 			x: 26.0d
 			y: 18.0d
@@ -1639,8 +1634,10 @@
 			}
 			id: "2AAC522AD5A572ED"
 			tasks: [{
-				id: "069092F36FB514D0"
-				type: "checkmark"
+				count: 60L
+				id: "39DE10CB341C4895"
+				item: { count: 1, id: "numismatic-overhaul:bronze_coin" }
+				type: "item"
 			}]
 			x: 18.5d
 			y: 12.0d

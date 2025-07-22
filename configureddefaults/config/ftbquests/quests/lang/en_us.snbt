@@ -58,7 +58,7 @@
 		"&aSearch &7\"@joy\" &rfor art supplies."
 	]
 	quest.0D5340BD2CE74872.title: "&aCustom Paintings&r"
-	quest.0E5AAD455C793640.quest_desc: ["Begin your search for &6ancient relics&r scattered across the overworld."]
+	quest.0E5AAD455C793640.quest_desc: ["Begin your search for &6ancient relics&r scattered across the overworld. Each Quest will pop off once you discover the artifacts."]
 	quest.0E5AAD455C793640.title: "&dOverworld Artifacts&r"
 	quest.0E76FC35EB1A251B.quest_desc: ["&5Created through aquatic rites. &rThose who followed its guidance vanished forever, perhaps finding great Atlantis or losing themselves in the attempt."]
 	quest.0ECC1EAA4DD967DC.quest_desc: ["Golden blade blessed by dawn's first light. Slain enemies sometimes drop gold nuggets as the sun's favor shines through. The Sanctum's depths cannot dim its radiance."]
@@ -95,8 +95,6 @@
 	quest.1774BC64FB411198.title: "&bIn-Game Notes&r"
 	quest.17EACE0A13673FB7.quest_desc: ["&9Tools that make construction smoother. &rFrom measuring distances to moving storage, these helpers turn frustrating tasks into simple ones."]
 	quest.17EACE0A13673FB7.title: "&9Movement \\& Building&r"
-	quest.1872C0B0FB550113.quest_desc: ["&5Earn your passage to the End. &rExplore the world to find special eyes in structures and biomes. Each eye type hides in specific places. The End becomes a reward for world mastery."]
-	quest.1872C0B0FB550113.title: "&dTrue End Portal&r"
 	quest.18B2B3CB52554C6C.quest_desc: ["used for impalin enchant"]
 	quest.18E3DFB8AF1D60C8.quest_desc: ["&5Dark blue gems of reflection. &rSapphire weapons hit harder against stronger enemies while armor reflects damage back."]
 	quest.18E3DFB8AF1D60C8.title: "&dMirror Strike&r"
@@ -132,7 +130,7 @@
 	quest.1C7A1CD2697F8ECF.quest_desc: ["used for power enchant"]
 	quest.1CD6B75A997A07BE.quest_desc: ["&5Storm the Piglin fortress. &rMassive towers defend legendary weapons. The main spire holds either the &cScarlet Dagger&r or &cGreatsword of Sacrifice&r. An arsenal worthy of heroes awaits those who conquer these walls."]
 	quest.1CD6B75A997A07BE.title: "&dForbidden Castle&r"
-	quest.1CE5C805FEA11CD1.quest_desc: ["Seek the most &5legendary artifacts&r hidden in the void between worlds."]
+	quest.1CE5C805FEA11CD1.quest_desc: ["Seek the most &5legendary artifacts&r hidden in the void between worlds. Each Quest will pop off once you discover the artifacts."]
 	quest.1CE5C805FEA11CD1.title: "&dEnd Artifacts&r"
 	quest.1F8DCA5B2F267155.quest_desc: ["A lucky hat that &bimproves fishing luck and speed&r, making catches more frequent and valuable."]
 	quest.1F8DCA5B2F267155.title: "&dFisherman's Fortune&r"
@@ -165,7 +163,7 @@
 	quest.25A7EF4BD68FDD83.title: "&dHydration Headwear&r"
 	quest.25CE25694201EF88.quest_desc: ["&5The Nether holds greater treasures. &rEight new biomes await with unique resources and legendary weapons. This dimension rewards those brave enough to explore its depths."]
 	quest.25CE25694201EF88.title: "&5Nether Conquest&r"
-	quest.26B729FF2128DEA5.quest_desc: ["enture into the &cNether&r to discover powerful artifacts forged in eternal flames."]
+	quest.26B729FF2128DEA5.quest_desc: ["enture into the &cNether&r to discover powerful artifacts forged in eternal flames. Each Quest will pop off once you discover the artifacts."]
 	quest.26B729FF2128DEA5.title: "&dNether Artifacts&r"
 	quest.273BF5F78AA12690.quest_desc: ["used for the second level of soul speed enchant"]
 	quest.2745B4B645F2C711.quest_desc: ["Ancient scroll opening portals home. Use in the Nether to return to spawn instantly. Half the Sanctum's illusionists guard this escape route."]
@@ -499,14 +497,11 @@
 	reward_table.7E67CD3F90CD278D.title: "Multiplex"
 	task.01692A1EA1DC597C.title: "Understood"
 	task.01E7A724E4D8AD73.title: "Understood"
-	task.02DE38F7D82440A3.title: "Understood"
 	task.03A7D435A34006C3.title: "Understood"
-	task.069092F36FB514D0.title: "Understood"
 	task.06D1218919C4AAE7.title: "Understood"
 	task.0AC61E4744CAF3C3.title: "Understood"
 	task.0C27E8DA413C3002.title: "Understood"
 	task.10B71F30BBFE8193.title: "Understood"
-	task.11FDA7732E7AF598.title: "Understood"
 	task.15A8F8A26C042C05.title: "Understood"
 	task.161896A783CE5948.title: "Understood"
 	task.177FA0CC8CB7A228.title: "Understood"
@@ -515,10 +510,8 @@
 	task.1F1F0168B9937150.title: "Understood"
 	task.213C699AB87E05A3.title: "Understood"
 	task.217AFC89D67553FE.title: "Understood"
-	task.21CCFD033604D7BE.title: "Understood"
 	task.21D0B4AC4BC052AA.title: "Understood"
 	task.24578182A25E26CE.title: "Understood"
-	task.256D4A637DB83760.title: "Understood"
 	task.2796A39523E603DF.title: "Understood"
 	task.27FB2B7FCDDDF657.title: "Understood"
 	task.2A945AA049113E66.title: "Understood"
@@ -536,7 +529,6 @@
 	task.40CC391590A1AFB3.title: "Understood"
 	task.46B18C6E36AE74EA.title: "Understood"
 	task.56A4D1ABB3B7D495.title: "Understood"
-	task.57738F85BF8E7DBE.title: "Understood"
 	task.5781303F32C5DF2B.title: "Understood"
 	task.5AB2B995B4026AD8.title: "Understood"
 	task.5B955F6FFE392E0C.title: "Understood"

@@ -13,7 +13,9 @@
 
 **FTB Quests:**
 
-- Artifact quests are hidden until completed (the artifact is detected in the inventory)
+- Artifact quests are hidden until completed (the artifact is detected in the inventory).
+- Removed useless quest in the exploration chapter related to the end dimension.
+- Rebalanced exploration quest coin requirements.
 
 ---
 
