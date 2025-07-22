@@ -23,10 +23,9 @@
 
 ## ❌ Mods Removed
 
-*List all mods that were removed with reasons. Remove this section if no mods were removed.*
+*List all mods that were removed with reasons.*
 
-- **Mod Name 1**: Incompatible with new Forge version
-- **Mod Name 2**: Replaced by better alternative
+- **Animated Loading Screen**: Laggy animation
 
 ---
 
@@ -41,7 +40,7 @@
 
 ## ⬆️ Mods Updated
 
-*List all mods that were updated with their version changes. Remove this section if no mods were updated.*
+*List all mods that were updated with their version changes.*
 
-- **Mod Name 1**: `v1.2.3` → `v1.3.0`
-- **Mod Name 2**: `v2.1.0` → `v2.1.5`
+- **Lithostiched**: `v1.4.11` → `v1.5.0+beta1`
+- **Repurposed Structures**: `v7.5.16` → `v7.5.17`
