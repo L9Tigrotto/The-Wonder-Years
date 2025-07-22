@@ -42,5 +42,4 @@
 
 *List all mods that were updated with their version changes.*
 
-- **Lithostiched**: `v1.4.11` → `v1.5.0+beta1`
 - **Repurposed Structures**: `v7.5.16` → `v7.5.17`
