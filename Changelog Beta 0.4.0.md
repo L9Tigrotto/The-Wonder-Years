@@ -17,6 +17,10 @@
 - Removed useless quest in the exploration chapter related to the end dimension.
 - Rebalanced exploration quest coin requirements.
 
+**Blinking Stars:**
+
+- Make stars bigger
+
 ---
 
 ## ❌ Mods Removed
