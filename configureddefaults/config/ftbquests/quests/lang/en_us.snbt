@@ -106,6 +106,7 @@
 	quest.1947F85AD4AD7579.title: "&dDouble Jump&r"
 	quest.19DB64CB3DFBEA7A.quest_desc: ["&5Your world reveals itself as you explore. &rMaps generate automatically while you travel through Overworld, Nether, and End. Mark important locations with waypoints. &3Press 'M' &rfor full map, &3'N' &rfor waypoints, &3'V' &rfor instant waypoint at your feet."]
 	quest.19DB64CB3DFBEA7A.title: "&dWorld Cartographer&r"
+	quest.1A36E8595EF84055.quest_desc: ["Quirky headgear that &bmakes you drink faster&r, allowing rapid consumption of potions and liquids."]
 	quest.1AD478D0E29CDB84.quest_desc: ["Sharp talons that &6increase hand mining speed&r for breaking blocks."]
 	quest.1AD478D0E29CDB84.title: "&dExcavation Enhancement&r"
 	quest.1AFCB82F08BF1FD5.quest_desc: ["&5Claim the ultimate magical components from the realm beyond. &rThe End dimension holds the most legendary essences, combining all previous discoveries with void-touched power."]

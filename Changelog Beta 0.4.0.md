@@ -9,15 +9,11 @@
 
 ## ⚙️ Settings Changed
 
-*List all configuration changes organized by mod. Remove this section if no settings were changed.*
+*List all configuration changes organized by mod.*
 
-**Mod Name 1:**
+**FTB Quests:**
 
-- Increased spawn rate of custom ores
-
-**Mod Name 2:**
-
-- Enabled advanced tooltip features
+- Artifact quests are hidden until completed (the artifact is detected in the inventory)
 
 ---
 
