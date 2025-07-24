@@ -33,6 +33,7 @@
 			}
 			id: "5D1A295BD31BDC71"
 			shape: "gear"
+			size: 1.2d
 			tasks: [{
 				count: 10L
 				id: "4955299E15E32736"
@@ -104,6 +105,7 @@
 			}
 			id: "578D0B4888DF97B6"
 			shape: "gear"
+			size: 1.2d
 			tasks: [{
 				count: 30L
 				id: "1654FA1ED1E7C6D5"
@@ -123,7 +125,7 @@
 				id: "35CFB0BC6449C981"
 				type: "checkmark"
 			}]
-			x: 3.5d
+			x: 7.0d
 			y: 6.5d
 		}
 		{
@@ -136,8 +138,8 @@
 				id: "06D1218919C4AAE7"
 				type: "checkmark"
 			}]
-			x: 6.0d
-			y: 4.5d
+			x: 7.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["1BAB9E73BF88F737"]
@@ -159,6 +161,7 @@
 			}
 			id: "3DEFAEC17E67F162"
 			shape: "gear"
+			size: 1.2d
 			tasks: [{
 				id: "12F89A308CE2D99D"
 				item: { count: 1, id: "numismatic-overhaul:silver_coin" }
@@ -177,8 +180,8 @@
 				id: "217AFC89D67553FE"
 				type: "checkmark"
 			}]
-			x: 4.5d
-			y: -5.0d
+			x: 5.0d
+			y: -5.5d
 		}
 		{
 			dependencies: ["3DEFAEC17E67F162"]
@@ -191,7 +194,7 @@
 				type: "checkmark"
 			}]
 			x: 3.5d
-			y: -5.5d
+			y: -6.0d
 		}
 		{
 			dependencies: ["3AB9403FB7C8E6DD"]
@@ -200,6 +203,7 @@
 			}
 			id: "7BFEA239C33A5358"
 			shape: "gear"
+			size: 1.2d
 			tasks: [{
 				count: 2L
 				id: "51038DD5835C78EE"
@@ -207,7 +211,7 @@
 				type: "item"
 			}]
 			x: 9.0d
-			y: 6.5d
+			y: 7.8d
 		}
 		{
 			dependencies: ["7BFEA239C33A5358"]
@@ -219,8 +223,8 @@
 				id: "355C6156B7C0AB4B"
 				type: "checkmark"
 			}]
-			x: 10.5d
-			y: 8.5d
+			x: 10.0d
+			y: 9.5d
 		}
 		{
 			dependencies: ["7BFEA239C33A5358"]
@@ -245,8 +249,8 @@
 				id: "5B955F6FFE392E0C"
 				type: "checkmark"
 			}]
-			x: 7.5d
-			y: 8.5d
+			x: 8.0d
+			y: 9.5d
 		}
 		{
 			dependencies: ["6DF23DB968F7423C"]
@@ -255,6 +259,7 @@
 			}
 			id: "25CE25694201EF88"
 			shape: "gear"
+			size: 1.2d
 			tasks: [{
 				id: "69F5DB6B42175C03"
 				item: { count: 1, id: "numismatic-overhaul:gold_coin" }
@@ -473,6 +478,7 @@
 			}
 			id: "132820EC14414F20"
 			shape: "gear"
+			size: 1.2d
 			tasks: [{
 				count: 10L
 				id: "49D8D84957B24942"
@@ -1010,8 +1016,8 @@
 				id: "37E0BF1724C0B99B"
 				type: "checkmark"
 			}]
-			x: 2.5d
-			y: -5.0d
+			x: 2.0d
+			y: -5.5d
 		}
 		{
 			can_repeat: true

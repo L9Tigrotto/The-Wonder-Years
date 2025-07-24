@@ -12,10 +12,10 @@
 	quest.02C043D329FE7641.quest_desc: ["Ancient blade forged to purify the Nether's corruption. Its golden edge spreads damage between undead foes. Found at the castle's heart, waiting for a worthy champion."]
 	quest.037BE0895F34A409.quest_desc: ["&9Every recipe at your fingertips. &rThe item panel on the right of your inventory shows everything you can make. Search for anything. Press &3R &rto see recipes, &3U &rfor uses, &3A &rto save favorites. That little plus sign? Click it to auto fill your crafting grid when you have the materials."]
 	quest.037BE0895F34A409.title: "&bRecipe Browser&r"
-	quest.0381CE80730E7258.quest_desc: ["used for unbreaking enchant"]
-	quest.04C837B810B5C356.quest_desc: ["used in wax wings enchant"]
-	quest.054C3E00600E0A64.quest_desc: ["used for luck of the sea enchant"]
-	quest.0561B68941C149BC.quest_desc: ["used for aqua affinity, depth strider and fast swim enchants"]
+	quest.0381CE80730E7258.quest_desc: ["Powers tool durability."]
+	quest.04C837B810B5C356.quest_desc: ["Powers elytra enchantments."]
+	quest.054C3E00600E0A64.quest_desc: ["Powers better fishing luck."]
+	quest.0561B68941C149BC.quest_desc: ["Powers underwater breathing and speed."]
 	quest.057D52179A430C2D.quest_desc: ["Divine crossbow summoning spiral firestorms. Sacred flames purge evil in sweeping patterns. The Sanctum's guardians drop this blessed weapon to worthy champions."]
 	quest.05F0A66B6473444B.quest_desc: [
 		"&2See everything at a glance. &r&3Right click&r to store items, &3left click&r to take them out. Numbers show exactly how much you have. Upgrade capacity when needed. Lock drawers with a key to keep them organized. "
@@ -70,16 +70,16 @@
 	quest.0FE8379F6F091D0D.title: "&dFlaming Strikes&r"
 	quest.1135C3924C9775EF.quest_desc: ["Mechanical gauntlet that &6increases attack damage&r."]
 	quest.1135C3924C9775EF.title: "&dStrength Amplifier&r"
-	quest.1136DF44FF8E5D02.quest_desc: ["used for protection enchant"]
-	quest.11650E84CF68357C.quest_desc: ["used for sharpenss enchant"]
-	quest.123EE4F5AB97B354.quest_desc: ["used for lure enchant"]
+	quest.1136DF44FF8E5D02.quest_desc: ["Powers general armor defense."]
+	quest.11650E84CF68357C.quest_desc: ["Powers sharper weapon strikes."]
+	quest.123EE4F5AB97B354.quest_desc: ["Powers faster fishing."]
 	quest.132820EC14414F20.quest_desc: ["&5The End requires true exploration. &rFifteen unique eyes hide across the world. Find at least twelve different types to activate the portal."]
 	quest.132820EC14414F20.title: "&5End Portal Path&r"
 	quest.13645E209E930DFD.quest_desc: ["&5Green crystals of deadly venom. &rPeridot weapons poison enemies while the armor hurts attackers with poison thorns."]
 	quest.13645E209E930DFD.title: "&dPoison Thorn&r"
-	quest.14976831BA60C296.quest_desc: ["used for bane of arthropods enchant"]
+	quest.14976831BA60C296.quest_desc: ["Powers spider and bug damage."]
 	quest.14DF6BDE2AB8A186.quest_desc: ["&5Found in jungle temples. &rThis eye granted our ancestors the sacred knowledge of Redstone arts."]
-	quest.151691774A10AE09.quest_desc: ["used for theather falling enchant"]
+	quest.151691774A10AE09.quest_desc: ["Powers feather falling."]
 	quest.1528D50AEAADB677.quest_desc: [
 		"&2Over 250 pieces await discovery. &rCraft cozy seating for fireside chats, sturdy tables for grand feasts, elegant beds for peaceful rest and clever shelves for treasured items. "
 		""
@@ -95,23 +95,23 @@
 	quest.1774BC64FB411198.title: "&bIn-Game Notes&r"
 	quest.17EACE0A13673FB7.quest_desc: ["&9Tools that make construction smoother. &rFrom measuring distances to moving storage, these helpers turn frustrating tasks into simple ones."]
 	quest.17EACE0A13673FB7.title: "&9Movement \\& Building&r"
-	quest.18B2B3CB52554C6C.quest_desc: ["used for impalin enchant"]
+	quest.18B2B3CB52554C6C.quest_desc: ["Powers sea creature damage."]
 	quest.18E3DFB8AF1D60C8.quest_desc: ["&5Dark blue gems of reflection. &rSapphire weapons hit harder against stronger enemies while armor reflects damage back."]
 	quest.18E3DFB8AF1D60C8.title: "&dMirror Strike&r"
-	quest.193C99249AB69B9E.quest_desc: ["used in thorns enchant"]
-	quest.1941F8DE7741C05A.quest_desc: ["used for frost walker and ethernal frost enchants"]
+	quest.193C99249AB69B9E.quest_desc: ["Powers damage reflection."]
+	quest.1941F8DE7741C05A.quest_desc: ["Powers frost walking and freezing."]
 	quest.1947F85AD4AD7579.quest_desc: ["Mystical sky essence that &agrants an extra jump&r while airborne, defying gravity."]
 	quest.1947F85AD4AD7579.title: "&dDouble Jump&r"
 	quest.19DB64CB3DFBEA7A.quest_desc: ["&5Your world reveals itself as you explore. &rMaps generate automatically while you travel through Overworld, Nether, and End. Mark important locations with waypoints. &3Press 'M' &rfor full map, &3'N' &rfor waypoints, &3'V' &rfor instant waypoint at your feet."]
 	quest.19DB64CB3DFBEA7A.title: "&dWorld Cartographer&r"
-	quest.1A36E8595EF84055.quest_desc: ["Quirky headgear that &bmakes you drink faster&r, allowing rapid consumption of potions and liquids."]
+	quest.1A36E8595EF84055.quest_desc: ["Quirky headgear that &bmakes you drink and eat faster&r, allowing rapid consumption of potions and liquids."]
 	quest.1AD478D0E29CDB84.quest_desc: ["Sharp talons that &6increase hand mining speed&r for breaking blocks."]
 	quest.1AD478D0E29CDB84.title: "&dExcavation Enhancement&r"
 	quest.1AFCB82F08BF1FD5.quest_desc: ["&5Claim the ultimate magical components from the realm beyond. &rThe End dimension holds the most legendary essences, combining all previous discoveries with void-touched power."]
 	quest.1AFCB82F08BF1FD5.title: "&dVoid Essences&r"
 	quest.1B5162AEF636FB25.quest_desc: ["Chorus-infused totem that &5teleports you to safety&r when you would otherwise take fatal damage."]
 	quest.1B5162AEF636FB25.title: "&dDimension Walker&r"
-	quest.1B957014BB245C6E.quest_desc: ["used for sweeping edge enchant"]
+	quest.1B957014BB245C6E.quest_desc: ["Powers wide sword swings."]
 	quest.1BAB9E73BF88F737.quest_desc: [
 		"The Wonder Years adds three types of content: "
 		""
@@ -127,11 +127,17 @@
 	quest.1BFCF17A7E1A7492.quest_desc: ["&2Carry more without slowing down. &rLeather bags for early adventures, iron bags for serious expeditions, gold bags for master builders."]
 	quest.1BFCF17A7E1A7492.quest_subtitle: "Bag Of Holding"
 	quest.1BFCF17A7E1A7492.title: "&aExpanded Bags&r"
-	quest.1C7A1CD2697F8ECF.quest_desc: ["used for power enchant"]
+	quest.1C7A1CD2697F8ECF.quest_desc: ["Powers stronger arrows."]
 	quest.1CD6B75A997A07BE.quest_desc: ["&5Storm the Piglin fortress. &rMassive towers defend legendary weapons. The main spire holds either the &cScarlet Dagger&r or &cGreatsword of Sacrifice&r. An arsenal worthy of heroes awaits those who conquer these walls."]
 	quest.1CD6B75A997A07BE.title: "&dForbidden Castle&r"
 	quest.1CE5C805FEA11CD1.quest_desc: ["Seek the most &5legendary artifacts&r hidden in the void between worlds. Each Quest will pop off once you discover the artifacts."]
 	quest.1CE5C805FEA11CD1.title: "&dEnd Artifacts&r"
+	quest.1E2D298A29A8868A.quest_desc: [
+		"&2Stop the lag from overcrowded farms. &rCapture animals in specialized pens and containers while keeping full functionality. Breed, milk, shear, and collect drops from stored animals. Land animals go in cages, water creatures in containers."
+		""
+		"&aSearch &7\"@animal_pen\" &rfor cages and containers."
+	]
+	quest.1E2D298A29A8868A.title: "&aCompact Livestock&r"
 	quest.1F8DCA5B2F267155.quest_desc: ["A lucky hat that &bimproves fishing luck and speed&r, making catches more frequent and valuable."]
 	quest.1F8DCA5B2F267155.title: "&dFisherman's Fortune&r"
 	quest.1FA3DFFC983B6AEF.quest_desc: [
@@ -142,7 +148,7 @@
 	quest.1FA3DFFC983B6AEF.title: "&aStorage Networks&r"
 	quest.1FDE0D0A9BBC2DCF.quest_desc: ["&2Your builds deserve artistic touches. &rPaint custom artwork, take photographs, display collections. These tools let you add personal flair that makes each build uniquely yours."]
 	quest.1FDE0D0A9BBC2DCF.title: "&2Creative Arts&r"
-	quest.211003D56BA9E52B.quest_desc: ["used for fortune enchant"]
+	quest.211003D56BA9E52B.quest_desc: ["Powers better ore drops."]
 	quest.21EF518A238B97B5.quest_desc: ["&2Carry your network with you. &rShift right click any bag on a chest to sync their colors. Now you have portable access to that storage channel from anywhere."]
 	quest.21EF518A238B97B5.title: "&aEnder Bags&r"
 	quest.221B914346D4C84C.quest_desc: ["&2Add natural variety automatically. &rFill your hotbar with different blocks, then let the trowel randomly place them."]
@@ -150,27 +156,27 @@
 	quest.221B914346D4C84C.title: "&aVariation Tool&r"
 	quest.22A08B952F1036C6.quest_desc: ["&2Decide who uses your storage. &rDefault is public access. &3Shift + right click&r with diamond for personal only. &3Shift + right click&r with emerald for team access."]
 	quest.22A08B952F1036C6.title: "&aStorage Access Management&r"
-	quest.235F2DFC5DB22FBC.quest_desc: ["used for the first level of swift sneak enchant"]
-	quest.2406A707DDD4F07C.quest_desc: ["used for suil touch enchant"]
-	quest.24100998E1CEA227.quest_desc: ["used for infinity enchant"]
+	quest.235F2DFC5DB22FBC.quest_desc: ["Powers basic silent movement."]
+	quest.2406A707DDD4F07C.quest_desc: ["Powers gentle block harvesting."]
+	quest.24100998E1CEA227.quest_desc: ["Powers infinite arrows."]
 	quest.24FF0C108F1217CE.quest_desc: [
 		"&eClaim chunks to keep your creations safe. &rOnly you and your teammates can build or break blocks in claimed areas. "
 		""
 		"Open your inventory and click &7'FTB Chunks' &rin the top left to start claiming."
 	]
 	quest.24FF0C108F1217CE.title: "&eProtect Your Builds&r"
-	quest.25A7EF4BD68FDD83.quest_desc: ["Quirky headgear that &bmakes you drink faster&r, allowing rapid consumption of potions and liquids."]
+	quest.25A7EF4BD68FDD83.quest_desc: ["Quirky headgear that &bmakes you drink and eat faster&r, allowing rapid consumption of potions and liquids."]
 	quest.25A7EF4BD68FDD83.title: "&dHydration Headwear&r"
 	quest.25CE25694201EF88.quest_desc: ["&5The Nether holds greater treasures. &rEight new biomes await with unique resources and legendary weapons. This dimension rewards those brave enough to explore its depths."]
 	quest.25CE25694201EF88.title: "&5Nether Conquest&r"
 	quest.26B729FF2128DEA5.quest_desc: ["enture into the &cNether&r to discover powerful artifacts forged in eternal flames. Each Quest will pop off once you discover the artifacts."]
 	quest.26B729FF2128DEA5.title: "&dNether Artifacts&r"
-	quest.273BF5F78AA12690.quest_desc: ["used for the second level of soul speed enchant"]
+	quest.273BF5F78AA12690.quest_desc: ["Powers better soul speed."]
 	quest.2745B4B645F2C711.quest_desc: ["Ancient scroll opening portals home. Use in the Nether to return to spawn instantly. Half the Sanctum's illusionists guard this escape route."]
 	quest.277FF13C1EA4B576.quest_desc: ["&2Move between floors instantly. &rPlace quartz elevators in the same column. Jump to go up, sneak to go down. Smooth quartz works over longer distances than regular quartz."]
 	quest.277FF13C1EA4B576.quest_subtitle: "Quartz Elevators"
 	quest.277FF13C1EA4B576.title: "&aVertical Transport&r"
-	quest.2870F13B6FAE2F9B.quest_desc: ["used for benom protection enchant"]
+	quest.2870F13B6FAE2F9B.quest_desc: ["Powers toxin immunity."]
 	quest.287A68ADF09D7292.quest_desc: ["&2Add intelligence to your storage. &rFiltered hoppers for automated sorting. Level emitters for redstone control. Open crates to handle overflow. &3Right click&r hoppers with items to set filters."]
 	quest.287A68ADF09D7292.title: "&aNetwork Tools&r"
 	quest.2888386FCF0C472C.quest_desc: ["&9Perfect spacing every time. &r&3Right click&r your starting point, then right click where you want to measure. The exact distance appears. &3Shift + right click&r to clear."]
@@ -181,8 +187,8 @@
 	quest.2973F97213B6C4CE.quest_desc: ["Crossbow that splits reality itself. Fires spreading bursts of flaming arrows at close range. Tower guards once used these to repel entire armies."]
 	quest.2AAC522AD5A572ED.quest_desc: ["&5Begin your magical journey in familiar lands. &rThe Overworld holds the foundation of all enchantment."]
 	quest.2AAC522AD5A572ED.title: "&dPrimordial Essences&r"
-	quest.2B0E45850625159C.quest_desc: ["used for breach enchant"]
-	quest.2B19AFB19A58776B.quest_desc: ["used for fire protection enchant"]
+	quest.2B0E45850625159C.quest_desc: ["Powers armor piercing."]
+	quest.2B19AFB19A58776B.quest_desc: ["Powers flame resistance."]
 	quest.2BD891772E4F6B8C.quest_desc: ["Crossbow wreathed in eternal flames. Spectral arrows become explosive lightning bolts. Born from the Inferno's rage, this weapon turns arrows into divine punishment."]
 	quest.2D72E13DD4F8CC2A.quest_desc: [
 		"&2Send and receive items safely. &rUse post boxes to send packages and mailboxes receive them. Limited to one mailbox per player."
@@ -190,7 +196,7 @@
 		"&aSearch &7\\\"@mighty\\\" &rfor all mail items."
 	]
 	quest.2D72E13DD4F8CC2A.title: "&aPlayer Mail System&r"
-	quest.2D92AD9FBF242B3F.quest_desc: ["used for piercing enchant"]
+	quest.2D92AD9FBF242B3F.quest_desc: ["Powers arrow penetration."]
 	quest.2E6BC4D52A2B97FF.quest_desc: ["Slow blade spreading wither's curse. Most strikes inflict the deadly decay. Defeating the Wither in warped forests may yield this corrupted weapon."]
 	quest.2E727A50A56F990F.quest_desc: ["&5Claimed from fallen Evokers. &rWithout this eye, the Evoker holds no mystical power."]
 	quest.2EFF546DA1619A7F.quest_desc: ["Swift blade that drinks life from fallen foes. Strike fast and heal with every kill. The fortress tower's peak holds this vampiric weapon for those quick enough to claim it."]
@@ -205,10 +211,10 @@
 	quest.302C40EDAFFDBBCD.title: "&dWaystone Network&r"
 	quest.3098213760C64AD1.quest_desc: ["&5Every tool tells a story. &rEquipment gains random powers, making each piece unique and powerful. If you don't like the magic it gains, use an anvil with matching ingot and amethyst shard to try again."]
 	quest.3098213760C64AD1.title: "&dGear Enhancement&r"
-	quest.30C11895FE094378.quest_desc: ["used for the second level of swift sneak enchant"]
+	quest.30C11895FE094378.quest_desc: ["Powers better silent movement."]
 	quest.31863067B7EF8747.quest_desc: ["&2The best builds work as beautifully as they look. &rAutomate tedious tasks, create logic systems, manage items intelligently."]
 	quest.31863067B7EF8747.title: "&2Engineering Excellence&r"
-	quest.3350F6ADA9D48697.quest_desc: ["used for loyalty enchant"]
+	quest.3350F6ADA9D48697.quest_desc: ["Powers returning tridents."]
 	quest.33563AB0FD706629.quest_desc: ["Feather torn from the Inferno's shields. Strong as armor yet light as air. Forge with an elytra to create legendary wings."]
 	quest.3428B65F3CC0A49E.quest_desc: ["Armored wings forged from Inferno's shields. Fly with full protection at the cost of some speed."]
 	quest.34A904AFC4237395.quest_desc: ["Advanced device that &dprevents ender pearl consumption&r when throwing them for teleportation."]
@@ -216,13 +222,13 @@
 	quest.35118D82CF436157.quest_desc: ["Peculiar jewelry that &6grants mining speed boost&r temporarily after eating any food."]
 	quest.35118D82CF436157.title: "&dTear Immunity&r"
 	quest.37AA4B55E17B57D8.quest_desc: ["&5Prize from the dreaded Wither. &rHas witnessed destruction beyond measure, perhaps even your vanished belongings."]
-	quest.3806116DA302EDB4.quest_desc: ["used for looting enchant"]
+	quest.3806116DA302EDB4.quest_desc: ["Powers better mob drops."]
 	quest.38B26D5857D55795.quest_desc: ["&5Blessed talisman from master clerics. &rA holy charm said to shield its owner from misfortune."]
 	quest.39BEA723A3E9FE5C.quest_desc: ["Helmet granting speed when wounded. The lower your health, the faster you run. Scout captains wore these to escape impossible battles."]
 	quest.39DF412BF35AD666.quest_desc: ["&2Add warmth with adorable decorations. &rCollect different plushie designs from shepherd villagers."]
 	quest.39DF412BF35AD666.title: "&aComfort Decorations&r"
-	quest.3A36416AAC243FDF.quest_desc: ["used for fear enchant"]
-	quest.3A794FCC7E1B7B8F.quest_desc: ["used for density enchant"]
+	quest.3A36416AAC243FDF.quest_desc: ["Powers enemy intimidation."]
+	quest.3A794FCC7E1B7B8F.quest_desc: ["Powers mace density."]
 	quest.3AB9403FB7C8E6DD.quest_desc: ["&5The needle points toward adventure. &rThis compass finds the nearest undiscovered structure. Watch it spin toward dungeons, temples, and forgotten ruins. Every structure worth finding is just a compass reading away."]
 	quest.3AB9403FB7C8E6DD.quest_subtitle: "Explorer's Compass"
 	quest.3AB9403FB7C8E6DD.title: "&dStructure Hunter&r"
@@ -233,13 +239,13 @@
 	]
 	quest.3ADA0678306408A9.quest_subtitle: "Enchantment Crystal"
 	quest.3ADA0678306408A9.title: "&dMagical Accumulator&r"
-	quest.3B50133CA80F323D.quest_desc: ["used for punch enchant"]
-	quest.3BD335DD4232A515.quest_desc: ["used for riptide enchant"]
+	quest.3B50133CA80F323D.quest_desc: ["Powers arrow knockback."]
+	quest.3BD335DD4232A515.quest_desc: ["Powers water launching."]
 	quest.3C460787DD108576.quest_desc: ["&2More than just buffs. &rUse copper in pyramid construction. Different materials give different ranges. Tinted glass reduces beam brightness. Stronger pyramid blocks provide more powerful effects."]
 	quest.3C460787DD108576.title: "&aBeacons Enhanced&r"
-	quest.3D09C25AC8D88139.quest_desc: ["used in life steal and critical enchants"]
+	quest.3D09C25AC8D88139.quest_desc: ["Powers critical strike damage."]
 	quest.3D23872D560B06D1.quest_desc: ["&5Forged from undead souls. &rA remembrance of past lives trapped between death and existence."]
-	quest.3D2BED402545E30F.quest_desc: ["used for bright vision enchant"]
+	quest.3D2BED402545E30F.quest_desc: ["Powers bright vision."]
 	quest.3DEFAEC17E67F162.quest_desc: ["&5Cover vast distances with ease. &rInstant travel networks and better mounts transform your world from overwhelming to manageable."]
 	quest.3DEFAEC17E67F162.title: "&5Travel Master&r"
 	quest.3E1A7164C8086641.quest_desc: [
@@ -248,8 +254,8 @@
 		"&aPress &3'P' &rto customize your visible equipment."
 	]
 	quest.3E1A7164C8086641.title: "&aEquipment Display&r"
-	quest.3E90B63D790828D3.quest_desc: ["used for multishot enchant"]
-	quest.3EFC6231668DD9CD.quest_desc: ["used for efficiency enchant"]
+	quest.3E90B63D790828D3.quest_desc: ["Powers multiple arrows."]
+	quest.3EFC6231668DD9CD.quest_desc: ["Powers faster mining."]
 	quest.3FA30454CAF85346.quest_desc: ["A compact contraption that &cpushes back nearby enemies&r when you deal damage."]
 	quest.3FA30454CAF85346.title: "&dKnockback Device&r"
 	quest.3FC8FA773B99E528.quest_desc: ["An unusual trinket that &bmakes you sink rapidly in water&r instead of floating to the surface."]
@@ -266,7 +272,7 @@
 	quest.40F3884CCA562B39.quest_subtitle: "Saw"
 	quest.40F3884CCA562B39.title: "&aWood Processing&r"
 	quest.41513472D00BF4E4.quest_desc: ["&5Guarded in bastion treasuries. &rA destructive relic the Piglins swore to protect with their very lives."]
-	quest.4279D773DC59AD7B.quest_desc: ["used for the first level of soul speed enchant"]
+	quest.4279D773DC59AD7B.quest_desc: ["Powers basic soul speed."]
 	quest.4283D8CA2C3B3D77.quest_desc: ["&2Empty rooms feel lifeless. &rFill them with furniture that tells your story. Chairs for gathering, tables for feasting, beds for resting. Each piece adds warmth and makes your castle feel like home."]
 	quest.4283D8CA2C3B3D77.title: "&2Home Decoration&r"
 	quest.42D41E58F3BA58C6.quest_desc: ["&2Great builders need great storage. &rLearn to organize your materials with style. Visual displays, massive capacity, and connected networks await. Master these tools and spend more time building, less time searching through messy chests."]
@@ -276,7 +282,7 @@
 	quest.42FA367DA205EAEA.quest_desc: ["&5Hidden in abandoned mineshafts. &rForged by the first blacksmiths when time itself was young."]
 	quest.43FB6C5A454C1C97.quest_desc: ["A magnetic device that &eautomatically pulls nearby items&r toward you from a distance."]
 	quest.43FB6C5A454C1C97.title: "&dItem Magnetism&r"
-	quest.44045906632B4528.quest_desc: ["used for vein miner enchant"]
+	quest.44045906632B4528.quest_desc: ["Powers vein mining."]
 	quest.465E42174D8FFDF3.quest_desc: ["&9Keep creatures away from your base. &bDiamond torches &rblock hostile mobs. &aEmerald torches &rstop peaceful ones. &dAmethyst torches &rprevent underground and water creatures."]
 	quest.465E42174D8FFDF3.quest_subtitle: "Magnum Torch"
 	quest.465E42174D8FFDF3.title: "&bMob Prevention&r"
@@ -285,10 +291,10 @@
 	quest.48A622DDA4B19FBF.title: "&dPortable Rest Systems&r"
 	quest.48A7AE55AE5FAD30.quest_desc: ["&9Smart inventory management. &rPress your &3mouse wheel&r to sort any chest instantly. &3Alt + left click&r slots to lock them during sorting. Use &3scroll wheel&r to move single items in and out."]
 	quest.48A7AE55AE5FAD30.title: "&bBetter Storage&r"
-	quest.492385311047D99F.quest_desc: ["essence of channeling"]
+	quest.492385311047D99F.quest_desc: ["Powers lightning strikes."]
 	quest.496191BA2530938A.quest_desc: ["A protective charm that &eboosts your speed&r temporarily after taking damage from enemies."]
 	quest.496191BA2530938A.title: "&dCombat Adrenaline&r"
-	quest.49709876416B8094.quest_desc: ["used for the third level of soul speed enchant"]
+	quest.49709876416B8094.quest_desc: ["Powers maximum soul speed."]
 	quest.49805B0EE965DEBD.quest_desc: ["&5Red gems that boost your speed. &rRuby tools make you mine faster while ruby armor makes enemies tired when they attack you."]
 	quest.49805B0EE965DEBD.title: "&dCrimson Mastery&r"
 	quest.49972BDD0646F3DA.quest_desc: ["&5Crafted from witch pupils. &rThis eye beheld the ancient brewing secrets lost to time."]
@@ -296,8 +302,8 @@
 	quest.49F5880474D544C0.title: "&dWither Challenge&r"
 	quest.4A2C8C3105AFBF00.quest_desc: ["Nature-blessed shoes that &2replenish hunger while walking on grass&r, sustaining you naturally."]
 	quest.4A2C8C3105AFBF00.title: "&dNature's Sustenance&r"
-	quest.4B15924924209C94.quest_desc: ["used for projectile protection"]
-	quest.4B8820F1DDCD7200.quest_desc: ["used for the third level of swift sneak enchant"]
+	quest.4B15924924209C94.quest_desc: ["Powers arrow resistance."]
+	quest.4B8820F1DDCD7200.quest_desc: ["Powers perfect silent movement."]
 	quest.4E0D9D537B5A8719.quest_desc: ["&5Judge horses by their true worth. &rEquip the monocle to see actual speed, jump, and health stats. Stop guessing which horse runs fastest."]
 	quest.4E0D9D537B5A8719.quest_subtitle: "Monocle"
 	quest.4E0D9D537B5A8719.title: "&dMount Inspector&r"
@@ -324,7 +330,7 @@
 		"&7\"@camerapture\" &rfor camera equipment."
 	]
 	quest.55C53A15D9B94AA7.title: "&aPhotography&r"
-	quest.5727D9739E6042DC.quest_desc: ["used for wind burst enchant"]
+	quest.5727D9739E6042DC.quest_desc: ["Powers wind burst attacks."]
 	quest.572C749654ABA309.quest_desc: ["&5Golden stones of lasting power. &rTopaz gear lasts much longer and protects from fire. Tools rarely break when you use them."]
 	quest.572C749654ABA309.title: "&dGolden Endurance&r"
 	quest.578D0B4888DF97B6.quest_desc: ["&5Find what you seek with precision. &rSpecialized compasses point toward structures and biomes. Stop wandering aimlessly when your destination awaits discovery."]
@@ -354,7 +360,7 @@
 	quest.5AAAC4CED3BC1A4A.title: "&aDrawer Controllers&r"
 	quest.5ACD859576060323.quest_desc: ["&9Place blocks behind other blocks. &rAim at any block edge to see placement guides. Works vertically and horizontally."]
 	quest.5ACD859576060323.title: "&bReach Helper&r"
-	quest.5BC105580B81E589.quest_desc: ["used for quick charge enchant"]
+	quest.5BC105580B81E589.quest_desc: ["Powers faster crossbow loading."]
 	quest.5CB3EFFE2C67D13A.quest_desc: ["&9See more, click less. &rYour adventure starts with better information at your fingertips. Health numbers, armor values, and tool durability appear right where you need them. Small changes that make a big difference."]
 	quest.5CB3EFFE2C67D13A.title: "&9HUD Basics&r"
 	quest.5D0937406F83D4B8.quest_desc: ["&5Treasure from buried depths. &rPirates whisper this eye once guided the legendary Black Pearl through treacherous waters."]
@@ -380,7 +386,7 @@
 	quest.60B5861E4E2AA0B8.title: "&dExperience Magnet&r"
 	quest.614FC15CB90122BE.quest_desc: ["&cYour builds are automatically backed up! &rThe game saves copies of your world regularly in the &7\"backups\" &rfolder inside your modpack files. If something goes wrong like a bad accident, you can restore from these backups."]
 	quest.614FC15CB90122BE.title: "&6Your World is Safe&r"
-	quest.6268219483738A4D.quest_desc: ["used for timber and scyther enchants"]
+	quest.6268219483738A4D.quest_desc: ["Powers tree cutting."]
 	quest.62698ACF363DD358.quest_desc: ["&5Know your weapon's true power. &rStrike the dummy to see exact damage numbers. Equip it with armor to test against different protections. Add mob heads for specific resistance testing."]
 	quest.62698ACF363DD358.quest_subtitle: "Target Dummy"
 	quest.62698ACF363DD358.title: "&dDamage Testing&r"
@@ -397,7 +403,7 @@
 	quest.666D93C5315F8D31.quest_desc: ["&5Ancient treasure from desert tombs. &rLegends claim this eye belonged to the mighty Sandworms of ages past."]
 	quest.66708C0672A623D5.quest_desc: ["Professional headpiece that &aimproves villager trade prices&r and reputation."]
 	quest.66708C0672A623D5.title: "&dMerchant Relations&r"
-	quest.6725A58D4229BA90.quest_desc: ["used in xp boost enchant"]
+	quest.6725A58D4229BA90.quest_desc: ["Powers bonus XP drops."]
 	quest.67E3A75D05891D29.quest_desc: ["Massive blade that trades your health for devastating power. Each swing costs vitality but delivers crushing blows. Only the desperate or mighty dare wield this double-edged weapon."]
 	quest.6945D3F7DAA3850E.quest_desc: ["&9Harvest with a single click. &r&3Right click&r mature crops to collect and replant instantly. No more breaking and replanting every single wheat stalk."]
 	quest.6945D3F7DAA3850E.title: "&bEasy Farming&r"
@@ -412,7 +418,7 @@
 	quest.6EC86C6506B6D7CE.title: "&dWeather Protection&r"
 	quest.6ED527BB2B46A64F.quest_desc: ["&9Let your farms work for themselves. &rSmart systems that grow, harvest, and collect without constant attention. "]
 	quest.6ED527BB2B46A64F.title: "&9Farm Automation&r"
-	quest.6F119731A5D2E615.quest_desc: ["used for fury, attack speed and illager bane enchants"]
+	quest.6F119731A5D2E615.quest_desc: ["Powers fury and attack speed."]
 	quest.6FBB9B957FC4AB09.quest_desc: [
 		"&rThis book helps you find what's new, but you can discover everything just by playing. "
 		""
@@ -431,7 +437,7 @@
 	quest.72EDE1B973D4FDCE.title: "&dInfinite Sustenance&r"
 	quest.7345E47C5F385C5E.quest_desc: ["Mystical container that &areduces the duration&r of all negative status effects on you."]
 	quest.7345E47C5F385C5E.title: "&dEffect Reducer&r"
-	quest.736921E79CAADF8A.quest_desc: ["used for respiration enchant"]
+	quest.736921E79CAADF8A.quest_desc: ["Powers longer underwater time."]
 	quest.7449054DFEA0EDF7.quest_desc: [
 		"&5Wear more than just armor. &rCapes, belts, and charms fit in special slots without burdening your pack. These treasures await discovery in forgotten ruins and distant lands. "
 		""
@@ -447,12 +453,12 @@
 	]
 	quest.761B2EFE96F5E786.title: "&eMark Locations&r"
 	quest.77ADD23FE648BA79.quest_desc: ["Diamond axe (upgradable with netherite) burning with inner fire. Launches foes skyward in flame bursts. Logs become charcoal instantly. Found where the Pyromaniac once ruled with fiery fury."]
-	quest.77CC64A2135F14EF.quest_desc: ["used for flame enchant"]
-	quest.77DEE704118377EA.quest_desc: ["used for smite enchant"]
+	quest.77CC64A2135F14EF.quest_desc: ["Powers flaming weapon strikes."]
+	quest.77DEE704118377EA.quest_desc: ["Powers undead-slaying magic."]
 	quest.77E5A1413D9BB438.quest_desc: ["Patient crossbow firing slow lightning orbs. Wait for the cooldown or suffer electric backlash. Captured sentries still guard this weapon in copper chambers."]
 	quest.77F79FDF011B29FA.quest_desc: ["Enchanted breathing gear that &bextends underwater breathing time&r, allowing deeper ocean exploration."]
 	quest.77F79FDF011B29FA.title: "&dAquatic Breathing&r"
-	quest.780AEAAF1EBF90FF.quest_desc: ["used for blast protection and kinetic protection enchants"]
+	quest.780AEAAF1EBF90FF.quest_desc: ["Powers explosion defense."]
 	quest.78EF30C918458970.quest_desc: ["An inflatable companion that &bmakes you float in the air&r for a short duration when activated."]
 	quest.78EF30C918458970.title: "&dFloat Companion&r"
 	quest.7A7DEFB5DEB6A81B.quest_desc: ["&9Silence what annoys you. &rClick the speaker icon in your inventory's top left corner. Toggle any sound on or off."]
@@ -463,13 +469,13 @@
 		"&aSearch &7\"@chunkloaders\" &rfor all tiers."
 	]
 	quest.7AC91602729682F3.title: "&2Chunk Loading&r"
-	quest.7B0DEA0B13E37D0A.quest_desc: ["used in life+ enchant"]
+	quest.7B0DEA0B13E37D0A.quest_desc: ["Powers life bonus enchantments."]
 	quest.7BFEA239C33A5358.quest_desc: ["&5Master the art of battle. &rTest weapons precisely, expand your equipment slots, and discover gear that grows stronger through use."]
 	quest.7BFEA239C33A5358.title: "&5Combat Excellence&r"
 	quest.7C550694B73E8282.quest_desc: ["&2Master builders need master tools. &rDiscover equipment that makes building faster, more precise, and more enjoyable."]
 	quest.7C550694B73E8282.title: "&2Construction Mastery&r"
-	quest.7D77F2F8735710C5.quest_desc: ["used for knockback enchant"]
-	quest.7DB293DB046361AE.quest_desc: ["used for builder arms enchant"]
+	quest.7D77F2F8735710C5.quest_desc: ["Powers enemy push-back force."]
+	quest.7DB293DB046361AE.quest_desc: ["Powers builder's reach."]
 	quest.7E33DD624A45B3D7.quest_desc: ["Shield spreading death's touch. Blocking inflicts wither on attackers. Darkness defends those who embrace it."]
 	quest.7E3D608F93791F43.quest_desc: ["Heavy boots that &8prevent knockback&r from enemy attacks, keeping you grounded."]
 	quest.7E3D608F93791F43.title: "&dKnockback Resistance&r"

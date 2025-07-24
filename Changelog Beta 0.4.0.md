@@ -13,9 +13,11 @@
 
 **FTB Quests:**
 
-- Artifact quests are hidden until completed (the artifact is detected in the inventory).
+- Made Artifact quests hidden until completed (the artifact is detected in the inventory).
 - Removed useless quest in the exploration chapter related to the end dimension.
 - Rebalanced exploration quest coin requirements.
+- Added animal pen quest.
+- Changed essence descriptions.
 
 **Blinking Stars:**
 
@@ -24,6 +26,10 @@
 **Explorer Compass:**
 
 - Unlisted more disabled structures
+
+**Animal Pens:**
+
+- Made feed cooldown higher
 
 ---
 

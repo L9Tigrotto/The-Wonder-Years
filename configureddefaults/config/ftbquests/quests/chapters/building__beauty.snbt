@@ -598,5 +598,16 @@
 			x: 2.0d
 			y: 0.0d
 		}
+		{
+			dependencies: ["7C550694B73E8282"]
+			id: "1E2D298A29A8868A"
+			tasks: [{
+				id: "1C474505BFDE0F72"
+				item: { count: 1, id: "animal_pen:animal_pen_oak" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 4.5d
+		}
 	]
 }
