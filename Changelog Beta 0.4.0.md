@@ -21,19 +21,24 @@
 
 **Blinking Stars:**
 
-- Make stars bigger
+- Make stars bigger.
 
 **Explorer Compass:**
 
-- Unlisted more disabled structures
+- Unlisted more disabled structures.
 
 **Animal Pens:**
 
-- Made feed cooldown higher
+- Made feed cooldown higher.
 
 **Biome Music:**
 
-- Increased pich variance
+- Increased pich variance.
+
+**Serene Seasons:**
+
+- Made starting season random.
+- Progress stops while no players are online.
 
 ---
 
@@ -47,10 +52,9 @@
 
 ## ➕ Mods Added
 
-*List all newly added mods with reasons. Remove this section if no mods were added.*
+*List all newly added mods with reasons.*
 
-- **Mod Name 1**: Adds quality of life improvements for inventory management
-- **Mod Name 2**: Enhances world generation with new biomes
+- **Auto Third Person**: Automatically puts you in third-person camera when you fly an elytra, ride an animal, boat, or minecart.
 
 ---
 
