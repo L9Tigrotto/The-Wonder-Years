@@ -63,3 +63,10 @@
 *List all mods that were updated with their version changes.*
 
 - **Repurposed Structures**: `v7.5.16` → `v7.5.17`
+- **Moonlight Lib**: `v2.20.0` → `v2.20.3`
+- **M.R.U**: `v1.0.17` → `v1.0.19`
+- **Sounds**: `v2.4.12` → `v2.4.13.1`
+- **Forge Config API Port**: `v21.1.3` → `v21.1.4`
+- **Visual Workbench**: `v21.1.0` → `v21.1.1`
+- **Resource Library**: `v2.7.0` → `v2.8.1`
+- **FTB Library**: `v2101.1.16` → `v2101.1.17`
