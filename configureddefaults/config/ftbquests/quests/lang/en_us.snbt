@@ -209,7 +209,7 @@
 	quest.302C40EDAFFDBBCD.quest_desc: ["&5Link distant places instantly. &rPlace waystones at important locations to create your travel network. Portable warp stones offer emergency escapes."]
 	quest.302C40EDAFFDBBCD.quest_subtitle: "Waystone"
 	quest.302C40EDAFFDBBCD.title: "&dWaystone Network&r"
-	quest.3098213760C64AD1.quest_desc: ["&5Every tool tells a story. &rEquipment gains random powers, making each piece unique and powerful. If you don't like the magic it gains, use an anvil with matching ingot and amethyst shard to try again."]
+	quest.3098213760C64AD1.quest_desc: ["&5Every tool tells a story. &rEquipment gains random powers. Equipment tier found in loot chests is affected by the dimension and the luck on the tool you use to open the chest. You can reroll the tier using an anvil with matching material and amethyst shard."]
 	quest.3098213760C64AD1.title: "&dGear Enhancement&r"
 	quest.30C11895FE094378.quest_desc: ["Powers better silent movement."]
 	quest.31863067B7EF8747.quest_desc: ["&2The best builds work as beautifully as they look. &rAutomate tedious tasks, create logic systems, manage items intelligently."]
