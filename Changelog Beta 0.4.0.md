@@ -31,6 +31,10 @@
 
 - Made feed cooldown higher
 
+**Biome Music:**
+
+- Increased pich variance
+
 ---
 
 ## ❌ Mods Removed
