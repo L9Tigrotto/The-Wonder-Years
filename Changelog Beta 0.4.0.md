@@ -2,10 +2,7 @@
 
 ## 📋 General Updates
 
-*List administrative changes, modpack-wide modifications, and other general updates. Remove this section if no general changes were made.*
-
-- Updating modpack description and documentation.
-- Disabling resource-intensive mods by default for performance.
+*List administrative changes, modpack-wide modifications, and other general updates.*
 
 ## ⚙️ Settings Changed
 
@@ -40,6 +37,18 @@
 - Made starting season random.
 - Progress stops while no players are online.
 
+**Better Enchanting:**
+
+- Disabled gravity enchantment.
+
+**Better End Island:**
+
+- Ender dragon drops egg each time.
+
+**Just Mob Heades:**
+
+- Lowered the head drop chances and enabled zombies, skeletons and creepers heads.
+
 ---
 
 ## ❌ Mods Removed
@@ -69,4 +78,8 @@
 - **Forge Config API Port**: `v21.1.3` → `v21.1.4`
 - **Visual Workbench**: `v21.1.0` → `v21.1.1`
 - **Resource Library**: `v2.7.0` → `v2.8.1`
-- **FTB Library**: `v2101.1.16` → `v2101.1.17`
+- **FTB Library**: `v2101.1.16` → `v2101.1.18`
+- **Particle Rain**: `v4.0.0` → `v4.alpha.3`
+- **Biome Replacer**: `v2.0` → `v2.1`
+- **Sounds Physics Remastered**: `v1.4.12` → `v1.4.15`
+- **Potions Stacking**: `v1.0.0` → `v1.1.0`
