@@ -49,6 +49,10 @@
 
 - Lowered the head drop chances and enabled zombies, skeletons and creepers heads.
 
+**Accessorify:**
+
+- Positioned the calendar HUD on the bottm left.
+
 ---
 
 ## ❌ Mods Removed
