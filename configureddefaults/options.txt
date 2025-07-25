@@ -13,7 +13,7 @@ darknessEffectScale:1.0
 glintSpeed:0.5
 glintStrength:0.75
 prioritizeChunkUpdates:0
-fullscreen:false
+fullscreen:true
 gamma:1.0
 graphicsMode:1
 guiScale:4
@@ -50,7 +50,7 @@ damageTiltStrength:1.0
 highContrast:false
 narratorHotkey:true
 resourcePacks:["vanilla","fabric","moonlight:mods_dynamic_assets","continuity:glass_pane_culling_fix","continuity:default","minecraft:supporteatinganimation","file/FreshAnimations_v1.9.2.zip","file/FA+Objects-v1.1.1.zip","file/Faithful 32x - 1.21.1.zip","file/Faithful32x-FreshAnimations-v1.9.1.zip","file/Bushy Leaves For Faithful 32x V1.4.zip","file/New Faithful Overlays - 1.21.1.zip","file/Faithful 32x AppleSkin - 1.21.1.zip","resource_nether_ores:resource_nether_ores_x32","file/CTM Faithful 0.4.1+1.20.x-1.21.x.zip","file/cubic-sun-moon-v1.8.3a.zip","mythicupgrades:32x","file/§a§lVocal Villagers §r§71.2.zip","file/skt-sg v1.1.zip","file/Sparkles_1.21.x_v1.1.4.zip","$polymer-resources","file/better-boss-bars-1.21.zip"]
-incompatibleResourcePacks:["ambientenvironment","appleskin","artifacts","awesomedungeonocean","balm","bedspreads","betterbiomeblend","betterdays","biomemusic","bookshelf","carryon","catalogue","cherishedworlds","comforts","controlling","crafttweaker","draggable_lists","dragonfight","elytratrims","emiprofessions","enchdesc","essential","extremesoundmuffler","forgivingvoid","horseshoes","immersivedamageindicators","immersivemessages","immersiveui","jade","jei","jmi","kleeslabs","konkrete","medievalmusic","modernfix","modernworldcreation","mr_dungeons_andtavernsendcastlestandalone","mr_dungeons_andtavernswoodlandmansionreplacement","mr_neoenchant","mr_withering_heights","netherportalfix","particlerain","polylib","resource_nether_ores","resourcelibrary","resourcify","searchables","simplehats","spectrelib","starterkit","tectonic","tipsmod","toms_storage","txnilib","unloadedactivity","watut","xercapaint","yet_another_config_lib_v3","file/Bushy Leaves For Faithful 32x V1.4.zip"]
+incompatibleResourcePacks:["ambientenvironment","appleskin","artifacts","auto_third_person","awesomedungeonocean","balm","bedspreads","betterbiomeblend","betterdays","biomemusic","bookshelf","carryon","catalogue","cherishedworlds","comforts","controlling","crafttweaker","draggable_lists","dragonfight","elytratrims","emiprofessions","enchdesc","essential","expcounter","extremesoundmuffler","framework","horseshoes","immersivedamageindicators","immersivemessages","immersiveui","jade","jei","jmi","konkrete","mcwdoors","medievalmusic","mighty_mail","modernfix","modernworldcreation","mr_dungeons_andtavernsendcastlestandalone","mr_dungeons_andtavernswoodlandmansionreplacement","mr_neoenchant","mr_withering_heights","netherportalfix","particlerain","polylib","resource_nether_ores","resourcelibrary","resourcify","searchables","sereneseasons","simplehats","spark","spectrelib","starterkit","tectonic","tipsmod","toms_storage","txnilib","watut","xercapaint","yet_another_config_lib_v3","file/Bushy Leaves For Faithful 32x V1.4.zip"]
 lastServer:
 lang:en_us
 chatVisibility:0
@@ -148,6 +148,7 @@ key_artifacts.key.charm_of_sinking.toggle:key.keyboard.unknown
 key_artifacts.key.night_vision_goggles.toggle:key.keyboard.unknown
 key_artifacts.key.scarf_of_invisibility.toggle:key.keyboard.unknown
 key_artifacts.key.universal_attractor.toggle:key.keyboard.unknown
+key_autothirdperson.toggle:key.keyboard.unknown
 key_betterstats.key_binding.toggle_hud_screen:key.keyboard.unknown
 key_key.blink.star:key.keyboard.unknown
 key_key.buildguide.openbuildguide:key.keyboard.b
@@ -264,13 +265,13 @@ key_keybind.name.EMOTE_SLOT_6:key.keyboard.unknown
 key_keybind.name.EMOTE_SLOT_7:key.keyboard.unknown
 key_keybind.name.EMOTE_SLOT_8:key.keyboard.unknown
 key_keybind.name.ZOOM:key.keyboard.unknown
-soundCategory_master:0.5093879346026491
-soundCategory_music:0.20950704225352113
+soundCategory_master:0.5
+soundCategory_music:0.20246478873239437
 soundCategory_record:1.0
 soundCategory_weather:1.0
 soundCategory_block:1.0
 soundCategory_hostile:1.0
-soundCategory_neutral:1.0
+soundCategory_neutral:0.9859154929577465
 soundCategory_player:1.0
 soundCategory_ambient:1.0
 soundCategory_voice:1.0
