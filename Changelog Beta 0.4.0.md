@@ -18,7 +18,7 @@
 
 **Blinking Stars:**
 
-- Make stars bigger.
+- Made stars bigger.
 
 **Explorer Compass:**
 
@@ -30,7 +30,7 @@
 
 **Biome Music:**
 
-- Increased pich variance.
+- Increased pitch variance.
 
 **Serene Seasons:**
 
@@ -45,13 +45,17 @@
 
 - Ender dragon drops egg each time.
 
-**Just Mob Heades:**
+**Just Mob Heads:**
 
-- Lowered the head drop chances and enabled zombies, skeletons and creepers heads.
+- Lowered the head drop chances and enabled zombie, skeleton, and creeper heads.
 
 **Accessorify:**
 
-- Positioned the calendar HUD on the bottm left.
+- Positioned the calendar HUD on the bottom left.
+
+**Accessorify:**
+
+- Decreased panel size.
 
 ---
 
