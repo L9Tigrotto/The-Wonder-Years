@@ -60,6 +60,19 @@
 
 - Decreased panel size.
 
+**Wraith Waystones:**
+
+- Only wayston's owner can break the wayston.
+- Only op players can set wayston as global.
+- Players can't use teleport for 5 seconds after taking tamage.
+- Increased cooldown of Pocket Wormhole to 5 minutes.
+- Increased cooldown of Waystones to 2 minutes.
+- Added a for teleportation: 2 Silver Coins + 0.025 per block.
+
+**Journey Map:**
+
+- Increaed weypoint auto hide distange (wypoints hide from a 16 block distance).
+
 ---
 
 ## ❌ Mods Removed
