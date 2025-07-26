@@ -56,7 +56,7 @@
 
 - Positioned the calendar HUD on the bottom left.
 
-**Accessorify:**
+**EMI:**
 
 - Decreased panel size.
 
