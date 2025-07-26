@@ -13,10 +13,10 @@ darknessEffectScale:1.0
 glintSpeed:0.5
 glintStrength:0.75
 prioritizeChunkUpdates:0
-fullscreen:true
+fullscreen:false
 gamma:1.0
 graphicsMode:1
-guiScale:4
+guiScale:3
 maxFps:260
 mipmapLevels:4
 narrator:0
@@ -49,7 +49,7 @@ mouseSensitivity:0.2540602992957746
 damageTiltStrength:1.0
 highContrast:false
 narratorHotkey:true
-resourcePacks:["vanilla","fabric","moonlight:mods_dynamic_assets","continuity:glass_pane_culling_fix","continuity:default","minecraft:supporteatinganimation","file/FreshAnimations_v1.9.2.zip","file/FA+Objects-v1.1.1.zip","file/Faithful 32x - 1.21.1.zip","file/Faithful32x-FreshAnimations-v1.9.1.zip","file/Bushy Leaves For Faithful 32x V1.4.zip","file/New Faithful Overlays - 1.21.1.zip","file/Faithful 32x AppleSkin - 1.21.1.zip","resource_nether_ores:resource_nether_ores_x32","file/CTM Faithful 0.4.1+1.20.x-1.21.x.zip","file/cubic-sun-moon-v1.8.3a.zip","mythicupgrades:32x","file/§a§lVocal Villagers §r§71.2.zip","file/skt-sg v1.1.zip","file/Sparkles_1.21.x_v1.1.4.zip","$polymer-resources","file/better-boss-bars-1.21.zip"]
+resourcePacks:["vanilla","fabric","moonlight:mods_dynamic_assets","continuity:glass_pane_culling_fix","continuity:default","minecraft:supporteatinganimation","file/FreshAnimations_v1.9.2.zip","file/FA+Objects-v1.1.1.zip","file/Faithful 32x - 1.21.1.zip","file/Faithful32x-FreshAnimations-v1.9.1.zip","file/Bushy Leaves For Faithful 32x V1.4.zip","file/New Faithful Overlays - 1.21.1.zip","file/Faithful 32x AppleSkin - 1.21.1.zip","resource_nether_ores:resource_nether_ores_x32","file/CTM Faithful 0.4.1+1.20.x-1.21.x.zip","file/cubic-sun-moon-v1.8.3a.zip","mythicupgrades:32x","file/§a§lVocal Villagers §r§71.2.zip","file/skt-sg v1.1.zip","file/Sparkles_1.21.x_v1.1.4.zip","$polymer-resources","file/better-boss-bars-1.21.zip","file/Fancy_Beds-v3.4.zip"]
 incompatibleResourcePacks:["ambientenvironment","appleskin","artifacts","auto_third_person","awesomedungeonocean","balm","bedspreads","betterbiomeblend","betterdays","biomemusic","bookshelf","carryon","catalogue","cherishedworlds","comforts","controlling","crafttweaker","draggable_lists","dragonfight","elytratrims","emiprofessions","enchdesc","essential","expcounter","extremesoundmuffler","framework","horseshoes","immersivedamageindicators","immersivemessages","immersiveui","jade","jei","jmi","konkrete","mcwdoors","medievalmusic","mighty_mail","modernfix","modernworldcreation","mr_dungeons_andtavernsendcastlestandalone","mr_dungeons_andtavernswoodlandmansionreplacement","mr_neoenchant","mr_withering_heights","netherportalfix","particlerain","polylib","resource_nether_ores","resourcelibrary","resourcify","searchables","sereneseasons","simplehats","spark","spectrelib","starterkit","tectonic","tipsmod","toms_storage","txnilib","watut","xercapaint","yet_another_config_lib_v3","file/Bushy Leaves For Faithful 32x V1.4.zip"]
 lastServer:
 lang:en_us
@@ -137,6 +137,7 @@ key_key.ftbchunks.add_waypoint:key.keyboard.unknown
 key_key.ftbchunks.waypoint_manager:key.keyboard.unknown
 key_key.ftbquests.quests:key.keyboard.unknown
 key_key.ftbteams.open_gui:key.keyboard.unknown
+key_legendarytooltips.key.scrollTooltips:key.keyboard.left.shift
 key_key.wildfire_gender.gender_menu:key.keyboard.g
 key_accessories.key.open_accessories_screen:key.keyboard.unknown
 key_key.accessorify.use_spyglass:key.keyboard.unknown

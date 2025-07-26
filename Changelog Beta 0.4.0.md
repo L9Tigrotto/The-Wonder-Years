@@ -4,6 +4,9 @@
 
 *List administrative changes, modpack-wide modifications, and other general updates.*
 
+- Re-enabled legendary tooltips.
+- Added fancy beds resource pack.
+
 ## ⚙️ Settings Changed
 
 *List all configuration changes organized by mod.*
@@ -91,3 +94,8 @@
 - **Biome Replacer**: `v2.0` → `v2.1`
 - **Sounds Physics Remastered**: `v1.4.12` → `v1.4.15`
 - **Potions Stacking**: `v1.0.0` → `v1.1.0`
+- **Toms Simple Storage**: `v2.2.1` → `v2.2.2`
+- **Inventory Profiles Next**: `v2.1.10` → `v2.1.11`
+- **Accessorify**: `v2.1.2` → `v2.1.4`
+- **Drop Confirm**: `v5.0.1` → `v5.0.2`
+- **Building Guide**: `v0.4.5` → `v2.2.2`
