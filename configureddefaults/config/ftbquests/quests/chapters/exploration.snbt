@@ -1657,8 +1657,8 @@
 				item: { count: 1, id: "betterenchanting:essence_of_arthropods" }
 				type: "item"
 			}]
-			x: 13.5d
-			y: 13.0d
+			x: 14.0d
+			y: 14.0d
 		}
 		{
 			dependencies: ["2AAC522AD5A572ED"]
@@ -1669,8 +1669,8 @@
 				item: { count: 1, id: "betterenchanting:essence_of_channeling" }
 				type: "item"
 			}]
-			x: 20.5d
-			y: 7.5d
+			x: 19.5d
+			y: 7.0d
 		}
 		{
 			dependencies: ["2AAC522AD5A572ED"]
@@ -1681,7 +1681,7 @@
 				item: { count: 1, id: "betterenchanting:essence_of_impaling" }
 				type: "item"
 			}]
-			x: 19.5d
+			x: 18.5d
 			y: 7.0d
 		}
 		{
@@ -1694,7 +1694,7 @@
 				type: "item"
 			}]
 			x: 13.5d
-			y: 12.0d
+			y: 13.0d
 		}
 		{
 			dependencies: ["2AAC522AD5A572ED"]
@@ -1705,8 +1705,8 @@
 				item: { count: 1, id: "betterenchanting:essence_of_smite" }
 				type: "item"
 			}]
-			x: 14.0d
-			y: 14.0d
+			x: 14.5d
+			y: 15.0d
 		}
 		{
 			dependencies: ["2AAC522AD5A572ED"]
@@ -1717,8 +1717,8 @@
 				item: { count: 1, id: "betterenchanting:essence_of_ice" }
 				type: "item"
 			}]
-			x: 14.5d
-			y: 15.0d
+			x: 15.5d
+			y: 16.0d
 		}
 		{
 			dependencies: ["2AAC522AD5A572ED"]
@@ -1729,8 +1729,8 @@
 				item: { count: 1, id: "betterenchanting:essence_of_loyalty" }
 				type: "item"
 			}]
-			x: 17.5d
-			y: 7.0d
+			x: 16.5d
+			y: 7.5d
 		}
 		{
 			dependencies: ["2AAC522AD5A572ED"]
@@ -1741,8 +1741,8 @@
 				item: { count: 1, id: "betterenchanting:essence_of_lure" }
 				type: "item"
 			}]
-			x: 23.5d
-			y: 11.0d
+			x: 23.0d
+			y: 10.0d
 		}
 		{
 			dependencies: ["2AAC522AD5A572ED"]
@@ -1753,8 +1753,8 @@
 				item: { count: 1, id: "betterenchanting:essence_of_projectile_protection" }
 				type: "item"
 			}]
-			x: 16.5d
-			y: 16.5d
+			x: 17.5d
+			y: 17.0d
 		}
 		{
 			dependencies: ["2AAC522AD5A572ED"]
@@ -1765,8 +1765,8 @@
 				item: { count: 1, id: "betterenchanting:essence_of_respiration" }
 				type: "item"
 			}]
-			x: 23.0d
-			y: 10.0d
+			x: 22.5d
+			y: 9.0d
 		}
 		{
 			dependencies: ["2AAC522AD5A572ED"]
@@ -1777,7 +1777,7 @@
 				item: { count: 1, id: "betterenchanting:essence_of_riptide" }
 				type: "item"
 			}]
-			x: 18.5d
+			x: 17.5d
 			y: 7.0d
 		}
 		{
@@ -1789,8 +1789,8 @@
 				item: { count: 1, id: "betterenchanting:essence_of_sea_luck" }
 				type: "item"
 			}]
-			x: 22.5d
-			y: 9.0d
+			x: 21.5d
+			y: 8.0d
 		}
 		{
 			dependencies: ["2AAC522AD5A572ED"]
@@ -1801,8 +1801,8 @@
 				item: { count: 1, id: "betterenchanting:essence_of_efficiency" }
 				type: "item"
 			}]
-			x: 19.5d
-			y: 17.0d
+			x: 23.5d
+			y: 12.0d
 		}
 		{
 			dependencies: ["2AAC522AD5A572ED"]
@@ -1814,7 +1814,7 @@
 				type: "item"
 			}]
 			x: 23.5d
-			y: 12.0d
+			y: 11.0d
 		}
 		{
 			dependencies: ["2AAC522AD5A572ED"]
@@ -1825,8 +1825,8 @@
 				item: { count: 1, id: "betterenchanting:essence_of_sea" }
 				type: "item"
 			}]
-			x: 21.5d
-			y: 8.0d
+			x: 20.5d
+			y: 7.5d
 		}
 		{
 			dependencies: ["2AAC522AD5A572ED"]
@@ -1837,8 +1837,8 @@
 				item: { count: 1, id: "betterenchanting:essence_of_fear" }
 				type: "item"
 			}]
-			x: 15.5d
-			y: 16.0d
+			x: 16.5d
+			y: 16.5d
 		}
 		{
 			dependencies: ["2AAC522AD5A572ED"]
@@ -1849,7 +1849,7 @@
 				item: { count: 1, id: "betterenchanting:essence_of_foraging" }
 				type: "item"
 			}]
-			x: 18.5d
+			x: 19.5d
 			y: 17.0d
 		}
 		{
@@ -1861,7 +1861,7 @@
 				item: { count: 1, id: "betterenchanting:essence_of_sight" }
 				type: "item"
 			}]
-			x: 17.5d
+			x: 18.5d
 			y: 17.0d
 		}
 		{
@@ -2244,13 +2244,14 @@
 				item: { count: 1, id: "betterenchanting:essence_of_building" }
 				type: "item"
 			}]
-			x: 16.5d
-			y: 7.5d
+			x: 15.5d
+			y: 8.0d
 		}
 		{
 			dependencies: ["2AAC522AD5A572ED"]
 			id: "77CC64A2135F14EF"
 			tasks: [{
+				consume_items: false
 				id: "7C1067C389E1EC6A"
 				item: { count: 1, id: "betterenchanting:essence_of_fire" }
 				type: "item"
@@ -2262,6 +2263,7 @@
 			dependencies: ["2AAC522AD5A572ED"]
 			id: "3B50133CA80F323D"
 			tasks: [{
+				consume_items: false
 				id: "527FF56A88A6D64B"
 				item: { count: 1, id: "betterenchanting:essence_of_punch" }
 				type: "item"
@@ -2281,6 +2283,18 @@
 			}]
 			x: -1.0d
 			y: 8.5d
+		}
+		{
+			dependencies: ["2AAC522AD5A572ED"]
+			id: "692D9B117FC4E4E3"
+			tasks: [{
+				consume_items: false
+				id: "38A51E1C165413D4"
+				item: { count: 1, id: "betterenchanting:essence_of_gravity" }
+				type: "item"
+			}]
+			x: 13.5d
+			y: 12.0d
 		}
 	]
 }

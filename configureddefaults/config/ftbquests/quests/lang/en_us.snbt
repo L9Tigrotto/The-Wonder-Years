@@ -117,7 +117,7 @@
 		""
 		"&2Building \\& Beauty &rfor better tools and blocks for builders, plus furniture and decorations. "
 		"&9Quality of Life &rfor small fixes that remove annoying parts of the game. "
-		"&5Exploration \\& Adventure &rfor new challenges and better rewards for explorers. "
+		"&5Exploration &rfor new challenges and better rewards for explorers. "
 		""
 		"&eExplore them all &rbecause each one makes the game better in its own way."
 	]
@@ -154,7 +154,12 @@
 	quest.221B914346D4C84C.quest_desc: ["&2Add natural variety automatically. &rFill your hotbar with different blocks, then let the trowel randomly place them."]
 	quest.221B914346D4C84C.quest_subtitle: "Trowel"
 	quest.221B914346D4C84C.title: "&aVariation Tool&r"
-	quest.22A08B952F1036C6.quest_desc: ["&2Decide who uses your storage. &rDefault is public access. &3Shift + right click&r with diamond for personal only. &3Shift + right click&r with emerald for team access."]
+	quest.22A08B952F1036C6.quest_desc: [
+		"&2Decide who uses your storage. &rDefault is public access. &3Shift + right click&r with diamond for personal only. &3Shift + right click&r with emerald for team access."
+		""
+		"&aCreate team:&r &7/spc_teams create <name>&r"
+		"&aInvite players:&r &7/spc_teams invite <name>&r"
+	]
 	quest.22A08B952F1036C6.title: "&aStorage Access Management&r"
 	quest.235F2DFC5DB22FBC.quest_desc: ["Powers basic silent movement."]
 	quest.2406A707DDD4F07C.quest_desc: ["Powers gentle block harvesting."]

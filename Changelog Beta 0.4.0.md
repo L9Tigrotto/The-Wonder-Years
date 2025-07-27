@@ -18,6 +18,7 @@
 - Rebalanced exploration quest coin requirements.
 - Added animal pen quest.
 - Changed essence descriptions.
+- Added commands to create a team to share ender chests.
 
 **Blinking Stars:**
 
