@@ -11,8 +11,7 @@
     "enchantplus:pickaxe/bedrock_breaker",
 	"enchantplus:sword/life_steal",
 	"enchantplus:bow/accuracy_shot",
-	"enchantplus:hoe/harvest",
-	"nova_structures:gravity"
+	"enchantplus:hoe/harvest"
   ],
   "allowBookInAnvil": false,
   "shardFillingLapisCost": 3,

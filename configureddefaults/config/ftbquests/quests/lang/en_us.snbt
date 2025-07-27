@@ -39,8 +39,6 @@
 	quest.098F23CE45C6508E.title: "&dArcane Mastery&r"
 	quest.09B64FA14E758693.quest_desc: ["Charged amulet that &9strikes attackers with lightning&r when you take damage."]
 	quest.09B64FA14E758693.title: "&dElectric Retaliation&r"
-	quest.0A374397E31C7E84.quest_desc: ["&5Your gear stays safe when you fall. &rGraves protect your items in lava, void, or enemy territory. They wait forever across all dimensions until you return."]
-	quest.0A374397E31C7E84.title: "&dDeath Insurance&r"
 	quest.0A63FC852258742C.quest_desc: ["&5Prize from pillager strongholds. &rThe eye of a greedy king who faded in solitude. Legend promises infinite fortune to its bearer."]
 	quest.0B2BD57EC5EC4367.quest_desc: ["&5Surpass Netherite's limits. &rSix gemstones enhance equipment beyond mortal crafting. Each stone hides in specific biomes and dimensions. Your gear achieves its final, perfect form."]
 	quest.0B2BD57EC5EC4367.title: "&dUltimate Upgrades&r"
@@ -371,7 +369,7 @@
 	quest.5CB3EFFE2C67D13A.quest_desc: ["&9See more, click less. &rYour adventure starts with better information at your fingertips. Health numbers, armor values, and tool durability appear right where you need them. Small changes that make a big difference."]
 	quest.5CB3EFFE2C67D13A.title: "&9HUD Basics&r"
 	quest.5D0937406F83D4B8.quest_desc: ["&5Treasure from buried depths. &rPirates whisper this eye once guided the legendary Black Pearl through treacherous waters."]
-	quest.5D1A295BD31BDC71.quest_desc: ["&5Master safe exploration basics. &rLearn to map your discoveries, protect your gear when death finds you, and rest during long journeys. Every great adventurer starts with proper preparation."]
+	quest.5D1A295BD31BDC71.quest_desc: ["&5Master safe exploration basics. &rLearn to map your discoveries and rest during long journeys. Every great adventurer starts with proper preparation."]
 	quest.5D1A295BD31BDC71.title: "&5Explorer's Foundation&r"
 	quest.5D734B4736AF1541.quest_desc: [
 		"&2Expand your redstone possibilities. &rAND gates, OR gates, NOT gates, and complex circuits for sophisticated automation."
@@ -451,6 +449,8 @@
 		"&3Check the button&r beside your character to see these hidden slots."
 	]
 	quest.7449054DFEA0EDF7.title: "&dEquipment Slots&r"
+	quest.754EA4504A12C447.quest_desc: ["&5Bind your gear to your soul. &rSoulbound enchantment ensure items return to you upon death, though resurrection may damage their durability."]
+	quest.754EA4504A12C447.title: "&dSpirit Tether&r"
 	quest.759AA3F89279A3DA.quest_desc: ["&2Merge drawer and chest networks seamlessly. &rConnect to drawer controller IO blocks, not the controller itself. This prevents items appearing twice. Unified access to all your storage types."]
 	quest.759AA3F89279A3DA.title: "&aCombined Networks&r"
 	quest.761B2EFE96F5E786.quest_desc: [
@@ -514,6 +514,7 @@
 	task.06D1218919C4AAE7.title: "Understood"
 	task.0AC61E4744CAF3C3.title: "Understood"
 	task.0C27E8DA413C3002.title: "Understood"
+	task.1083E90C82BA82C7.title: "Understood"
 	task.10B71F30BBFE8193.title: "Understood"
 	task.15A8F8A26C042C05.title: "Understood"
 	task.161896A783CE5948.title: "Understood"

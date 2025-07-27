@@ -281,6 +281,9 @@
     "minecraft:ominous_bottle",
     "betterenchanting:essence_of_combat"
   ],
+  "soulbound:soulbound": [
+    "minecraft:nether_star"
+  ],
 
   
   
