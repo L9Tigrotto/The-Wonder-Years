@@ -103,6 +103,7 @@
 - **More Advancements**: Adds new advancements.
 - **Better Advancements**: Improves the UI and UX for the advancements system.
 - **Soul Bound Enchantment**: Adds soul binding enchantment.
+- **Armor Trim Item Fix**: Adds more item trim textures that change depending on the trim applied.
 
 ---
 
@@ -111,7 +112,7 @@
 *List all mods that were updated with their version changes.*
 
 - **Repurposed Structures**: `v7.5.16` → `v7.5.17`
-- **Moonlight Lib**: `v2.20.0` → `v2.20.4`
+- **Moonlight Lib**: `v2.20.0` → `v2.20.7`
 - **M.R.U**: `v1.0.17` → `v1.0.19`
 - **Sounds**: `v2.4.12` → `v2.4.13.1`
 - **Forge Config API Port**: `v21.1.3` → `v21.1.4`
@@ -129,3 +130,4 @@
 - **Drop Confirm**: `v5.0.1` → `v5.0.2`
 - **Building Guide**: `v0.4.5` → `v0.4.6`
 - **Just Enough Breeding**: `v1.6.0` → `v1.6.2`
+- **Sawmill**: `v1.5.18` → `v1.5.19`
