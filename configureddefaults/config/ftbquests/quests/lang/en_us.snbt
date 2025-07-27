@@ -1,5 +1,5 @@
 {
-	chapter.03E1E566DC01F5AC.title: "&2Building \\& Beauty&r"
+	chapter.03E1E566DC01F5AC.title: "&2Building&r"
 	chapter.3BA37B507026C661.title: "&5Exploration&r"
 	chapter.5D7EC23DDBC63A9D.title: "&6Introduction&r"
 	chapter.628410B8B465AC62.title: "&9Quality of Life&r"
@@ -73,6 +73,8 @@
 	quest.1136DF44FF8E5D02.quest_desc: ["Powers general armor defense."]
 	quest.11650E84CF68357C.quest_desc: ["Powers sharper weapon strikes."]
 	quest.123EE4F5AB97B354.quest_desc: ["Powers faster fishing."]
+	quest.12802FC817F1F1BE.quest_desc: ["&2Bring your builds to life with music. &rCraft instruments to fill your halls with melodies. Whether it's a peaceful tavern song or an epic battle theme, the right music transforms any space into something magical."]
+	quest.12802FC817F1F1BE.title: "&aMelodic Atmosphere&r"
 	quest.132820EC14414F20.quest_desc: ["&5The End requires true exploration. &rFifteen unique eyes hide across the world. Find at least twelve different types to activate the portal."]
 	quest.132820EC14414F20.title: "&5End Portal Path&r"
 	quest.13645E209E930DFD.quest_desc: ["&5Green crystals of deadly venom. &rPeridot weapons poison enemies while the armor hurts attackers with poison thorns."]
@@ -115,7 +117,7 @@
 	quest.1BAB9E73BF88F737.quest_desc: [
 		"The Wonder Years adds three types of content: "
 		""
-		"&2Building \\& Beauty &rfor better tools and blocks for builders, plus furniture and decorations. "
+		"&2Building&r for better tools and blocks for builders, plus furniture and decorations. "
 		"&9Quality of Life &rfor small fixes that remove annoying parts of the game. "
 		"&5Exploration &rfor new challenges and better rewards for explorers. "
 		""
@@ -556,6 +558,7 @@
 	task.6B3DD338B868B5C7.title: "Understood"
 	task.6B52038F265813D5.title: "Understood"
 	task.6B6F08ABB5B38285.title: "Understood"
+	task.711C768C31ADFAFF.title: "Understood"
 	task.736E2C67E1F59DB3.title: "Understood"
 	task.7535DD93AC43F284.title: "Understood"
 	task.773D06A41D465029.title: "Understood"

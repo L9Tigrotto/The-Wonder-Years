@@ -3,7 +3,7 @@
 	default_hide_dependency_lines: false
 	default_min_width: 300
 	default_quest_shape: ""
-	filename: "building__beauty"
+	filename: "building"
 	group: ""
 	hide_quest_until_deps_complete: true
 	icon: {
@@ -122,7 +122,7 @@
 				type: "checkmark"
 			}]
 			x: 5.0d
-			y: 0.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["7C550694B73E8282"]
@@ -134,8 +134,8 @@
 				id: "698CD0A5DE9D2C0E"
 				type: "checkmark"
 			}]
-			x: 6.5d
-			y: 1.0d
+			x: 6.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["7C550694B73E8282"]
@@ -147,7 +147,7 @@
 				id: "3CAB44EC98EE0031"
 				type: "checkmark"
 			}]
-			x: 7.0d
+			x: 6.5d
 			y: 2.5d
 		}
 		{
@@ -173,8 +173,8 @@
 				id: "24E0DEAEA74853D7"
 				type: "checkmark"
 			}]
-			x: 6.5d
-			y: 4.0d
+			x: 6.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["54AAEB88C6EA8234"]
@@ -222,8 +222,8 @@
 				id: "5D9937F6FF06AFDC"
 				type: "checkmark"
 			}]
-			x: 6.5d
-			y: -3.5d
+			x: 6.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["1FDE0D0A9BBC2DCF"]
@@ -235,7 +235,7 @@
 				id: "71799D9F9BDA619D"
 				type: "checkmark"
 			}]
-			x: 7.0d
+			x: 6.5d
 			y: -2.0d
 		}
 		{
@@ -248,8 +248,8 @@
 				id: "3C14F2DA06AD897D"
 				type: "checkmark"
 			}]
-			x: 10.5d
-			y: 2.5d
+			x: 9.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["42D41E58F3BA58C6"]
@@ -274,8 +274,8 @@
 				id: "5632A1017BBB06EE"
 				type: "checkmark"
 			}]
-			x: 11.0d
-			y: 4.0d
+			x: 9.5d
+			y: 5.0d
 		}
 		{
 			dependencies: ["027A8BF7EEB01CAB"]
@@ -349,7 +349,7 @@
 				id: "1EA34778D330C1E8"
 				type: "checkmark"
 			}]
-			x: 5.5d
+			x: 4.5d
 			y: -6.0d
 		}
 		{
@@ -362,7 +362,7 @@
 				id: "08828F5085D7A159"
 				type: "checkmark"
 			}]
-			x: 6.0d
+			x: 5.5d
 			y: -4.5d
 		}
 		{
@@ -375,8 +375,8 @@
 				id: "2456886540E63E1F"
 				type: "checkmark"
 			}]
-			x: 6.5d
-			y: -0.5d
+			x: 6.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["1BAB9E73BF88F737"]
@@ -409,8 +409,8 @@
 				item: { count: 8, id: "minecraft:redstone" }
 				type: "item"
 			}]
-			x: 9.0d
-			y: 4.0d
+			x: 8.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["1528D50AEAADB677"]
@@ -569,8 +569,8 @@
 				id: "56A4D1ABB3B7D495"
 				type: "checkmark"
 			}]
-			x: 10.5d
-			y: 5.5d
+			x: 9.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["31863067B7EF8747"]
@@ -582,8 +582,8 @@
 				id: "21D0B4AC4BC052AA"
 				type: "checkmark"
 			}]
-			x: 9.0d
-			y: 2.0d
+			x: 8.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["4283D8CA2C3B3D77"]
@@ -607,7 +607,20 @@
 				type: "item"
 			}]
 			x: 5.0d
-			y: 4.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["1FDE0D0A9BBC2DCF"]
+			icon: {
+				id: "immersive_melodies:lute"
+			}
+			id: "12802FC817F1F1BE"
+			tasks: [{
+				id: "711C768C31ADFAFF"
+				type: "checkmark"
+			}]
+			x: 5.0d
+			y: -0.5d
 		}
 	]
 }

@@ -19,6 +19,8 @@
 - Added animal pen quest.
 - Changed essence descriptions.
 - Added commands to create a team to share ender chests.
+- Added immersive melodies quest.
+- Changed quest chapter title to "Building".
 
 **Blinking Stars:**
 
