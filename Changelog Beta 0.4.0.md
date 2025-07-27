@@ -91,6 +91,7 @@
 
 - **Auto Third Person**: Automatically puts you in third-person camera when you fly an elytra, ride an animal, boat, or minecart.
 - **Critters and Companions**: Is a vanilla-style creature mod which will fill the overworld with new animals.
+- **Immersive Melodies**: Play custom melodies on various intruments.
 
 ---
 
