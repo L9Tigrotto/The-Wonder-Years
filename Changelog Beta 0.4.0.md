@@ -69,6 +69,7 @@
 - Increased cooldown of Pocket Wormhole to 5 minutes.
 - Increased cooldown of Waystones to 2 minutes.
 - Added a for teleportation: 2 Silver Coins + 0.025 per block.
+- Set a cost to unlock Waystones.
 
 **Journey Map:**
 
@@ -81,7 +82,8 @@
 *List all mods that were removed with reasons.*
 
 - **Animated Loading Screen**: Laggy animation
-- **Partivle Effects**: Laggy animation
+- **Particle Effects**: I dont like it
+- **Advancements Reloaded**: Crash when opening advancements tab with More Advancements installed.
 
 ---
 
@@ -92,6 +94,11 @@
 - **Auto Third Person**: Automatically puts you in third-person camera when you fly an elytra, ride an animal, boat, or minecart.
 - **Critters and Companions**: Is a vanilla-style creature mod which will fill the overworld with new animals.
 - **Immersive Melodies**: Play custom melodies on various intruments.
+- **Subtle Effects**: Adds many new subtle details through particles and a few sounds.
+- **Fast Item Frames**: You can now dye the frame’s background and even hide the frame itself.
+- **Glowing Torchflowers**: Make Torchflower glow in dark.
+- **More Advancements**: Adds new advancements.
+- **Better Advancements**: Improves the UI and UX for the advancements system.
 
 ---
 
