@@ -81,6 +81,7 @@
 *List all mods that were removed with reasons.*
 
 - **Animated Loading Screen**: Laggy animation
+- **Partivle Effects**: Laggy animation
 
 ---
 
