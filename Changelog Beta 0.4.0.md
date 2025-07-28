@@ -131,3 +131,4 @@
 - **Building Guide**: `v0.4.5` → `v0.4.6`
 - **Just Enough Breeding**: `v1.6.0` → `v1.6.2`
 - **Sawmill**: `v1.5.18` → `v1.5.19`
+- **LambDynamicLights**: `v4.1.3` → `v4.1.5`
