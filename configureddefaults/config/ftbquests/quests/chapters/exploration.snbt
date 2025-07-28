@@ -1315,6 +1315,7 @@
 			id: "1B5162AEF636FB25"
 			invisible: true
 			tasks: [{
+				consume_items: false
 				id: "1D4B26E7C8458E06"
 				item: { count: 1, id: "artifacts:chorus_totem" }
 				type: "item"

@@ -389,7 +389,7 @@
 	quest.6082A45A24401498.title: "&9Basic Tools&r"
 	quest.60B5861E4E2AA0B8.quest_desc: ["Precious hook that &eincreases experience drops&r from all mobs you kill in combat."]
 	quest.60B5861E4E2AA0B8.title: "&dExperience Magnet&r"
-	quest.614FC15CB90122BE.quest_desc: ["&cYour builds are automatically backed up! &rThe game saves copies of your world regularly in the &7\"backups\" &rfolder inside your modpack files. If something goes wrong like a bad accident, you can restore from these backups."]
+	quest.614FC15CB90122BE.quest_desc: ["&cYour builds are automatically backed up! &rThe game saves copies of your world regularly in the &7\"backups\" &rfolder inside your modpack files. If something goes wrong, you can restore from these backups."]
 	quest.614FC15CB90122BE.title: "&6Your World is Safe&r"
 	quest.6268219483738A4D.quest_desc: ["Powers tree cutting."]
 	quest.62698ACF363DD358.quest_desc: ["&5Know your weapon's true power. &rStrike the dummy to see exact damage numbers. Equip it with armor to test against different protections. Add mob heads for specific resistance testing."]
