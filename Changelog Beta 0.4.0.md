@@ -75,7 +75,11 @@
 
 **Journey Map:**
 
-- Increaed waypoint auto hide distance (waypoints hide from a 16 block distance).
+- Increaed waypoint auto hide distance (waypoints hide from a 16 block away).
+
+**Overlay Teaks:**
+
+- Added some transparency to the pumpkin.
 
 ---
 
