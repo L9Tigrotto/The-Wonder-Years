@@ -136,3 +136,6 @@
 - **Just Enough Breeding**: `v1.6.0` → `v1.6.2`
 - **Sawmill**: `v1.5.18` → `v1.5.19`
 - **LambDynamicLights**: `v4.1.3` → `v4.1.5`
+- **Tectonic**: `v3.0.1` → `v3.0.5`
+- **Underlay**: `v0.9.4` → `v0.9.5`
+- **Sawmill**: `v1.5.19` → `v1.5.20`
