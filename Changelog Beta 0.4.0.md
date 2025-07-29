@@ -90,7 +90,8 @@
 - **Animated Loading Screen**: Laggy animation
 - **Particle Effects**: I don't like it
 - **Advancements Reloaded**: Crash when opening advancements tab with More Advancements installed.
-- **Universal Graves**: Changed with soul bound enchantment.
+- **Universal Graves**: Changed with Soul Bound Enchantment.
+- **Better Third Person**: Changed with Shoulder Surfing Reloaded.
 
 ---
 
@@ -108,6 +109,7 @@
 - **Better Advancements**: Improves the UI and UX for the advancements system.
 - **Soul Bound Enchantment**: Adds soul binding enchantment.
 - **Armor Trim Item Fix**: Adds more item trim textures that change depending on the trim applied.
+- **Shoulder Surfing Reloaded**: Third person camera mod.
 
 ---
 
