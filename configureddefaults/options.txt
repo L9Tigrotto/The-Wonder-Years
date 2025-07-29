@@ -50,7 +50,7 @@ damageTiltStrength:1.0
 highContrast:false
 narratorHotkey:true
 resourcePacks:["vanilla","fabric","moonlight:mods_dynamic_assets","continuity:glass_pane_culling_fix","continuity:default","minecraft:supporteatinganimation","file/FreshAnimations_v1.9.2.zip","file/FA+Objects-v1.1.1.zip","file/Faithful 32x - 1.21.1.zip","file/Faithful32x-FreshAnimations-v1.9.1.zip","file/Bushy Leaves For Faithful 32x V1.4.zip","file/New Faithful Overlays - 1.21.1.zip","file/Faithful 32x AppleSkin - 1.21.1.zip","resource_nether_ores:resource_nether_ores_x32","file/CTM Faithful 0.4.1+1.20.x-1.21.x.zip","file/cubic-sun-moon-v1.8.3a.zip","mythicupgrades:32x","file/§a§lVocal Villagers §r§71.2.zip","file/skt-sg v1.1.zip","file/Sparkles_1.21.x_v1.1.4.zip","$polymer-resources","file/better-boss-bars-1.21.zip","file/Fancy_Beds-v3.4.zip"]
-incompatibleResourcePacks:["ambientenvironment","appleskin","artifacts","auto_third_person","awesomedungeonocean","balm","bedspreads","betterbiomeblend","betterdays","biomemusic","bookshelf","carryon","catalogue","cherishedworlds","comforts","controlling","crafttweaker","draggable_lists","dragonfight","elytratrims","emiprofessions","enchdesc","essential","expcounter","extremesoundmuffler","framework","horseshoes","immersivedamageindicators","immersivemessages","immersiveui","jade","jei","jmi","konkrete","mcwdoors","medievalmusic","mighty_mail","modernfix","modernworldcreation","mr_dungeons_andtavernsendcastlestandalone","mr_dungeons_andtavernswoodlandmansionreplacement","mr_neoenchant","mr_withering_heights","netherportalfix","particlerain","polylib","resource_nether_ores","resourcelibrary","resourcify","searchables","sereneseasons","simplehats","spark","spectrelib","starterkit","tectonic","tipsmod","toms_storage","txnilib","watut","xercapaint","yet_another_config_lib_v3","file/Bushy Leaves For Faithful 32x V1.4.zip"]
+incompatibleResourcePacks:["ambientenvironment","appleskin","armortrimitemfix","artifacts","auto_third_person","awesomedungeonocean","balm","bedspreads","betteradvancements","betterbiomeblend","betterdays","biomemusic","bookshelf","carryon","catalogue","cherishedworlds","comforts","controlling","crafttweaker","draggable_lists","dragonfight","elytratrims","emiprofessions","enchdesc","essential","expcounter","extremesoundmuffler","framework","horseshoes","immersivedamageindicators","immersivemessages","immersiveui","jade","jei","jmi","konkrete","mcwdoors","medievalmusic","mighty_mail","modernfix","modernworldcreation","mr_dungeons_andtavernsendcastlestandalone","mr_dungeons_andtavernswoodlandmansionreplacement","mr_neoenchant","mr_withering_heights","netherportalfix","particlerain","polylib","resource_nether_ores","resourcelibrary","resourcify","searchables","sereneseasons","simplehats","spark","spectrelib","starterkit","subtle_effects","tectonic","tipsmod","toms_storage","txnilib","watut","xercapaint","yet_another_config_lib_v3","file/Bushy Leaves For Faithful 32x V1.4.zip"]
 lastServer:
 lang:en_us
 chatVisibility:0
@@ -126,7 +126,7 @@ key_key.hotbar.9:key.keyboard.9
 key_key.dynamic_fps.toggle_forced:key.keyboard.unknown
 key_key.dynamic_fps.toggle_disabled:key.keyboard.unknown
 key_key.drop_confirm.toggle:key.keyboard.unknown
-key_key.dynamictooltips.show_details:key.keyboard.left.shift
+key_key.dynamictooltips.show_details:key.keyboard.left.control
 key_key.fabrishot.screenshot:key.keyboard.f9
 key_key.ftbchunks.map:key.keyboard.unknown
 key_key.ftbchunks.toggle_minimap:key.keyboard.unknown
@@ -137,7 +137,7 @@ key_key.ftbchunks.add_waypoint:key.keyboard.unknown
 key_key.ftbchunks.waypoint_manager:key.keyboard.unknown
 key_key.ftbquests.quests:key.keyboard.unknown
 key_key.ftbteams.open_gui:key.keyboard.unknown
-key_legendarytooltips.key.scrollTooltips:key.keyboard.left.shift
+key_legendarytooltips.key.scrollTooltips:key.keyboard.unknown
 key_key.wildfire_gender.gender_menu:key.keyboard.g
 key_accessories.key.open_accessories_screen:key.keyboard.unknown
 key_key.accessorify.use_spyglass:key.keyboard.unknown
@@ -161,7 +161,7 @@ key_key.cavedust.toggle:key.keyboard.unknown
 key_key.cavedust.reload:key.keyboard.unknown
 key_chunkloaders.keys.open_screen:key.keyboard.unknown
 key_key.entityculling.toggle:key.keyboard.unknown
-key_equipmentcompare.key.showTooltips:key.keyboard.left.shift
+key_equipmentcompare.key.showTooltips:key.keyboard.unknown
 key_key.evilcreativefly.toggle_fly:key.keyboard.j
 key_key.open_muffler_gui:key.keyboard.unknown
 key_text.HorseBuff.keybinding.horsePlayerInventory:key.keyboard.left.alt
@@ -242,6 +242,21 @@ key_key.raised.options:key.keyboard.unknown
 key_reacharound.keybinding.toggle:key.keyboard.unknown
 key_key.shetiphiancore.tool.next:key.keyboard.unknown
 key_key.shetiphiancore.tool.previous:key.keyboard.unknown
+key_key.shouldersurfing.adjust_camera_left:key.keyboard.unknown
+key_key.shouldersurfing.adjust_camera_right:key.keyboard.unknown
+key_key.shouldersurfing.adjust_camera_in:key.keyboard.unknown
+key_key.shouldersurfing.adjust_camera_out:key.keyboard.unknown
+key_key.shouldersurfing.adjust_camera_up:key.keyboard.unknown
+key_key.shouldersurfing.adjust_camera_down:key.keyboard.unknown
+key_key.shouldersurfing.swap_shoulder:key.keyboard.unknown
+key_key.shouldersurfing.toggle_first_person:key.keyboard.unknown
+key_key.shouldersurfing.toggle_third_person_front:key.keyboard.unknown
+key_key.shouldersurfing.toggle_third_person_back:key.keyboard.unknown
+key_key.shouldersurfing.free_look:key.keyboard.unknown
+key_key.shouldersurfing.toggle_camera_coupling:key.keyboard.unknown
+key_key.shouldersurfing.toggle_x_offset_presets:key.keyboard.unknown
+key_key.shouldersurfing.toggle_y_offset_presets:key.keyboard.unknown
+key_key.shouldersurfing.toggle_z_offset_presets:key.keyboard.unknown
 key_key.simplehudenhanced.toggle_hud:key.keyboard.unknown
 key_key.spyglass-improvements.use:key.keyboard.z
 key_key.toms_storage.open_terminal:key.keyboard.unknown
@@ -266,7 +281,7 @@ key_keybind.name.EMOTE_SLOT_6:key.keyboard.unknown
 key_keybind.name.EMOTE_SLOT_7:key.keyboard.unknown
 key_keybind.name.EMOTE_SLOT_8:key.keyboard.unknown
 key_keybind.name.ZOOM:key.keyboard.unknown
-soundCategory_master:0.5
+soundCategory_master:0.5091059602649006
 soundCategory_music:0.20246478873239437
 soundCategory_record:1.0
 soundCategory_weather:1.0

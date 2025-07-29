@@ -24,9 +24,9 @@
 
 	[client.control_options]
 		# If the comparison tooltip should show by default (pressing bound key hides).
-		default_on = false
+		default_on = true
 		# If tool comparisons should compare only the same types of tools (can't compare a sword to an axe, for example).
-		strict = false
+		strict = true
 		# Item blacklist to disable comparisons for.  Add to prevent items from being compared when hovered over or equipped.  All Iceberg item selectors are supported (https://github.com/AHilyard/Iceberg/wiki/Item-Selectors-Documentation).
 		blacklist = []
 		# If accessories should be compared.  If false, only held items and armor will be compared.
