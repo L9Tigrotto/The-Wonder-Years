@@ -6,6 +6,7 @@
 
 - Re-enabled legendary tooltips.
 - Added fancy beds resource pack.
+- Fixed un-mount bug.
 
 ## ⚙️ Settings Changed
 
@@ -77,9 +78,13 @@
 
 - Increaed waypoint auto hide distance (waypoints hide from a 16 block away).
 
-**Overlay Teaks:**
+**Overlay Tweaks:**
 
 - Added some transparency to the pumpkin.
+
+**Carry On:**
+
+- Disabled lootr chests and barrels pick up.
 
 ---
 
