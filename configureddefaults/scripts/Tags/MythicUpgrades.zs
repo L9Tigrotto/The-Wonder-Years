@@ -1,4 +1,4 @@
-#priority 90
+#priority 100
 
 // mythicupgrades:overworld_shards tag contains the Mythic Upgrades shards found in the overworld (used to craft explorer and nature compass)
 // mythicupgrades:overworld_shards tag contains the Mythic Upgrades shards found in the overworld (remove overworld curses from items)
