@@ -378,9 +378,9 @@ public class LootGenerator
     ];
 
     private static val HAT_BAG_DISTRIBUTION as float[][string] = {
-        "overworld": [0.60, 0.30, 0.08, 0.02],
-        "nether": [0.20, 0.35, 0.35, 0.10],
-        "end": [0.05, 0.15, 0.50, 0.30],
+        "overworld": [0.60, 0.90, 0.98, 1.00],
+        "nether": [0.20, 0.55, 0.90, 1.00],
+        "end": [0.05, 0.20, 0.70, 1.00],
     };
 
     // ========================================
