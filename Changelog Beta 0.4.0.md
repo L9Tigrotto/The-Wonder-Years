@@ -116,6 +116,7 @@
 - **Soul Bound Enchantment**: Adds soul binding enchantment.
 - **Armor Trim Item Fix**: Adds more item trim textures that change depending on the trim applied.
 - **Shoulder Surfing Reloaded**: Third person camera mod.
+- **Trofers**: Adds trophies.
 
 ---
 
@@ -142,8 +143,8 @@
 - **Drop Confirm**: `v5.0.1` → `v5.0.2`
 - **Building Guide**: `v0.4.5` → `v0.4.6`
 - **Just Enough Breeding**: `v1.6.0` → `v1.6.2`
-- **Sawmill**: `v1.5.18` → `v1.5.19`
+- **Sawmill**: `v1.5.18` → `v1.5.21`
 - **LambDynamicLights**: `v4.1.3` → `v4.1.5`
 - **Tectonic**: `v3.0.1` → `v3.0.5`
 - **Underlay**: `v0.9.4` → `v0.9.5`
-- **Sawmill**: `v1.5.19` → `v1.5.20`
+- **MmmMmmMmmMmm**: `v2.0.8` → `v2.0.9`
