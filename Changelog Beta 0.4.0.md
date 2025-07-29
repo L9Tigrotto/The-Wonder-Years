@@ -22,6 +22,7 @@
 - Added commands to create a team to share ender chests.
 - Added Immersive Melodies quest.
 - Changed quest chapter title to "Building".
+- Spreaded structures apart to prevent overlap (expecially for nether fortress and forbidden castle)
 
 **Blinking Stars:**
 

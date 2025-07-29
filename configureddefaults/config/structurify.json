@@ -1,11 +1,11 @@
 {
   "config_version": "1.0.19",
-  "config_datetime": "2025-07-22_19-50-08",
+  "config_datetime": "2025-07-29_23-08-32",
   "general": {
     "min_structure_distance_from_world_center": 0,
     "disable_all_structures": false,
     "enable_global_spacing_and_separation_modifier": true,
-    "global_spacing_and_separation_modifier": 1.2
+    "global_spacing_and_separation_modifier": 1.4
   },
   "structures": [
     {
@@ -1623,6 +1623,23 @@
       "biome_check_mode": "BLACKLIST",
       "biome_check_blacklisted_biomes": [
         "#is_river"
+      ],
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "terralith:igloo",
+      "is_disabled": true,
+      "enable_flatness_check": false,
+      "flatness_check_distance": 16,
+      "flatness_check_threshold": 10,
+      "enable_biome_check": false,
+      "biome_check_distance": 16,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#is_river",
+        "#is_ocean",
+        "#is_beach"
       ],
       "whitelisted_biomes": [],
       "blacklisted_biomes": []
