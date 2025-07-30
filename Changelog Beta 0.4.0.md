@@ -87,6 +87,10 @@
 
 - Disabled lootr chests, barrels and shulker box pick up.
 
+**Structurify:**
+
+- Disabled vanilla end city.
+
 ---
 
 ## ❌ Mods Removed
