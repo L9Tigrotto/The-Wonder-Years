@@ -85,7 +85,7 @@
 
 **Carry On:**
 
-- Disabled lootr chests and barrels pick up.
+- Disabled lootr chests, barrels and shulker box pick up.
 
 ---
 
