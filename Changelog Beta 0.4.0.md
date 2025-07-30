@@ -98,6 +98,7 @@
 - **Advancements Reloaded**: Crash when opening advancements tab with More Advancements installed.
 - **Universal Graves**: Changed with Soul Bound Enchantment.
 - **Better Third Person**: Changed with Shoulder Surfing Reloaded.
+- **FTB Quests Optimizer**: Not really optimizing.
 
 ---
 
@@ -148,3 +149,6 @@
 - **Tectonic**: `v3.0.1` → `v3.0.5`
 - **Underlay**: `v0.9.4` → `v0.9.5`
 - **MmmMmmMmmMmm**: `v2.0.8` → `v2.0.9`
+- **Essential**: `v1.3.8.4` → `v1.3.9`
+- **Just Enough Items**: `v19.22.0.315` → `v19.22.0.316`
+- **FTB Quests**: `v2101.1.12` → `v2101.1.13`
