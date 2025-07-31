@@ -160,3 +160,5 @@
 - **Structurify**: `v1.0.19` → `v1.0.20`
 - **Storage Drawers**: `v13.8.9` → `v13.8.10`
 - **Savage Ender Dragon**: `v4.6` → `v4.7`
+- **Chunk Loaders**: `v1.2.8b` → `v1.2.9`
+- **Dungeon Difficulty**: `v3.8.5` → `v3.4.0`
