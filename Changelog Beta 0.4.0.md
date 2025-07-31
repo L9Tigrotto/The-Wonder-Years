@@ -161,4 +161,6 @@
 - **Storage Drawers**: `v13.8.9` → `v13.8.10`
 - **Savage Ender Dragon**: `v4.6` → `v4.7`
 - **Chunk Loaders**: `v1.2.8b` → `v1.2.9`
-- **Dungeon Difficulty**: `v3.8.5` → `v3.4.0`
+- **Dungeon Difficulty**: `v3.8.5` → `v3.4.1`
+- **Durability Tooltip**: `v1.1.5` → `v1.1.6`
+- **Ksyxis**: `v1.3.3` → `v1.3.4`
