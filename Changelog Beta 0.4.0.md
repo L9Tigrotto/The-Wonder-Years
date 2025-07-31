@@ -156,3 +156,6 @@
 - **Essential**: `v1.3.8.4` → `v1.3.9`
 - **Just Enough Items**: `v19.22.0.315` → `v19.22.0.316`
 - **FTB Quests**: `v2101.1.12` → `v2101.1.13`
+- **Structurify**: `v1.0.19` → `v1.0.20`
+- **Storage Drawers**: `v13.8.9` → `v13.8.10`
+- **Savage Ender Dragon**: `v4.6` → `v4.7`
