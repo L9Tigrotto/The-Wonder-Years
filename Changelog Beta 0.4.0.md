@@ -122,6 +122,7 @@
 - **Armor Trim Item Fix**: Adds more item trim textures that change depending on the trim applied.
 - **Shoulder Surfing Reloaded**: Third person camera mod.
 - **Trofers**: Adds trophies.
+- **Weather Settings**: Change frequency duration and the weather used.
 
 ---
 
