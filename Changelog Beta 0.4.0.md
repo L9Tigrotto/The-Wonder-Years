@@ -123,6 +123,7 @@
 - **Shoulder Surfing Reloaded**: Third person camera mod.
 - **Trofers**: Adds trophies.
 - **Weather Settings**: Change frequency duration and the weather used.
+- **Unversal Enchants**: Allows you to put any enchantment you like on your preferred weapon or tool of choice. Also some enchantments have received much needed buffs.
 
 ---
 
@@ -144,7 +145,7 @@
 - **Potions Stacking**: `v1.0.0` → `v1.1.0`
 - **Toms Simple Storage**: `v2.2.1` → `v2.2.2`
 - **Inventory Profiles Next**: `v2.1.10` → `v2.1.11`
-- **Accessories**: `v1.1.0 (10/07)` → `v1.1.0 (26/07)`
+- **Accessories**: `v1.1.0 (10/07)` → `v1.1.0 (01/08)`
 - **Accessorify**: `v2.1.2` → `v2.1.4`
 - **Drop Confirm**: `v5.0.1` → `v5.0.2`
 - **Building Guide**: `v0.4.5` → `v0.4.6`
@@ -158,7 +159,7 @@
 - **Just Enough Items**: `v19.22.0.315` → `v19.22.0.316`
 - **FTB Quests**: `v2101.1.12` → `v2101.1.13`
 - **Structurify**: `v1.0.19` → `v1.0.20`
-- **Storage Drawers**: `v13.8.9` → `v13.8.10`
+- **Storage Drawers**: `v13.8.9` → `v13.8.11`
 - **Savage Ender Dragon**: `v4.6` → `v4.7`
 - **Chunk Loaders**: `v1.2.8b` → `v1.2.9`
 - **Dungeon Difficulty**: `v3.8.5` → `v3.4.1`
