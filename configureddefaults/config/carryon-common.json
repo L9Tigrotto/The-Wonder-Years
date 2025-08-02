@@ -199,7 +199,7 @@
       "minecraft:trial_spawner",
       "lootr:lootr_chest",
       "lootr:lootr_barrel",
-	  "lootr:lootr_shulker"
+      "lootr:lootr_shulker"
     ],
     "//forbiddenEntities": "Entities that cannot be picked up",
     "forbiddenEntities": [
