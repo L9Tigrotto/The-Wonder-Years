@@ -97,6 +97,10 @@
 
 - Increased mob with artifact spawn probability
 
+**Simple HAts:**
+
+- Created recips for scap components allowing to craft seasonal hatbags
+
 ---
 
 ## ❌ Mods Removed
