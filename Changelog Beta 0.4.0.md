@@ -117,6 +117,7 @@
 - **Let Me Despawn**: Makes custom mod despawning (eg in mineshaft or desert pyramid).
 - **Awesome Dungeon Ocean Edition**: Missing loot tables.
 - **Illager Invasion**: Dont think it matches the pack mood.
+- **Magnum Torch**: Torchmaster offers more solutions.
 
 ---
 
@@ -139,6 +140,7 @@
 - **Weather Settings**: Change frequency duration and the weather used.
 - **Unversal Enchants**: Allows you to put any enchantment you like on your preferred weapon or tool of choice. Also some enchantments have received much needed buffs.
 - **When Dungeons Arise - Seven Seas**: Adds Ocian structures.
+- **Torchmaster**: Adds a special torch which prevents mob spawning in a configurable radius.
 
 ---
 
