@@ -7,6 +7,7 @@
 - Re-enabled legendary tooltips.
 - Added fancy beds resource pack.
 - Fixed un-mount bug.
+- Added custom loot tables.
 
 ## ⚙️ Settings Changed
 

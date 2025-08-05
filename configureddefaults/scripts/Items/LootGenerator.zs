@@ -260,9 +260,21 @@ public class LootGenerator
             <item:artifacts:whoopee_cushion>
         ],
         "end": [
+            <item:artifacts:snorkel>, <item:artifacts:plastic_drinking_hat>, <item:artifacts:novelty_drinking_hat>,
+            <item:artifacts:umbrella>, <item:artifacts:cowboy_hat>, <item:artifacts:panic_necklace>,
+            <item:artifacts:charm_of_sinking>, <item:artifacts:flippers>, <item:artifacts:snowshoes>,
+            <item:artifacts:kitty_slippers>, <item:artifacts:onion_ring>, <item:artifacts:pocket_piston>,
+            <item:artifacts:helium_flamingo>, <item:artifacts:universal_attractor>, <item:artifacts:cloud_in_a_bottle>,
+            <item:artifacts:anglers_hat>, <item:artifacts:charm_of_shrinking>,
+
+            <item:artifacts:crystal_heart>, <item:artifacts:digging_claws>, <item:artifacts:fire_gauntlet>,
+            <item:artifacts:aqua_dashers>, <item:artifacts:steadfast_spikes>, <item:artifacts:rooted_boots>,
+            <item:artifacts:everlasting_beef>, <item:artifacts:villager_hat>, <item:artifacts:superstitious_hat>,
+            <item:artifacts:lucky_scarf>, <item:artifacts:scarf_of_invisibility>, <item:artifacts:shock_pendant>,
+            <item:artifacts:flame_pendant>, <item:artifacts:thorn_pendant>, <item:artifacts:obsidian_skull>,
+
             <item:artifacts:cross_necklace>, <item:artifacts:antidote_vessel>, <item:artifacts:chorus_totem>,
             <item:artifacts:warp_drive>, <item:artifacts:power_glove>, <item:artifacts:golden_hook>,
-            <item:artifacts:whoopee_cushion>
         ]
     };
 
