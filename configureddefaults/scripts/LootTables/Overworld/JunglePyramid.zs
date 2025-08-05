@@ -68,6 +68,8 @@ loot.modifiers.register(
         loot_generator.generateHatBagWithProbability(0.30);
         loot_generator.generateMoneyBagWithProbability(5, 0.30);
 
+        loot_context.addLootWithProbability(<item:endrem:rogue_eye>, 0.30 / 1.0 + loot_context.player_luck / 100.0);
+
         return loot_context.loot;
     }
 );

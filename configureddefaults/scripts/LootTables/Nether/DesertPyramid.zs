@@ -50,7 +50,7 @@ loot.modifiers.register(
 
         // Generation functions - enhanced for nether richness
         loot_generator.generateNArmorsWithProbability(1, 0.18);
-        loot_generator.generateNEssences(3, 4);
+        loot_generator.generateNEssences(1, 4);
         loot_generator.generateArtifact(4);
         loot_generator.generateHatBagWithProbability(0.30);
         loot_generator.generateMoneyBagWithProbability(2, 0.30);
@@ -304,7 +304,7 @@ loot.modifiers.register(
             new WeightedPoolItem(<item:minecraft:compass>, 1, 1, 1)
         ]);
 
-        loot_generator.generateNEssences(2, 3);
+        loot_generator.generateNEssences(1, 3);
         loot_generator.generateHatBagWithProbability(0.30);
         loot_generator.generateMoneyBagWithProbability(1, 0.30);
 

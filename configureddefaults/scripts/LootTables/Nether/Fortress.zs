@@ -82,7 +82,6 @@ loot.modifiers.register(
         ]);
 
         // Generation functions
-        loot_generator.generateNEssences(5, 10);
         loot_generator.generateHatBagWithProbability(0.30);
         loot_generator.generateMoneyBagWithProbability(2, 0.30);
 
@@ -137,10 +136,12 @@ loot.modifiers.register(
         // Generation functions (keep is the main fortress chest)
         loot_generator.generateNWeaponsWithProbability(1, 0.09);
         loot_generator.generateNArmorsWithProbability(1, 0.39);
-        loot_generator.generateNEssences(3, 35);
+        loot_generator.generateNEssences(1, 35);
         loot_generator.generateArtifact(35);
         loot_generator.generateHatBagWithProbability(0.30);
         loot_generator.generateMoneyBagWithProbability(3, 0.30);
+
+        loot_context.addLootWithProbability(<item:endrem:nether_eye>, 0.30 / 15.0 + loot_context.player_luck / 100.0);
 
         return loot_context.loot;
     }
