@@ -93,6 +93,10 @@
 - Disabled vanilla end city.
 - Disabled Per biome witch hut (kept in swamp)
 
+**Artifacts:**
+
+- Increased mob with artifact spawn probability
+
 ---
 
 ## ❌ Mods Removed

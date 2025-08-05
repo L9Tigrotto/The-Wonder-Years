@@ -9,7 +9,7 @@ archaeologyChance = 0.0625
 artifactRarity = 2.0
 #The chance that a skeleton, zombie or piglin spawns with an artifact equipped
 #Range: 0.0 ~ 1.0
-entityEquipmentChance = 0.1
+entityEquipmentChance = 0.25
 
 [campsite]
 	#Whether campsites can contain blocks that emit light
