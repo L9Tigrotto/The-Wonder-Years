@@ -105,6 +105,7 @@
 - **Better Third Person**: Changed with Shoulder Surfing Reloaded.
 - **FTB Quests Optimizer**: Not really optimizing.
 - **Let Me Despawn**: Makes custom mod despawning (eg in mineshaft or desert pyramid).
+- **Awesome Dungeon Ocean Edition**: Missing loot tables.
 
 ---
 
@@ -126,6 +127,7 @@
 - **Trofers**: Adds trophies.
 - **Weather Settings**: Change frequency duration and the weather used.
 - **Unversal Enchants**: Allows you to put any enchantment you like on your preferred weapon or tool of choice. Also some enchantments have received much needed buffs.
+- **When Dungeons Arise - Seven Seas**: Adds Ocian structures.
 
 ---
 
