@@ -48,6 +48,7 @@
 **Better Enchanting:**
 
 - Disabled gravity enchantment.
+- Disabled Fear enchantment
 
 **Better End Island:**
 
