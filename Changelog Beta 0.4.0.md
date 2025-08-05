@@ -9,6 +9,8 @@
 - Fixed un-mount bug.
 - Added custom loot tables.
 
+- KNOWN BUG: ender dragon health is not scaling properly with more player in the fight
+
 ## ⚙️ Settings Changed
 
 *List all configuration changes organized by mod.*
@@ -131,7 +133,6 @@
 - **Subtle Effects**: Adds many new subtle details through particles and a few sounds.
 - **Fast Item Frames**: You can now dye the frame's background and even hide the frame itself.
 - **Glowing Torchflowers**: Make Torchflower glow in dark.
-- **More Advancements**: Adds new advancements.
 - **Better Advancements**: Improves the UI and UX for the advancements system.
 - **Soul Bound Enchantment**: Adds soul binding enchantment.
 - **Armor Trim Item Fix**: Adds more item trim textures that change depending on the trim applied.
