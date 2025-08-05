@@ -161,9 +161,12 @@
 - **Just Enough Items**: `v19.22.0.315` → `v19.22.0.316`
 - **FTB Quests**: `v2101.1.12` → `v2101.1.13`
 - **Structurify**: `v1.0.19` → `v1.0.20`
-- **Storage Drawers**: `v13.8.9` → `v13.8.11`
+- **Storage Drawers**: `v13.8.9` → `v13.8.12`
 - **Savage Ender Dragon**: `v4.6` → `v4.7`
 - **Chunk Loaders**: `v1.2.8b` → `v1.2.9`
 - **Dungeon Difficulty**: `v3.8.5` → `v3.4.1`
 - **Durability Tooltip**: `v1.1.5` → `v1.1.6`
 - **Ksyxis**: `v1.3.3` → `v1.3.4`
+- **Raised**: `v5.0.0` → `v5.0.1`
+- **Balm**: `v21.0.48` → `v21.0.49`
+- **Fzzy Config**: `v0.7.1` → `v0.7.2`
