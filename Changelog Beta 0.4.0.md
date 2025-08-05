@@ -106,6 +106,7 @@
 - **FTB Quests Optimizer**: Not really optimizing.
 - **Let Me Despawn**: Makes custom mod despawning (eg in mineshaft or desert pyramid).
 - **Awesome Dungeon Ocean Edition**: Missing loot tables.
+- **Illager Invasion**: Dont think it matches the pack mood.
 
 ---
 
