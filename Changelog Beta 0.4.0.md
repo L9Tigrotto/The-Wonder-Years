@@ -164,7 +164,7 @@
 - **Toms Simple Storage**: `v2.2.1` → `v2.2.2`
 - **Inventory Profiles Next**: `v2.1.10` → `v2.1.11`
 - **Accessories**: `v1.1.0 (10/07)` → `v1.1.0 (02/08)`
-- **Accessorify**: `v2.1.2` → `v2.1.5`
+- **Accessorify**: `v2.1.2` → `v2.1.6`
 - **Drop Confirm**: `v5.0.1` → `v5.0.2`
 - **Building Guide**: `v0.4.5` → `v0.4.6`
 - **Just Enough Breeding**: `v1.6.0` → `v1.6.2`
