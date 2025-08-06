@@ -112,7 +112,6 @@
 
 - **Animated Loading Screen**: Laggy animation
 - **Particle Effects**: I don't like it
-- **Advancements Reloaded**: Crash when opening advancements tab with More Advancements installed.
 - **Universal Graves**: Changed with Soul Bound Enchantment.
 - **Better Third Person**: Changed with Shoulder Surfing Reloaded.
 - **FTB Quests Optimizer**: Not really optimizing.
@@ -133,7 +132,6 @@
 - **Subtle Effects**: Adds many new subtle details through particles and a few sounds.
 - **Fast Item Frames**: You can now dye the frame's background and even hide the frame itself.
 - **Glowing Torchflowers**: Make Torchflower glow in dark.
-- **Better Advancements**: Improves the UI and UX for the advancements system.
 - **Soul Bound Enchantment**: Adds soul binding enchantment.
 - **Armor Trim Item Fix**: Adds more item trim textures that change depending on the trim applied.
 - **Shoulder Surfing Reloaded**: Third person camera mod.
