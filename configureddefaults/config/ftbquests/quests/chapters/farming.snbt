@@ -1,0 +1,197 @@
+{
+	autofocus_id: "759D95297B8C5445"
+	default_hide_dependency_lines: false
+	default_min_width: 300
+	default_quest_shape: ""
+	filename: "farming"
+	group: ""
+	hide_quest_until_deps_complete: true
+	icon: {
+		id: "minecraft:wheat"
+	}
+	id: "1880C57E1CF31DC4"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["759D95297B8C5445"]
+			icon: {
+				id: "animal_pen:animal_pen_oak"
+			}
+			id: "00D16E6828CEEDCD"
+			tasks: [
+				{
+					consume_items: false
+					id: "7C96008CF06453C6"
+					item: { count: 1, id: "animal_pen:animal_cage" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "358507C444318694"
+					item: { count: 1, id: "animal_pen:animal_pen_oak" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["703D99E23EBA4FBA"]
+			icon: {
+				id: "minecraft:flowering_azalea_leaves"
+			}
+			id: "759D95297B8C5445"
+			tasks: [{
+				id: "3C930491C48FA9AE"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["759D95297B8C5445"]
+			icon: {
+				id: "minecraft:flower_pot"
+			}
+			id: "582C6E0B9C3ABB02"
+			tasks: [
+				{
+					consume_items: false
+					id: "4A439C01D5C2C2D3"
+					item: { count: 1, id: "minecraft:item_frame" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "1CED176E2434EB9D"
+					item: { count: 1, id: "minecraft:flower_pot" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "11D71B4A85388E8F"
+					item: { count: 1, id: "minecraft:oak_sapling" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "150E2A3EEEEE8EA3"
+					item: { count: 1, id: "minecraft:iron_axe" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "6EB2BCDE88825E91"
+					item: { count: 2, id: "minecraft:hopper" }
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["759D95297B8C5445"]
+			icon: {
+				id: "minecraft:wheat_seeds"
+			}
+			id: "0642F560B69DCDAB"
+			tasks: [{
+				id: "7BA501A4C91921F3"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["759D95297B8C5445"]
+			id: "1FBEAC379700FD67"
+			tasks: [{
+				consume_items: false
+				id: "353F9717E3C53D7F"
+				item: { count: 1, id: "horseexpert:monocle" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["4E66A2DBAFBB1825"]
+			icon: {
+				id: "crittersandcompanions:ferret_spawn_egg"
+			}
+			id: "5507864359C46A52"
+			tasks: [{
+				id: "10271AD6A8EF777A"
+				type: "checkmark"
+			}]
+			x: -2.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["4E66A2DBAFBB1825"]
+			icon: {
+				id: "crittersandcompanions:dragonfly_spawn_egg"
+			}
+			id: "199471F8CA6FB709"
+			tasks: [{
+				id: "76C8292035685F8C"
+				type: "checkmark"
+			}]
+			x: -1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["4E66A2DBAFBB1825"]
+			icon: {
+				id: "crittersandcompanions:red_panda_spawn_egg"
+			}
+			id: "741AC4F1FC3BDC82"
+			tasks: [{
+				id: "75A537999533E51E"
+				type: "checkmark"
+			}]
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4E66A2DBAFBB1825"]
+			icon: {
+				id: "crittersandcompanions:shima_enaga_spawn_egg"
+			}
+			id: "0C7DD41E9A99984C"
+			tasks: [{
+				id: "7C006670ECAE23A9"
+				type: "checkmark"
+			}]
+			x: -1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["4E66A2DBAFBB1825"]
+			icon: {
+				id: "crittersandcompanions:jumping_spider_spawn_egg"
+			}
+			id: "688682677D730C13"
+			tasks: [{
+				id: "15850134856D7723"
+				type: "checkmark"
+			}]
+			x: -2.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["759D95297B8C5445"]
+			icon: {
+				id: "minecraft:turtle_egg"
+			}
+			id: "4E66A2DBAFBB1825"
+			tasks: [{
+				id: "4A6F2AEA922846AD"
+				type: "checkmark"
+			}]
+			x: -1.5d
+			y: 0.0d
+		}
+	]
+}

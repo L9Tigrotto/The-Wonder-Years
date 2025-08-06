@@ -18,15 +18,7 @@
 
 **FTB Quests:**
 
-- Made Artifact quests hidden until completed (the artifact is detected in the inventory).
-- Removed useless quest in the exploration chapter related to the end dimension.
-- Rebalanced exploration quest coin requirements.
-- Added animal pen quest.
-- Changed essence descriptions.
-- Added commands to create a team to share ender chests.
-- Added Immersive Melodies quest.
-- Changed quest chapter title to "Building".
-- Spreaded structures apart to prevent overlap (expecially for nether fortress and forbidden castle)
+- Rewrote all quests.
 
 **Blinking Stars:**
 
@@ -94,6 +86,7 @@
 
 **Structurify:**
 
+- Spreaded structures apart to prevent overlap (expecially for nether fortress and forbidden castle)
 - Disabled vanilla end city.
 - Disabled Per biome witch hut (kept in swamp)
 
@@ -101,7 +94,7 @@
 
 - Increased mob with artifact spawn probability
 
-**Simple HAts:**
+**Simple Hats:**
 
 - Created recips for scap components allowing to craft seasonal hatbags
 
