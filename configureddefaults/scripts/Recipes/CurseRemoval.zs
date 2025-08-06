@@ -3,7 +3,7 @@ import crafttweaker.api.item.enchantment.Enchantment;
 
 craftingTable.addShaped(
     "overworld_curse_removal", 
-    <item:minecraft:stick>, 
+    <item:minecraft:apple>, 
     [
         [<tag:item:mythicupgrades:overworld_shards>, <tag:item:mythicupgrades:overworld_shards>, <tag:item:mythicupgrades:overworld_shards>],
         [<tag:item:mythicupgrades:overworld_shards>, <tag:item:c:enchantables>, <tag:item:mythicupgrades:overworld_shards>],
@@ -39,7 +39,7 @@ craftingTable.addShaped(
 
 craftingTable.addShaped(
     "nether_curse_removal", 
-    <item:minecraft:stick>, 
+    <item:minecraft:apple>, 
     [
         [<tag:item:mythicupgrades:nether_shards>, <tag:item:mythicupgrades:nether_shards>, <tag:item:mythicupgrades:nether_shards>],
         [<tag:item:mythicupgrades:nether_shards>, <tag:item:c:enchantables>, <tag:item:mythicupgrades:nether_shards>],
@@ -76,7 +76,7 @@ craftingTable.addShaped(
 
 craftingTable.addShaped(
     "end_curse_removal", 
-    <item:minecraft:stick>, 
+    <item:minecraft:apple>, 
     [
         [<tag:item:mythicupgrades:end_shards>, <tag:item:mythicupgrades:end_shards>, <tag:item:mythicupgrades:end_shards>],
         [<tag:item:mythicupgrades:end_shards>, <tag:item:c:enchantables>, <tag:item:mythicupgrades:end_shards>],
