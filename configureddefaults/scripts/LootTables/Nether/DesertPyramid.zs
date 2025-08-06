@@ -48,6 +48,11 @@ loot.modifiers.register(
             new WeightedPoolItem(<item:minecraft:dune_armor_trim_smithing_template>, 1, 2, 2)
         ]);
 
+        // Pool 4: Topaz upgrade template (1 roll)
+        loot_generator.performWeightedPool(1, 1, 6, [
+            new WeightedPoolItem(<item:mythicupgrades:topaz_upgrade_smithing_template>, 1, 2, 2)
+        ]);
+
         // Generation functions - enhanced for nether richness
         loot_generator.generateNArmorsWithProbability(1, 0.18);
         loot_generator.generateNEssences(1, 4);

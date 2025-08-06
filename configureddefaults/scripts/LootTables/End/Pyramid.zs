@@ -32,6 +32,10 @@ loot.modifiers.register(
             new WeightedPoolItem(<item:minecraft:dune_armor_trim_smithing_template>, 2, 2, 2)
         ]);
 
+        loot_generator.performWeightedPool(1, 1, 6, [
+            new WeightedPoolItem(<item:mythicupgrades:topaz_upgrade_smithing_template>, 1, 2, 2)
+        ]);
+
         // Generation functions with enhanced rates for end-tier structure
         loot_generator.generateNToolsWithProbability(1, 0.15);
         loot_generator.generateNWeaponsWithProbability(1, 0.18);

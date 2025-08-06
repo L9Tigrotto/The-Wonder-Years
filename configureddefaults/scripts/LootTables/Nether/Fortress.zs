@@ -133,6 +133,10 @@ loot.modifiers.register(
             new WeightedPoolItem(<item:minecraft:saddle>, 10, 1, 1)
         ]);
 
+        loot_generator.performWeightedPool(1, 1, 90, [
+            new WeightedPoolItem(<item:mythicupgrades:sapphire_upgrade_smithing_template>, 10, 1, 1)
+        ]);
+
         // Generation functions (keep is the main fortress chest)
         loot_generator.generateNWeaponsWithProbability(1, 0.09);
         loot_generator.generateNArmorsWithProbability(1, 0.39);

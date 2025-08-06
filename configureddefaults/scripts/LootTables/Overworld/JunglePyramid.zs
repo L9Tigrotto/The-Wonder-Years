@@ -62,6 +62,10 @@ loot.modifiers.register(
             new WeightedPoolItem(<item:minecraft:emerald>, 1, 2, 5)
         ]);
 
+        loot_generator.performWeightedPool(1, 1, 6, [
+            new WeightedPoolItem(<item:mythicupgrades:peridot_upgrade_smithing_template>, 1, 2, 2)
+        ]);
+
         // Generation functions for treasure chest
         loot_generator.generateNEssences(2, 1);
         loot_generator.generateArtifact(1);

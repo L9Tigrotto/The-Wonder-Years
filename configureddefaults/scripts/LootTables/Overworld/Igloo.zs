@@ -25,6 +25,10 @@ loot.modifiers.register(
             new WeightedPoolItem(<item:minecraft:wheat>, 10, 2, 3)
         ]);
 
+        loot_generator.performWeightedPool(1, 1, 0, [
+            new WeightedPoolItem(<item:mythicupgrades:aquamarine_upgrade_smithing_template>, 1, 2, 2)
+        ]);
+
         // Generation functions with original rates
         // Stone axe probability: (2/63) * 5 avg rolls ≈ 0.159
         loot_generator.generateNToolsWithProbability(1, 0.159);

@@ -36,6 +36,11 @@ loot.modifiers.register(
             new WeightedPoolItem(<item:minecraft:gunpowder>, 10, 1, 8)
         ]);
 
+        // Pool 4: Topaz upgrade template (1 roll)
+        loot_generator.performWeightedPool(1, 1, 6, [
+            new WeightedPoolItem(<item:mythicupgrades:topaz_upgrade_smithing_template>, 1, 2, 2)
+        ]);
+
         // Generation functions - calculated from vanilla probabilities
         loot_generator.generateNArmorsWithProbability(1, 0.13);
         loot_generator.generateNPotionsWithProbability(1, 0.20);

@@ -46,6 +46,10 @@ loot.modifiers.register(
             new WeightedPoolItem(<item:minecraft:emerald>, 1, 2, 5)
         ]);
 
+        loot_generator.performWeightedPool(1, 1, 6, [
+            new WeightedPoolItem(<item:mythicupgrades:peridot_upgrade_smithing_template>, 1, 2, 2)
+        ]);
+
         loot_generator.generateNEssences(2, 1);
         loot_generator.generateArtifact(1);
         loot_generator.generateHatBagWithProbability(0.30);
@@ -98,6 +102,10 @@ loot.modifiers.register(
 
         loot_generator.performWeightedPool(6, 8, 0, [
             new WeightedPoolItem(<item:minecraft:emerald>, 1, 2, 5)
+        ]);
+
+        loot_generator.performWeightedPool(1, 1, 6, [
+            new WeightedPoolItem(<item:mythicupgrades:peridot_upgrade_smithing_template>, 1, 2, 2)
         ]);
 
         loot_generator.generateNEssences(2, 1);
@@ -154,6 +162,10 @@ loot.modifiers.register(
             new WeightedPoolItem(<item:minecraft:emerald>, 1, 2, 5)
         ]);
 
+        loot_generator.performWeightedPool(1, 1, 6, [
+            new WeightedPoolItem(<item:mythicupgrades:peridot_upgrade_smithing_template>, 1, 2, 2)
+        ]);
+
         loot_generator.generateNEssences(2, 1);
         loot_generator.generateArtifact(1);
         loot_generator.generateHatBagWithProbability(0.30);
@@ -208,6 +220,10 @@ loot.modifiers.register(
             new WeightedPoolItem(<item:minecraft:emerald>, 1, 2, 5)
         ]);
 
+        loot_generator.performWeightedPool(1, 1, 6, [
+            new WeightedPoolItem(<item:mythicupgrades:peridot_upgrade_smithing_template>, 1, 2, 2)
+        ]);
+
         loot_generator.generateNEssences(2, 1);
         loot_generator.generateArtifact(1);
         loot_generator.generateHatBagWithProbability(0.30);
@@ -260,6 +276,10 @@ loot.modifiers.register(
 
         loot_generator.performWeightedPool(6, 8, 0, [
             new WeightedPoolItem(<item:minecraft:emerald>, 1, 2, 5)
+        ]);
+
+        loot_generator.performWeightedPool(1, 1, 6, [
+            new WeightedPoolItem(<item:mythicupgrades:peridot_upgrade_smithing_template>, 1, 2, 2)
         ]);
 
         loot_generator.generateNEssences(2, 1);

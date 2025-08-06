@@ -150,9 +150,14 @@ loot.modifiers.register(
             new WeightedPoolItem(<item:minecraft:snout_armor_trim_smithing_template>, 8, 1, 1)
         ]);
 
-        // Pool 5: Netherite upgrade template (1 roll, 10% chance)  
+        // Pool 5: Netherite upgrade template
         loot_generator.performWeightedPool(1, 1, 90, [
             new WeightedPoolItem(<item:minecraft:netherite_upgrade_smithing_template>, 10, 1, 1)
+        ]);
+
+        // Pool 6: Ruby upgrade template
+        loot_generator.performWeightedPool(1, 1, 90, [
+            new WeightedPoolItem(<item:mythicupgrades:ruby_upgrade_smithing_template>, 10, 1, 1)
         ]);
 
         // Extracted equipment based on actual generic loot data

@@ -70,6 +70,14 @@ loot.modifiers.register(
             new WeightedPoolItem(<item:minecraft:dragon_breath>, 3, 1, 1)
         ]);
 
+        loot_generator.performWeightedPool(1, 1, 90, [
+            new WeightedPoolItem(<item:mythicupgrades:jade_upgrade_smithing_template>, 10, 1, 1)
+        ]);
+
+        loot_generator.performWeightedPool(1, 1, 90, [
+            new WeightedPoolItem(<item:mythicupgrades:ametrine_upgrade_smithing_template>, 10, 1, 1)
+        ]);
+
         // Generation functions (corrected probabilities)
         loot_generator.generateNToolsWithProbability(1, 0.023); // diamond_hoe 4/173
         loot_generator.generateNArmorsWithProbability(1, 0.081); // diamond armor 14/173 (CORRECTED)
