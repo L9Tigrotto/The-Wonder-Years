@@ -8,6 +8,7 @@
 - Added fancy beds resource pack.
 - Fixed un-mount bug.
 - Added custom loot tables.
+- Disabled Essential mod by default.
 
 - KNOWN BUG: ender dragon health is not scaling properly with more player in the fight
 
