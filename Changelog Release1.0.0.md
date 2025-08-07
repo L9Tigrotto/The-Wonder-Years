@@ -9,15 +9,11 @@
 
 ## ⚙️ Settings Changed
 
-*List all configuration changes organized by mod. Remove this section if no settings were changed.*
+*List all configuration changes organized by mod.*
 
-**Mod Name 1:**
+**Sound Physics Remastered:**
 
-- Increased spawn rate of custom ores
-
-**Mod Name 2:**
-
-- Enabled advanced tooltip features
+- Increased volume range
 
 ---
 
@@ -43,5 +39,5 @@
 
 *List all mods that were updated with their version changes. Remove this section if no mods were updated.*
 
-- **Mod Name 1**: `v1.2.3` → `v1.3.0`
-- **Mod Name 2**: `v2.1.0` → `v2.1.5`
+- **Subtle Effects**: `v1.12.0` → `v1.12.1`
+- **Storage Drawers**: `v13.8.12` → `v13`
