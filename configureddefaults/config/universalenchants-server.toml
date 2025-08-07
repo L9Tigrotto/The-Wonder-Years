@@ -1,0 +1,27 @@
+[adjustments]
+	#Any level of feather falling prevents farmland being trampled.
+	#Default Value: true
+	no_farmland_trample = true
+	#Infinity enchantment no longer requires a single arrow to be present in the player inventory.
+	#Default Value: true
+	true_infinity = true
+	#Looting and fortune also affect dropped experience points.
+	#Default Value: true
+	loot_bonus_boosts_xp = false
+	#Disables damage immunity when hit by a projectile. Makes it possible for entities to be hit by multiple projectiles at once (mainly useful for the multishot enchantment).
+	#Default Value: true
+	no_projectile_immunity = true
+
+[enchantable]
+	#Allow shears to be enchanted directly in the enchanting table.
+	#Disabling this will still allow for applying enchantments in an anvil, that needs to be disabled per enchantment.
+	#Default Value: true
+	shears = true
+	#Allow all kinds of horse armor to be enchanted directly in the enchanting table.
+	#Disabling this will still allow for applying enchantments in an anvil, that needs to be disabled per enchantment.
+	#Default Value: true
+	horse_armor = false
+	#Allow shields to be enchanted directly in the enchanting table.
+	#Disabling this will still allow for applying enchantments in an anvil, that needs to be disabled per enchantment.
+	#Default Value: true
+	shields = true

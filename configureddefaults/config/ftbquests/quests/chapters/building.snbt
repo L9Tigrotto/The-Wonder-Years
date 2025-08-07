@@ -1,0 +1,211 @@
+{
+	default_hide_dependency_lines: false
+	default_min_width: 300
+	default_quest_shape: ""
+	filename: "building"
+	group: ""
+	hide_quest_until_deps_complete: true
+	icon: {
+		id: "minecraft:bricks"
+	}
+	id: "282432000657BEEC"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["26E00CB34F09E17C"]
+			icon: {
+				id: "mighty_mail:oak_mail_box"
+			}
+			id: "04CF246809AED501"
+			tasks: [
+				{
+					consume_items: false
+					id: "706745CEC8A775FA"
+					item: { count: 1, id: "mighty_mail:oak_mail_box" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "168D60620A91A2BD"
+					item: { count: 1, id: "mighty_mail:post_box" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["04CF246809AED501"]
+			id: "7672342433368151"
+			tasks: [{
+				consume_items: false
+				id: "0C16D52A4133F3B6"
+				item: { count: 1, id: "strawstatues:straw_statue" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["04CF246809AED501"]
+			icon: {
+				id: "handcrafted:spruce_chair"
+			}
+			id: "533C16B21ED4CA40"
+			tasks: [{
+				id: "72E036FD3CEC8F9A"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["04CF246809AED501"]
+			icon: {
+				components: {
+					"xercapaint:palette_basic_colors": [B;
+						1b
+						1b
+						1b
+						1b
+						1b
+						1b
+						1b
+						1b
+						1b
+						1b
+						1b
+						1b
+						1b
+						1b
+						1b
+						1b
+					]
+				}
+				id: "xercapaint:item_palette"
+			}
+			id: "7A6091B293068778"
+			tasks: [
+				{
+					consume_items: false
+					id: "57B09A2A8E0BF1D7"
+					item: { count: 1, id: "xercapaint:item_palette" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "00C2BE9314A5A5FF"
+					item: { count: 1, id: "xercapaint:item_easel" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "606B7E571CAB3D8E"
+					item: { count: 1, id: "xercapaint:item_canvas_tall" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["04CF246809AED501"]
+			id: "266D975AD7F85B39"
+			tasks: [{
+				consume_items: false
+				id: "506500DF6B6ECD6B"
+				item: { count: 1, id: "camerapture:camera" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["04CF246809AED501"]
+			icon: {
+				id: "plushie_buddies:plushie_dolphin"
+			}
+			id: "24CC490C299CF212"
+			tasks: [{
+				id: "0908537A2D77BE21"
+				type: "checkmark"
+			}]
+			x: -1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1B6A65E929359C60"]
+			id: "7D7BADA4F07C6E41"
+			tasks: [{
+				consume_items: false
+				id: "61B842CF4B03DA6F"
+				item: { count: 1, id: "sawmill:sawmill" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["04CF246809AED501"]
+			icon: {
+				id: "minecraft:glass"
+			}
+			id: "25E2F27061697480"
+			tasks: [{
+				id: "3229DA74105E7319"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["04CF246809AED501"]
+			id: "1B6A65E929359C60"
+			tasks: [{
+				consume_items: false
+				id: "2405BA697157CF62"
+				item: { count: 1, id: "trowel:trowel" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1B6A65E929359C60"]
+			id: "7B23F167535D7B8F"
+			tasks: [{
+				consume_items: false
+				id: "638422A3CDB2EA9C"
+				item: { count: 1, id: "quartzelv:quartz_elevator" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["1B6A65E929359C60"]
+			id: "074E3AFC3F23E013"
+			tasks: [{
+				consume_items: false
+				id: "1F22DF054469114A"
+				item: { count: 1, id: "trashcans:item_trash_can" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1B6A65E929359C60"]
+			id: "42A5B75D37EC8478"
+			tasks: [{
+				consume_items: false
+				id: "4F1777D71BACFA39"
+				item: { count: 1, id: "measurements:tape_measure" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.0d
+		}
+	]
+}

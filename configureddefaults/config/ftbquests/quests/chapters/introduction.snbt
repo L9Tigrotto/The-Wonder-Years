@@ -1,15 +1,15 @@
 {
-	autofocus_id: "58C5E511FA95102B"
+	autofocus_id: "5A601F6C53731DBC"
 	default_hide_dependency_lines: false
 	default_min_width: 300
-	default_quest_shape: "rsquare"
+	default_quest_shape: ""
 	filename: "introduction"
 	group: ""
 	hide_quest_until_deps_complete: true
 	icon: {
-		id: "minecraft:writable_book"
+		id: "minecraft:oak_sapling"
 	}
-	id: "5D7EC23DDBC63A9D"
+	id: "05F56A3AB5A1E14C"
 	order_index: 0
 	quest_links: [ ]
 	quests: [
@@ -17,54 +17,254 @@
 			icon: {
 				id: "minecraft:oak_sapling"
 			}
-			id: "58C5E511FA95102B"
+			id: "5A601F6C53731DBC"
 			shape: "heart"
 			size: 2.0d
 			tasks: [{
-				id: "7535DD93AC43F284"
+				id: "506ADE202BF4D85C"
 				type: "checkmark"
 			}]
 			x: 0.0d
 			y: 0.0d
 		}
 		{
-			dependencies: ["58C5E511FA95102B"]
+			dependencies: ["5A601F6C53731DBC"]
 			icon: {
 				id: "ftbquests:book"
 			}
-			id: "6FBB9B957FC4AB09"
+			id: "228243B39D2941F7"
 			tasks: [{
-				id: "6B6F08ABB5B38285"
+				id: "09AB99B5133E3DD3"
 				type: "checkmark"
 			}]
 			x: 2.0d
 			y: 0.0d
 		}
 		{
-			dependencies: ["6FBB9B957FC4AB09"]
+			dependencies: ["228243B39D2941F7"]
 			icon: {
 				id: "minecraft:barrel"
 			}
-			id: "614FC15CB90122BE"
+			id: "0733F88982265DD6"
 			tasks: [{
-				id: "5AB2B995B4026AD8"
+				id: "077B5FAEA9ACE966"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["228243B39D2941F7"]
+			icon: {
+				id: "plushie_buddies:plushie_allay"
+			}
+			icon_scale: 2.0d
+			id: "0FBAFC4336DECF51"
+			shape: "octagon"
+			tasks: [{
+				id: "0EB24F5A37C3099D"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["228243B39D2941F7"]
+			icon: {
+				id: "minecraft:bricks"
+			}
+			id: "26E00CB34F09E17C"
+			shape: "octagon"
+			tasks: [{
+				id: "00641CA81B388CFB"
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["228243B39D2941F7"]
+			icon: {
+				id: "minecraft:spyglass"
+			}
+			id: "65B1E00C65E55504"
+			shape: "octagon"
+			tasks: [{
+				id: "498492700D515ECE"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["228243B39D2941F7"]
+			icon: {
+				id: "minecraft:chipped_anvil"
+			}
+			id: "60BB2B1A6B167FBD"
+			shape: "octagon"
+			tasks: [{
+				id: "12910CC93B8E138C"
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["228243B39D2941F7"]
+			icon: {
+				id: "minecraft:armor_stand"
+			}
+			id: "58992E8B56FECFFE"
+			tasks: [{
+				id: "6E914C11B5EA0661"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["58992E8B56FECFFE"]
+			icon: {
+				components: {
+					"minecraft:banner_patterns": [
+						{
+							color: "cyan"
+							pattern: {
+								asset_id: "minecraft:rhombus"
+								translation_key: "block.minecraft.banner.rhombus"
+							}
+						}
+						{
+							color: "light_gray"
+							pattern: {
+								asset_id: "minecraft:stripe_bottom"
+								translation_key: "block.minecraft.banner.stripe_bottom"
+							}
+						}
+						{
+							color: "gray"
+							pattern: {
+								asset_id: "minecraft:stripe_center"
+								translation_key: "block.minecraft.banner.stripe_center"
+							}
+						}
+						{
+							color: "light_gray"
+							pattern: {
+								asset_id: "minecraft:border"
+								translation_key: "block.minecraft.banner.border"
+							}
+						}
+						{
+							color: "black"
+							pattern: {
+								asset_id: "minecraft:stripe_middle"
+								translation_key: "block.minecraft.banner.stripe_middle"
+							}
+						}
+						{
+							color: "light_gray"
+							pattern: {
+								asset_id: "minecraft:half_horizontal"
+								translation_key: "block.minecraft.banner.half_horizontal"
+							}
+						}
+						{
+							color: "light_gray"
+							pattern: {
+								asset_id: "minecraft:circle"
+								translation_key: "block.minecraft.banner.circle"
+							}
+						}
+						{
+							color: "black"
+							pattern: {
+								asset_id: "minecraft:border"
+								translation_key: "block.minecraft.banner.border"
+							}
+						}
+					]
+					"minecraft:hide_additional_tooltip": { }
+					"minecraft:item_name": "{\"color\":\"gold\",\"translate\":\"block.minecraft.ominous_banner\"}"
+				}
+				id: "minecraft:white_banner"
+			}
+			id: "233A29F77EFE01B6"
+			tasks: [{
+				id: "7CE8B194A10D9E84"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["58992E8B56FECFFE"]
+			icon: {
+				id: "minecraft:axolotl_bucket"
+			}
+			id: "4F1B0FD5688DC1CD"
+			tasks: [{
+				id: "71F02EB340E6AD11"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["228243B39D2941F7"]
+			icon: {
+				id: "minecraft:wheat"
+			}
+			id: "703D99E23EBA4FBA"
+			shape: "octagon"
+			tasks: [{
+				id: "2B26279677D07FAC"
+				type: "checkmark"
+			}]
+			x: 4.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["228243B39D2941F7"]
+			icon: {
+				id: "minecraft:chest"
+			}
+			id: "56B1C33CD65D669A"
+			shape: "octagon"
+			tasks: [{
+				id: "2F8A9A6A985787C9"
+				type: "checkmark"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["228243B39D2941F7"]
+			icon: {
+				id: "minecraft:brewing_stand"
+			}
+			id: "0E339DC02A38C8D8"
+			shape: "octagon"
+			tasks: [{
+				id: "473EF22D9BE427F3"
 				type: "checkmark"
 			}]
 			x: 4.0d
 			y: 1.0d
 		}
 		{
-			dependencies: ["6FBB9B957FC4AB09"]
+			dependencies: ["58992E8B56FECFFE"]
 			icon: {
-				id: "minecraft:trident"
+				id: "simplehats:haticon"
 			}
-			id: "1BAB9E73BF88F737"
+			id: "36F746798AEC3235"
 			tasks: [{
-				id: "7D4FCE810B454120"
+				id: "6F5AE4084E317EF2"
 				type: "checkmark"
 			}]
-			x: 4.0d
-			y: -1.0d
+			x: 0.0d
+			y: -3.0d
 		}
 	]
 }

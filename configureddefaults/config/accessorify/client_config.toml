@@ -10,12 +10,12 @@ scrollableZoom = true
 rememberZoomLevel = true
 
 [infoOverlaySettings]
-position = "TOP_LEFT"
+position = "BOTTOM_LEFT"
 offsetX = 0
 offsetY = 0
 textBackground = true
-textBackgroundOpacity = 0.3
-textShadow = false
+textBackgroundOpacity = 0.50490195
+textShadow = true
 coloredSeason = true
 coloredWeather = true
 

@@ -10,6 +10,7 @@
 	drop_book_on_death: true
 	drop_loot_crates: false
 	emergency_items_cooldown: 300
+	fallback_locale: ""
 	grid_scale: 0.5d
 	hide_excluded_quests: false
 	lock_message: ""
@@ -21,5 +22,6 @@
 	pause_game: false
 	progression_mode: "linear"
 	show_lock_icons: false
+	verify_on_load: false
 	version: 13
 }

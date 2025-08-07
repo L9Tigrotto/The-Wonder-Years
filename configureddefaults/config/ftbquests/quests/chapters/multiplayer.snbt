@@ -1,5 +1,5 @@
 {
-	autofocus_id: "4F1BBE6F95E04055"
+	autofocus_id: "398A044F75163991"
 	default_hide_dependency_lines: false
 	default_min_width: 300
 	default_quest_shape: ""
@@ -7,63 +7,89 @@
 	group: ""
 	hide_quest_until_deps_complete: true
 	icon: {
-		id: "minecraft:campfire"
+		id: "plushie_buddies:plushie_allay"
 	}
-	id: "65ABE122EEB46C2C"
+	id: "76C74F28DEE91445"
 	order_index: 1
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["6FBB9B957FC4AB09"]
+			dependencies: ["0FBAFC4336DECF51"]
 			icon: {
-				id: "minecraft:player_head"
+				id: "minecraft:campfire"
 			}
-			id: "4F1BBE6F95E04055"
+			id: "398A044F75163991"
 			tasks: [{
-				id: "666A39C4DE7D9D31"
+				id: "7DA3AE6AAA2B6A1F"
 				type: "checkmark"
 			}]
 			x: 0.0d
 			y: 0.0d
 		}
 		{
-			dependencies: ["4F1BBE6F95E04055"]
+			dependencies: ["398A044F75163991"]
 			icon: {
-				id: "minecraft:bookshelf"
+				id: "mighty_mail:oak_mail_box"
 			}
-			id: "0CD182F95931DCD7"
+			id: "6AC3370EFF7C40CC"
 			tasks: [{
-				id: "6656326F98CE8BFD"
+				id: "761C9AD20E7E35B5"
 				type: "checkmark"
 			}]
 			x: 0.0d
-			y: -2.0d
+			y: -1.5d
 		}
 		{
-			dependencies: ["4F1BBE6F95E04055"]
-			icon: {
-				id: "minecraft:spectral_arrow"
-			}
-			id: "761B2EFE96F5E786"
-			tasks: [{
-				id: "18285CD72EBF9F8E"
-				type: "checkmark"
-			}]
-			x: 2.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["4F1BBE6F95E04055"]
+			dependencies: ["221BA73830D094BC"]
 			icon: {
 				id: "minecraft:shield"
 			}
-			id: "24FF0C108F1217CE"
+			id: "38B7C3F8F74183BE"
 			tasks: [{
-				id: "5CF6D64A0F6A1F00"
+				id: "170E3B5B3D66773A"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["398A044F75163991"]
+			icon: {
+				id: "minecraft:bookshelf"
+			}
+			id: "221BA73830D094BC"
+			tasks: [{
+				id: "61836ADD54F67E55"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["398A044F75163991"]
+			icon: {
+				id: "minecraft:saddle"
+			}
+			id: "14ADF7D360BE52CA"
+			tasks: [{
+				id: "1E8FA4C621305CB7"
 				type: "checkmark"
 			}]
 			x: 1.5d
-			y: -1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["398A044F75163991"]
+			icon: {
+				id: "minecraft:spectral_arrow"
+			}
+			id: "266B72EF34EE7A7F"
+			tasks: [{
+				id: "22FD9F1DCD3251C6"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: 1.0d
 		}
 	]
 }

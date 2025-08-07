@@ -1,6 +1,6 @@
 {
-  "config_version": "1.0.19",
-  "config_datetime": "2025-07-19_21-56-44",
+  "config_version": "1.0.20",
+  "config_datetime": "2025-08-05_07-44-40",
   "general": {
     "min_structure_distance_from_world_center": 0,
     "disable_all_structures": false,
@@ -8,6 +8,23 @@
     "global_spacing_and_separation_modifier": 1.2
   },
   "structures": [
+    {
+      "name": "minecraft:end_city",
+      "is_disabled": true,
+      "enable_flatness_check": false,
+      "flatness_check_distance": 0,
+      "flatness_check_threshold": 10,
+      "enable_biome_check": false,
+      "biome_check_distance": 0,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#is_river",
+        "#is_ocean",
+        "#is_beach"
+      ],
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
     {
       "name": "minecraft:mineshaft",
       "is_disabled": true,
@@ -148,7 +165,7 @@
       "blacklisted_biomes": []
     },
     {
-      "name": "awesomedungeonocean:ocean_cage",
+      "name": "minecraft:shipwreck",
       "is_disabled": true,
       "enable_flatness_check": false,
       "flatness_check_distance": 0,
@@ -157,13 +174,15 @@
       "biome_check_distance": 0,
       "biome_check_mode": "BLACKLIST",
       "biome_check_blacklisted_biomes": [
-        "#is_river"
+        "#is_river",
+        "#is_ocean",
+        "#is_beach"
       ],
       "whitelisted_biomes": [],
       "blacklisted_biomes": []
     },
     {
-      "name": "awesomedungeonocean:ocean_quad",
+      "name": "minecraft:shipwreck_beached",
       "is_disabled": true,
       "enable_flatness_check": false,
       "flatness_check_distance": 0,
@@ -172,82 +191,9 @@
       "biome_check_distance": 0,
       "biome_check_mode": "BLACKLIST",
       "biome_check_blacklisted_biomes": [
-        "#is_river"
-      ],
-      "whitelisted_biomes": [],
-      "blacklisted_biomes": []
-    },
-    {
-      "name": "awesomedungeonocean:ocean_ruin_pillager",
-      "is_disabled": true,
-      "enable_flatness_check": false,
-      "flatness_check_distance": 0,
-      "flatness_check_threshold": 10,
-      "enable_biome_check": false,
-      "biome_check_distance": 0,
-      "biome_check_mode": "BLACKLIST",
-      "biome_check_blacklisted_biomes": [
-        "#is_river"
-      ],
-      "whitelisted_biomes": [],
-      "blacklisted_biomes": []
-    },
-    {
-      "name": "awesomedungeonocean:ocean_ruin_vanilla_temple",
-      "is_disabled": true,
-      "enable_flatness_check": false,
-      "flatness_check_distance": 0,
-      "flatness_check_threshold": 10,
-      "enable_biome_check": false,
-      "biome_check_distance": 0,
-      "biome_check_mode": "BLACKLIST",
-      "biome_check_blacklisted_biomes": [
-        "#is_river"
-      ],
-      "whitelisted_biomes": [],
-      "blacklisted_biomes": []
-    },
-    {
-      "name": "awesomedungeonocean:ocean_temple_quad",
-      "is_disabled": true,
-      "enable_flatness_check": false,
-      "flatness_check_distance": 0,
-      "flatness_check_threshold": 10,
-      "enable_biome_check": false,
-      "biome_check_distance": 0,
-      "biome_check_mode": "BLACKLIST",
-      "biome_check_blacklisted_biomes": [
-        "#is_river"
-      ],
-      "whitelisted_biomes": [],
-      "blacklisted_biomes": []
-    },
-    {
-      "name": "awesomedungeonocean:ocean_the_column_temple",
-      "is_disabled": true,
-      "enable_flatness_check": false,
-      "flatness_check_distance": 0,
-      "flatness_check_threshold": 10,
-      "enable_biome_check": false,
-      "biome_check_distance": 0,
-      "biome_check_mode": "BLACKLIST",
-      "biome_check_blacklisted_biomes": [
-        "#is_river"
-      ],
-      "whitelisted_biomes": [],
-      "blacklisted_biomes": []
-    },
-    {
-      "name": "awesomedungeonocean:ocean_warn_temple",
-      "is_disabled": true,
-      "enable_flatness_check": false,
-      "flatness_check_distance": 0,
-      "flatness_check_threshold": 10,
-      "enable_biome_check": false,
-      "biome_check_distance": 0,
-      "biome_check_mode": "BLACKLIST",
-      "biome_check_blacklisted_biomes": [
-        "#is_river"
+        "#is_river",
+        "#is_ocean",
+        "#is_beach"
       ],
       "whitelisted_biomes": [],
       "blacklisted_biomes": []
@@ -1594,6 +1540,125 @@
       "blacklisted_biomes": []
     },
     {
+      "name": "repurposed_structures:witch_hut_birch",
+      "is_disabled": true,
+      "enable_flatness_check": false,
+      "flatness_check_distance": 0,
+      "flatness_check_threshold": 10,
+      "enable_biome_check": false,
+      "biome_check_distance": 0,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#is_river",
+        "#is_ocean",
+        "#is_beach"
+      ],
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "repurposed_structures:witch_hut_dark_forest",
+      "is_disabled": true,
+      "enable_flatness_check": false,
+      "flatness_check_distance": 0,
+      "flatness_check_threshold": 10,
+      "enable_biome_check": false,
+      "biome_check_distance": 0,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#is_river",
+        "#is_ocean",
+        "#is_beach"
+      ],
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "repurposed_structures:witch_hut_giant_tree_taiga",
+      "is_disabled": true,
+      "enable_flatness_check": false,
+      "flatness_check_distance": 0,
+      "flatness_check_threshold": 10,
+      "enable_biome_check": false,
+      "biome_check_distance": 0,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#is_river",
+        "#is_ocean",
+        "#is_beach"
+      ],
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "repurposed_structures:witch_hut_mangrove",
+      "is_disabled": true,
+      "enable_flatness_check": false,
+      "flatness_check_distance": 0,
+      "flatness_check_threshold": 10,
+      "enable_biome_check": false,
+      "biome_check_distance": 0,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#is_river",
+        "#is_ocean",
+        "#is_beach"
+      ],
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "repurposed_structures:witch_hut_oak",
+      "is_disabled": true,
+      "enable_flatness_check": false,
+      "flatness_check_distance": 0,
+      "flatness_check_threshold": 10,
+      "enable_biome_check": false,
+      "biome_check_distance": 0,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#is_river",
+        "#is_ocean",
+        "#is_beach"
+      ],
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "repurposed_structures:witch_hut_taiga",
+      "is_disabled": true,
+      "enable_flatness_check": false,
+      "flatness_check_distance": 0,
+      "flatness_check_threshold": 10,
+      "enable_biome_check": false,
+      "biome_check_distance": 0,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#is_river",
+        "#is_ocean",
+        "#is_beach"
+      ],
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "terralith:igloo",
+      "is_disabled": true,
+      "enable_flatness_check": false,
+      "flatness_check_distance": 16,
+      "flatness_check_threshold": 10,
+      "enable_biome_check": false,
+      "biome_check_distance": 16,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#is_river",
+        "#is_ocean",
+        "#is_beach"
+      ],
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
       "name": "terralith:mage_tower_spring",
       "is_disabled": false,
       "enable_flatness_check": true,
@@ -1821,12 +1886,44 @@
   ],
   "structure_sets": [
     {
+      "name": "betterfortresses:fortress",
+      "salt": 784827271,
+      "frequency": 1.0,
+      "override_global_spacing_and_separation_modifier": true,
+      "spacing": 51,
+      "separation": 30
+    },
+    {
+      "name": "betteroceanmonuments:ocean_monument",
+      "salt": 784827271,
+      "frequency": 1.0,
+      "override_global_spacing_and_separation_modifier": true,
+      "spacing": 69,
+      "separation": 45
+    },
+    {
+      "name": "incendium:greater_structures",
+      "salt": 69420,
+      "frequency": 1.0,
+      "override_global_spacing_and_separation_modifier": true,
+      "spacing": 81,
+      "separation": 51
+    },
+    {
       "name": "minecraft:buried_treasures",
       "salt": 1,
       "frequency": 0.01,
       "override_global_spacing_and_separation_modifier": false,
       "spacing": 1,
       "separation": 0
+    },
+    {
+      "name": "minecraft:illager_manor",
+      "salt": 10387319,
+      "frequency": 1.0,
+      "override_global_spacing_and_separation_modifier": false,
+      "spacing": 80,
+      "separation": 37
     },
     {
       "name": "minecraft:mineshafts",
@@ -1837,6 +1934,14 @@
       "separation": 0
     },
     {
+      "name": "minecraft:nether_complexes",
+      "salt": 30084232,
+      "frequency": 1.0,
+      "override_global_spacing_and_separation_modifier": false,
+      "spacing": 35,
+      "separation": 28
+    },
+    {
       "name": "minecraft:strongholds",
       "salt": 1,
       "frequency": 1.0,
@@ -1845,12 +1950,52 @@
       "separation": 0
     },
     {
+      "name": "minecraft:swamp_huts",
+      "salt": 14357620,
+      "frequency": 1.0,
+      "override_global_spacing_and_separation_modifier": false,
+      "spacing": 32,
+      "separation": 28
+    },
+    {
+      "name": "minecraft:trial_chambers",
+      "salt": 94251327,
+      "frequency": 1.0,
+      "override_global_spacing_and_separation_modifier": true,
+      "spacing": 34,
+      "separation": 28
+    },
+    {
+      "name": "minecraft:woodland_mansions",
+      "salt": 10387319,
+      "frequency": 1.0,
+      "override_global_spacing_and_separation_modifier": true,
+      "spacing": 80,
+      "separation": 41
+    },
+    {
       "name": "nova_structures:end_castle",
       "salt": 1,
       "frequency": 1.0,
       "override_global_spacing_and_separation_modifier": false,
       "spacing": 0,
       "separation": 0
+    },
+    {
+      "name": "nova_structures:end_ship",
+      "salt": 79584390,
+      "frequency": 0.25,
+      "override_global_spacing_and_separation_modifier": true,
+      "spacing": 59,
+      "separation": 30
+    },
+    {
+      "name": "repurposed_structures:shipwrecks_nether",
+      "salt": 1224747205,
+      "frequency": 1.0,
+      "override_global_spacing_and_separation_modifier": true,
+      "spacing": 44,
+      "separation": 31
     }
   ]
 }
