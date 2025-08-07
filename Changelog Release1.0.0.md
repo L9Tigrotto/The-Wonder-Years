@@ -2,10 +2,9 @@
 
 ## 📋 General Updates
 
-*List administrative changes, modpack-wide modifications, and other general updates. Remove this section if no general changes were made.*
+*List administrative changes, modpack-wide modifications, and other general updates.*
 
-- Updating modpack description and documentation.
-- Disabling resource-intensive mods by default for performance.
+- This is the first release version of the pack. I believe it is stable and reflects how I envisioned the entire modpack, so there are no plans to make breaking changes (changes that would require you to create a new world). If a disruptive change does occur, the major version number will be increased (i.e., from 1.x.x to 2.x.x) and a disclaimer will appear in the changelog.
 
 ## ⚙️ Settings Changed
 
