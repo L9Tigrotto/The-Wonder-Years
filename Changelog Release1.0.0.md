@@ -19,14 +19,19 @@
 
 - Increased dragon difficulty and health.
 
+**FTB Quests:**
+
+- Wrote some checkmark title previously missed.
+
 ---
 
 ## ❌ Mods Removed
 
 *List all mods that were removed with reasons.*
 
-- **Ender Dragon Fight Remastered**: Not compatible with Savage Ender Dragon (HP dont scale based on player count)
-- **True Ending ~ Ender Dragon Overhaul**: Not compatible with Savage Ender Dragon (HP dont scale based on player count)
+- **Ender Dragon Fight Remastered**: Not compatible with Savage Ender Dragon (HP dont scale based on player count).
+- **True Ending ~ Ender Dragon Overhaul**: Not compatible with Savage Ender Dragon (HP dont scale based on player count).
+- **Quest Icons**: Not used anymore.
 
 ---
 

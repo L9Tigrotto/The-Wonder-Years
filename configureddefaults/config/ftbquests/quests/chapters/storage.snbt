@@ -217,7 +217,7 @@
 		{
 			dependencies: ["66930F6C2011EC05"]
 			icon: {
-				id: "questsicons:end_lock"
+				id: "minecraft:trial_key"
 			}
 			id: "6117AF2AC24E895F"
 			tasks: [{
