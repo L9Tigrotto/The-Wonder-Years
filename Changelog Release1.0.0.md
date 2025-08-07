@@ -22,6 +22,10 @@
 
 - Wrote some checkmark title previously missed.
 
+**Immersive Melodies:**
+
+- Lowered the mob spawn rate with instruments.
+
 ---
 
 ## ❌ Mods Removed

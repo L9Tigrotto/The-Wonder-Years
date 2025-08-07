@@ -5,12 +5,12 @@
   "instrumentVolumeFactor": 1.0,
   "perceivedLoudnessAdjustmentFactor": 0.5,
   "mobInstrumentFactors": {
-    "minecraft:zombie": 0.15,
-    "minecraft:husk": 0.15,
-    "minecraft:piglin": 0.15,
-    "minecraft:zombified_piglin": 0.15,
+    "minecraft:zombie": 0.07,
+    "minecraft:husk": 0.07,
+    "minecraft:piglin": 0.07,
+    "minecraft:zombified_piglin": 0.07,
     "minecraft:wither_skeleton": 0.01,
-    "minecraft:skeleton": 0.15,
+    "minecraft:skeleton": 0.07,
     "minecraft:pillager": 0.01,
     "minecraft:piglin_brute": 0.01
   },
