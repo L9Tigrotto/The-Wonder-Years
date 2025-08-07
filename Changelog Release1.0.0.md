@@ -32,21 +32,26 @@
 - **Ender Dragon Fight Remastered**: Not compatible with Savage Ender Dragon (HP dont scale based on player count).
 - **True Ending ~ Ender Dragon Overhaul**: Not compatible with Savage Ender Dragon (HP dont scale based on player count).
 - **Quest Icons**: Not used anymore.
+- **Very Many Players**: Not needed.
+- **Polymer**: Not needed.
+- **Particle Core**: Not needed.
+- **Library Ferret**: Not needed.
+- **Almanac Lib**: Not needed.
+- **No Mob Farms**: Changed with Enhanced Mob Spawners.
 
 ---
 
 ## ➕ Mods Added
 
-*List all newly added mods with reasons. Remove this section if no mods were added.*
+*List all newly added mods with reasons.*
 
-- **Mod Name 1**: Adds quality of life improvements for inventory management
-- **Mod Name 2**: Enhances world generation with new biomes
+- **Enhanced Mob Spawners**: Used to limit the maximum spawned mobs from a spawner to avoid farms.
 
 ---
 
 ## ⬆️ Mods Updated
 
-*List all mods that were updated with their version changes. Remove this section if no mods were updated.*
+*List all mods that were updated with their version changes.*
 
 - **Subtle Effects**: `v1.12.0` → `v1.12.1`
 - **Storage Drawers**: `v13.8.12` → `v13`
