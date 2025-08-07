@@ -13,16 +13,20 @@
 
 **Sound Physics Remastered:**
 
-- Increased volume range
+- Increased volume range.
+
+**Savage Ender Dragon:**
+
+- Increased dragon difficulty and health.
 
 ---
 
 ## ❌ Mods Removed
 
-*List all mods that were removed with reasons. Remove this section if no mods were removed.*
+*List all mods that were removed with reasons.*
 
-- **Mod Name 1**: Incompatible with new Forge version
-- **Mod Name 2**: Replaced by better alternative
+- **Ender Dragon Fight Remastered**: Not compatible with Savage Ender Dragon (HP dont scale based on player count)
+- **True Ending ~ Ender Dragon Overhaul**: Not compatible with Savage Ender Dragon (HP dont scale based on player count)
 
 ---
 
