@@ -64,3 +64,5 @@
 - **Wavey Capes**: `v1.6.1` → `v1.6.2`
 - **Structorify**: `v1.0.20` → `v1.0.21`
 - **Ambient Sounds**: `v6.1.12` → `v6.2.0`
+- **Fabric API**: `v0.116.4` → `v0.116.5`
+- **Extreme Sound Muffler**: `v3.49.2` → `v3.50`
