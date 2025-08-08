@@ -52,6 +52,7 @@
 *List all newly added mods with reasons.*
 
 - **Enhanced Mob Spawners**: Used to limit the maximum spawned mobs from a spawner to avoid farms.
+- **Any Size Portals**: Lets you create Nether portals of any size and shape.
 
 ---
 
