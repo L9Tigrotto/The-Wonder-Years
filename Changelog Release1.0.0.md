@@ -6,6 +6,8 @@
 
 - This is the first release version of the pack. I believe it is stable and reflects how I envisioned the entire modpack, so there are no plans to make breaking changes (changes that would require you to create a new world). If a disruptive change does occur, the major version number will be increased (i.e., from 1.x.x to 2.x.x) and a disclaimer will appear in the changelog.
 
+- Added first iteration of villager trades.
+
 ## ⚙️ Settings Changed
 
 *List all configuration changes organized by mod.*
@@ -41,6 +43,7 @@
 - **Library Ferret**: Not needed.
 - **Almanac Lib**: Not needed.
 - **No Mob Farms**: Changed with Enhanced Mob Spawners.
+- **Enough Libarian [datapack]**: Re enabled librarian profession.
 
 ---
 
@@ -58,3 +61,6 @@
 
 - **Subtle Effects**: `v1.12.0` → `v1.12.1`
 - **Storage Drawers**: `v13.8.12` → `v13`
+- **Wavey Capes**: `v1.6.1` → `v1.6.2`
+- **Structorify**: `v1.0.20` → `v1.0.21`
+- **Ambient Sounds**: `v6.1.12` → `v6.2.0`
