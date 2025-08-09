@@ -46,6 +46,10 @@
 
 - Disabled dropped items particles.
 
+**Horse Expert:**
+
+- Enable stats view of untamed horses.
+
 ---
 
 ## ❌ Mods Removed
