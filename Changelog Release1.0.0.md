@@ -8,6 +8,10 @@
 
 - Added first iteration of villager trades.
 
+- Added Rainy Swamp Background resourcepack.
+
+- Added Loading Backgrounds resoucepack.
+
 ## ⚙️ Settings Changed
 
 *List all configuration changes organized by mod.*
@@ -53,6 +57,7 @@
 
 - **Enhanced Mob Spawners**: Used to limit the maximum spawned mobs from a spawner to avoid farms.
 - **Any Size Portals**: Lets you create Nether portals of any size and shape.
+- **Loading Backgrounds**: Allow to customize the background of the loading screens of the Minecraft games.
 
 ---
 
