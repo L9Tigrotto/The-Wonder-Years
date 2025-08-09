@@ -12,6 +12,8 @@
 
 - Added Loading Backgrounds resoucepack.
 
+- decreased diamond tier in overwrold loot.
+
 ## ⚙️ Settings Changed
 
 *List all configuration changes organized by mod.*
@@ -31,6 +33,18 @@
 **Immersive Melodies:**
 
 - Lowered the mob spawn rate with instruments.
+
+**Trofers:**
+
+- Removed drop from mob kill.
+
+**Artifacts:**
+
+- Removed drop from mob kill.
+
+**Subtle Effects:**
+
+- Disabled dropped items particles.
 
 ---
 

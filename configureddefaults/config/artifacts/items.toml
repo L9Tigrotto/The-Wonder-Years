@@ -1,7 +1,7 @@
 [anglers_hat]
 	#Whether this item can be found in structures or drop from entities
 	#Allowed Values: true, false
-	generateAsLoot = true
+	generateAsLoot = false
 	#The amount of extra levels of luck of the sea that are granted by the Angler's Hat
 	#Range: 0 ~ 100
 	luckOfTheSeaLevelBonus = 1
