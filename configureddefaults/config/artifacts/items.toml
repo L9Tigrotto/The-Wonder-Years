@@ -15,7 +15,7 @@
 	enabled = true
 	#Whether this item can be found in structures or drop from entities
 	#Allowed Values: true, false
-	generateAsLoot = true
+	generateAsLoot = false
 	#The maximum duration in seconds negative mob effects can last when wearing the Antidote Vessel
 	#Range: 0 ~ 72000
 	maxEffectDuration = 5
@@ -26,7 +26,7 @@
 	enabled = true
 	#Whether this item can be found in structures or drop from entities
 	#Allowed Values: true, false
-	generateAsLoot = true
+	generateAsLoot = false
 
 [bunny_hoppers]
 	#How much the Bunny Hoppers reduce or increase fall damage
@@ -36,7 +36,7 @@
 	fallDamageMultiplier = 0.0
 	#Whether this item can be found in structures or drop from entities
 	#Allowed Values: true, false
-	generateAsLoot = true
+	generateAsLoot = false
 	#The amount of extra jump strength the Bunny Hoppers apply to players
 	#Range: -Infinity ~ Infinity
 	jumpStrengthBonus = 0.4
@@ -50,7 +50,7 @@
 [charm_of_shrinking]
 	#Whether this item can be found in structures or drop from entities
 	#Allowed Values: true, false
-	generateAsLoot = true
+	generateAsLoot = false
 	#How much the Charm of Shrinking decreases or increases the player's Scale
 	#Values between -1 and 0 reduce the player's scale
 	#Values above 0 increase the player's scale
@@ -63,7 +63,7 @@
 	enabled = true
 	#Whether this item can be found in structures or drop from entities
 	#Allowed Values: true, false
-	generateAsLoot = true
+	generateAsLoot = false
 	#How much longer players wearing the Charm of Sinking can stay underwater
 	#Range: -Infinity ~ Infinity
 	oxygenBonus = 1.5
@@ -80,7 +80,7 @@
 	cooldown = 0
 	#Whether this item can be found in structures or drop from entities
 	#Allowed Values: true, false
-	generateAsLoot = true
+	generateAsLoot = false
 	#The amount of health points that are restored after the Chorus Totem activates
 	#Range: > 0
 	healthRestored = 10
@@ -97,7 +97,7 @@
 	fallDamageMultiplier = 0.0
 	#Whether this item can be found in structures or drop from entities
 	#Allowed Values: true, false
-	generateAsLoot = true
+	generateAsLoot = false
 	#The amount of extra safe fall distance in blocks that is granted by the Cloud in a Bottle
 	#Range: -Infinity ~ Infinity
 	safeFallDistanceBonus = 3.0
@@ -111,7 +111,7 @@
 [cowboy_hat]
 	#Whether this item can be found in structures or drop from entities
 	#Allowed Values: true, false
-	generateAsLoot = true
+	generateAsLoot = false
 	#How much the Cowboy Hat increases the speed of ridden mounts
 	#Range: -Infinity ~ Infinity
 	mountSpeedBonus = 0.4
@@ -125,12 +125,12 @@
 	cooldown = 0
 	#Whether this item can be found in structures or drop from entities
 	#Allowed Values: true, false
-	generateAsLoot = true
+	generateAsLoot = false
 
 [crystal_heart]
 	#Whether this item can be found in structures or drop from entities
 	#Allowed Values: true, false
-	generateAsLoot = true
+	generateAsLoot = false
 	#The amount of extra health points that are granted by the Crystal Heart
 	#Range: -Infinity ~ Infinity
 	healthBonus = 10.0
@@ -141,7 +141,7 @@
 	blockBreakSpeedBonus = 0.3
 	#Whether this item can be found in structures or drop from entities
 	#Allowed Values: true, false
-	generateAsLoot = true
+	generateAsLoot = false
 	#The tool tier that the Digging Claws increase the wearer's mining level to
 	#Allowed Values: none, wood, stone, iron, diamond, netherite
 	toolTier = "stone"
@@ -166,7 +166,7 @@
 	enabled = true
 	#Whether this item can be found in structures or drop from entities
 	#Allowed Values: true, false
-	generateAsLoot = true
+	generateAsLoot = false
 
 [feral_claws]
 	#How much the Feral Claws increase the wearer's attack speed
@@ -182,7 +182,7 @@
 	fireDuration = 8.0
 	#Whether this item can be found in structures or drop from entities
 	#Allowed Values: true, false
-	generateAsLoot = true
+	generateAsLoot = false
 
 [flame_pendant]
 	#The duration in seconds the Flame Pendant goes on cooldown for after setting an entity on fire
@@ -193,7 +193,7 @@
 	fireDuration = 10
 	#Whether this item can be found in structures or drop from entities
 	#Allowed Values: true, false
-	generateAsLoot = true
+	generateAsLoot = false
 	#Whether the Flame Pendant grants Fire Resistance after igniting an entity
 	#Allowed Values: true, false
 	grantFireResistance = true
@@ -204,7 +204,7 @@
 [flippers]
 	#Whether this item can be found in structures or drop from entities
 	#Allowed Values: true, false
-	generateAsLoot = true
+	generateAsLoot = false
 	#How much the Flippers increase the wearer's swim speed
 	#Range: -Infinity ~ Infinity
 	swimSpeedBonus = 0.7
@@ -215,7 +215,7 @@
 	entityExperienceBonus = 0.5
 	#Whether this item can be found in structures or drop from entities
 	#Allowed Values: true, false
-	generateAsLoot = true
+	generateAsLoot = false
 
 [helium_flamingo]
 	#The duration in seconds the Helium Flamingo goes on cooldown for when stopping flight
@@ -226,7 +226,7 @@
 	flightDuration = 8
 	#Whether this item can be found in structures or drop from entities
 	#Allowed Values: true, false
-	generateAsLoot = true
+	generateAsLoot = false
 	#The amount of time in seconds it takes for the Helium Flamingo to recharge
 	#Range: 0 ~ 72000
 	rechargeDuration = 15
@@ -234,7 +234,7 @@
 [kitty_slippers]
 	#Whether this item can be found in structures or drop from entities
 	#Allowed Values: true, false
-	generateAsLoot = true
+	generateAsLoot = false
 	#Whether the Kitty Slippers change the player's hurt sounds
 	#Allowed Values: true, false
 	modifyHurtSounds = true
@@ -251,7 +251,7 @@
 	fortuneLevelBonus = 1
 	#Whether this item can be found in structures or drop from entities
 	#Allowed Values: true, false
-	generateAsLoot = true
+	generateAsLoot = false
 
 [night_vision_goggles]
 	#Whether this item can be found in structures or drop from entities
@@ -270,7 +270,7 @@
 	eatingSpeedBonus = 0.5
 	#Whether this item can be found in structures or drop from entities
 	#Allowed Values: true, false
-	generateAsLoot = true
+	generateAsLoot = false
 
 [obsidian_skull]
 	#The amount of time in seconds the Obsidian Skull goes on cooldown for after taking fire damage
@@ -281,12 +281,12 @@
 	fireResistanceDuration = 30
 	#Whether this item can be found in structures or drop from entities
 	#Allowed Values: true, false
-	generateAsLoot = true
+	generateAsLoot = false
 
 [onion_ring]
 	#Whether this item can be found in structures or drop from entities
 	#Allowed Values: true, false
-	generateAsLoot = true
+	generateAsLoot = false
 	#The duration of haste that is applied per food point eaten while wearing the Onion Ring
 	#Range: 0 ~ 72000
 	hasteDurationPerFoodPoint = 6
@@ -300,7 +300,7 @@
 	cooldown = 0
 	#Whether this item can be found in structures or drop from entities
 	#Allowed Values: true, false
-	generateAsLoot = true
+	generateAsLoot = false
 	#The duration in seconds of the speed effect that is applied when taking damage while wearing the Panic Necklace
 	#Range: 0 ~ 72000
 	speedDuration = 8
@@ -325,7 +325,7 @@
 	eatingSpeedBonus = 0.5
 	#Whether this item can be found in structures or drop from entities
 	#Allowed Values: true, false
-	generateAsLoot = true
+	generateAsLoot = false
 
 [pocket_piston]
 	#The amount of extra knockback that is granted by the Pocket Piston
@@ -333,7 +333,7 @@
 	attackKnockbackBonus = 0.75
 	#Whether this item can be found in structures or drop from entities
 	#Allowed Values: true, false
-	generateAsLoot = true
+	generateAsLoot = false
 
 [power_glove]
 	#The amount of extra damage that is dealt by melee attacks from players wearing the Power Glove
@@ -341,7 +341,7 @@
 	attackDamageBonus = 4.0
 	#Whether this item can be found in structures or drop from entities
 	#Allowed Values: true, false
-	generateAsLoot = true
+	generateAsLoot = false
 
 [rooted_boots]
 	#Whether the Rooted Boots replenish hunger when standing on grass
@@ -349,7 +349,7 @@
 	enabled = true
 	#Whether this item can be found in structures or drop from entities
 	#Allowed Values: true, false
-	generateAsLoot = true
+	generateAsLoot = false
 	#Whether the Rooted Boots apply a bone meal effect after eating food
 	#Allowed Values: true, false
 	growPlantsAfterEating = true
@@ -374,7 +374,7 @@
 	enabled = true
 	#Whether this item can be found in structures or drop from entities
 	#Allowed Values: true, false
-	generateAsLoot = true
+	generateAsLoot = false
 	#Whether the Scarf of Invisibility is hidden when the wearer is invisible
 	#Allowed Values: true, false
 	hideWhenInvisible = false
@@ -388,7 +388,7 @@
 	cooldown = 0
 	#Whether this item can be found in structures or drop from entities
 	#Allowed Values: true, false
-	generateAsLoot = true
+	generateAsLoot = false
 	#The probability that the Shock Pendant strikes an attacking entity with lightning
 	#Range: 0.0 ~ 1.0
 	strikeChance = 0.25
@@ -396,7 +396,7 @@
 [snorkel]
 	#Whether this item can be found in structures or drop from entities
 	#Allowed Values: true, false
-	generateAsLoot = true
+	generateAsLoot = false
 	#Whether the Snorkel's water breathing effect depletes when underwater
 	#Allowed Values: true, false
 	isInfinite = false
@@ -410,7 +410,7 @@
 	allowWalkingOnPowderedSnow = true
 	#Whether this item can be found in structures or drop from entities
 	#Allowed Values: true, false
-	generateAsLoot = true
+	generateAsLoot = false
 	#How much the Snowshoes increase the wearer's movement speed on snow blocks
 	#Range: -Infinity ~ Infinity
 	movementSpeedOnSnowBonus = 0.3
@@ -418,7 +418,7 @@
 [steadfast_spikes]
 	#Whether this item can be found in structures or drop from entities
 	#Allowed Values: true, false
-	generateAsLoot = true
+	generateAsLoot = false
 	#How much knockback resistance is granted by the Steadfast Spikes
 	#Range: -Infinity ~ Infinity
 	knockbackResistance = 1.0
@@ -435,12 +435,12 @@
 	enabled = true
 	#Whether this item can be found in structures or drop from entities
 	#Allowed Values: true, false
-	generateAsLoot = true
+	generateAsLoot = false
 
 [superstitious_hat]
 	#Whether this item can be found in structures or drop from entities
 	#Allowed Values: true, false
-	generateAsLoot = true
+	generateAsLoot = false
 	#The amount of extra levels of Looting that are granted by the Superstitious Hat
 	#Range: 0 ~ 100
 	lootingLevelBonus = 1
@@ -451,7 +451,7 @@
 	cooldown = 0
 	#Whether this item can be found in structures or drop from entities
 	#Allowed Values: true, false
-	generateAsLoot = true
+	generateAsLoot = false
 	#The minimum amount of damage that is dealt when the Thorn Pendant activates
 	#Range: > 0
 	maxDamage = 6
@@ -465,7 +465,7 @@
 [umbrella]
 	#Whether this item can be found in structures or drop from entities
 	#Allowed Values: true, false
-	generateAsLoot = true
+	generateAsLoot = false
 	#Whether the Umbrella slows the player's falling speed when held
 	#Allowed Values: true, false
 	isGlider = true
@@ -476,7 +476,7 @@
 [universal_attractor]
 	#Whether this item can be found in structures or drop from entities
 	#Allowed Values: true, false
-	generateAsLoot = true
+	generateAsLoot = false
 	#The level of the magnetism effect that is applied by the Universal Attractor
 	#Range: 0 ~ 256
 	magnetismLevel = 5
@@ -498,7 +498,7 @@
 [villager_hat]
 	#Whether this item can be found in structures or drop from entities
 	#Allowed Values: true, false
-	generateAsLoot = true
+	generateAsLoot = false
 	#The amount of extra reputation that is granted by the Villager Hat when trading with villagers
 	#Range: -Infinity ~ Infinity
 	reputationBonus = 75.0
@@ -512,7 +512,7 @@
 	enabled = true
 	#Whether this item can be found in structures or drop from entities
 	#Allowed Values: true, false
-	generateAsLoot = true
+	generateAsLoot = false
 	#How many hunger points it costs to throw an Ender Pearl using the Warp Drive
 	#Range: > 0
 	hungerCost = 2
@@ -526,7 +526,7 @@
 	fartChance = 0.12
 	#Whether this item can be found in structures or drop from entities
 	#Allowed Values: true, false
-	generateAsLoot = true
+	generateAsLoot = false
 
 [withered_bracelet]
 	#The duration the Withered Bracelet goes on cooldown for after inflicting wither on an entity
