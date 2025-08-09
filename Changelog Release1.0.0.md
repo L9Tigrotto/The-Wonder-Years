@@ -14,6 +14,10 @@
 
 - decreased diamond tier in overwrold loot.
 
+- Reduced the distance between structures.
+
+- Incresed day/night length.
+
 ## ⚙️ Settings Changed
 
 *List all configuration changes organized by mod.*
