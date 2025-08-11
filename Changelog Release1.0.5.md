@@ -2,10 +2,11 @@
 
 ## 📋 General Updates
 
-*List administrative changes, modpack-wide modifications, and other general updates. Remove this section if no general changes were made.*
+*List administrative changes, modpack-wide modifications, and other general updates.*
 
-- Updating modpack description and documentation.
-- Disabling resource-intensive mods by default for performance.
+- Modified storage quests to match the new drawer upgrade tier.
+- Modified some quest descriptions the be more descriptive.
+- Correct titles styling.
 
 ## ⚙️ Settings Changed
 
@@ -15,10 +16,6 @@
 
 - Disabled default artifact spawn (lootchests are custom).
 - Disabled campsite spawn.
-
-**Mod Name 2:**
-
-- Enabled advanced tooltip features
 
 ---
 
@@ -42,7 +39,7 @@
 
 ## ⬆️ Mods Updated
 
-*List all mods that were updated with their version changes. Remove this section if no mods were updated.*
+*List all mods that were updated with their version changes.*
 
-- **Mod Name 1**: `v1.2.3` → `v1.3.0`
-- **Mod Name 2**: `v2.1.0` → `v2.1.5`
+- **Artifacts**: `v13.0.6` → `v13.0.7`
+- **Storage Drawers**: `v13.8.13` → `v13.9.0`
