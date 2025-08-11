@@ -1,4 +1,4 @@
-# The Wonder Years Changelog Version X.X.X
+# The Wonder Years Changelog Version 1.0.5
 
 ## 📋 General Updates
 
@@ -7,6 +7,7 @@
 - Modified storage quests to match the new drawer upgrade tier.
 - Modified some quest descriptions the be more descriptive.
 - Correct titles styling.
+- Improved performance stability.
 
 ## ⚙️ Settings Changed
 
@@ -21,19 +22,11 @@
 
 ## ❌ Mods Removed
 
-*List all mods that were removed with reasons. Remove this section if no mods were removed.*
+*List all mods that were removed with reasons.*
 
-- **Mod Name 1**: Incompatible with new Forge version
-- **Mod Name 2**: Replaced by better alternative
-
----
-
-## ➕ Mods Added
-
-*List all newly added mods with reasons. Remove this section if no mods were added.*
-
-- **Mod Name 1**: Adds quality of life improvements for inventory management
-- **Mod Name 2**: Enhances world generation with new biomes
+- **Iris Shader**: Removed due to performance issues.
+- **Wavey Capes**: Removed due to performance issues.
+- **Elytra Physics**: Removed due to performance issues.
 
 ---
 
