@@ -34,4 +34,4 @@ low_value_color = "RED"
 medium_value_color = "GOLD"
 #Must the mount be tamed for any statistics to show.
 #Default Value: true
-must_be_tamed = true
+must_be_tamed = false
