@@ -9,11 +9,12 @@
 
 ## ⚙️ Settings Changed
 
-*List all configuration changes organized by mod. Remove this section if no settings were changed.*
+*List all configuration changes organized by mod.*
 
-**Mod Name 1:**
+**Artifacts:**
 
-- Increased spawn rate of custom ores
+- Disabled default artifact spawn (lootchests are custom).
+- Disabled campsite spawn.
 
 **Mod Name 2:**
 
