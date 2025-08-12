@@ -336,7 +336,7 @@
 			y: -4.5d
 		}
 		{
-			dependencies: ["3E6A47A36374C03E"]
+			dependencies: ["49865949EC26C08D"]
 			id: "6DEFCA02478F4A7D"
 			tasks: [{
 				consume_items: false
@@ -344,8 +344,8 @@
 				item: { count: 1, id: "storagedrawers:iron_storage_upgrade" }
 				type: "item"
 			}]
-			x: 5.0d
-			y: -5.5d
+			x: 4.0d
+			y: -6.0d
 		}
 		{
 			dependencies: ["6DEFCA02478F4A7D"]
@@ -356,11 +356,11 @@
 				item: { count: 1, id: "storagedrawers:gold_storage_upgrade" }
 				type: "item"
 			}]
-			x: 4.0d
-			y: -6.0d
+			x: 5.0d
+			y: -6.5d
 		}
 		{
-			dependencies: ["43875715BA6116F0"]
+			dependencies: ["5A8F54378F56CE51"]
 			id: "112D3149BEC45F84"
 			tasks: [{
 				consume_items: false
@@ -369,10 +369,10 @@
 				type: "item"
 			}]
 			x: 5.0d
-			y: -6.5d
+			y: -7.5d
 		}
 		{
-			dependencies: ["112D3149BEC45F84"]
+			dependencies: ["43875715BA6116F0"]
 			id: "5A8F54378F56CE51"
 			tasks: [{
 				consume_items: false
@@ -442,6 +442,30 @@
 			}]
 			x: 5.5d
 			y: 0.0d
+		}
+		{
+			dependencies: ["3E6A47A36374C03E"]
+			id: "49865949EC26C08D"
+			tasks: [{
+				consume_items: false
+				id: "529CA311785B3212"
+				item: { count: 1, id: "storagedrawers:copper_storage_upgrade" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["112D3149BEC45F84"]
+			id: "2C9DC19B969931DE"
+			tasks: [{
+				consume_items: false
+				id: "100A4F9F73FDFFD7"
+				item: { count: 1, id: "storagedrawers:netherite_storage_upgrade" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: -8.0d
 		}
 	]
 }
