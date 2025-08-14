@@ -13,12 +13,16 @@
 *List administrative changes, modpack-wide modifications, and other general updates.*
 
 - Fixed error when sending a message on servers.
-- Doubled weather clear time (1h).
 - Lowered the instruments volume.
 
 ## ⚙️ Settings Changed
 
 *List all configuration changes organized by mod. Remove this section if no settings were changed.*
+
+**Weather Settings:**
+
+- Increased weather clear time (36min for rain and 1h for thunderstorm).
+- Updated bed related messages.
 
 **Better Days:**
 

@@ -16,7 +16,7 @@
           "command": "weather rain",
           "weight": 20,
           "duration": 300,
-          "clearDuration": 3600
+          "clearDuration": 2160
         },
         "thunder": {
           "command": "weather thunder",
