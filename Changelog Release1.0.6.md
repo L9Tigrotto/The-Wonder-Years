@@ -34,10 +34,9 @@
 
 ## ❌ Mods Removed
 
-*List all mods that were removed with reasons. Remove this section if no mods were removed.*
+*List all mods that were removed with reasons.*
 
-- **Mod Name 1**: Incompatible with new Forge version
-- **Mod Name 2**: Replaced by better alternative
+- **Trinkets Compat Layer For Accessories**: Replaced with the newer version (Accessories Compatibility Layer).
 
 ---
 
@@ -46,6 +45,10 @@
 *List all newly added mods with reasons.*
 
 - **Death Sorter**: Death Sorter is a vanilla-friendly mod that automatically restores your inventory layout when picking up your items after death.
+
+- **Trinkets**: Trinkets adds a slot group and slot system to Minecraft (needed for Accessories Compatibility Layer).
+
+- **Accessories Compatibility Layer**: Using Accessories as the framework, this mod acts as a wrapper for both Trinkets and Curios.
 
 ---
 
