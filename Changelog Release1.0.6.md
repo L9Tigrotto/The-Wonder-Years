@@ -9,7 +9,7 @@
 
 ## ⚙️ Settings Changed
 
-*List all configuration changes organized by mod. Remove this section if no settings were changed.*
+*List all configuration changes organized by mod.*
 
 **Immersive melodies:**
 
@@ -24,10 +24,6 @@
 
 - Modified the sleep speed curve.
 - Updated bed related messages.
-
-**Mod Name 2:**
-
-- Enabled advanced tooltip features
 
 ---
 
