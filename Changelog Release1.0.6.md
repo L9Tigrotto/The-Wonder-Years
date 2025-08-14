@@ -64,6 +64,3 @@
 - **FTB Quests**: `v2101.1.13` → `v2101.1.14`
 - **Tectonic**: `v3.0.5` → `v3.0.7`
 - **Storage Drawers**: `v13.9.0` → `v13.9.2`
-- **OctoLib**: `v0.5.0.1` → `v0.6.0.3`
-- **Immersive UI**: `v0.3.0` → `v0.3.1`
-- **Not Enought Recipe Book**: `v0.4.2` → `v0.4.3`
