@@ -4,7 +4,6 @@
 
 - Update mods.
 - Lower the instruments volume.
-- Increase weather clear time.
 - Add death sort mod.
 - Figure it out how to publish update without override player's changed settings.
 - Fix server launcher.and nad missing server.jar file in next version
@@ -14,6 +13,7 @@
 *List administrative changes, modpack-wide modifications, and other general updates.*
 
 - Fixed error when sending a message on servers.
+- Doubled weather clear time (1h).
 
 ## ⚙️ Settings Changed
 
