@@ -45,10 +45,9 @@
 *List all newly added mods with reasons.*
 
 - **Death Sorter**: Death Sorter is a vanilla-friendly mod that automatically restores your inventory layout when picking up your items after death.
-
 - **Trinkets**: Trinkets adds a slot group and slot system to Minecraft (needed for Accessories Compatibility Layer).
-
 - **Accessories Compatibility Layer**: Using Accessories as the framework, this mod acts as a wrapper for both Trinkets and Curios.
+- **Fox Friend**: Feeding a fox a berry will make it follow you.
 
 ---
 
