@@ -54,3 +54,4 @@
 
 - **Puzzle Lib**: `v21.1.37` → `v21.1.38`
 - **Extreme Sound Muffler**: `v3.5.0` → `v3.5.1`
+- **Better Days**: `v3.1.1.1` → `v3.2.0.0`
