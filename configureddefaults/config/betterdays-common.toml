@@ -17,6 +17,20 @@
 	#Default: 12500
 	#Range: 12000.0 ~ 13000.0
 	nightStart = 12500.0
+	#Enabling this will allow the setting of an infinite amount of time speeds defined as pairs in the form:
+	#(currentTick, desiredSpeed)
+	#where between each value bezier spline interpolation is performed for smooth transitioning
+	#The two default pairs at 0 and 24000 are necessary as they act as bounds. However 
+	#The time speed value for each of them can be freely modified
+	enableInterpolatedTime = false
+	#The value that determines the smoothing factor in the interpolation algorithm.
+	#A high value will make the interpolation softer and curvier
+	#A low value will make the interpolation closer to a piecewise function
+	#Range: 0.0 ~ 10.0
+	interpolatedTimeSmoothingFactor = 0.25
+	#These are the pairs that define what speed time should run at, at the specified day/night tick
+	#The two default pairs need to exist, but their time speed values can be modified
+	interpolatedTimeList = ["0,1.0", "24000,1.0"]
 
 	[time.effects]
 		#When applied, this effect syncs the passage of weather with the current speed of time.
@@ -65,14 +79,14 @@
 	#The maximum speed at which time passes when all players are sleeping.
 	#A value of 110 is nearly equal to the time it takes to sleep in vanilla.
 	#Range: 0.0 ~ 24000.0
-	sleepSpeedMax = 110.0
+	sleepSpeedMax = 40.0
 	#The minimum speed at which time passes when only 1 player is sleeping in a full server.
 	#Range: 0.0 ~ 24000.0
-	sleepSpeedMin = 1.0
+	sleepSpeedMin = 10.0
 	#The speed at which time passes when all players are sleeping.
 	#Set to -1 to disable this feature (sleepSpeedMax will be used when all players are sleeping).
 	#Range: -1.0 ~ 24000.0
-	sleepSpeedAll = -1.0
+	sleepSpeedAll = 50.0
 	#This parameter defines the curvature of the interpolation function that translates the sleeping player percentage into time-speed.
 	#The function used is a Normalized Tunable Sigmoid Function.
 	#A value of 0.5 represents a linear relationship.
@@ -81,7 +95,7 @@
 	#Credit to Dino Dini for the function: https://dinodini.wordpress.com/2010/04/05/normalized-tunable-sigmoid-functions/
 	#Credit to SmoothSleep for the idea: https://www.spigotmc.org/resources/smoothsleep.32043/
 	#Range: 0.0 ~ 1.0
-	sleepSpeedCurve = 0.3
+	sleepSpeedCurve = 0.2
 	#Set to 'true' for the weather to clear when players wake up in the morning as it does in vanilla.
 	#Set to 'false' to force weather to pass naturally. Adds realism when accelerateWeather is enabled.
 	#Note: This setting is ignored if game rule doWeatherCycle is false.
@@ -110,7 +124,7 @@
 			#sleepingPlayers -> the number of players in the current dimension who were sleeping.
 			#totalPlayers -> the number of players in the current dimension (spectators are not counted).
 			#sleepingPercentage -> the percentage of players in the current dimension who were sleeping (does not include % symbol).
-			message = "§e§oTempus fugit!"
+			message = "§e§oMorning, crafters! §r§aTime to turn those dreams into blocks!"
 			#Sets where this message appears.
 			#Allowed Values: SYSTEM, GAME_INFO
 			type = "GAME_INFO"
@@ -126,7 +140,7 @@
 			#sleepingPlayers -> the number of players in the current dimension who are sleeping.
 			#totalPlayers -> the number of players in the current dimension (spectators are not counted).
 			#sleepingPercentage -> the percentage of players in the current dimension who are sleeping (does not include % symbol).
-			message = "${player} is now sleeping. [${sleepingPlayers}/${totalPlayers}]"
+			message = "$§5§o${player} counts creepers instead of sheep [${sleepingPlayers}/${totalPlayers}]"
 			#Sets where this message appears.
 			#Allowed Values: SYSTEM, GAME_INFO
 			type = "GAME_INFO"
@@ -141,7 +155,7 @@
 			#sleepingPlayers -> the number of players in the current dimension who are sleeping.
 			#totalPlayers -> the number of players in the current dimension (spectators are not counted).
 			#sleepingPercentage -> the percentage of players in the current dimension who are sleeping (does not include % symbol).
-			message = "${player} has left their bed. [${sleepingPlayers}/${totalPlayers}]"
+			message = "§d§o${player} gave up on creper counting §r§f[${sleepingPlayers}/${totalPlayers}]"
 			#Sets where this message appears.
 			#Allowed Values: SYSTEM, GAME_INFO
 			type = "GAME_INFO"
