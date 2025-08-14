@@ -2,7 +2,6 @@
 
 ## TODO
 
-- Add light in accessory mod.
 - Figure it out how to publish update without override player's changed settings.
 - Fix server launcher.bat and missing server.jar file in next version
 
