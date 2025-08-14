@@ -8,6 +8,7 @@
 - Add death sort mod.
 - Fix chat error when message is sent on server.
 - Figure it out how to publish update without override player's changed settings.
+- Fix server launcher.bat nad missing server.jar file in next version
 
 ## 📋 General Updates
 
