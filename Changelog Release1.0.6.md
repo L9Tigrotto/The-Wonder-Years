@@ -4,6 +4,7 @@
 
 - Update mods.
 - Lower the instruments volume.
+- Increase weather clear time.
 - Add death sort mod.
 - Fix chat error when message is sent on server.
 - Figure it out how to publish update without override player's changed settings.
