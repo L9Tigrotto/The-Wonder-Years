@@ -3,10 +3,9 @@
 ## TODO
 
 - Update mods.
-- Lower the instruments volume.
 - Add death sort mod.
 - Figure it out how to publish update without override player's changed settings.
-- Fix server launcher.and nad missing server.jar file in next version
+- Fix server launcher.bat and missing server.jar file in next version
 
 ## 📋 General Updates
 
@@ -14,14 +13,16 @@
 
 - Fixed error when sending a message on servers.
 - Doubled weather clear time (1h).
+- Lowered the instruments volume.
 
 ## ⚙️ Settings Changed
 
 *List all configuration changes organized by mod. Remove this section if no settings were changed.*
 
-**Mod Name 1:**
+**Better Days:**
 
-- Increased spawn rate of custom ores
+- Modified the sleep speed curve.
+- Updated bed related messages.
 
 **Mod Name 2:**
 
@@ -49,7 +50,7 @@
 
 ## ⬆️ Mods Updated
 
-*List all mods that were updated with their version changes. Remove this section if no mods were updated.*
+*List all mods that were updated with their version changes.*
 
-- **Mod Name 1**: `v1.2.3` → `v1.3.0`
-- **Mod Name 2**: `v2.1.0` → `v2.1.5`
+- **Puzzle Lib**: `v21.1.37` → `v21.1.38`
+- **Extreme Sound Muffler**: `v3.5.0` → `v3.5.1`

@@ -2,7 +2,7 @@
   "README": "https://github.com/Luke100000/ImmersiveMelodies/wiki/Config",
   "getBufferDelay": 75,
   "maxAudibleDistance": 48,
-  "instrumentVolumeFactor": 1.0,
+  "instrumentVolumeFactor": 0.75,
   "perceivedLoudnessAdjustmentFactor": 0.5,
   "mobInstrumentFactors": {
     "minecraft:zombie": 0.07,
