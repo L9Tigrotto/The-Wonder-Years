@@ -2,7 +2,6 @@
 
 ## TODO
 
-- Update mods.
 - Add death sort mod.
 - Add light in accessory mod.
 - Figure it out how to publish update without override player's changed settings.
@@ -60,3 +59,11 @@
 - **Puzzle Lib**: `v21.1.37` → `v21.1.38`
 - **Extreme Sound Muffler**: `v3.5.0` → `v3.5.1`
 - **Better Days**: `v3.1.1.1` → `v3.2.0.0`
+- **Skin Layer 3D**: `v1.8.2` → `v1.9.0`
+- **FTB Library**: `v2101.1.18` → `v2101.1.19`
+- **FTB Quests**: `v2101.1.13` → `v2101.1.14`
+- **Tectonic**: `v3.0.5` → `v3.0.7`
+- **Storage Drawers**: `v13.9.0` → `v13.9.2`
+- **OctoLib**: `v0.5.0.1` → `v0.6.0.3`
+- **Immersive UI**: `v0.3.0` → `v0.3.1`
+- **Not Enought Recipe Book**: `v0.4.2` → `v0.4.3`
