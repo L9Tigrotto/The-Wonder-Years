@@ -1,5 +1,13 @@
 # The Wonder Years Changelog Version 1.0.6
 
+## TODO
+
+- Update mods.
+- Lower the instruments volume.
+- Add death sort mod.
+- Fix chat error when message is sent on server.
+- Figure it out how to publish update without override player's changed settings.
+
 ## 📋 General Updates
 
 *List administrative changes, modpack-wide modifications, and other general updates. Remove this section if no general changes were made.*
