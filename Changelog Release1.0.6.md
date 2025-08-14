@@ -1,20 +1,19 @@
 # The Wonder Years Changelog Version 1.0.6
 
-## TODO
-
-- Figure it out how to publish update without override player's changed settings.
-- Fix server launcher.bat and missing server.jar file in next version
-
 ## 📋 General Updates
 
 *List administrative changes, modpack-wide modifications, and other general updates.*
 
 - Fixed error when sending a message on servers.
-- Lowered the instruments volume.
+- Fixed server missing server.jar file and launcher.bat not working properly.
 
 ## ⚙️ Settings Changed
 
 *List all configuration changes organized by mod. Remove this section if no settings were changed.*
+
+**Immersive melodies:**
+
+- Lowered the instruments volume.
 
 **Weather Settings:**
 
