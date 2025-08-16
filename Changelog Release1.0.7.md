@@ -10,7 +10,11 @@
 - Respawning animals mod.
 - Try to fix armor only being repairable a fixed amount of times.
 - Move curse removal to smiting table
-- Add an enchantment remove recipe (with 1 tnt )
+- Add an enchantment remove recipe (with 1 tnt).
+- Reduce the amount of mob with instuments.
+- Reduce the thunderstorm cahnces.
+- Increase the weather clear time.
+- Enable skip weather on sleep.
 
 ## 📋 General Updates
 
