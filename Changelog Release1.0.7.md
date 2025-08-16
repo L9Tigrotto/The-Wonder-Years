@@ -18,10 +18,9 @@
 
 ## 📋 General Updates
 
-*List administrative changes, modpack-wide modifications, and other general updates. Remove this section if no general changes were made.*
+*List administrative changes, modpack-wide modifications, and other general updates.*
 
-- Updating modpack description and documentation.
-- Disabling resource-intensive mods by default for performance.
+- Known bug: tierable items crafted in the crafting terminal with shift + left click will be tierless.
 
 ## ⚙️ Settings Changed
 
