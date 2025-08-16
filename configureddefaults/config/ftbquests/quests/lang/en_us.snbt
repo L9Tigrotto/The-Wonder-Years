@@ -28,6 +28,8 @@
 	quest.04C837B810B5C356.quest_desc: ["Powers elytra enchantments."]
 	quest.04CF246809AED501.quest_desc: ["&4Send and receive items safely.&r Use post boxes to send packages and mailboxes to receive them. Limited to one mailbox per player."]
 	quest.04CF246809AED501.title: "&4Player Mail System&r"
+	quest.0536747EA2EF69E1.quest_desc: ["&2Foxes can be tamed with sweet berries.&r When tamed, foxes will &6follow you and pick up items&r, making them helpful gathering companions."]
+	quest.0536747EA2EF69E1.title: "&2Fox Companions&r"
 	quest.054C3E00600E0A64.quest_desc: ["Powers better fishing luck."]
 	quest.0561B68941C149BC.quest_desc: ["Powers underwater breathing and speed."]
 	quest.057D52179A430C2D.quest_desc: ["Divine crossbow summoning spiral firestorms. Sacred flames purge evil in sweeping patterns. The Sanctum's guardians drop this blessed weapon to worthy champions."]
@@ -657,6 +659,7 @@
 	task.177FA0CC8CB7A228.title: "Understood"
 	task.17EFA1A719C3E4DE.title: "Understood"
 	task.1A5B89489E550C73.title: "Understood"
+	task.1DEB81344DA47826.title: "Helpful gathering friends"
 	task.1E8FA4C621305CB7.title: "We ride together!"
 	task.1F1F0168B9937150.title: "Understood"
 	task.213C699AB87E05A3.title: "Understood"
