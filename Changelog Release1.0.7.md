@@ -1,5 +1,17 @@
 # The Wonder Years Changelog Version 1.0.7
 
+## TODO
+
+- Remove mending essences in ancient cities pot loot.
+- Fix mining+ enchantment.
+- Fix only 1 type of horn spawning.
+- Fix pillagers at the top of the tower being peaceful.
+- Fix equipment compare not showing.
+- Respawning animals mod.
+- Try to fix armor only being repairable a fixed amount of times.
+- Move curse removal to smiting table
+- Add an enchantment remove recipe (with 1 tnt )
+
 ## 📋 General Updates
 
 *List administrative changes, modpack-wide modifications, and other general updates. Remove this section if no general changes were made.*
