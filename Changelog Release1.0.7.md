@@ -3,7 +3,6 @@
 ## TODO
 
 - Fix mining+ enchantment.
-- Fix only 1 type of horn spawning.
 - Respawning animals mod.
 - Move curse removal to smiting table
 - Add an enchantment remove recipe (with 1 tnt).
@@ -21,6 +20,7 @@
 
 - Rewrote pot loot chests (now no more drop disabled essences).
 - Fixed tipped arrow not having effects in some loot chests.
+- Fixed only 1 variant of goat horn gets generated in pillager outpost.
 
 ## ⚙️ Settings Changed
 

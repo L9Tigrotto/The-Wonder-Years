@@ -34,11 +34,6 @@ loot.modifiers.register(
             new WeightedPoolItem(<item:minecraft:iron_ingot>, 3, 1, 3)
         ]);
 
-        // Goat horn pool (0-1 rolls)
-        loot_generator.performWeightedPool(0, 1, 0, [
-            new WeightedPoolItem(<item:minecraft:goat_horn>, 1, 1, 1)
-        ]);
-
         // Armor trim pool (based on wiki mentions - estimated structure)
         loot_generator.performWeightedPool(1, 1, 10, [
             new WeightedPoolItem(<item:minecraft:sentry_armor_trim_smithing_template>, 1, 2, 2)
@@ -47,6 +42,7 @@ loot.modifiers.register(
         // Generation functions
         loot_generator.generateNWeaponsWithProbability(1, 0.5);
         loot_generator.generateNEssences(2, 25);
+        loot_generator.generateNWeaponsWithProbability(1, 0.5);
         loot_generator.generateHatBagWithProbability(0.30);
         loot_generator.generateMoneyBagWithProbability(3, 0.30);
 
@@ -83,11 +79,6 @@ loot.modifiers.register(
             new WeightedPoolItem(<item:minecraft:iron_ingot>, 3, 1, 3)
         ]);
 
-        // Goat horn pool (0-1 rolls)
-        loot_generator.performWeightedPool(0, 1, 0, [
-            new WeightedPoolItem(<item:minecraft:goat_horn>, 1, 1, 1)
-        ]);
-
         // Armor trim pool (based on wiki mentions - estimated structure)
         loot_generator.performWeightedPool(1, 1, 10, [
             new WeightedPoolItem(<item:minecraft:sentry_armor_trim_smithing_template>, 1, 2, 2)
@@ -97,6 +88,7 @@ loot.modifiers.register(
         loot_generator.generateNWeaponsWithProbability(1, 0.5);
         loot_generator.generateNEssences(3, 5);
         loot_generator.generateArtifact(5);
+        loot_generator.generateGoatHornWithProbability(0.50);
         loot_generator.generateHatBagWithProbability(0.30);
         loot_generator.generateMoneyBagWithProbability(3, 0.30);
 
@@ -140,11 +132,6 @@ loot.modifiers.register(
             new WeightedPoolItem(<item:minecraft:iron_ingot>, 3, 1, 3)
         ]);
 
-        // Goat horn pool (0-1 rolls)
-        loot_generator.performWeightedPool(0, 1, 0, [
-            new WeightedPoolItem(<item:minecraft:goat_horn>, 1, 1, 1)
-        ]);
-
         // Armor trim pool (1 roll, 12 empty weight, 2 trim types)
         loot_generator.performWeightedPool(1, 1, 12, [
             new WeightedPoolItem(<item:minecraft:dune_armor_trim_smithing_template>, 1, 2, 2),
@@ -155,6 +142,7 @@ loot.modifiers.register(
         loot_generator.generateNWeaponsWithProbability(1, 1.0);
         loot_generator.generateNEssences(3, 5);
         loot_generator.generateArtifact(5);
+        loot_generator.generateNWeaponsWithProbability(1, 0.5);
         loot_generator.generateHatBagWithProbability(0.12);
         loot_generator.generateMoneyBagWithProbability(1, 0.18);
 

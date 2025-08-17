@@ -631,7 +631,6 @@ loot.modifiers.register(
         loot_generator.performWeightedPool(2, 5, 2, [
             // Note: Original includes abandoned_miners_stuff loot table reference (weight 1)
             new WeightedPoolItem(<item:minecraft:saddle>, 3, 1, 1),
-            new WeightedPoolItem(<item:minecraft:goat_horn>, 2, 1, 1),
             new WeightedPoolItem(<item:minecraft:spyglass>, 1, 1, 1),
             new WeightedPoolItem(<item:minecraft:glass_pane>, 2, 3, 6),
             new WeightedPoolItem(<item:minecraft:redstone>, 1, 3, 6),
@@ -642,6 +641,7 @@ loot.modifiers.register(
         ]);
 
         loot_generator.generateNToolsWithProbability(1, 0.25);
+        loot_generator.generateGoatHornWithProbability(0.35);
         loot_generator.generateHatBagWithProbability(0.30);
         loot_generator.generateMoneyBagWithProbability(2, 0.30);
 
