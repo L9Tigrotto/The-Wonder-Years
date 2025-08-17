@@ -7,7 +7,6 @@
 - Respawning animals mod.
 - Move curse removal to smiting table
 - Add an enchantment remove recipe (with 1 tnt).
-- Enable skip weather on sleep.
 - Make quests not team shared.
 
 ## 📋 General Updates
@@ -19,7 +18,6 @@
 - Known bug: tierable items crafted in the crafting terminal with `shift + left click` will be tierless. Waiting for Tom's Simple Storage response on bug report.
 - Known bug: equipment comparison is not currently working with tiered items. Waiting for Equipment Compare response on bug report.
 - Known bug: Anvil repair cost is currently free and is limited to a maximum of 63 `repair_cost` in metadata. Waiting for Better Enchanting response on bug report.
-- Made thunder and rain less frequent (rain clear skies for ~2h and thunderstorm clear skies for ~4h)
 
 - Rewrote pot loot chests (now no more drop disabled essences).
 - Fixed tipped arrow not having effects in some loot chests.
@@ -57,6 +55,7 @@
 
 - **Trinkets**: Crash when change dimension.
 - **Accessories Compatibility Layer**: Crash when change dimension.
+- **Weather Settings**: Back to the vanilla raining system.
 
 ---
 
