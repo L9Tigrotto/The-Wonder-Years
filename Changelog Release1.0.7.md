@@ -9,8 +9,6 @@
 - Move curse removal to smiting table
 - Add an enchantment remove recipe (with 1 tnt).
 - Reduce the amount of mob with instuments.
-- Reduce the thunderstorm cahnces.
-- Increase the weather clear time.
 - Enable skip weather on sleep.
 - Make quests not team shared.
 
@@ -21,6 +19,7 @@
 - Known bug: tierable items crafted in the crafting terminal with `shift + left click` will be tierless. Waiting for Tom's Simple Storage response on bug report.
 - Known bug: equipment comparison is not currently working with tiered items. Waiting for Equipment Compare response on bug report.
 - Known bug: Anvil repair cost is currently free and is limited to a maximum of 63 `repair_cost` in metadata. Waiting for Better Enchanting response on bug report.
+- Made thunder and rain less frequent (rain clear skies for ~2h and thunderstorm clear skies for ~4h)
 
 ## ⚙️ Settings Changed
 

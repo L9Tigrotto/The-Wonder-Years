@@ -14,15 +14,15 @@
         "world": "minecraft:overworld",
         "rain": {
           "command": "weather rain",
-          "weight": 20,
-          "duration": 300,
-          "clearDuration": 2160
+          "weight": 70,
+          "duration": 360,
+          "clearDuration": 7200
         },
         "thunder": {
           "command": "weather thunder",
-          "weight": 80,
-          "duration": 500,
-          "clearDuration": 3600
+          "weight": 30,
+          "duration": 540,
+          "clearDuration": 10800
         }
       }
     ]
