@@ -833,3 +833,36 @@ loot.modifiers.register(
         return loot_context.loot;
     }
 );
+
+// /give @s minecraft:chest[minecraft:container_loot={loot_table:"nova_structures:pots/pot_illager_manor"}]
+loot.modifiers.register(
+    "nova_structures_pots_pot_illager_manor",
+    LootConditions.only(LootTableIdLootCondition.create(<resource:nova_structures:pots/pot_illager_manor>)),
+    (stacks, context) => {
+        val loot_context = new WonderLootContext(context, "overworld", "dark_forest");
+        val loot_generator = new LootGenerator(loot_context);
+
+        loot_generator.performWeightedPool(1, 1, 10, [
+            new WeightedPoolItem(<item:minecraft:light_blue_dye>, 3, 1, 4),
+            new WeightedPoolItem(<item:minecraft:cyan_dye>, 3, 1, 4),
+            new WeightedPoolItem(<item:minecraft:blue_dye>, 3, 1, 4),
+            new WeightedPoolItem(<item:minecraft:red_dye>, 3, 1, 4),
+            new WeightedPoolItem(<item:minecraft:apple>, 5, 1, 5),
+            new WeightedPoolItem(<item:minecraft:emerald>, 2, 1, 9),
+            new WeightedPoolItem(<item:minecraft:lapis_lazuli>, 2, 1, 3),
+            new WeightedPoolItem(<item:minecraft:amethyst_shard>, 3, 1, 4),
+            new WeightedPoolItem(<item:minecraft:arrow>, 5, 1, 10),
+            new WeightedPoolItem(<item:minecraft:beetroot>, 2, 1, 14),
+            new WeightedPoolItem(<item:minecraft:pumpkin_pie>, 2, 1, 3),
+            new WeightedPoolItem(<item:minecraft:cookie>, 5, 1, 10),
+            new WeightedPoolItem(<item:minecraft:name_tag>, 3, 1, 1),
+            new WeightedPoolItem(<item:minecraft:coal>, 3, 1, 5),
+            new WeightedPoolItem(<item:minecraft:redstone>, 3, 1, 4),
+            new WeightedPoolItem(<item:minecraft:sugar>, 3, 1, 4),
+            new WeightedPoolItem(<item:minecraft:gunpowder>, 3, 1, 4),
+            new WeightedPoolItem(<item:minecraft:glowstone>, 3, 1, 4)
+        ]);
+
+        return loot_context.loot;
+    }
+);

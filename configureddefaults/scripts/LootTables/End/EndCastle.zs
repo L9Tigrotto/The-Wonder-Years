@@ -462,3 +462,49 @@ loot.modifiers.register(
         return loot_context.loot;
     }
 );
+
+
+// /give @s minecraft:chest[minecraft:container_loot={loot_table:"nova_structures:pots/end_castle/pot_end_castle"}]
+loot.modifiers.register(
+    "nova_structures_pots_end_castle_pot_end_castle",
+    LootConditions.only(LootTableIdLootCondition.create(<resource:nova_structures:pots/end_castle/pot_end_castle>)),
+    (stacks, context) => {
+        val loot_context = new WonderLootContext(context, "end", "end_highlands");
+        val loot_generator = new LootGenerator(loot_context);
+
+        // Pool 1: Pot contents (3 rolls)
+        loot_generator.performWeightedPool(3, 3, 0, [
+            new WeightedPoolItem(<item:minecraft:ender_pearl>, 2, 1, 1),
+            new WeightedPoolItem(<item:minecraft:chorus_fruit>, 2, 1, 3),
+            new WeightedPoolItem(<item:minecraft:beetroot>, 3, 1, 3),
+            new WeightedPoolItem(<item:minecraft:magenta_dye>, 2, 1, 3),
+            new WeightedPoolItem(<item:minecraft:purple_dye>, 2, 1, 3),
+            new WeightedPoolItem(<item:minecraft:black_dye>, 2, 1, 3),
+            new WeightedPoolItem(<item:minecraft:end_stone>, 5, 5, 10),
+            new WeightedPoolItem(<item:minecraft:ender_eye>, 2, 1, 1),
+            new WeightedPoolItem(<item:minecraft:golden_apple>, 5, 1, 1),
+            new WeightedPoolItem(<item:minecraft:iron_ingot>, 5, 2, 5),
+            new WeightedPoolItem(<item:minecraft:emerald>, 5, 2, 6),
+            new WeightedPoolItem(<item:minecraft:gold_ingot>, 5, 2, 3),
+            new WeightedPoolItem(<item:minecraft:emerald_block>, 1, 1, 1),
+            new WeightedPoolItem(<item:minecraft:obsidian>, 5, 2, 5),
+            new WeightedPoolItem(<item:minecraft:beetroot_seeds>, 3, 5, 10),
+            new WeightedPoolItem(<item:minecraft:ghast_tear>, 5, 1, 1),
+            new WeightedPoolItem(<item:minecraft:diamond>, 10, 1, 1),
+            new WeightedPoolItem(<item:minecraft:blaze_powder>, 5, 1, 2),
+            new WeightedPoolItem(<item:minecraft:apple>, 5, 3, 6),
+            new WeightedPoolItem(<item:minecraft:phantom_membrane>, 1, 1, 2),
+            new WeightedPoolItem(<item:minecraft:name_tag>, 5, 1, 1),
+            new WeightedPoolItem(<item:minecraft:pearlescent_froglight>, 5, 1, 1),
+            // Tipped arrows (replacing original loot table references)
+            new WeightedPoolItem(<item:minecraft:tipped_arrow>.withJsonComponent(<componenttype:minecraft:potion_contents>, {potion: "minecraft:nausea"}), 10, 1, 5),
+            new WeightedPoolItem(<item:minecraft:tipped_arrow>.withJsonComponent(<componenttype:minecraft:potion_contents>, {potion: "minecraft:levitation"}), 10, 1, 5)
+        ]);
+
+        // Generation functions (only potions now, arrows moved to weighted pool)
+        // Original weights: levitation_potion(5) + healing_potion(1) = 6 out of 109 total ≈ 5.5%
+        loot_generator.generateNPotionsWithProbability(1, 0.055); // Levitation and healing potions
+        
+        return loot_context.loot;
+    }
+);

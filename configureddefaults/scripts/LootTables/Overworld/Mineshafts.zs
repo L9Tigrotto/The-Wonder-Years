@@ -1289,3 +1289,34 @@ loot.modifiers.register(
         return loot_context.loot;
     }
 );
+
+// /give @s minecraft:chest[minecraft:container_loot={loot_table:"hopo:pots/mineshaft/corridor_mineshaft"}]
+loot.modifiers.register(
+    "hopo_pots_mineshaft_corridor_mineshaft",
+    LootConditions.only(LootTableIdLootCondition.create(<resource:hopo:pots/mineshaft/corridor_mineshaft>)),
+    (stacks, context) => {
+        val loot_context = new WonderLootContext(context, "overworld", "deep_underground");
+        val loot_generator = new LootGenerator(loot_context);
+
+        // Weighted pool: Basic mineshaft materials (1 roll)
+        // REMOVED: golden_pickaxe, iron_pickaxe, brush (moved to generation functions)
+        loot_generator.performWeightedPool(1, 1, 0, [
+            new WeightedPoolItem(<item:minecraft:gold_ingot>, 32, 1, 2),
+            new WeightedPoolItem(<item:minecraft:iron_ingot>, 32, 1, 3),
+            new WeightedPoolItem(<item:minecraft:emerald>, 32, 0, 2),
+            new WeightedPoolItem(<item:minecraft:lantern>, 12, 1, 3),
+            new WeightedPoolItem(<item:minecraft:tnt>, 10, 0, 1),
+            new WeightedPoolItem(<item:minecraft:experience_bottle>, 10, 1, 4),
+            new WeightedPoolItem(<item:minecraft:bone>, 7, 1, 5),
+            new WeightedPoolItem(<item:minecraft:bundle>, 2, 1, 1),
+            new WeightedPoolItem(<item:minecraft:diamond>, 2, 1, 1)
+        ]);
+
+        // Generation functions for corridor mineshaft
+        // Extracted: golden_pickaxe (weight 1), iron_pickaxe (weight 1), brush (weight 2)
+        // Total tool weight: 4 out of 143 total = ~0.028 probability
+        loot_generator.generateNToolsWithProbability(1, 0.028);
+
+        return loot_context.loot;
+    }
+);

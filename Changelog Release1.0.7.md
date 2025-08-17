@@ -22,6 +22,9 @@
 - Known bug: Anvil repair cost is currently free and is limited to a maximum of 63 `repair_cost` in metadata. Waiting for Better Enchanting response on bug report.
 - Made thunder and rain less frequent (rain clear skies for ~2h and thunderstorm clear skies for ~4h)
 
+- Rewrote pot loot chests (now no more drop disabled essences).
+- Fixed tipped arrow not having effects in some loot chests.
+
 ## ⚙️ Settings Changed
 
 *List all configuration changes organized by mod.*
