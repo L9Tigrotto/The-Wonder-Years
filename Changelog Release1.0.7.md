@@ -5,7 +5,6 @@
 - Remove mending essences in ancient cities pot loot.
 - Fix mining+ enchantment.
 - Fix only 1 type of horn spawning.
-- Fix pillagers at the top of the tower being peaceful.
 - Respawning animals mod.
 - Move curse removal to smiting table
 - Add an enchantment remove recipe (with 1 tnt).
@@ -38,6 +37,10 @@
 **Fabrishot:**
 
 - Removed separated hotkey for screenshots (`F2` only).
+
+**FTB Quests:**
+
+- Questbook is no more dropped on death.
 
 ---
 
