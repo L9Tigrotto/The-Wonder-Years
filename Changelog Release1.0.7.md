@@ -6,9 +6,7 @@
 - Fix mining+ enchantment.
 - Fix only 1 type of horn spawning.
 - Fix pillagers at the top of the tower being peaceful.
-- Fix equipment compare not showing.
 - Respawning animals mod.
-- Find the mod causing free item repair. Try to fix armor only being repairable a fixed amount of times.
 - Move curse removal to smiting table
 - Add an enchantment remove recipe (with 1 tnt).
 - Reduce the amount of mob with instuments.
@@ -21,19 +19,25 @@
 
 *List administrative changes, modpack-wide modifications, and other general updates.*
 
-- Known bug: tierable items crafted in the crafting terminal with shift + left click will be tierless.
+- Known bug: tierable items crafted in the crafting terminal with `shift + left click` will be tierless. Waiting for Tom's Simple Storage response on bug report.
+- Known bug: equipment comparison is not currently working with tiered items. Waiting for Equipment Compare response on bug report.
+- Known bug: Anvil repair cost is currently free and is limited to a maximum of 63 `repair_cost` in metadata. Waiting for Better Enchanting response on bug report.
 
 ## ⚙️ Settings Changed
 
-*List all configuration changes organized by mod. Remove this section if no settings were changed.*
+*List all configuration changes organized by mod.*
 
-**Mod Name 1:**
+**Equipment compare:**
 
-- Increased spawn rate of custom ores
+- Disabled strict more because items with different tier are treated as separate items.
 
-**Mod Name 2:**
+**Dynamic tooltip:**
 
-- Enabled advanced tooltip features
+- Changed default keybind to `left shift`.
+
+**Fabrishot:**
+
+- Removed separated hotkey for screenshots (`F2` only).
 
 ---
 

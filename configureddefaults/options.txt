@@ -16,7 +16,7 @@ prioritizeChunkUpdates:0
 fullscreen:false
 gamma:1.0
 graphicsMode:1
-guiScale:3
+guiScale:4
 maxFps:260
 mipmapLevels:4
 narrator:0
@@ -126,8 +126,8 @@ key_key.hotbar.9:key.keyboard.9
 key_key.dynamic_fps.toggle_forced:key.keyboard.unknown
 key_key.dynamic_fps.toggle_disabled:key.keyboard.unknown
 key_key.drop_confirm.toggle:key.keyboard.unknown
-key_key.dynamictooltips.show_details:key.keyboard.left.control
-key_key.fabrishot.screenshot:key.keyboard.f9
+key_key.dynamictooltips.show_details:key.keyboard.left.shift
+key_key.fabrishot.screenshot:key.keyboard.unknown
 key_key.ftbchunks.map:key.keyboard.unknown
 key_key.ftbchunks.toggle_minimap:key.keyboard.unknown
 key_key.ftbchunks.claim_manager:key.keyboard.unknown
@@ -161,7 +161,7 @@ key_key.cavedust.toggle:key.keyboard.unknown
 key_key.cavedust.reload:key.keyboard.unknown
 key_chunkloaders.keys.open_screen:key.keyboard.unknown
 key_key.entityculling.toggle:key.keyboard.unknown
-key_equipmentcompare.key.showTooltips:key.keyboard.unknown
+key_equipmentcompare.key.showTooltips:key.keyboard.left.control
 key_key.evilcreativefly.toggle_fly:key.keyboard.j
 key_key.open_muffler_gui:key.keyboard.unknown
 key_text.HorseBuff.keybinding.horsePlayerInventory:key.keyboard.left.alt
@@ -261,12 +261,8 @@ key_key.simplehudenhanced.toggle_hud:key.keyboard.unknown
 key_key.spyglass-improvements.use:key.keyboard.z
 key_key.toms_storage.open_terminal:key.keyboard.unknown
 key_key.weaponmaster_ydm.opengui:key.keyboard.p
-key_iris.keybind.reload:key.keyboard.unknown
-key_iris.keybind.toggleShaders:key.keyboard.unknown
-key_iris.keybind.shaderPackSelection:key.keyboard.unknown
-key_iris.keybind.wireframe:key.keyboard.unknown
 soundCategory_master:0.5033138451986755
-soundCategory_music:0.25875880281690145
+soundCategory_music:0.25993617957746473
 soundCategory_record:1.0
 soundCategory_weather:1.0
 soundCategory_block:1.0
