@@ -49,19 +49,18 @@
 
 ## ❌ Mods Removed
 
-*List all mods that were removed with reasons. Remove this section if no mods were removed.*
+*List all mods that were removed with reasons.*
 
-- **Mod Name 1**: Incompatible with new Forge version
-- **Mod Name 2**: Replaced by better alternative
+- **Trinkets**: Crash when change dimension.
+- **Accessories Compatibility Layer**: Crash when change dimension.
 
 ---
 
 ## ➕ Mods Added
 
-*List all newly added mods with reasons. Remove this section if no mods were added.*
+*List all newly added mods with reasons.*
 
-- **Mod Name 1**: Adds quality of life improvements for inventory management
-- **Mod Name 2**: Enhances world generation with new biomes
+- **Trinkets Compat Layer for Accessories**: Replace Accessories Compatibility Layer.
 
 ---
 
