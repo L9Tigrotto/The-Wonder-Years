@@ -8,6 +8,7 @@
 - Add an enchantment remove recipe (with 1 tnt).
 - Make quests not team shared.
 - Lower the chanch of dinding high tier equipment in nether and end (so luck is required).
+- Investigate smnoke lag.
 
 ## 📋 General Updates
 
