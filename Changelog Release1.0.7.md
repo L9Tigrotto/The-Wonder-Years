@@ -2,7 +2,6 @@
 
 ## TODO
 
-- Remove mending essences in ancient cities pot loot.
 - Fix mining+ enchantment.
 - Fix only 1 type of horn spawning.
 - Respawning animals mod.
