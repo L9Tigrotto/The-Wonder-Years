@@ -41,6 +41,7 @@
 **FTB Quests:**
 
 - Questbook is no more dropped on death.
+- Made trofers rewards per player and not per team.
 
 **Immersive melodies:**
 
