@@ -15,6 +15,8 @@
 
 *List administrative changes, modpack-wide modifications, and other general updates.*
 
+- Fixed crash on chenge dimension (through portal or command).
+
 - Known bug: tierable items crafted in the crafting terminal with `shift + left click` will be tierless. Waiting for Tom's Simple Storage response on bug report.
 - Known bug: equipment comparison is not currently working with tiered items. Waiting for Equipment Compare response on bug report.
 - Known bug: Anvil repair cost is currently free and is limited to a maximum of 63 `repair_cost` in metadata. Waiting for Better Enchanting response on bug report.
