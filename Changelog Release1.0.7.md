@@ -8,13 +8,14 @@
 - Fix pillagers at the top of the tower being peaceful.
 - Fix equipment compare not showing.
 - Respawning animals mod.
-- Try to fix armor only being repairable a fixed amount of times.
+- Find the mod causing free item repair. Try to fix armor only being repairable a fixed amount of times.
 - Move curse removal to smiting table
 - Add an enchantment remove recipe (with 1 tnt).
 - Reduce the amount of mob with instuments.
 - Reduce the thunderstorm cahnces.
 - Increase the weather clear time.
 - Enable skip weather on sleep.
+- Make quests not team shared.
 
 ## 📋 General Updates
 
