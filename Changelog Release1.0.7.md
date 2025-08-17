@@ -8,7 +8,6 @@
 - Respawning animals mod.
 - Move curse removal to smiting table
 - Add an enchantment remove recipe (with 1 tnt).
-- Reduce the amount of mob with instuments.
 - Enable skip weather on sleep.
 - Make quests not team shared.
 
@@ -40,6 +39,11 @@
 **FTB Quests:**
 
 - Questbook is no more dropped on death.
+
+**Immersive melodies:**
+
+- Lowered the music volume just a bit.
+- Decreased the mob spawn rate with an instrument.
 
 ---
 
