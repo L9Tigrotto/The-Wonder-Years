@@ -1,9 +1,5 @@
 # The Wonder Years Changelog Version 1.0.7
 
-## TODO
-
-- Make quests not team shared.
-
 ## 📋 General Updates
 
 *List administrative changes, modpack-wide modifications, and other general updates.*
