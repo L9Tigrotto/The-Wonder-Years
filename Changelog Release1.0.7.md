@@ -66,6 +66,7 @@
 - **FTB XMod Compat**: Allow asking for any item in a specific tag in quests tasks.
 - **Respawning Animals**: Animals will now vanish and appear again wherever you go. Animals that have e.g. been bred or tamed will of course stay with you!
 - **Double Doors**: Replaces Couplings Revamped.
+- **FindMe**: Allows you to search for items in nearby inventories by pressing Y on the item (also from jei).
 
 ---
 
