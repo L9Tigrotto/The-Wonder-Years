@@ -72,4 +72,11 @@
 
 *List all mods that were updated with their version changes.*
 
-- **Fabric**: `0.16.14` → `v0.17.02`
+- **Fabric**: `v0.16.14` → `v0.17.02`
+- **Storage Drawers**: `v13.9.2` → `v13.10.0`
+- **Tectonic**: `v3.0.7` → `v3.0.10`
+- **DashLoader**: `v5.0.0` → `v5.1.0`
+- **Underlay**: `v0.9.5` → `v0.9.6`
+- **Archievements Optimizer**: `v2.0.0` → `v2.1.0`
+- **FTB Chunks**: `v2101.1.9` → `v2101.1.10`
+- **Fabric Language Kotlin**: `v1.13.4` → `v1.13.5`
