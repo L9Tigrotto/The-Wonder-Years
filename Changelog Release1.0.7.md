@@ -5,7 +5,6 @@
 - Fix mining+ enchantment.
 - Add an enchantment remove recipe (with 1 tnt).
 - Make quests not team shared.
-- Lower the chanch of dinding high tier equipment in nether and end (so luck is required).
 
 ## 📋 General Updates
 
@@ -20,6 +19,7 @@
 - Rewrote pot loot chests (now no more drop disabled essences).
 - Fixed tipped arrow not having effects in some loot chests.
 - Fixed only 1 variant of goat horn gets generated in pillager outpost.
+- Changed item tier distribution to be equal to the overwold one. in the nether common and uncommon tier are discarded. in the end common, uncommon and rare tiers are discarded.
 
 - Added variants to quest's tasks.
 
