@@ -3,7 +3,6 @@
 ## TODO
 
 - Fix mining+ enchantment.
-- Respawning animals mod.
 - Add an enchantment remove recipe (with 1 tnt).
 - Make quests not team shared.
 - Lower the chanch of dinding high tier equipment in nether and end (so luck is required).
@@ -69,6 +68,7 @@
 - **Trinkets Compat Layer for Accessories**: Replace Accessories Compatibility Layer.
 - **FTB Filter System**: Allow to ask any item in a specific tag in quests tasks.
 - **FTB XMod Compat**: Allow to ask any item in a specific tag in quests tasks.
+- **Respawning Animals**: Animals will now vanish and appear again whereever you go. Animals that have e.g. been bred or tamed will of course stay with you!
 
 ---
 
