@@ -8,7 +8,7 @@
 
 - Known bug: tierable items crafted in the crafting terminal with `shift + left click` will be tierless. Waiting for Tom's Simple Storage response on bug report.
 - Known bug: equipment comparison is not currently working with tiered items. Waiting for Equipment Compare response on bug report.
-- Known bug: Anvil repair cost is currently free and is limited to a maximum of 63 `repair_cost` in metadata. Waiting for Better Enchanting response on bug report.
+- Known bug: Anvil repair cost is currently free and is limited to a maximum of 63 `repair_cost` in metadata. Waiting for Better Enchanting mod update.
 
 - Rewrote pot loot chests (now no longer drop disabled essences).
 - Fixed tipped arrow not having effects in some loot chests.
