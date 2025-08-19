@@ -2,8 +2,6 @@
 
 ## TODO
 
-- Fix mining+ enchantment.
-- Add an enchantment remove recipe (with 1 tnt).
 - Make quests not team shared.
 
 ## 📋 General Updates
@@ -22,6 +20,8 @@
 - Changed item tier distribution to be equal to the overworld one. In the Nether common and uncommon tiers are discarded. In the End common, uncommon and rare tiers are discarded.
 
 - Added variants to quest's tasks.
+- Added the possibility to remove 1 specific enchantment.
+- Disabled curse of enchant, it doesn't work with the better enchanting mod.
 
 ## ⚙️ Settings Changed
 
@@ -39,6 +39,7 @@
 
 - Questbook is no longer dropped on death.
 - Made trofers rewards per player and not per team.
+- Added enchantment removal quest to Gear Up chapter.
 
 **Immersive melodies:**
 

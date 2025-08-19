@@ -19,6 +19,12 @@
 	quest.00D16E6828CEEDCD.title: "&2Animal Pens&r"
 	quest.0112EA8B37B95EFD.quest_desc: ["&3Bring your builds to life with music.&r Craft instruments to fill your halls with melodies. Whether it's a peaceful tavern song or an epic battle theme, the right music transforms any space into something magical."]
 	quest.0112EA8B37B95EFD.title: "&3Melodic Atmosphere&r"
+	quest.0180997E4475FE51.quest_desc: [
+		"&5Remove specific enchantments from your equipment.&r Target unwanted magic through precise crafting. Requires an enchanted item, a magic shard, and a name tag labeled with the exact enchantment name you wish to remove."
+		""
+		"Example: A name tag reading &7\\\"Projectile Protection\\\"&r will strip only that enchantment. Enchantment removal recipe is found in the apple recipe panel."
+	]
+	quest.0180997E4475FE51.title: "&5Enchantment Stripper&r"
 	quest.01A7EE7272DF6CA6.quest_desc: ["Places invisible lights in a big radius around the lamp over time."]
 	quest.01A7EE7272DF6CA6.title: "&3Lighting Enhancement&r"
 	quest.02C043D329FE7641.quest_desc: ["Ancient blade forged to purify the Nether's corruption. Its golden edge spreads damage between undead foes. Found at the castle's heart, waiting for a worthy champion."]
@@ -675,6 +681,7 @@
 	task.27FB2B7FCDDDF657.title: "Understood"
 	task.2A945AA049113E66.title: "Understood"
 	task.2B26279677D07FAC.title: "I want to farm"
+	task.2CC43D8BF964F016.title: "Any #comforts:sleeping_bags"
 	task.2D9CF1BEC3DC4A90.title: "Understood"
 	task.2F8A9A6A985787C9.title: "I need better storage"
 	task.3150A3CC59E9B482.title: "Understood"
