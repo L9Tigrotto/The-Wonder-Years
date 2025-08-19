@@ -68,6 +68,7 @@
 - **Respawning Animals**: Animals will now vanish and appear again wherever you go. Animals that have e.g. been bred or tamed will of course stay with you!
 - **Double Doors**: Replaces Couplings Revamped.
 - **FindMe**: Allows you to search for items in nearby inventories by pressing Y on the item (also from jei).
+- **Leaf Me Alone**: Allows any entity to move trough leaves blocks as long as it has passenger that can control it.
 
 ---
 
