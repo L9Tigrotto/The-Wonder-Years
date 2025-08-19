@@ -8,7 +8,6 @@
 - Add an enchantment remove recipe (with 1 tnt).
 - Make quests not team shared.
 - Lower the chanch of dinding high tier equipment in nether and end (so luck is required).
-- Investigate smnoke lag.
 
 ## 📋 General Updates
 
@@ -23,6 +22,8 @@
 - Rewrote pot loot chests (now no more drop disabled essences).
 - Fixed tipped arrow not having effects in some loot chests.
 - Fixed only 1 variant of goat horn gets generated in pillager outpost.
+
+- Added variants to quest's tasks.
 
 ## ⚙️ Settings Changed
 
@@ -67,12 +68,13 @@
 *List all newly added mods with reasons.*
 
 - **Trinkets Compat Layer for Accessories**: Replace Accessories Compatibility Layer.
+- **FTB Filter System**: Allow to ask any item in a specific tag in quests tasks.
+- **FTB XMod Compat**: Allow to ask any item in a specific tag in quests tasks.
 
 ---
 
 ## ⬆️ Mods Updated
 
-*List all mods that were updated with their version changes. Remove this section if no mods were updated.*
+*List all mods that were updated with their version changes.*
 
-- **Mod Name 1**: `v1.2.3` → `v1.3.0`
-- **Mod Name 2**: `v2.1.0` → `v2.1.5`
+- **Fabric**: `0.16.14` → `v0.17.02`

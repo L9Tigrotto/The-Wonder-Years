@@ -58,7 +58,7 @@
 			tasks: [{
 				consume_items: false
 				id: "6397E90BFF2BE7D1"
-				item: { count: 1, id: "fwaystones:waystone" }
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(fwaystones:waystones)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
 			x: -3.0d
