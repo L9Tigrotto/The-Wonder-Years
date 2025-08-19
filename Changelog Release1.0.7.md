@@ -51,6 +51,9 @@
 - **Trinkets**: Crash when changing dimension.
 - **Accessories Compatibility Layer**: Crash when changing dimension.
 - **Weather Settings**: Back to the vanilla raining system.
+- **Auto Third Person**: Not working with the vanilla backport.
+- **Couplings Revamped**: No configuration for range.
+- **Indium**: No longer needed for sodium.
 
 ---
 
@@ -62,6 +65,7 @@
 - **FTB Filter System**: Allow asking for any item in a specific tag in quests tasks.
 - **FTB XMod Compat**: Allow asking for any item in a specific tag in quests tasks.
 - **Respawning Animals**: Animals will now vanish and appear again wherever you go. Animals that have e.g. been bred or tamed will of course stay with you!
+- **Double Doors**: Replaces Couplings Revamped.
 
 ---
 
