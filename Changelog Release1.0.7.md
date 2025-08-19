@@ -10,26 +10,22 @@
 
 *List administrative changes, modpack-wide modifications, and other general updates.*
 
-- Fixed crash on chenge dimension (through portal or command).
+- Fixed crash on change dimension (through portal or command).
 
 - Known bug: tierable items crafted in the crafting terminal with `shift + left click` will be tierless. Waiting for Tom's Simple Storage response on bug report.
 - Known bug: equipment comparison is not currently working with tiered items. Waiting for Equipment Compare response on bug report.
 - Known bug: Anvil repair cost is currently free and is limited to a maximum of 63 `repair_cost` in metadata. Waiting for Better Enchanting response on bug report.
 
-- Rewrote pot loot chests (now no more drop disabled essences).
+- Rewrote pot loot chests (now no longer drop disabled essences).
 - Fixed tipped arrow not having effects in some loot chests.
 - Fixed only 1 variant of goat horn gets generated in pillager outpost.
-- Changed item tier distribution to be equal to the overwold one. in the nether common and uncommon tier are discarded. in the end common, uncommon and rare tiers are discarded.
+- Changed item tier distribution to be equal to the overworld one. In the Nether common and uncommon tiers are discarded. In the End common, uncommon and rare tiers are discarded.
 
 - Added variants to quest's tasks.
 
 ## ⚙️ Settings Changed
 
 *List all configuration changes organized by mod.*
-
-**Equipment compare:**
-
-- Disabled strict more because items with different tier are treated as separate items.
 
 **Dynamic tooltip:**
 
@@ -41,7 +37,7 @@
 
 **FTB Quests:**
 
-- Questbook is no more dropped on death.
+- Questbook is no longer dropped on death.
 - Made trofers rewards per player and not per team.
 
 **Immersive melodies:**
@@ -55,8 +51,8 @@
 
 *List all mods that were removed with reasons.*
 
-- **Trinkets**: Crash when change dimension.
-- **Accessories Compatibility Layer**: Crash when change dimension.
+- **Trinkets**: Crash when changing dimension.
+- **Accessories Compatibility Layer**: Crash when changing dimension.
 - **Weather Settings**: Back to the vanilla raining system.
 
 ---
@@ -65,10 +61,10 @@
 
 *List all newly added mods with reasons.*
 
-- **Trinkets Compat Layer for Accessories**: Replace Accessories Compatibility Layer.
-- **FTB Filter System**: Allow to ask any item in a specific tag in quests tasks.
-- **FTB XMod Compat**: Allow to ask any item in a specific tag in quests tasks.
-- **Respawning Animals**: Animals will now vanish and appear again whereever you go. Animals that have e.g. been bred or tamed will of course stay with you!
+- **Trinkets Compat Layer for Accessories**: Replaces Accessories Compatibility Layer.
+- **FTB Filter System**: Allow asking for any item in a specific tag in quests tasks.
+- **FTB XMod Compat**: Allow asking for any item in a specific tag in quests tasks.
+- **Respawning Animals**: Animals will now vanish and appear again wherever you go. Animals that have e.g. been bred or tamed will of course stay with you!
 
 ---
 
