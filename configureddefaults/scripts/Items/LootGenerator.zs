@@ -489,6 +489,12 @@ public class LootGenerator
             item_assembler.addComponentIfNotEmpty(tier_component);
         }
 
+        if (item_descriptor.can_apply_banner)
+        {
+            val pattern_component = PatternComponent.generateRandomPatternData(item_descriptor, loot_context);
+            item_assembler.addComponentIfNotEmpty(pattern_component);
+        }
+
         // Build final item and add to loot
 		loot_context.addLoot(item_assembler.build());
 	}

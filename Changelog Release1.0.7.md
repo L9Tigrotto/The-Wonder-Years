@@ -14,6 +14,7 @@
 - Fixed tipped arrow not having effects in some loot chests.
 - Fixed only 1 variant of goat horn gets generated in pillager outpost.
 - Changed item tier distribution to be equal to the overworld one. In the Nether common and uncommon tiers are discarded. In the End common, uncommon and rare tiers are discarded.
+- Added pattern to generated elytras.
 
 - Added variants to quest's tasks.
 - Added the possibility to remove 1 specific enchantment.
