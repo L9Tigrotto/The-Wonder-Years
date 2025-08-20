@@ -4,9 +4,9 @@
 
 *Rediscover Minecraft with wonder*
 
-[![Minecraft Version](https://img.shields.io/badge/Minecraft-1.21.1-brightgreen.svg)](https://minecraft.net/)
-[![Mod Loader](https://img.shields.io/badge/Mod%20Loader-Fabric-orange.svg)](https://fabricmc.net/)
-[![License](https://img.shields.io/badge/License-Apache--2.0-blue.svg)](LICENSE)
+[![Minecraft Version](https://img.shields.io/badge/Minecraft-1.21.1-orange?style=for-the-badge&logo=minecraft&logoColor=white&labelColor=2d2d2d&color=ff6b35)](https://minecraft.net/)
+[![Mod Loader](https://img.shields.io/badge/Mod%20Loader-Fabric-orange?style=for-the-badge&logo=fabric&logoColor=white&labelColor=2d2d2d&color=ff6b35)](https://fabricmc.net/)
+[![License](https://img.shields.io/badge/License-Apache--2.0-orange?style=for-the-badge&logoColor=white&labelColor=2d2d2d&color=ff6b35)](LICENSE)
 
 </div>
 
