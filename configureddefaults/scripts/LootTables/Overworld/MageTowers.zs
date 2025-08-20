@@ -22,7 +22,7 @@ loot.modifiers.register(
 
         // Pool 3: Arrow pool (2-3 rolls) - arrows have binomial distributions
         loot_generator.performWeightedPool(2, 3, 0, [
-            new WeightedPoolItem(<item:minecraft:tipped_arrow>, 1, 6, 12), // binomial n=15, p=0.6 range
+            new WeightedPoolItem(<item:minecraft:tipped_arrow>.withJsonComponent(<componenttype:minecraft:potion_contents>, {potion: "minecraft:slowness"}), 1, 6, 12), // binomial n=15, p=0.6 range
             new WeightedPoolItem(<item:minecraft:arrow>, 9, 18, 30) // binomial n=40, p=0.6 range
         ]);
 

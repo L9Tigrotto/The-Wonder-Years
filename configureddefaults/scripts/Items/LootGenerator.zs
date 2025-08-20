@@ -395,6 +395,20 @@ public class LootGenerator
         "end": [0.05, 0.20, 0.70, 1.00],
     };
 
+    /**
+    * Available goat horn variants with different instrument sounds
+    */
+    private static val GOAT_HORNS as IItemStack[] = [
+        <item:minecraft:goat_horn>.withJsonComponent(<componenttype:minecraft:instrument>, "ponder_goat_horn"),
+        <item:minecraft:goat_horn>.withJsonComponent(<componenttype:minecraft:instrument>, "sing_goat_horn"),
+        <item:minecraft:goat_horn>.withJsonComponent(<componenttype:minecraft:instrument>, "seek_goat_horn"),
+        <item:minecraft:goat_horn>.withJsonComponent(<componenttype:minecraft:instrument>, "feel_goat_horn"),
+        <item:minecraft:goat_horn>.withJsonComponent(<componenttype:minecraft:instrument>, "admire_goat_horn"),
+        <item:minecraft:goat_horn>.withJsonComponent(<componenttype:minecraft:instrument>, "call_goat_horn"),
+        <item:minecraft:goat_horn>.withJsonComponent(<componenttype:minecraft:instrument>, "yearn_goat_horn"),
+        <item:minecraft:goat_horn>.withJsonComponent(<componenttype:minecraft:instrument>, "dream_goat_horn")
+    ];
+
     // ========================================
     // TOOL GENERATION METHODS
     // ========================================
@@ -473,6 +487,12 @@ public class LootGenerator
         {
             val tier_component = TierComponent.generateRandomTierData(item_descriptor, loot_context);
             item_assembler.addComponentIfNotEmpty(tier_component);
+        }
+
+        if (item_descriptor.can_apply_banner)
+        {
+            val pattern_component = PatternComponent.generateRandomPatternData(item_descriptor, loot_context);
+            item_assembler.addComponentIfNotEmpty(pattern_component);
         }
 
         // Build final item and add to loot
@@ -867,6 +887,22 @@ public class LootGenerator
 
         // Build final item and add to loot
 		loot_context.addLoot(loot_bag);
+    }
+
+    /**
+    * Generates a random goat horn with probability check.
+    * 
+    * @param probability The base chance (0.0-1.0) for generation, modified by player luck
+    */
+    public generateGoatHornWithProbability(probability as float) as void
+    {
+        // Check if generation should occur (with luck bonus)
+        val generated_probability = loot_context.random.nextFloat();
+        if (generated_probability >= probability + (loot_context.player_luck / 100.0)) { return; }
+
+        // Select random horn from available variants
+        val horn_index = loot_context.random.nextInt(0, GOAT_HORNS.length as int);
+        loot_context.addLoot(GOAT_HORNS[horn_index]);
     }
 
     // ========================================

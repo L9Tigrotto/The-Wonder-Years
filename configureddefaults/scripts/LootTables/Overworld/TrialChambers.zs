@@ -43,7 +43,7 @@ loot.modifiers.register(
 
         loot_generator.performWeightedPool(15, 15, 0, [
             new WeightedPoolItem(<item:minecraft:bamboo>, 20, 1, 1),
-            new WeightedPoolItem(<item:minecraft:tipped_arrow>, 20, 1, 3),
+            new WeightedPoolItem(<item:minecraft:tipped_arrow>.withJsonComponent(<componenttype:minecraft:potion_contents>, {potion: "minecraft:slowness"}), 20, 1, 3),
             new WeightedPoolItem(<item:minecraft:iron_ingot>, 20, 1, 1),
             new WeightedPoolItem(<item:minecraft:honeycomb>, 15, 1, 1),
             new WeightedPoolItem(<item:minecraft:emerald_block>, 6, 1, 1),
@@ -294,6 +294,32 @@ loot.modifiers.register(
         loot_generator.generateNEssences(15, 2);
         loot_generator.generateHatBagWithProbability(0.60);
         loot_generator.generateMoneyBagWithProbability(5, 0.80);
+
+        return loot_context.loot;
+    }
+);
+
+// /give @s minecraft:chest[minecraft:container_loot={loot_table:"minecraft:pots/trial_chambers/corridor"}]
+loot.modifiers.register(
+    "minecraft_pots_trial_chambers_corridor",
+    LootConditions.only(LootTableIdLootCondition.create(<resource:minecraft:pots/trial_chambers/corridor>)),
+    (stacks, context) => {
+        val loot_context = new WonderLootContext(context, "overworld", "underground");
+        val loot_generator = new LootGenerator(loot_context);
+
+        // NOTE: Exact weights need verification - using placeholder values based on estimated rarity
+        loot_generator.performWeightedPool(1, 1, 0, [
+            new WeightedPoolItem(<item:minecraft:emerald>, 8, 1, 1),
+            new WeightedPoolItem(<item:minecraft:iron_ingot>, 6, 1, 1),
+            new WeightedPoolItem(<item:minecraft:arrow>, 5, 1, 3),
+            new WeightedPoolItem(<item:minecraft:amethyst_shard>, 4, 1, 2),
+            new WeightedPoolItem(<item:minecraft:lapis_lazuli>, 4, 1, 2),
+            new WeightedPoolItem(<item:minecraft:gold_ingot>, 3, 1, 1),
+            new WeightedPoolItem(<item:minecraft:trial_key>, 1, 1, 1),    // ~2.8% chance mentioned in sources
+            new WeightedPoolItem(<item:minecraft:diamond>, 1, 1, 1),
+            new WeightedPoolItem(<item:minecraft:emerald_block>, 1, 1, 1),
+            new WeightedPoolItem(<item:minecraft:diamond_block>, 1, 1, 1)
+        ]);
 
         return loot_context.loot;
     }

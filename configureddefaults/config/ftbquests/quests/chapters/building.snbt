@@ -21,8 +21,8 @@
 			tasks: [
 				{
 					consume_items: false
-					id: "706745CEC8A775FA"
-					item: { count: 1, id: "mighty_mail:oak_mail_box" }
+					id: "738F738BC571158C"
+					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(the_wonder_years:mailboxes)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 					type: "item"
 				}
 				{
@@ -102,7 +102,7 @@
 				{
 					consume_items: false
 					id: "606B7E571CAB3D8E"
-					item: { count: 1, id: "xercapaint:item_canvas_tall" }
+					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(the_wonder_years:canvas)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 					type: "item"
 				}
 			]
@@ -176,8 +176,8 @@
 			id: "7B23F167535D7B8F"
 			tasks: [{
 				consume_items: false
-				id: "638422A3CDB2EA9C"
-				item: { count: 1, id: "quartzelv:quartz_elevator" }
+				id: "27ACCBCB27757E76"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(the_wonder_years:quartz_elevators)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
 			x: 2.0d

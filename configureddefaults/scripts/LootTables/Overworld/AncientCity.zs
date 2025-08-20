@@ -166,3 +166,39 @@ loot.modifiers.register(
         return loot_context.loot;
     }
 );
+
+// /give @s minecraft:chest[minecraft:container_loot={loot_table:"nova_structures:pots/pot_ancient_city"}]
+loot.modifiers.register(
+    "nova_structures_pots_pot_ancient_city",
+    LootConditions.only(LootTableIdLootCondition.create(<resource:nova_structures:pots/pot_ancient_city>)),
+    (stacks, context) => {
+        val loot_context = new WonderLootContext(context, "overworld", "underground");
+        val loot_generator = new LootGenerator(loot_context);
+
+        // Main weighted pool (1 roll) - removing potions and books
+        loot_generator.performWeightedPool(1, 1, 10, [
+            new WeightedPoolItem(<item:minecraft:sculk>, 5, 1, 12),
+            new WeightedPoolItem(<item:minecraft:redstone>, 5, 1, 6),
+            new WeightedPoolItem(<item:minecraft:gray_wool>, 7, 1, 5),
+            new WeightedPoolItem(<item:minecraft:snowball>, 7, 1, 8),
+            new WeightedPoolItem(<item:minecraft:coal>, 7, 1, 8),
+            new WeightedPoolItem(<item:minecraft:white_candle>, 5, 1, 8),
+            new WeightedPoolItem(<item:minecraft:emerald>, 5, 1, 5),
+            new WeightedPoolItem(<item:minecraft:amethyst_shard>, 5, 1, 12),
+            new WeightedPoolItem(<item:minecraft:bone>, 4, 1, 5),
+            new WeightedPoolItem(<item:minecraft:bone_meal>, 4, 1, 2),
+            new WeightedPoolItem(<item:minecraft:gray_dye>, 4, 1, 5),
+            new WeightedPoolItem(<item:minecraft:gold_nugget>, 4, 1, 5),
+            new WeightedPoolItem(<item:minecraft:iron_nugget>, 4, 1, 6),
+            new WeightedPoolItem(<item:minecraft:iron_ingot>, 3, 1, 2),
+            new WeightedPoolItem(<item:minecraft:gold_ingot>, 3, 1, 1),
+            new WeightedPoolItem(<item:minecraft:lapis_lazuli>, 3, 1, 4),
+            new WeightedPoolItem(<item:minecraft:experience_bottle>, 3, 1, 3),
+            new WeightedPoolItem(<item:minecraft:skeleton_skull>, 1, 1, 1),
+            new WeightedPoolItem(<item:minecraft:diamond>, 1, 1, 1),
+            new WeightedPoolItem(<item:minecraft:echo_shard>, 1, 1, 2)
+        ]);
+
+        return loot_context.loot;
+    }
+);

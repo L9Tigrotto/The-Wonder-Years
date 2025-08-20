@@ -105,7 +105,7 @@
 			tasks: [{
 				consume_items: false
 				id: "55DC7B50F83BB8B9"
-				item: { count: 1, id: "toms_storage:storage_terminal" }
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(the_wonder_years:storage_terminals)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
 			x: 5.0d
@@ -117,7 +117,7 @@
 			tasks: [{
 				consume_items: false
 				id: "109A3118F01C1A42"
-				item: { count: 1, id: "toms_storage:wireless_terminal" }
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(the_wonder_years:wireless_terminals)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
 			x: 6.5d
@@ -190,7 +190,7 @@
 			tasks: [{
 				consume_items: false
 				id: "6C8277E691E87902"
-				item: { count: 1, id: "enderchests:ender_chest" }
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(the_wonder_years:ender_chests)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
 			x: 2.5d
@@ -233,7 +233,7 @@
 			tasks: [{
 				consume_items: false
 				id: "630D6DB1EC12E845"
-				item: { count: 1, id: "enderchests:ender_bag" }
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(the_wonder_years:ender_bags)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
 			x: 3.5d

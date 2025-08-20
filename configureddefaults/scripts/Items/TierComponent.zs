@@ -44,8 +44,8 @@ public class TierComponent
 	private static val DISTRIBUTIONS as float[][string] = 
 	{
 		"overworld": [0.30, 0.60, 0.80, 0.92, 0.99, 1.00],
-		"nether":    [-0.01, 0.10, 0.50, 0.80, 0.95, 1.00],
-		"end":       [-0.01, -0.01, 0.25, 0.60, 0.85, 1.00]
+		"nether":    [-0.01, -0.01, 0.80, 0.92, 0.99, 1.00],
+		"end":       [-0.01, -0.01, -0.01, 0.92, 0.99, 1.00]
 	};
 
     /**

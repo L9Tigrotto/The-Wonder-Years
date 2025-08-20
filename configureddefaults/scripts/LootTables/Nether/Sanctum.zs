@@ -226,7 +226,7 @@ loot.modifiers.register(
         loot_generator.performWeightedPool(6, 9, 15, [
             new WeightedPoolItem(<item:minecraft:enchanted_golden_apple>, 1, 1, 1),
             new WeightedPoolItem(<item:minecraft:golden_apple>, 15, 1, 1),
-            new WeightedPoolItem(<item:minecraft:tipped_arrow>, 100, 1, 8),
+            new WeightedPoolItem(<item:minecraft:tipped_arrow>.withJsonComponent(<componenttype:minecraft:potion_contents>, {potion: "minecraft:slowness"}), 100, 1, 8),
             new WeightedPoolItem(<item:minecraft:emerald_block>, 30, 1, 1),
             new WeightedPoolItem(<item:minecraft:chiseled_quartz_block>, 30, 1, 1),
             new WeightedPoolItem(<item:minecraft:quartz>, 200, 5, 20),

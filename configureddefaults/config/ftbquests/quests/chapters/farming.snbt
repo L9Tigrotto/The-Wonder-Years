@@ -15,21 +15,18 @@
 	quests: [
 		{
 			dependencies: ["759D95297B8C5445"]
-			icon: {
-				id: "animal_pen:animal_pen_oak"
-			}
 			id: "00D16E6828CEEDCD"
 			tasks: [
 				{
 					consume_items: false
 					id: "7C96008CF06453C6"
-					item: { count: 1, id: "animal_pen:animal_cage" }
+					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(the_wonder_years:cages)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 					type: "item"
 				}
 				{
 					consume_items: false
-					id: "358507C444318694"
-					item: { count: 1, id: "animal_pen:animal_pen_oak" }
+					id: "0E745D20086583BF"
+					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(the_wonder_years:pens)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 					type: "item"
 				}
 			]
@@ -77,7 +74,7 @@
 				{
 					consume_items: false
 					id: "150E2A3EEEEE8EA3"
-					item: { count: 1, id: "minecraft:iron_axe" }
+					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(minecraft:axes)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 					type: "item"
 				}
 				{

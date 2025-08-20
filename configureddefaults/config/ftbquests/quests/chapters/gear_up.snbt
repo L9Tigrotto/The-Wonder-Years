@@ -15,14 +15,11 @@
 	quests: [
 		{
 			dependencies: ["60BB2B1A6B167FBD"]
-			icon: {
-				id: "comforts:sleeping_bag_white"
-			}
 			id: "7FA181A418602552"
 			tasks: [{
 				consume_items: false
 				id: "2CC43D8BF964F016"
-				item: { count: 1, id: "comforts:sleeping_bag_white" }
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(comforts:sleeping_bags)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
 			x: 0.0d
@@ -58,7 +55,7 @@
 			tasks: [{
 				consume_items: false
 				id: "6397E90BFF2BE7D1"
-				item: { count: 1, id: "fwaystones:waystone" }
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(fwaystones:waystones)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
 			x: -3.0d
@@ -665,7 +662,7 @@
 			y: -1.0d
 		}
 		{
-			dependencies: ["098F23CE45C6508E"]
+			dependencies: ["0180997E4475FE51"]
 			icon: {
 				id: "minecraft:chain"
 			}
@@ -674,8 +671,8 @@
 				id: "0C27E8DA413C3002"
 				type: "checkmark"
 			}]
-			x: 2.5d
-			y: -2.0d
+			x: 3.5d
+			y: -2.5d
 		}
 		{
 			dependencies: ["098F23CE45C6508E"]
@@ -1549,6 +1546,26 @@
 			}]
 			x: -2.0d
 			y: 0.0d
+		}
+		{
+			dependencies: ["098F23CE45C6508E"]
+			id: "0180997E4475FE51"
+			tasks: [
+				{
+					consume_items: false
+					id: "600F2C860C37C03B"
+					item: { count: 1, id: "minecraft:name_tag" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "40BBAB23FB41A77D"
+					item: { count: 1, id: "betterenchanting:magic_shard_full" }
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: -2.0d
 		}
 	]
 }

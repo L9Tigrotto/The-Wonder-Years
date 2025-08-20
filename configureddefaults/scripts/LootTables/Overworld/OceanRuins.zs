@@ -471,6 +471,66 @@ loot.modifiers.register(
 );
 
 // =============================================================================
+// HOPO UNDERWATER RUINS SMALL POT LOOT TABLE
+// =============================================================================
+
+// /give @s minecraft:chest[minecraft:container_loot={loot_table:"hopo:pots/underwater_ruins/small_ruins"}]
+loot.modifiers.register(
+    "hopo_pots_underwater_ruins_small_ruins",
+    LootConditions.only(LootTableIdLootCondition.create(<resource:hopo:pots/underwater_ruins/small_ruins>)),
+    (stacks, context) => {
+        val loot_context = new WonderLootContext(context, "overworld", "ocean");
+        val loot_generator = new LootGenerator(loot_context);
+
+        // Single weighted pool (1 roll) - underwater/ocean themed items (removed splash potions)
+        loot_generator.performWeightedPool(1, 1, 0, [
+            new WeightedPoolItem(<item:minecraft:tipped_arrow>.withJsonComponent(<componenttype:minecraft:potion_contents>, {potion: "minecraft:slowness"}), 1, 0, 5),
+            new WeightedPoolItem(<item:minecraft:tipped_arrow>.withJsonComponent(<componenttype:minecraft:potion_contents>, {potion: "minecraft:water_breathing"}), 1, 0, 5),
+            new WeightedPoolItem(<item:minecraft:bundle>, 1, 1, 1),
+            new WeightedPoolItem(<item:minecraft:experience_bottle>, 5, 3, 5),
+            new WeightedPoolItem(<item:minecraft:nautilus_shell>, 3, 0, 1),
+            new WeightedPoolItem(<item:minecraft:prismarine_crystals>, 4, 2, 5),
+            new WeightedPoolItem(<item:minecraft:prismarine_shard>, 4, 2, 5),
+            new WeightedPoolItem(<item:minecraft:bone>, 2, 1, 3),
+            new WeightedPoolItem(<item:minecraft:gold_ingot>, 4, 1, 2),
+            new WeightedPoolItem(<item:minecraft:iron_ingot>, 4, 1, 2),
+            new WeightedPoolItem(<item:minecraft:copper_ingot>, 4, 1, 4),
+            new WeightedPoolItem(<item:minecraft:emerald>, 6, 1, 5),
+            new WeightedPoolItem(<item:minecraft:firework_rocket>
+                .withJsonComponent(<componenttype:minecraft:item_name>, "{\"color\":\"gold\",\"italic\":false,\"text\":\"Marine Glow Rocket\"}")
+                .withJsonComponent(<componenttype:minecraft:fireworks>, {
+                    flight_duration: 2,
+                    explosions: [{
+                        shape: "large_ball",
+                        colors: [2651799, 16351261],
+                        fade_colors: [16645372],
+                        has_trail: true,
+                        has_twinkle: false
+                    }]
+                }), 4, 4, 10),
+            new WeightedPoolItem(<item:minecraft:firework_rocket>
+                .withJsonComponent(<componenttype:minecraft:item_name>, "{\"color\":\"gold\",\"italic\":false,\"text\":\"Multicolor Glow Rocket\"}")
+                .withJsonComponent(<componenttype:minecraft:fireworks>, {
+                    flight_duration: 2,
+                    explosions: [{
+                        shape: "star",
+                        colors: [11250603, 6719955],
+                        fade_colors: [11743532, 1537522, 8073150, 14602026, 12801229, 15790320],
+                        has_trail: true,
+                        has_twinkle: true
+                    }]
+                }), 4, 4, 10),
+            new WeightedPoolItem(<item:minecraft:gunpowder>, 2, 0, 2)
+        ]);
+
+        // Generation functions - potions had combined weight 7 out of total 56 = ~12.5%
+        loot_generator.generateNPotionsWithProbability(1, 0.125);
+
+        return loot_context.loot;
+    }
+);
+
+// =============================================================================
 // REPURPOSED STRUCTURES COLD RUINS LOOT TABLES
 // =============================================================================
 

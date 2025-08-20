@@ -187,14 +187,11 @@
 		}
 		{
 			dependencies: ["2185845FB0181888"]
-			icon: {
-				id: "numismatic-overhaul:gold_coin"
-			}
 			id: "276FAB033E5929D0"
 			tasks: [{
 				consume_items: false
 				id: "40415E11BE75C07F"
-				item: { count: 1, id: "numismatic-overhaul:bronze_coin" }
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(the_wonder_years:coins)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
 			x: 0.5d
