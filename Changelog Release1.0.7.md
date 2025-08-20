@@ -86,3 +86,4 @@
 - **Archievements Optimizer**: `v2.0.0` → `v2.1.0`
 - **FTB Chunks**: `v2101.1.9` → `v2101.1.10`
 - **Fabric Language Kotlin**: `v1.13.4` → `v1.13.5`
+- **Moonlight Lib**: `v2.20.7` → `v2.22.1`
