@@ -139,10 +139,10 @@
       "minecraft:shipwreck_beached",
       "repurposed_structures:fortress_jungle_yungs",
       "repurposed_structures:witch_hut_giant_tree_taiga",
-	  "terralith:igloo",
-	  "minecraft:jungle_pyramid",
-	  "minecraft:ruined_portal",
-	  "repurposed_structures:bastion_underground",
+      "terralith:igloo",
+      "minecraft:jungle_pyramid",
+      "minecraft:ruined_portal",
+      "repurposed_structures:bastion_underground"
     ]
   },
   "client": {
