@@ -50,7 +50,7 @@
 - **Tectonic**: `v3.0.10` → `v3.0.12`
 - **Craft Tweaker**: `v21.0.27` → `v21.0.28`
 - **Prickle**: `v21.1.8` → `v21.1.10`
-- **Enchanted Description**: `v21.1.7` → `v21.1.8`
+- **Enchantment Description**: `v21.1.7` → `v21.1.8`
 - **Bookshelf**: `v21.1.67` → `v21.1.68`
 - **OctoLib**: `v0.5.0.1` → `v0.6.0.3`
 - **Not Enough Recipe Book**: `v0.4.2` → `v0.4.3`
