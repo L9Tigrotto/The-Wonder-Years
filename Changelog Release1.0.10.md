@@ -39,10 +39,9 @@
 
 ## ➕ Mods Added
 
-*List all newly added mods with reasons. Remove this section if no mods were added.*
+*List all newly added mods with reasons.*
 
-- **Mod Name 1**: Adds quality of life improvements for inventory management
-- **Mod Name 2**: Enhances world generation with new biomes
+- **Tax Free Levels**: Flattens the curve of the ever-increasing enchantment costs.
 
 ---
 
