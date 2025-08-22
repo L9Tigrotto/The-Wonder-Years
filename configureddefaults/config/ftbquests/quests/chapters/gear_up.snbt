@@ -1321,6 +1321,7 @@
 			dependencies: ["2AAC522AD5A572ED"]
 			id: "7DB293DB046361AE"
 			tasks: [{
+				consume_items: false
 				id: "0E86C19B35BBFDA0"
 				item: { count: 1, id: "betterenchanting:essence_of_building" }
 				type: "item"
