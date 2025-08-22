@@ -19,13 +19,9 @@
 
 *List all configuration changes organized by mod. Remove this section if no settings were changed.*
 
-**Mod Name 1:**
+**Carry On:**
 
-- Increased spawn rate of custom ores
-
-**Mod Name 2:**
-
-- Enabled advanced tooltip features
+- Carried is now dropped when hit.
 
 ---
 
