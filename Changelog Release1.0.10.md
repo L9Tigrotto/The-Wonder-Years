@@ -18,7 +18,7 @@
 
 ## ⚙️ Settings Changed
 
-*List all configuration changes organized by mod. Remove this section if no settings were changed.*
+*List all configuration changes organized by mod.*
 
 **Carry On:**
 
@@ -45,7 +45,13 @@
 
 ## ⬆️ Mods Updated
 
-*List all mods that were updated with their version changes. Remove this section if no mods were updated.*
+*List all mods that were updated with their version changes.*
 
-- **Mod Name 1**: `v1.2.3` → `v1.3.0`
-- **Mod Name 2**: `v2.1.0` → `v2.1.5`
+- **Tectonic**: `v3.0.10` → `v3.0.12`
+- **Craft Tweaker**: `v21.0.27` → `v21.0.28`
+- **Prickle**: `v21.1.8` → `v21.1.10`
+- **Enchanted Description**: `v21.1.7` → `v21.1.8`
+- **Bookshelf**: `v21.1.67` → `v21.1.68`
+- **OctoLib**: `v0.5.0.1` → `v0.6.0.3`
+- **Not Enough Recipe Book**: `v0.4.2` → `v0.4.3`
+- **Immersive UI**: `v0.3.0` → `v0.3.3`
