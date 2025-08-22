@@ -6,6 +6,7 @@
 
 - Fixed limited amount of repairs. Repairs are now unlimited and no longer consume experience points.
 - Fixed tier name duplication issue that caused excessive stacking (e.g. common common common iron pickaxe, or legendary legendary legendary for skilled ones).
+
 - Fixed essence of building was consumed by quest.
 
 - Improved trial chambers loot for omnious vault. No more spam essences.
