@@ -38,6 +38,7 @@
 *List all newly added mods with reasons.*
 
 - **Tax Free Levels**: Flattens the curve of the ever-increasing enchantment costs.
+- **Silk Touch Budding Amethyst [datapack]**: Allows players to harvest Budding Amethyst blocks using a tool enchanted with Silk Touch.
 
 ---
 
