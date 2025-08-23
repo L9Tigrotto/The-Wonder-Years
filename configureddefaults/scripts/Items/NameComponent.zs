@@ -1196,26 +1196,28 @@ public class NameComponent
 	{
         var map = {} as string[][string];
 
-        if (loot_context.biome == "overworld") { map = OVERWORLD_NAMES; }
-        else if (loot_context.biome == "nether") { map = NETHER_NAMES; }
+        if (loot_context.dimension == "overworld") { map = OVERWORLD_NAMES; }
+        else if (loot_context.dimension == "nether") { map = NETHER_NAMES; }
         else { map = END_NAMES; }
 
-        var list = [] as string[];
-        if (<tag:item:c:tools/fishing_rod>.contains(item_descriptor.item)) { list = map["fishing_rod"]; }
-        if (<tag:item:minecraft:hoes>.contains(item_descriptor.item)) { list = map["hoe"]; }
-        if (<tag:item:minecraft:shovels>.contains(item_descriptor.item)) { list = map["shovel"]; }
-        if (<tag:item:minecraft:axes>.contains(item_descriptor.item)) { list = map["axe"]; }
-        if (<tag:item:minecraft:pickaxes>.contains(item_descriptor.item)) { list = map["pickaxe"]; }
-        if (<tag:item:minecraft:swords>.contains(item_descriptor.item)) { list = map["sword"]; }
-        if (<tag:item:c:tools/bow>.contains(item_descriptor.item)) { list = map["bow"]; }
-        if (<tag:item:c:tools/crossbow>.contains(item_descriptor.item)) { list = map["crossbow"]; }
-        if (<tag:item:the_wonder_years:enchantable/trident>.contains(item_descriptor.item)) { list = map["trident"]; }
-        if (<tag:item:the_wonder_years:tierable/elytra>.contains(item_descriptor.item)) { list = map["elytra"]; }
-        if (<tag:item:minecraft:head_armor>.contains(item_descriptor.item)) { list = map["helmet"]; }
-        if (<tag:item:minecraft:foot_armor>.contains(item_descriptor.item)) { list = map["boots"]; }
-        if (<tag:item:minecraft:leg_armor>.contains(item_descriptor.item)) { list = map["leggins"]; }
-        if (<tag:item:minecraft:chest_armor>.contains(item_descriptor.item)) { list = map["chestplate"]; }
-        if (<tag:item:c:tools/shield>.contains(item_descriptor.item)) { list = map["shield"]; }
+        var key = "";
+        if (<tag:item:c:tools/fishing_rod>.contains(item_descriptor.item)) { key = "fishing_rod"; }
+        else if (<tag:item:minecraft:hoes>.contains(item_descriptor.item)) { key = "hoe"; }
+        else if (<tag:item:minecraft:shovels>.contains(item_descriptor.item)) { key = "shovel"; }
+        else if (<tag:item:minecraft:axes>.contains(item_descriptor.item)) { key = "axe"; }
+        else if (<tag:item:minecraft:pickaxes>.contains(item_descriptor.item)) { key = "pickaxe"; }
+        else if (<tag:item:minecraft:swords>.contains(item_descriptor.item)) { key = "sword"; }
+        else if (<tag:item:c:tools/bow>.contains(item_descriptor.item)) { key = "bow"; }
+        else if (<tag:item:c:tools/crossbow>.contains(item_descriptor.item)) { key = "crossbow"; }
+        else if (<tag:item:the_wonder_years:enchantable/trident>.contains(item_descriptor.item)) { key = "trident"; }
+        else if (<tag:item:the_wonder_years:tierable/elytra>.contains(item_descriptor.item)) { key = "elytra"; }
+        else if (<tag:item:minecraft:head_armor>.contains(item_descriptor.item)) { key = "helmet"; }
+        else if (<tag:item:minecraft:foot_armor>.contains(item_descriptor.item)) { key = "boots"; }
+        else if (<tag:item:minecraft:leg_armor>.contains(item_descriptor.item)) { key = "leggins"; }
+        else if (<tag:item:minecraft:chest_armor>.contains(item_descriptor.item)) { key = "chestplate"; }
+        else if (<tag:item:c:tools/shield>.contains(item_descriptor.item)) { key = "shield"; }
+
+        var list = map[key] as string[];
 
         if (list.length == 0)
         { 
