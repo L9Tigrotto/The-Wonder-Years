@@ -42,6 +42,7 @@ loot.modifiers.register(
         loot_context.addLoot(<item:minecraft:splash_potion>.withJsonComponent(<componenttype:minecraft:potion_contents>, {potion: "minecraft:weakness"}));
 
         loot_context.addLootWithProbability(<item:endrem:cold_eye>, 0.30 / 1.0 + loot_context.player_luck / 100.0);
+
         return loot_context.loot;
     }
 );

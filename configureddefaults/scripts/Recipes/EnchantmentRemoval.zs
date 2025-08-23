@@ -48,6 +48,5 @@ craftingTable.addShapeless(
             }
         }
 
-        println(new_item as string);
         return new_item;
     });
