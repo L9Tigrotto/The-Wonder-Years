@@ -99,7 +99,7 @@ public class LootGenerator
 	private static val END_TOOL_TIERS as string[] = ["diamond", "netherite", "mythic low", "mythic mid", "mythic high", "elytra"];
 
     // Cumulative probability distributions (luck affects which tier is selected)
-	private static val OVERWORLD_TOOLS_DISTRIBUTION as float[] = [0.02, 0.10, 0.25, 0.50, 0.98, 1.00];
+	private static val OVERWORLD_TOOLS_DISTRIBUTION as float[] = [0.02, 0.10, 0.25, 0.50, 0.90, 1.00];
 	private static val NETHER_TOOLS_DISTRIBUTION as float[] = [0.15, 0.55, 0.90, 1.00];
 	private static val END_TOOLS_DISTRIBUTION as float[] = [0.05, 0.20, 0.55, 0.80, 0.95, 1.00];
 
@@ -142,11 +142,11 @@ public class LootGenerator
 		"mythic high": [<item:mythicupgrades:jade_sword>, <item:mythicupgrades:ametrine_sword>],
 	};
 
-    private static val OVERWORLD_WEAPON_TIERS as string[] = ["wooden", "stone", "bow", "golden", "crossbow", "iron", "trident", "diamond"];
+    private static val OVERWORLD_WEAPON_TIERS as string[] = ["wooden", "stone", "trident", "bow", "golden", "crossbow", "iron", "diamond"];
 	private static val NETHER_WEAPON_TIERS as string[] = ["golden", "bow", "iron", "crossbow", "diamond", "mace", "netherite"];
 	private static val END_WEAPON_TIERS as string[] = ["bow", "crossbow", "diamond", "netherite", "mace", "mythic low", "mythic mid", "mythic high"];
 
-	private static val OVERWORLD_WEAPON_DISTRIBUTION as float[] = [0.05, 0.15, 0.30, 0.45, 0.55, 0.85, 0.98, 1.00];
+	private static val OVERWORLD_WEAPON_DISTRIBUTION as float[] = [0.05, 0.15, 0.20, 0.35, 0.45, 0.60, 0.90, 1.00];
 	private static val NETHER_WEAPON_DISTRIBUTION as float[] = [0.10, 0.25, 0.45, 0.55, 0.85, 0.95, 1.00];
 	private static val END_WEAPON_DISTRIBUTION as float[] = [0.10, 0.20, 0.25, 0.45, 0.50, 0.68, 0.85, 1.00];
 
@@ -421,12 +421,16 @@ public class LootGenerator
      */
 	public generateToolWithProbability(probability as float) as void
 	{
+        var luck = 0.0 as float;
+        if (loot_context.biome == "trial_chamber") { luck = 4.0 as float; }
+        else { luck = loot_context.player_luck as float; }
+
         // Check if generation should occur (with luck bonus)
         val generated_probability = loot_context.random.nextFloat();
-        if (generated_probability >= probability + (loot_context.player_luck / 100.0)) { return; }
+        if (generated_probability >= probability + (luck / 100.0)) { return; }
 
         // Apply luck-based tier selection using power function skewing
-		val luck_factor = 1.0 - loot_context.player_luck * 0.15;
+		val luck_factor = 1.0 - luck * 0.15;
 		val tier_pick = Functions.pow(loot_context.random.nextFloat(), luck_factor);
 		
         // Select appropriate pools and distributions based on dimension
@@ -506,11 +510,15 @@ public class LootGenerator
      */
 	public generateWeaponWithProbability(probability as float) as void
 	{
+        var luck = 0.0 as float;
+        if (loot_context.biome == "trial_chamber") { luck = 4.0 as float; }
+        else { luck = loot_context.player_luck as float; }
+        
         // Check if generation should occur (with luck bonus)
         val generated_probability = loot_context.random.nextFloat();
-        if (generated_probability >= probability + (loot_context.player_luck / 100.0)) { return; }
+        if (generated_probability >= probability + (luck / 100.0)) { return; }
 
-		val luck_factor = 1.0 - loot_context.player_luck * 0.15;
+		val luck_factor = 1.0 - luck * 0.15;
 		val tier_pick = Functions.pow(loot_context.random.nextFloat(), luck_factor);
 		var tier_key = "";
 		var weapon_pool = {} as IItemStack[][string];
@@ -584,11 +592,15 @@ public class LootGenerator
      */
 	public generateArmorWithProbability(probability as float) as void
 	{
+        var luck = 0.0 as float;
+        if (loot_context.biome == "trial_chamber") { luck = 4.0 as float; }
+        else { luck = loot_context.player_luck as float; }
+
         // Check if generation should occur (with luck bonus)
         val generated_probability = loot_context.random.nextFloat();
-        if (generated_probability >= probability + (loot_context.player_luck / 100.0)) { return; }
+        if (generated_probability >= probability + (luck / 100.0)) { return; }
 
-		val luck_factor = 1.0 - loot_context.player_luck * 0.15;
+		val luck_factor = 1.0 - luck * 0.15;
 		val tier_pick = Functions.pow(loot_context.random.nextFloat(), luck_factor);
         var tier_key = "";
 		var armor_pool = {} as IItemStack[][string];
@@ -926,8 +938,12 @@ public class LootGenerator
             total_weight += weighted_item.weight; 
         }
 
+        var luck = 0.0 as float;
+        if (loot_context.biome == "trial_chamber") { luck = 4.0 as float; }
+        else { luck = loot_context.player_luck as float; }
+
         // Determine number of rolls using luck-based scaling
-        val luck_factor = 1.0 - loot_context.player_luck * 0.15;
+        val luck_factor = 1.0 - luck * 0.15;
         val roll_selection = Functions.pow(loot_context.random.nextFloat(), luck_factor);
         var total_rolls = min_rolls + Functions.round(roll_selection * (max_rolls - min_rolls)) as int;
         

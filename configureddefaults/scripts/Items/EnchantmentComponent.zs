@@ -265,6 +265,10 @@ public class EnchantmentComponent
             return { } as IData;
         }
 
+        var luck = 0.0 as float;
+        if (loot_context.biome == "trial_chamber") { luck = 4.0 as float; }
+        else { luck = loot_context.player_luck as float; }
+
         var enchantments = [] as Enchantment[];
         var min_enchantment_count = 0;
         var max_enchantment_count = 0;
@@ -359,7 +363,7 @@ public class EnchantmentComponent
         // The luck factor controls the distribution shape using a power function.
         // Calculate luck factor: higher luck = lower factor = better results
         // Examples: luck +4 → factor 0.4, luck 0 → factor 1.0, luck -2 → factor 1.3
-        val luck_factor = 1.0 - loot_context.player_luck * 0.15;
+        val luck_factor = 1.0 - luck * 0.15;
         
         // Generate skewed random value using power function
         // pow(random, luck_factor) where:
@@ -419,7 +423,7 @@ public class EnchantmentComponent
             // - Overworld (20% base), no luck: 5 * (0.2 + 0/10) = 1.0 → level 1
             // - Nether (40% base), good luck (+4): 5 * (0.4 + 4/10) = 4.0 → level 4
             // - End (60% base), bad luck (-2): 5 * (0.6 + (-2)/10) = 2.0 → level 2
-            var level = (enchantment.maxLevel * (max_enchantment_level + loot_context.player_luck / 10.0) + 0.5) as int;
+            var level = (enchantment.maxLevel * (max_enchantment_level + luck / 10.0) + 0.5) as int;
             
             // Clamp level to valid range [1, maxLevel]
             if (level < 1) { level = 1; } 

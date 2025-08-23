@@ -34,7 +34,7 @@
     "//hitWhileCarrying": "Whether the player can hit blocks and entities while carrying or not",
     "hitWhileCarrying": false,
     "//dropCarriedWhenHit": "Whether the player drops the carried object when hit or not",
-    "dropCarriedWhenHit": false,
+    "dropCarriedWhenHit": true,
     "//useScripts": "Use custom Pickup Scripts. Having this set to false, will not allow you to run scripts, but will increase your performance",
     "useScripts": false,
     "//stackableEntities": "Allows entities to be stacked on top of each other",

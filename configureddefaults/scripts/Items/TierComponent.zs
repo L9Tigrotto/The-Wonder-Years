@@ -77,6 +77,10 @@ public class TierComponent
 			return { } as IData;
         }
 
+        var luck = 0.0 as float;
+        if (loot_context.biome == "trial_chamber") { luck = 5.0 as float; }
+        else { luck = loot_context.player_luck as float; }
+
         // Determine which tierable category this item belongs to
 		var item_type = "";
 		if 		(item_descriptor.can_tier_as_armor)			{ item_type = "armor"; }
@@ -93,7 +97,7 @@ public class TierComponent
         // Calculate luck factor to skew the random distribution
         // Player luck ranges from -2 (unlucky) to +4 (very lucky)
         // luck_factor > 1.0 = worse results, luck_factor < 1.0 = better results
-		val luck_factor = 1.0 - loot_context.player_luck * 0.15;
+		val luck_factor = 1.0 - luck * 0.15;
 
         // Generate skewed random value using power function
         // Higher luck_factor pushes values toward 0 (worse tiers)
