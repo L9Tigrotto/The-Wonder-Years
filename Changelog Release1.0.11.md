@@ -6,10 +6,12 @@
 
 - Given legendary and unique generated items a random name based on dimension and item type.
 
-- Changed default building guides key to `H`.
-
 - Ender bags can be inserted to accessory inventory.
+
+- Changed default building guides key to `H`.
 - Ender Bags can be opened with `B` key from inventory.
+
+- Reduced ships loot once again.
 
 - Known bug: tierable items crafted in the crafting terminal with `shift + left click` will be tierless. Waiting for response from Tom's Simple Storage on bug report.
 - Known bug: equipment comparison is not currently working with tiered items. Waiting for response from Equipment Compare on bug report.
