@@ -56,9 +56,7 @@ public class ItemAssembler
 	public addComponentIfNotEmpty(component as IData) as void
 	{
         // Only merge non-empty components to keep the final item clean
-        if (!component.isEmpty) { 
-            components.merge(component); 
-        }
+        if (!component.isEmpty) { components.merge(component); }
 	}
 
     /**

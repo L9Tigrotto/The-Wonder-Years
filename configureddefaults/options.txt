@@ -149,10 +149,9 @@ key_artifacts.key.charm_of_sinking.toggle:key.keyboard.unknown
 key_artifacts.key.night_vision_goggles.toggle:key.keyboard.unknown
 key_artifacts.key.scarf_of_invisibility.toggle:key.keyboard.unknown
 key_artifacts.key.universal_attractor.toggle:key.keyboard.unknown
-key_autothirdperson.toggle:key.keyboard.unknown
 key_betterstats.key_binding.toggle_hud_screen:key.keyboard.unknown
 key_key.blink.star:key.keyboard.unknown
-key_key.buildguide.openbuildguide:key.keyboard.b
+key_key.buildguide.openbuildguide:key.keyboard.h
 key_key.buildguide.toggleenable:key.keyboard.unknown
 key_key.buildguide.setorigin:key.keyboard.unknown
 key_key.buildguide.setglobalorigin:key.keyboard.unknown
@@ -160,10 +159,15 @@ key_key.carry.desc:key.keyboard.unknown
 key_key.cavedust.toggle:key.keyboard.unknown
 key_key.cavedust.reload:key.keyboard.unknown
 key_chunkloaders.keys.open_screen:key.keyboard.unknown
+key_key.enderchests.open.bag:key.keyboard.b
+key_key.enderchests.open.pouch:key.keyboard.unknown
 key_key.entityculling.toggle:key.keyboard.unknown
 key_equipmentcompare.key.showTooltips:key.keyboard.left.control
 key_key.evilcreativefly.toggle_fly:key.keyboard.j
 key_key.open_muffler_gui:key.keyboard.unknown
+key_key.findme.search:key.keyboard.y
+key_key.findme.pull_one:key.keyboard.keypad.0
+key_key.findme.pull_stack:key.keyboard.keypad.1
 key_text.HorseBuff.keybinding.horsePlayerInventory:key.keyboard.left.alt
 key_key.toggleVisualItemContents:key.keyboard.unknown
 key_key.toggleSelectedItemTooltips:key.keyboard.unknown

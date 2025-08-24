@@ -43,9 +43,9 @@ public class TierComponent
      */
 	private static val DISTRIBUTIONS as float[][string] = 
 	{
-		"overworld": [0.30, 0.60, 0.80, 0.92, 0.99, 1.00],
-		"nether":    [-0.01, -0.01, 0.80, 0.92, 0.99, 1.00],
-		"end":       [-0.01, -0.01, -0.01, 0.92, 0.99, 1.00]
+		"overworld": [0.25, 0.55, 0.75, 0.90, 0.97, 1.00],
+		"nether":    [-0.01, -0.01, 0.75, 0.90, 0.97, 1.00],
+		"end":       [-0.01, -0.01, -0.01, 0.90, 0.97, 1.00]
 	};
 
     /**
@@ -122,14 +122,22 @@ public class TierComponent
 		var tier_variant = loot_context.random.nextInt(1, NUMBER_OF_VARIANTS[item_type] + 1);
 
         // Construct and return the complete tier component data structure
-		return 
-		{
+
+        var tier_component = {
 			"tiered:tier": 
 			{
 				durable_factor: -1.0,
 				operation: 0,
 				tier: "tiered:" + tier_level + "_" + item_type + "_" + tier_variant as string
 			}
-		};
+		} as IData;
+
+        if (tier_level == "legendary" || tier_level == "unique")
+        {
+            val name_component = NameComponent.generateRandomNameComponent(item_descriptor, loot_context);
+            if (!name_component.isEmpty) { tier_component.merge(name_component); }
+        }
+
+		return tier_component;
 	}
 }

@@ -197,7 +197,11 @@
 	quest.228243B39D2941F7.title: "&6Your Quest Book&r"
 	quest.2299FD6FF585A196.quest_desc: ["&9Iron bags&r for serious expeditions."]
 	quest.2299FD6FF585A196.title: "&9Iron Bag Upgrade&r"
-	quest.2302D5FA446681AB.quest_desc: ["&9Carry your network with you.&r Shift right click any bag on a chest to sync their colors. Now you have portable access to that storage channel from anywhere."]
+	quest.2302D5FA446681AB.quest_desc: [
+		"&9Carry your network with you.&r Shift right click any bag on a chest to sync their colors. Now you have portable access to that storage channel from anywhere."
+		""
+		"Press &7'B'&r to open the first Ender Bag."
+	]
 	quest.2302D5FA446681AB.title: "&9Ender Bags&r"
 	quest.233A29F77EFE01B6.quest_desc: [
 		"&6Show off your equipment!&r Your weapons and tools now appear on your character."
@@ -229,7 +233,7 @@
 	quest.25E2F27061697480.quest_desc: [
 		"&4Build with perfect precision.&r Visual templates show exactly where blocks go. Preview designs before placing anything. Alignment guides keep everything straight and symmetrical."
 		""
-		"Press &7'B'&r to open the building guide menu."
+		"Press &7'H'&r to open the building guide menu."
 	]
 	quest.25E2F27061697480.title: "&4Building Guides&r"
 	quest.266B72EF34EE7A7F.quest_desc: [

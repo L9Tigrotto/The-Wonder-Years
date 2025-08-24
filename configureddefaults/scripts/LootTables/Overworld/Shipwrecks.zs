@@ -18,7 +18,7 @@ loot.modifiers.register(
             new WeightedPoolItem(<item:minecraft:iron_ingot>, 90, 1, 5),
             new WeightedPoolItem(<item:minecraft:gold_ingot>, 10, 1, 5),
             new WeightedPoolItem(<item:minecraft:emerald>, 40, 1, 5),
-            new WeightedPoolItem(<item:minecraft:diamond>, 5, 1, 1),
+            new WeightedPoolItem(<item:minecraft:diamond>, 5, 1, 2),
             new WeightedPoolItem(<item:minecraft:amethyst_shard>, 5, 1, 3),
             new WeightedPoolItem(<item:minecraft:experience_bottle>, 5, 1, 1)
         ]);
@@ -215,10 +215,10 @@ loot.modifiers.register(
             new WeightedPoolItem(<item:minecraft:gold_nugget>, 1, 4, 12)
         ]);
 
-        loot_generator.performWeightedPool(1, 2, 0, [
+        loot_generator.performWeightedPool(1, 1, 0, [
             new WeightedPoolItem(<item:minecraft:iron_ingot>, 15, 12, 24),
             new WeightedPoolItem(<item:minecraft:gold_ingot>, 20, 6, 12),
-            new WeightedPoolItem(<item:minecraft:diamond>, 15, 2, 4),
+            new WeightedPoolItem(<item:minecraft:diamond>, 15, 1, 3),
             new WeightedPoolItem(<item:minecraft:amethyst_shard>, 5, 1, 3),
             new WeightedPoolItem(<item:minecraft:emerald>, 10, 4, 10)
         ]);
@@ -297,10 +297,10 @@ loot.modifiers.register(
             new WeightedPoolItem(<item:minecraft:gold_nugget>, 1, 4, 12)
         ]);
 
-        loot_generator.performWeightedPool(1, 2, 0, [
+        loot_generator.performWeightedPool(1, 1, 0, [
             new WeightedPoolItem(<item:minecraft:iron_ingot>, 15, 12, 24),
             new WeightedPoolItem(<item:minecraft:gold_ingot>, 20, 6, 12),
-            new WeightedPoolItem(<item:minecraft:diamond>, 15, 2, 4),
+            new WeightedPoolItem(<item:minecraft:diamond>, 15, 1, 3),
             new WeightedPoolItem(<item:minecraft:amethyst_shard>, 5, 1, 3),
             new WeightedPoolItem(<item:minecraft:emerald>, 10, 4, 10)
         ]);
@@ -369,8 +369,8 @@ loot.modifiers.register(
             new WeightedPoolItem(<item:minecraft:gold_nugget>, 1, 4, 12)
         ]);
 
-        loot_generator.performWeightedPool(1, 2, 0, [
-            new WeightedPoolItem(<item:minecraft:diamond>, 15, 3, 5),
+        loot_generator.performWeightedPool(1, 1, 0, [
+            new WeightedPoolItem(<item:minecraft:diamond>, 15, 1, 4),
             new WeightedPoolItem(<item:minecraft:amethyst_shard>, 5, 1, 3),
             new WeightedPoolItem(<item:minecraft:emerald>, 10, 7, 10)
         ]);
@@ -563,10 +563,10 @@ loot.modifiers.register(
             new WeightedPoolItem(<item:minecraft:gold_nugget>, 1, 4, 12)
         ]);
 
-        loot_generator.performWeightedPool(1, 2, 0, [
+        loot_generator.performWeightedPool(1, 1, 0, [
             new WeightedPoolItem(<item:minecraft:iron_ingot>, 15, 12, 24),
             new WeightedPoolItem(<item:minecraft:gold_ingot>, 20, 6, 12),
-            new WeightedPoolItem(<item:minecraft:diamond>, 15, 2, 4),
+            new WeightedPoolItem(<item:minecraft:diamond>, 15, 1, 3),
             new WeightedPoolItem(<item:minecraft:amethyst_shard>, 5, 1, 3),
             new WeightedPoolItem(<item:minecraft:emerald>, 10, 4, 10)
         ]);
@@ -635,8 +635,8 @@ loot.modifiers.register(
             new WeightedPoolItem(<item:minecraft:gold_nugget>, 1, 4, 12)
         ]);
 
-        loot_generator.performWeightedPool(1, 2, 0, [
-            new WeightedPoolItem(<item:minecraft:diamond>, 15, 3, 4),
+        loot_generator.performWeightedPool(1, 1, 0, [
+            new WeightedPoolItem(<item:minecraft:diamond>, 15, 1, 3),
             new WeightedPoolItem(<item:minecraft:amethyst_shard>, 5, 1, 3),
             new WeightedPoolItem(<item:minecraft:emerald>, 10, 7, 10)
         ]);
@@ -714,8 +714,8 @@ loot.modifiers.register(
             new WeightedPoolItem(<item:minecraft:gold_nugget>, 1, 4, 12)
         ]);
 
-        loot_generator.performWeightedPool(1, 2, 0, [
-            new WeightedPoolItem(<item:minecraft:diamond>, 15, 3, 1),
+        loot_generator.performWeightedPool(1, 1, 0, [
+            new WeightedPoolItem(<item:minecraft:diamond>, 15, 1, 3),
             new WeightedPoolItem(<item:minecraft:amethyst_shard>, 5, 1, 3),
             new WeightedPoolItem(<item:minecraft:emerald>, 10, 7, 10)
         ]);
@@ -751,7 +751,7 @@ loot.modifiers.register(
         loot_generator.performWeightedPool(1, 2, 0, [
             new WeightedPoolItem(<item:minecraft:iron_ingot>, 15, 12, 24),
             new WeightedPoolItem(<item:minecraft:gold_ingot>, 20, 6, 12),
-            new WeightedPoolItem(<item:minecraft:diamond>, 15, 2, 1),
+            new WeightedPoolItem(<item:minecraft:diamond>, 15, 1, 2),
             new WeightedPoolItem(<item:minecraft:emerald>, 10, 4, 10)
         ]);
 
@@ -819,8 +819,8 @@ loot.modifiers.register(
             new WeightedPoolItem(<item:minecraft:emerald>, 1, 4, 12)
         ]);
 
-        loot_generator.performWeightedPool(1, 2, 0, [
-            new WeightedPoolItem(<item:minecraft:diamond>, 1, 3, 4),
+        loot_generator.performWeightedPool(1, 1, 0, [
+            new WeightedPoolItem(<item:minecraft:diamond>, 1, 2, 4),
             new WeightedPoolItem(<item:minecraft:amethyst_shard>, 5, 1, 3)
         ]);
 
