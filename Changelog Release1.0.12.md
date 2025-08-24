@@ -19,3 +19,5 @@
 *List all mods that were updated with their version changes.*
 
 - **Storage Drawers**: `v13.10.1` → `v13.11.0`
+- **GeckoLib**: `v4.7.6` → `v4.7.7`
+- **YDM's Weapon Master**: `v4.2.6` → `v4.4.1`
