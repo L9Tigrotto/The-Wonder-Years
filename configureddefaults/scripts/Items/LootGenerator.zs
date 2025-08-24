@@ -434,49 +434,44 @@ public class LootGenerator
 		val tier_pick = Functions.pow(loot_context.random.nextFloat(), luck_factor);
 		
         // Select appropriate pools and distributions based on dimension
-		var tier_key = "";
+		var material_key = "";
 		var tool_pool = { } as IItemStack[][string];
 
 		if (loot_context.dimension == "overworld")
 		{
 			tool_pool = OVERWORLD_TOOL_POOLS;
-			if      (tier_pick <= OVERWORLD_TOOLS_DISTRIBUTION[0]) { tier_key = OVERWORLD_TOOL_TIERS[0]; }
-			else if (tier_pick <= OVERWORLD_TOOLS_DISTRIBUTION[1]) { tier_key = OVERWORLD_TOOL_TIERS[1]; }
-			else if (tier_pick <= OVERWORLD_TOOLS_DISTRIBUTION[2]) { tier_key = OVERWORLD_TOOL_TIERS[2]; }
-			else if (tier_pick <= OVERWORLD_TOOLS_DISTRIBUTION[3]) { tier_key = OVERWORLD_TOOL_TIERS[3]; }
-			else if (tier_pick <= OVERWORLD_TOOLS_DISTRIBUTION[4]) { tier_key = OVERWORLD_TOOL_TIERS[4]; }
-			else                                           	       { tier_key = OVERWORLD_TOOL_TIERS[5]; }
+			if      (tier_pick <= OVERWORLD_TOOLS_DISTRIBUTION[0]) { material_key = OVERWORLD_TOOL_TIERS[0]; }
+			else if (tier_pick <= OVERWORLD_TOOLS_DISTRIBUTION[1]) { material_key = OVERWORLD_TOOL_TIERS[1]; }
+			else if (tier_pick <= OVERWORLD_TOOLS_DISTRIBUTION[2]) { material_key = OVERWORLD_TOOL_TIERS[2]; }
+			else if (tier_pick <= OVERWORLD_TOOLS_DISTRIBUTION[3]) { material_key = OVERWORLD_TOOL_TIERS[3]; }
+			else if (tier_pick <= OVERWORLD_TOOLS_DISTRIBUTION[4]) { material_key = OVERWORLD_TOOL_TIERS[4]; }
+			else                                           	       { material_key = OVERWORLD_TOOL_TIERS[5]; }
 		}
 		else if (loot_context.dimension == "nether")
 		{
 			tool_pool = NETHER_TOOL_POOLS;
-			if      (tier_pick <= NETHER_TOOLS_DISTRIBUTION[0]) { tier_key = NETHER_TOOL_TIERS[0]; }
-			else if (tier_pick <= NETHER_TOOLS_DISTRIBUTION[1]) { tier_key = NETHER_TOOL_TIERS[1]; }
-			else if (tier_pick <= NETHER_TOOLS_DISTRIBUTION[2]) { tier_key = NETHER_TOOL_TIERS[2]; }
-			else                                                { tier_key = NETHER_TOOL_TIERS[3]; }
+			if      (tier_pick <= NETHER_TOOLS_DISTRIBUTION[0]) { material_key = NETHER_TOOL_TIERS[0]; }
+			else if (tier_pick <= NETHER_TOOLS_DISTRIBUTION[1]) { material_key = NETHER_TOOL_TIERS[1]; }
+			else if (tier_pick <= NETHER_TOOLS_DISTRIBUTION[2]) { material_key = NETHER_TOOL_TIERS[2]; }
+			else                                                { material_key = NETHER_TOOL_TIERS[3]; }
 		}
 		else if (loot_context.dimension == "end")
 		{
 			tool_pool = END_TOOL_POOLS;
-			if      (tier_pick <= END_TOOLS_DISTRIBUTION[0]) { tier_key = END_TOOL_TIERS[0]; }
-			else if (tier_pick <= END_TOOLS_DISTRIBUTION[1]) { tier_key = END_TOOL_TIERS[1]; }
-			else if (tier_pick <= END_TOOLS_DISTRIBUTION[2]) { tier_key = END_TOOL_TIERS[2]; }
-			else if (tier_pick <= END_TOOLS_DISTRIBUTION[3]) { tier_key = END_TOOL_TIERS[3]; }
-			else if (tier_pick <= END_TOOLS_DISTRIBUTION[4]) { tier_key = END_TOOL_TIERS[4]; }
-			else                                             { tier_key = END_TOOL_TIERS[5]; }
+			if      (tier_pick <= END_TOOLS_DISTRIBUTION[0]) { material_key = END_TOOL_TIERS[0]; }
+			else if (tier_pick <= END_TOOLS_DISTRIBUTION[1]) { material_key = END_TOOL_TIERS[1]; }
+			else if (tier_pick <= END_TOOLS_DISTRIBUTION[2]) { material_key = END_TOOL_TIERS[2]; }
+			else if (tier_pick <= END_TOOLS_DISTRIBUTION[3]) { material_key = END_TOOL_TIERS[3]; }
+			else if (tier_pick <= END_TOOLS_DISTRIBUTION[4]) { material_key = END_TOOL_TIERS[4]; }
+			else                                             { material_key = END_TOOL_TIERS[5]; }
 		}
 
         // Select specific tool from tier with luck-based selection
-		val tier_items = tool_pool[tier_key];
-        val tool_roll = Functions.pow(loot_context.random.nextFloat(), luck_factor);
-        var tool_index = Functions.round(tool_roll * (tier_items.length - 1)) as int;
-
-        // Defensive bounds checking
-		if (tool_index < 0) { tool_index = 0; }
-        if (tool_index >= tier_items.length as int) { tool_index = (tier_items.length - 1) as int; }
+		val material_items = tool_pool[material_key];
+        val tool_index = loot_context.random.nextInt(0, material_items.length as int);
 
         // Create item descriptor and assembler for component integration
-		val item_descriptor = new ItemDescriptor(tier_items[tool_index]);
+		val item_descriptor = new ItemDescriptor(material_items[tool_index]);
         val item_assembler = new ItemAssembler(item_descriptor);
 
         // Apply enchantments if item supports them
@@ -520,53 +515,49 @@ public class LootGenerator
 
 		val luck_factor = 1.0 - luck * 0.15;
 		val tier_pick = Functions.pow(loot_context.random.nextFloat(), luck_factor);
-		var tier_key = "";
+		var material_key = "";
 		var weapon_pool = {} as IItemStack[][string];
 
 		if (loot_context.dimension == "overworld")
 		{
 			weapon_pool = OVERWORLD_WEAPON_POOLS;
-			if      (tier_pick <= OVERWORLD_WEAPON_DISTRIBUTION[0]) { tier_key = OVERWORLD_WEAPON_TIERS[0]; }
-			else if (tier_pick <= OVERWORLD_WEAPON_DISTRIBUTION[1]) { tier_key = OVERWORLD_WEAPON_TIERS[1]; }
-			else if (tier_pick <= OVERWORLD_WEAPON_DISTRIBUTION[2]) { tier_key = OVERWORLD_WEAPON_TIERS[2]; }
-			else if (tier_pick <= OVERWORLD_WEAPON_DISTRIBUTION[3]) { tier_key = OVERWORLD_WEAPON_TIERS[3]; }
-			else if (tier_pick <= OVERWORLD_WEAPON_DISTRIBUTION[4]) { tier_key = OVERWORLD_WEAPON_TIERS[4]; }
-			else if (tier_pick <= OVERWORLD_WEAPON_DISTRIBUTION[5]) { tier_key = OVERWORLD_WEAPON_TIERS[5]; }
-			else if (tier_pick <= OVERWORLD_WEAPON_DISTRIBUTION[6]) { tier_key = OVERWORLD_WEAPON_TIERS[6]; }
-			else                                                    { tier_key = OVERWORLD_WEAPON_TIERS[7]; }
+			if      (tier_pick <= OVERWORLD_WEAPON_DISTRIBUTION[0]) { material_key = OVERWORLD_WEAPON_TIERS[0]; }
+			else if (tier_pick <= OVERWORLD_WEAPON_DISTRIBUTION[1]) { material_key = OVERWORLD_WEAPON_TIERS[1]; }
+			else if (tier_pick <= OVERWORLD_WEAPON_DISTRIBUTION[2]) { material_key = OVERWORLD_WEAPON_TIERS[2]; }
+			else if (tier_pick <= OVERWORLD_WEAPON_DISTRIBUTION[3]) { material_key = OVERWORLD_WEAPON_TIERS[3]; }
+			else if (tier_pick <= OVERWORLD_WEAPON_DISTRIBUTION[4]) { material_key = OVERWORLD_WEAPON_TIERS[4]; }
+			else if (tier_pick <= OVERWORLD_WEAPON_DISTRIBUTION[5]) { material_key = OVERWORLD_WEAPON_TIERS[5]; }
+			else if (tier_pick <= OVERWORLD_WEAPON_DISTRIBUTION[6]) { material_key = OVERWORLD_WEAPON_TIERS[6]; }
+			else                                                    { material_key = OVERWORLD_WEAPON_TIERS[7]; }
 		}
 		else if (loot_context.dimension == "nether")
 		{
 			weapon_pool = NETHER_WEAPON_POOLS;
-			if      (tier_pick <= NETHER_WEAPON_DISTRIBUTION[0]) { tier_key = NETHER_WEAPON_TIERS[0]; }
-			else if (tier_pick <= NETHER_WEAPON_DISTRIBUTION[1]) { tier_key = NETHER_WEAPON_TIERS[1]; }
-			else if (tier_pick <= NETHER_WEAPON_DISTRIBUTION[2]) { tier_key = NETHER_WEAPON_TIERS[2]; }
-			else if (tier_pick <= NETHER_WEAPON_DISTRIBUTION[3]) { tier_key = NETHER_WEAPON_TIERS[3]; }
-			else if (tier_pick <= NETHER_WEAPON_DISTRIBUTION[4]) { tier_key = NETHER_WEAPON_TIERS[4]; }
-			else if (tier_pick <= NETHER_WEAPON_DISTRIBUTION[5]) { tier_key = NETHER_WEAPON_TIERS[5]; }
-			else                                                 { tier_key = NETHER_WEAPON_TIERS[6]; }
+			if      (tier_pick <= NETHER_WEAPON_DISTRIBUTION[0]) { material_key = NETHER_WEAPON_TIERS[0]; }
+			else if (tier_pick <= NETHER_WEAPON_DISTRIBUTION[1]) { material_key = NETHER_WEAPON_TIERS[1]; }
+			else if (tier_pick <= NETHER_WEAPON_DISTRIBUTION[2]) { material_key = NETHER_WEAPON_TIERS[2]; }
+			else if (tier_pick <= NETHER_WEAPON_DISTRIBUTION[3]) { material_key = NETHER_WEAPON_TIERS[3]; }
+			else if (tier_pick <= NETHER_WEAPON_DISTRIBUTION[4]) { material_key = NETHER_WEAPON_TIERS[4]; }
+			else if (tier_pick <= NETHER_WEAPON_DISTRIBUTION[5]) { material_key = NETHER_WEAPON_TIERS[5]; }
+			else                                                 { material_key = NETHER_WEAPON_TIERS[6]; }
 		}
 		else if (loot_context.dimension == "end")
 		{
 			weapon_pool = END_WEAPON_POOLS;
-			if      (tier_pick <= END_WEAPON_DISTRIBUTION[0]) { tier_key = END_WEAPON_TIERS[0]; }
-			else if (tier_pick <= END_WEAPON_DISTRIBUTION[1]) { tier_key = END_WEAPON_TIERS[1]; }
-			else if (tier_pick <= END_WEAPON_DISTRIBUTION[2]) { tier_key = END_WEAPON_TIERS[2]; }
-			else if (tier_pick <= END_WEAPON_DISTRIBUTION[3]) { tier_key = END_WEAPON_TIERS[3]; }
-			else if (tier_pick <= END_WEAPON_DISTRIBUTION[4]) { tier_key = END_WEAPON_TIERS[4]; }
-			else if (tier_pick <= END_WEAPON_DISTRIBUTION[5]) { tier_key = END_WEAPON_TIERS[5]; }
-			else if (tier_pick <= END_WEAPON_DISTRIBUTION[6]) { tier_key = END_WEAPON_TIERS[6]; }
-			else                                              { tier_key = END_WEAPON_TIERS[7]; }
+			if      (tier_pick <= END_WEAPON_DISTRIBUTION[0]) { material_key = END_WEAPON_TIERS[0]; }
+			else if (tier_pick <= END_WEAPON_DISTRIBUTION[1]) { material_key = END_WEAPON_TIERS[1]; }
+			else if (tier_pick <= END_WEAPON_DISTRIBUTION[2]) { material_key = END_WEAPON_TIERS[2]; }
+			else if (tier_pick <= END_WEAPON_DISTRIBUTION[3]) { material_key = END_WEAPON_TIERS[3]; }
+			else if (tier_pick <= END_WEAPON_DISTRIBUTION[4]) { material_key = END_WEAPON_TIERS[4]; }
+			else if (tier_pick <= END_WEAPON_DISTRIBUTION[5]) { material_key = END_WEAPON_TIERS[5]; }
+			else if (tier_pick <= END_WEAPON_DISTRIBUTION[6]) { material_key = END_WEAPON_TIERS[6]; }
+			else                                              { material_key = END_WEAPON_TIERS[7]; }
 		}
 
-		val tier_items = weapon_pool[tier_key];
-        val weapon_roll = Functions.pow(loot_context.random.nextFloat(), luck_factor);
-        var weapon_index = Functions.round(weapon_roll * (tier_items.length - 1)) as int;
+		val material_weapons = weapon_pool[material_key];
+        val weapon_index = loot_context.random.nextInt(0, material_weapons.length as int);
 
-		if (weapon_index < 0) { weapon_index = 0; }
-        if (weapon_index >= tier_items.length as int) { weapon_index = (tier_items.length - 1) as int; }
-
-		val item_descriptor = new ItemDescriptor(tier_items[weapon_index]);
+		val item_descriptor = new ItemDescriptor(material_weapons[weapon_index]);
         val item_assembler = new ItemAssembler(item_descriptor);
 
         if (item_descriptor.can_receive_enchantments)
@@ -602,47 +593,43 @@ public class LootGenerator
 
 		val luck_factor = 1.0 - luck * 0.15;
 		val tier_pick = Functions.pow(loot_context.random.nextFloat(), luck_factor);
-        var tier_key = "";
+        var material_key = "";
 		var armor_pool = {} as IItemStack[][string];
 
 		if (loot_context.dimension == "overworld")
 		{
 			armor_pool = OVERWORLD_ARMOR_POOLS;
-			if      (tier_pick <= OVERWORLD_ARMOR_DISTRIBUTION[0]) { tier_key = OVERWORLD_ARMOR_TIERS[0]; }
-			else if (tier_pick <= OVERWORLD_ARMOR_DISTRIBUTION[1]) { tier_key = OVERWORLD_ARMOR_TIERS[1]; }
-			else if (tier_pick <= OVERWORLD_ARMOR_DISTRIBUTION[2]) { tier_key = OVERWORLD_ARMOR_TIERS[2]; }
-			else if (tier_pick <= OVERWORLD_ARMOR_DISTRIBUTION[3]) { tier_key = OVERWORLD_ARMOR_TIERS[3]; }
-			else if (tier_pick <= OVERWORLD_ARMOR_DISTRIBUTION[4]) { tier_key = OVERWORLD_ARMOR_TIERS[4]; }
-			else if (tier_pick <= OVERWORLD_ARMOR_DISTRIBUTION[5]) { tier_key = OVERWORLD_ARMOR_TIERS[5]; }
-			else                                                   { tier_key = OVERWORLD_ARMOR_TIERS[6]; }
+			if      (tier_pick <= OVERWORLD_ARMOR_DISTRIBUTION[0]) { material_key = OVERWORLD_ARMOR_TIERS[0]; }
+			else if (tier_pick <= OVERWORLD_ARMOR_DISTRIBUTION[1]) { material_key = OVERWORLD_ARMOR_TIERS[1]; }
+			else if (tier_pick <= OVERWORLD_ARMOR_DISTRIBUTION[2]) { material_key = OVERWORLD_ARMOR_TIERS[2]; }
+			else if (tier_pick <= OVERWORLD_ARMOR_DISTRIBUTION[3]) { material_key = OVERWORLD_ARMOR_TIERS[3]; }
+			else if (tier_pick <= OVERWORLD_ARMOR_DISTRIBUTION[4]) { material_key = OVERWORLD_ARMOR_TIERS[4]; }
+			else if (tier_pick <= OVERWORLD_ARMOR_DISTRIBUTION[5]) { material_key = OVERWORLD_ARMOR_TIERS[5]; }
+			else                                                   { material_key = OVERWORLD_ARMOR_TIERS[6]; }
 		}
 		else if (loot_context.dimension == "nether")
 		{
 			armor_pool = NETHER_ARMOR_POOLS;
-			if      (tier_pick <= NETHER_ARMOR_DISTRIBUTION[0]) { tier_key = NETHER_ARMOR_TIERS[0]; }
-			else if (tier_pick <= NETHER_ARMOR_DISTRIBUTION[1]) { tier_key = NETHER_ARMOR_TIERS[1]; }
-			else if (tier_pick <= NETHER_ARMOR_DISTRIBUTION[2]) { tier_key = NETHER_ARMOR_TIERS[2]; }
-			else if (tier_pick <= NETHER_ARMOR_DISTRIBUTION[3]) { tier_key = NETHER_ARMOR_TIERS[3]; }
-			else                                                { tier_key = NETHER_ARMOR_TIERS[4]; }
+			if      (tier_pick <= NETHER_ARMOR_DISTRIBUTION[0]) { material_key = NETHER_ARMOR_TIERS[0]; }
+			else if (tier_pick <= NETHER_ARMOR_DISTRIBUTION[1]) { material_key = NETHER_ARMOR_TIERS[1]; }
+			else if (tier_pick <= NETHER_ARMOR_DISTRIBUTION[2]) { material_key = NETHER_ARMOR_TIERS[2]; }
+			else if (tier_pick <= NETHER_ARMOR_DISTRIBUTION[3]) { material_key = NETHER_ARMOR_TIERS[3]; }
+			else                                                { material_key = NETHER_ARMOR_TIERS[4]; }
 		}
 		else if (loot_context.dimension == "end")
 		{
 			armor_pool = END_ARMOR_POOLS;
-			if      (tier_pick <= END_ARMOR_DISTRIBUTION[0]) { tier_key = END_ARMOR_TIERS[0]; }
-			else if (tier_pick <= END_ARMOR_DISTRIBUTION[1]) { tier_key = END_ARMOR_TIERS[1]; }
-			else if (tier_pick <= END_ARMOR_DISTRIBUTION[2]) { tier_key = END_ARMOR_TIERS[2]; }
-			else if (tier_pick <= END_ARMOR_DISTRIBUTION[3]) { tier_key = END_ARMOR_TIERS[3]; }
-			else                                             { tier_key = END_ARMOR_TIERS[4]; }
+			if      (tier_pick <= END_ARMOR_DISTRIBUTION[0]) { material_key = END_ARMOR_TIERS[0]; }
+			else if (tier_pick <= END_ARMOR_DISTRIBUTION[1]) { material_key = END_ARMOR_TIERS[1]; }
+			else if (tier_pick <= END_ARMOR_DISTRIBUTION[2]) { material_key = END_ARMOR_TIERS[2]; }
+			else if (tier_pick <= END_ARMOR_DISTRIBUTION[3]) { material_key = END_ARMOR_TIERS[3]; }
+			else                                             { material_key = END_ARMOR_TIERS[4]; }
 		}
 
-		val tier_items = armor_pool[tier_key];
-        val armor_roll = Functions.pow(loot_context.random.nextFloat(), luck_factor);
-        var armor_index = Functions.round(armor_roll * (tier_items.length - 1)) as int;
+		val material_armors = armor_pool[material_key];
+        val armor_index = loot_context.random.nextInt(0, material_armors.length as int);
 
-		if (armor_index < 0) { armor_index = 0; }
-        if (armor_index >= tier_items.length as int) { armor_index = (tier_items.length - 1) as int; }
-
-		val item_descriptor = new ItemDescriptor(tier_items[armor_index]);
+		val item_descriptor = new ItemDescriptor(material_armors[armor_index]);
         val item_assembler = new ItemAssembler(item_descriptor);
 
         // Apply all applicable components
