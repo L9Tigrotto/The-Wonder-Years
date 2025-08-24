@@ -5,6 +5,7 @@
 *List administrative changes, modpack-wide modifications, and other general updates.*
 
 - Drastically reduced teleportation cost.
+- Generated loot is no longer affected by luck after picking a material. Before, with high luck the probabilities were skewed towards "chestplates", and with low luck they were skewed towards "helmets". Now it has a uniform distribution.
 
 - Known bug: tierable items crafted in the crafting terminal with `shift + left click` will be tierless. Waiting for response from Tom's Simple Storage on bug report.
 - Known bug: equipment comparison is not currently working with tiered items. Waiting for response from Equipment Compare on bug report.
