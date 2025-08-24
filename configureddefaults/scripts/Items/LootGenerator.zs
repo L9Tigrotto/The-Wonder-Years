@@ -422,7 +422,7 @@ public class LootGenerator
 	public generateToolWithProbability(probability as float) as void
 	{
         var luck = 0.0 as float;
-        if (loot_context.biome == "trial_chamber") { luck = 4.0 as float; }
+        if (loot_context.biome == "trial_chamber_spawner") { luck = 4.0 as float; }
         else { luck = loot_context.player_luck as float; }
 
         // Check if generation should occur (with luck bonus)
@@ -511,7 +511,7 @@ public class LootGenerator
 	public generateWeaponWithProbability(probability as float) as void
 	{
         var luck = 0.0 as float;
-        if (loot_context.biome == "trial_chamber") { luck = 4.0 as float; }
+        if (loot_context.biome == "trial_chamber_spawner") { luck = 4.0 as float; }
         else { luck = loot_context.player_luck as float; }
         
         // Check if generation should occur (with luck bonus)
@@ -593,7 +593,7 @@ public class LootGenerator
 	public generateArmorWithProbability(probability as float) as void
 	{
         var luck = 0.0 as float;
-        if (loot_context.biome == "trial_chamber") { luck = 4.0 as float; }
+        if (loot_context.biome == "trial_chamber_spawner") { luck = 4.0 as float; }
         else { luck = loot_context.player_luck as float; }
 
         // Check if generation should occur (with luck bonus)
@@ -939,7 +939,7 @@ public class LootGenerator
         }
 
         var luck = 0.0 as float;
-        if (loot_context.biome == "trial_chamber") { luck = 4.0 as float; }
+        if (loot_context.biome == "trial_chamber_spawner") { luck = 4.0 as float; }
         else { luck = loot_context.player_luck as float; }
 
         // Determine number of rolls using luck-based scaling
