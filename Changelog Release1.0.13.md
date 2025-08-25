@@ -11,6 +11,24 @@
 
 ---
 
+## ❌ Mods Removed
+
+*List all mods that were removed with reasons.*
+
+- **Stackable Stew and Soup**: No more needed.
+- **Postion Stacking**: No more needed.
+- **MonoLib**: Dead dependecy.
+
+---
+
+## ➕ Mods Added
+
+*List all newly added mods with reasons.*
+
+- **Stackable127**: Increases all block stacking limits via config.
+
+---
+
 ## ⬆️ Mods Updated
 
 *List all mods that were updated with their version changes.*
