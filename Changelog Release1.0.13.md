@@ -29,6 +29,8 @@
 *List all newly added mods with reasons.*
 
 - **Stackable127**: Increases all block stacking limits via config.
+- **Armorful**: Adds armor for various mobs naturally where vanilla does not.
+- **Colorful Hearts**: Uses colored hearts to represent each row of health.
 
 ---
 
