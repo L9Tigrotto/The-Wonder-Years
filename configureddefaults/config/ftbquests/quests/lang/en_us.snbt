@@ -258,6 +258,8 @@
 	quest.2726AA5573D0C3E5.title: "&3Logic Components&r"
 	quest.273BF5F78AA12690.quest_desc: ["Powers better soul speed."]
 	quest.2745B4B645F2C711.quest_desc: ["Ancient scroll opening portals home. Use in the Nether to return to spawn instantly. Half the Sanctum's illusionists guard this escape route."]
+	quest.2752FEBD012ED985.quest_desc: ["&9Extend collection range around drawers.&r Automatically gathers dropped items within a 1 block radius horizontally and vertically."]
+	quest.2752FEBD012ED985.title: "&9Basic Magnet&r"
 	quest.276FAB033E5929D0.quest_desc: ["&3Adventure pays in coins.&r Find money bags in treasure chests, right click them or coins to place them into your purse (there is an icon in the inventory where you can take out coins). Trade with villagers using proper currency."]
 	quest.276FAB033E5929D0.title: "&3Explorer's Economy&r"
 	quest.2870F13B6FAE2F9B.quest_desc: ["Powers toxin immunity."]
@@ -313,6 +315,8 @@
 	quest.3806116DA302EDB4.quest_desc: ["Powers better mob drops."]
 	quest.381DEAC6966AA2EC.quest_desc: ["&5Find the perfect landscape.&r Need a specific biome for resources or building? This compass points the way. No more hours searching for that elusive mushroom island or flower forest."]
 	quest.381DEAC6966AA2EC.title: "&5Biome Seeker&r"
+	quest.3886760192B9E627.quest_desc: ["&9Significantly improved collection range.&r Gathers items within 4 blocks horizontally and 2 blocks vertically. Faster collection speed keeps your systems running smoothly."]
+	quest.3886760192B9E627.title: "&9Enhanced Magnet&r"
 	quest.38B26D5857D55795.quest_desc: ["&5Blessed talisman from master clerics. &rA holy charm said to shield its owner from misfortune."]
 	quest.38B7C3F8F74183BE.quest_desc: [
 		"&eClaim chunks to keep your creations safe.&r Only you and your teammates can build, break or interact with blocks in claimed areas."
@@ -495,6 +499,8 @@
 	quest.5F758B2E466C23D9.title: "&9Netherite Archives&r"
 	quest.5F815CC6F1C42FC7.quest_desc: ["&9Smart inventory management.&r Press your &7mouse wheel&r to sort any inventory instantly. &7Alt + Left Click&r slots to lock them during sorting. Use &7scroll wheel&r to move single items in and out."]
 	quest.5F815CC6F1C42FC7.title: "&9Better Inventory&r"
+	quest.5FBEE37C2884E29D.quest_desc: ["&9Transform drawers into item collectors.&r Automatically pulls in items dropped nearby, just like hoppers. No more manual feeding of your storage systems."]
+	quest.5FBEE37C2884E29D.title: "&9Hopper Enhancement&r"
 	quest.5FF42BE6A11FA80E.quest_desc: ["&5Challenge the ultimate flame. &rFind the Infernal Altar in blazing dunes. Follow ancient rituals to summon the Hovering Inferno. This boss surpasses even dragons in power and fury."]
 	quest.5FF42BE6A11FA80E.title: "&cInferno Boss&r"
 	quest.60B5861E4E2AA0B8.quest_desc: ["Precious hook that &eincreases experience drops&r from all mobs you kill in combat."]
@@ -555,6 +561,8 @@
 	quest.6CA270B9DFC88FFC.quest_desc: ["Bow leaving paths of flame. Draw longer for stronger shots. Spectral arrows blaze trails through the air. Rain and water silence its power temporarily."]
 	quest.6DEFCA02478F4A7D.quest_desc: ["&9Eight times&r base storage with iron reinforcement."]
 	quest.6DEFCA02478F4A7D.title: "&9Iron Expander&r"
+	quest.6E5601300B0AB5DF.quest_desc: ["&9Maximum collection power for drawers.&r Reaches 8 blocks horizontally and 3 blocks vertically with lightning  collection speed."]
+	quest.6E5601300B0AB5DF.title: "&9Master Magnet&r"
 	quest.6EB476830AD0C0A3.quest_desc: [" &cTraverse frozen lands&r to find this towering structure."]
 	quest.6EB476830AD0C0A3.title: "&cIce Spire&r"
 	quest.6EC86C6506B6D7CE.quest_desc: ["A mystical umbrella that &ablocks incoming damage&r and &aslows your fall&r, protecting you from both attacks and gravity."]

@@ -266,7 +266,7 @@ public class EnchantmentComponent
         }
 
         var luck = 0.0 as float;
-        if (loot_context.biome == "trial_chamber") { luck = 4.0 as float; }
+        if (loot_context.biome == "trial_chamber_spawner") { luck = 4.0 as float; }
         else { luck = loot_context.player_luck as float; }
 
         var enchantments = [] as Enchantment[];

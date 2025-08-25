@@ -67,7 +67,7 @@ loot.modifiers.register(
     "minecraft_chests_trial_chambers_reward_common",
     LootConditions.only(LootTableIdLootCondition.create(<resource:minecraft:chests/trial_chambers/reward_common>)),
     (stacks, context) => {
-        val loot_context = new WonderLootContext(context, "overworld", "trial_chamber");
+        val loot_context = new WonderLootContext(context, "overworld", "trial_chamber_spawner");
         val loot_generator = new LootGenerator(loot_context);
 
         loot_generator.performWeightedPool(1, 1, 0, [
@@ -92,7 +92,7 @@ loot.modifiers.register(
     "minecraft_chests_trial_chambers_reward_rare",
     LootConditions.only(LootTableIdLootCondition.create(<resource:minecraft:chests/trial_chambers/reward_rare>)),
     (stacks, context) => {
-        val loot_context = new WonderLootContext(context, "overworld", "trial_chamber");
+        val loot_context = new WonderLootContext(context, "overworld", "trial_chamber_spawner");
         val loot_generator = new LootGenerator(loot_context);
 
         loot_generator.performWeightedPool(1, 1, 0, [
@@ -114,7 +114,7 @@ loot.modifiers.register(
     "minecraft_chests_trial_chambers_reward_unique",
     LootConditions.only(LootTableIdLootCondition.create(<resource:minecraft:chests/trial_chambers/reward_unique>)),
     (stacks, context) => {
-        val loot_context = new WonderLootContext(context, "overworld", "trial_chamber");
+        val loot_context = new WonderLootContext(context, "overworld", "trial_chamber_spawner");
         val loot_generator = new LootGenerator(loot_context);
 
         loot_generator.performWeightedPool(1, 1, 0, [
@@ -137,7 +137,7 @@ loot.modifiers.register(
     "minecraft_chests_trial_chambers_reward",
     LootConditions.only(LootTableIdLootCondition.create(<resource:minecraft:chests/trial_chambers/reward>)),
     (stacks, context) => {
-        val loot_context = new WonderLootContext(context, "overworld", "trial_chamber");
+        val loot_context = new WonderLootContext(context, "overworld", "trial_chamber_spawner");
         val loot_generator = new LootGenerator(loot_context);
 
         loot_generator.performWeightedPool(2, 5, 8, [
@@ -165,7 +165,7 @@ loot.modifiers.register(
     "minecraft_chests_trial_chambers_reward_ominous_common",
     LootConditions.only(LootTableIdLootCondition.create(<resource:minecraft:chests/trial_chambers/reward_ominous_common>)),
     (stacks, context) => {
-        val loot_context = new WonderLootContext(context, "overworld", "trial_chamber");
+        val loot_context = new WonderLootContext(context, "overworld", "trial_chamber_spawner");
         val loot_generator = new LootGenerator(loot_context);
 
         loot_generator.performWeightedPool(1, 1, 0, [
@@ -188,7 +188,7 @@ loot.modifiers.register(
     "minecraft_chests_trial_chambers_reward_ominous_rare",
     LootConditions.only(LootTableIdLootCondition.create(<resource:minecraft:chests/trial_chambers/reward_ominous_rare>)),
     (stacks, context) => {
-        val loot_context = new WonderLootContext(context, "overworld", "trial_chamber");
+        val loot_context = new WonderLootContext(context, "overworld", "trial_chamber_spawner");
         val loot_generator = new LootGenerator(loot_context);
 
         loot_generator.performWeightedPool(1, 1, 0, [
@@ -212,7 +212,7 @@ loot.modifiers.register(
     "minecraft_chests_trial_chambers_reward_ominous_unique",
     LootConditions.only(LootTableIdLootCondition.create(<resource:minecraft:chests/trial_chambers/reward_ominous_unique>)),
     (stacks, context) => {
-        val loot_context = new WonderLootContext(context, "overworld", "trial_chamber");
+        val loot_context = new WonderLootContext(context, "overworld", "trial_chamber_spawner");
         val loot_generator = new LootGenerator(loot_context);
 
         loot_generator.performWeightedPool(1, 1, 0, [
@@ -237,7 +237,7 @@ loot.modifiers.register(
     "minecraft_chests_trial_chambers_reward_ominous",
     LootConditions.only(LootTableIdLootCondition.create(<resource:minecraft:chests/trial_chambers/reward_ominous>)),
     (stacks, context) => {
-        val loot_context = new WonderLootContext(context, "overworld", "trial_chamber");
+        val loot_context = new WonderLootContext(context, "overworld", "trial_chamber_spawner");
         val loot_generator = new LootGenerator(loot_context);
 
         loot_generator.performWeightedPool(2, 6, 5, [
@@ -298,7 +298,7 @@ loot.modifiers.register(
     "crazy_chambers_boss_reward",
     LootConditions.only(LootTableIdLootCondition.create(<resource:crazy_chambers:boss_reward>)),
     (stacks, context) => {
-        val loot_context = new WonderLootContext(context, "overworld", "trial_chamber");
+        val loot_context = new WonderLootContext(context, "overworld", "trial_chamber_spawner");
         val loot_generator = new LootGenerator(loot_context);
 
         loot_generator.performWeightedPool(1, 1, 0, [

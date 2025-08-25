@@ -78,7 +78,7 @@ public class TierComponent
         }
 
         var luck = 0.0 as float;
-        if (loot_context.biome == "trial_chamber") { luck = 5.0 as float; }
+        if (loot_context.biome == "trial_chamber_spawner") { luck = 5.0 as float; }
         else { luck = loot_context.player_luck as float; }
 
         // Determine which tierable category this item belongs to
