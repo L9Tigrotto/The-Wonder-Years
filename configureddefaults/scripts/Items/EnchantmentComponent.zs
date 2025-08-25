@@ -44,7 +44,7 @@ public class EnchantmentComponent
         "fishing rod": [<enchantment:minecraft:vanishing_curse>, <enchantment:minecraft:luck_of_the_sea>, <enchantment:minecraft:lure>,
                         <enchantment:minecraft:unbreaking>],
         "helmet": [<enchantment:minecraft:binding_curse>, <enchantment:minecraft:vanishing_curse>, <enchantment:minecraft:aqua_affinity>,
-                    <enchantment:enchantplus:helmet/bright_vision>, <enchantment:minecraft:fire_aspect>, <enchantment:minecraft:projectile_protection>,
+                    <enchantment:enchantplus:helmet/bright_vision>, <enchantment:minecraft:projectile_protection>,
                     <enchantment:minecraft:respiration>, <enchantment:enchantplus:armor/venom_protection>, <enchantment:minecraft:blast_protection>,
                     <enchantment:minecraft:fire_protection>, <enchantment:enchantplus:armor/fury>, <enchantment:minecraft:protection>,
                     <enchantment:minecraft:unbreaking>, <enchantment:enchantplus:armor/lifeplus>, <enchantment:minecraft:thorns>],
