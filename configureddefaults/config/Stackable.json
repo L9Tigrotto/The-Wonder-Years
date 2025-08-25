@@ -1,5 +1,5 @@
 {
-  "maxStack": 128,
+  "maxStack": 64,
   "StacksizeOverride": [
     {
       "namespaceID": "minecraft:mushroom_stew",
