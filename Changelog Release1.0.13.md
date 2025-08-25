@@ -13,7 +13,9 @@
 
 ## ⬆️ Mods Updated
 
-*List all mods that were updated with their version changes. Remove this section if no mods were updated.*
+*List all mods that were updated with their version changes.*
 
-- **Mod Name 1**: `v1.2.3` → `v1.3.0`
-- **Mod Name 2**: `v2.1.0` → `v2.1.5`
+- **TDM's Weapon Master**: `v4.4.1` → `v4.4.2`
+- **Entity Texture Features**: `v6.2.9` → `v7.0.1`
+- **Entity Model Features**: `v2.4.1` → `v3.0.1`
+- **Storage Drawers**: `v13.11.0` → `v13.11.1`
