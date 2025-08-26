@@ -227,7 +227,8 @@
       "securitycraft:*",
       "taterzens:npc",
       "easy_npc:*",
-      "bodiesbodies:dead_body"
+      "bodiesbodies:dead_body",
+      "minecraft:horse"
     ],
     "//forbiddenStacking": "Entities that cannot have other entities stacked on top of them",
     "forbiddenStacking": [

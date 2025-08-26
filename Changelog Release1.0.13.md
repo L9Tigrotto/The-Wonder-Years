@@ -14,6 +14,7 @@
 - Disabled automatic waypoints on waystones cause annoying auto enable machnics on server side.
 - Reduced distance between structures.
 - Fixed bed messages. Now custom messages releted to sleep shows correctly.
+- Fixed crash on server when picking up horse with horseshoes (disabled horse pick up).
 
 - Replaced emeralds with lapislazuli in loot chests.
 - Changed all recipes with emeralds to use lapislazuli or gold.
