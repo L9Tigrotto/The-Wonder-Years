@@ -8,6 +8,10 @@
 
 - Made essence stack up to 16.
 - Made totem of undying stack up to 4.
+- Removed debuffs fomr low tier items.
+- Changed the tier reroll to be more favorable.
+- Added more tier variants.
+- Added tiers for mace and trident.
 
 - Disabled Hammocs recipes and usage.
 - Disabled block info in hud for fluids.
@@ -33,6 +37,7 @@
 - **Stackable Stew and Soup**: No more needed.
 - **Postion Stacking**: No more needed.
 - **MonoLib**: Dead dependecy.
+- **TieredZ**: Found better alternative.
 
 ---
 
@@ -44,6 +49,13 @@
 - **Armorful**: Adds armor for various mobs naturally where vanilla does not.
 - **Colorful Hearts**: Uses colored hearts to represent each row of health.
 - **Enchanter Fix**: Allows to place all types of blocks within their enchanting table setup.
+
+- **Tiered More**: Improved version of TieredZ.
+- **Kev's Library**: Adds some attributes for item tier.
+- **Kev Projectile Immune Fix**: Dependency.
+- **Spell Engine**: Dependency.
+- **Spell Power Attribute**: Dependency.
+- **Player Animator**: Dependency.
 
 ---
 

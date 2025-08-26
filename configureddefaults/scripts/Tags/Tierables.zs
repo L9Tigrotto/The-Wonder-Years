@@ -180,6 +180,14 @@ val tierable_as_shield = [
     <item:minecraft:shield>
 ];
 
+val tierable_as_mace = [
+    <item:minecraft:mace>
+];
+
+val tierable_as_trident = [
+    <item:minecraft:trident>
+];
+
 // ========================================
 // TAG REGISTRATION
 // ========================================
@@ -191,3 +199,5 @@ for item in tierable_as_fishing_rod { <tag:item:the_wonder_years:tierable/fishin
 for item in tierable_as_melee_weapon { <tag:item:the_wonder_years:tierable/melee_weapon>.add(item); }
 for item in tierable_as_ranged_weapon { <tag:item:the_wonder_years:tierable/ranged_weapon>.add(item); }
 for item in tierable_as_shield { <tag:item:the_wonder_years:tierable/shield>.add(item); }
+for item in tierable_as_mace { <tag:item:the_wonder_years:tierable/mace>.add(item); }
+for item in tierable_as_trident { <tag:item:the_wonder_years:tierable/trident>.add(item); }
