@@ -16,6 +16,9 @@
 - Fixed bed messages. Now custom messages releted to sleep shows correctly.
 
 - Replaced emeralds with lapislazuli in loot chests.
+- Changed all recipes with emeralds to use lapislazuli or gold.
+- Changed abyssal whatcher recipe to use lapislazuli instead of flint.
+- Disabled enchantment catalyst.
 
 - Known bug: tierable items crafted in the crafting terminal with `shift + left click` will be tierless. Waiting for response from Tom's Simple Storage on bug report.
 - Known bug: equipment comparison is not currently working with tiered items. Waiting for response from Equipment Compare on bug report.
@@ -51,3 +54,4 @@
 - **Entity Texture Features**: `v6.2.9` → `v7.0.1`
 - **Entity Model Features**: `v2.4.1` → `v3.0.1`
 - **Storage Drawers**: `v13.11.0` → `v13.11.1`
+- **CraftTweaker**: `v21.0.32` → `v21.0.34`

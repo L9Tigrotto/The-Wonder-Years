@@ -337,8 +337,6 @@
 	quest.3A794FCC7E1B7B8F.quest_desc: ["Powers mace density."]
 	quest.3AADD472A1559AEC.quest_desc: ["&9Move storage without emptying it.&r &7Shift + Right Click&r any chest or container to pick it up with contents intact. Carry it anywhere and place it down. Everything stays inside, perfectly preserved."]
 	quest.3AADD472A1559AEC.title: "&9Portable Containers&r"
-	quest.3ADA0678306408A9.quest_desc: ["&5Harvest enchantments from worn gear.&r The grinder extracts magical essence from any enchanted item, storing power in enchantment crystals. Then transfer accumulated magic to compatible equipment."]
-	quest.3ADA0678306408A9.title: "&dMagical Accumulator&r"
 	quest.3AF3E5BB997DE26E.quest_desc: ["&9Carry more without slowing down.&r Leather bags for early adventures."]
 	quest.3AF3E5BB997DE26E.title: "&9Expanded Bags&r"
 	quest.3B50133CA80F323D.quest_desc: ["Powers arrow knockback."]

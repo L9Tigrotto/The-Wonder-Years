@@ -80,3 +80,17 @@ for essence in essences
 {
     craftingTable.remove(essence);
 }
+
+// change magic shard recipe
+craftingTable.remove(<item:betterenchanting:magic_shard_full>);
+craftingTable.addShaped(
+    "betterenchanting_magic_shard_full", 
+    <item:betterenchanting:magic_shard_full>, 
+    [
+        [<item:minecraft:air>, <item:minecraft:experience_bottle>, <item:minecraft:air>],
+        [<item:minecraft:gold_ingot>, <item:betterenchanting:magic_shard_dull>, <item:minecraft:gold_ingot>],
+        [<item:betterenchanting:infused_lapis>, <item:minecraft:experience_bottle>, <item:betterenchanting:infused_lapis>]
+    ]);
+
+// remove enchantment catalyst recipe
+craftingTable.remove(<item:betterenchanting:enchantment_catalyst>);
