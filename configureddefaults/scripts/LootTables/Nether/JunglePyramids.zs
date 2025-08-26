@@ -43,7 +43,7 @@ loot.modifiers.register(
         ]);
 
         loot_generator.performWeightedPool(6, 8, 0, [
-            new WeightedPoolItem(<item:minecraft:emerald>, 1, 2, 5)
+            new WeightedPoolItem(<item:minecraft:lapis_lazuli>, 1, 2, 5)
         ]);
 
         loot_generator.performWeightedPool(1, 1, 6, [
@@ -101,7 +101,7 @@ loot.modifiers.register(
         ]);
 
         loot_generator.performWeightedPool(6, 8, 0, [
-            new WeightedPoolItem(<item:minecraft:emerald>, 1, 2, 5)
+            new WeightedPoolItem(<item:minecraft:lapis_lazuli>, 1, 2, 5)
         ]);
 
         loot_generator.performWeightedPool(1, 1, 6, [
@@ -159,7 +159,7 @@ loot.modifiers.register(
         ]);
 
         loot_generator.performWeightedPool(6, 8, 0, [
-            new WeightedPoolItem(<item:minecraft:emerald>, 1, 2, 5)
+            new WeightedPoolItem(<item:minecraft:lapis_lazuli>, 1, 2, 5)
         ]);
 
         loot_generator.performWeightedPool(1, 1, 6, [
@@ -217,7 +217,7 @@ loot.modifiers.register(
         ]);
 
         loot_generator.performWeightedPool(6, 8, 0, [
-            new WeightedPoolItem(<item:minecraft:emerald>, 1, 2, 5)
+            new WeightedPoolItem(<item:minecraft:lapis_lazuli>, 1, 2, 5)
         ]);
 
         loot_generator.performWeightedPool(1, 1, 6, [
@@ -275,7 +275,7 @@ loot.modifiers.register(
         ]);
 
         loot_generator.performWeightedPool(6, 8, 0, [
-            new WeightedPoolItem(<item:minecraft:emerald>, 1, 2, 5)
+            new WeightedPoolItem(<item:minecraft:lapis_lazuli>, 1, 2, 5)
         ]);
 
         loot_generator.performWeightedPool(1, 1, 6, [

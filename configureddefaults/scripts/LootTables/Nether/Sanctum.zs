@@ -18,7 +18,6 @@ loot.modifiers.register(
             new WeightedPoolItem(<item:minecraft:glow_ink_sac>, 60, 1, 1),
             new WeightedPoolItem(<item:minecraft:beetroot_seeds>, 40, 1, 3),
             new WeightedPoolItem(<item:minecraft:iron_ingot>, 50, 1, 1),
-            new WeightedPoolItem(<item:minecraft:emerald>, 100, 1, 1),
             new WeightedPoolItem(<item:minecraft:piglin_banner_pattern>, 10, 1, 1),
             new WeightedPoolItem(<item:minecraft:skull_banner_pattern>, 5, 1, 1),
             new WeightedPoolItem(<item:minecraft:mojang_banner_pattern>, 1, 1, 1),
@@ -41,7 +40,7 @@ loot.modifiers.register(
             new WeightedPoolItem(<item:minecraft:light_blue_dye>, 50, 1, 1),
             new WeightedPoolItem(<item:minecraft:red_dye>, 50, 1, 1),
             new WeightedPoolItem(<item:minecraft:blue_dye>, 50, 1, 1),
-            new WeightedPoolItem(<item:minecraft:lapis_lazuli>, 50, 1, 3),
+            new WeightedPoolItem(<item:minecraft:lapis_lazuli>, 150, 1, 3),
             new WeightedPoolItem(<item:minecraft:loom>, 50, 1, 1),
             new WeightedPoolItem(<item:minecraft:flower_banner_pattern>, 100, 1, 1),
             new WeightedPoolItem(<item:minecraft:white_banner>, 70, 1, 1),
@@ -88,8 +87,7 @@ loot.modifiers.register(
             new WeightedPoolItem(<item:minecraft:lava_bucket>, 10, 1, 1),
             new WeightedPoolItem(<item:minecraft:ender_pearl>, 10, 1, 1),
             new WeightedPoolItem(<item:minecraft:amethyst_shard>, 60, 1, 3),
-            new WeightedPoolItem(<item:minecraft:lapis_lazuli>, 60, 1, 3),
-            new WeightedPoolItem(<item:minecraft:emerald>, 40, 1, 1),
+            new WeightedPoolItem(<item:minecraft:lapis_lazuli>, 100, 1, 3),
             new WeightedPoolItem(<item:minecraft:stick>, 40, 1, 4),
             new WeightedPoolItem(<item:minecraft:cauldron>, 70, 1, 1),
             new WeightedPoolItem(<item:minecraft:blaze_rod>, 40, 1, 1),
@@ -171,7 +169,7 @@ loot.modifiers.register(
             new WeightedPoolItem(<item:minecraft:iron_ingot>, 40, 1, 3),
             new WeightedPoolItem(<item:minecraft:raw_iron>, 60, 1, 4),
             new WeightedPoolItem(<item:minecraft:amethyst_shard>, 80, 1, 4),
-            new WeightedPoolItem(<item:minecraft:emerald>, 120, 1, 3)
+            new WeightedPoolItem(<item:minecraft:lapis_lazuli>, 120, 1, 3)
         ]);
 
         loot_generator.generateNToolsWithProbability(1, 0.94);
@@ -227,7 +225,7 @@ loot.modifiers.register(
             new WeightedPoolItem(<item:minecraft:enchanted_golden_apple>, 1, 1, 1),
             new WeightedPoolItem(<item:minecraft:golden_apple>, 15, 1, 1),
             new WeightedPoolItem(<item:minecraft:tipped_arrow>.withJsonComponent(<componenttype:minecraft:potion_contents>, {potion: "minecraft:slowness"}), 100, 1, 8),
-            new WeightedPoolItem(<item:minecraft:emerald_block>, 30, 1, 1),
+            new WeightedPoolItem(<item:minecraft:lapis_block>, 30, 1, 1),
             new WeightedPoolItem(<item:minecraft:chiseled_quartz_block>, 30, 1, 1),
             new WeightedPoolItem(<item:minecraft:quartz>, 200, 5, 20),
             new WeightedPoolItem(<item:minecraft:bread>, 200, 3, 6),
@@ -237,7 +235,7 @@ loot.modifiers.register(
             new WeightedPoolItem(<item:minecraft:ancient_debris>, 15, 1, 1),
             new WeightedPoolItem(<item:minecraft:iron_ingot>, 1, 1, 5),
             new WeightedPoolItem(<item:minecraft:stone>, 300, 1, 4),
-            new WeightedPoolItem(<item:minecraft:emerald>, 250, 1, 5)
+            new WeightedPoolItem(<item:minecraft:lapis_lazuli>, 250, 1, 5)
         ]);
 
         loot_generator.generateNToolsWithProbability(1, 0.43);
@@ -305,8 +303,7 @@ loot.modifiers.register(
             new WeightedPoolItem(<item:minecraft:raw_gold_block>, 40, 1, 1),
             new WeightedPoolItem(<item:minecraft:gold_block>, 20, 1, 1),
             new WeightedPoolItem(<item:minecraft:diamond>, 10, 1, 1),
-            new WeightedPoolItem(<item:minecraft:lapis_lazuli>, 60, 1, 4),
-            new WeightedPoolItem(<item:minecraft:emerald>, 150, 1, 3),
+            new WeightedPoolItem(<item:minecraft:lapis_lazuli>, 210, 1, 4),
             new WeightedPoolItem(<item:minecraft:gold_nugget>, 100, 4, 18),
             new WeightedPoolItem(<item:minecraft:tripwire_hook>, 50, 1, 1),
             new WeightedPoolItem(<item:minecraft:gold_ingot>, 70, 1, 4),

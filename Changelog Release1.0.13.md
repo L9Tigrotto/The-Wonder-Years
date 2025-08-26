@@ -15,6 +15,8 @@
 - Reduced distance between structures.
 - Fixed bed messages. Now custom messages releted to sleep shows correctly.
 
+- Replaced emeralds with lapislazuli in loot chests.
+
 - Known bug: tierable items crafted in the crafting terminal with `shift + left click` will be tierless. Waiting for response from Tom's Simple Storage on bug report.
 - Known bug: equipment comparison is not currently working with tiered items. Waiting for response from Equipment Compare on bug report.
 

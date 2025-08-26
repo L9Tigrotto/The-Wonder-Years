@@ -46,7 +46,7 @@ loot.modifiers.register(
             new WeightedPoolItem(<item:minecraft:tipped_arrow>.withJsonComponent(<componenttype:minecraft:potion_contents>, {potion: "minecraft:slowness"}), 20, 1, 3),
             new WeightedPoolItem(<item:minecraft:iron_ingot>, 20, 1, 1),
             new WeightedPoolItem(<item:minecraft:honeycomb>, 15, 1, 1),
-            new WeightedPoolItem(<item:minecraft:emerald_block>, 6, 1, 1),
+            new WeightedPoolItem(<item:minecraft:lapis_block>, 6, 1, 1),
             new WeightedPoolItem(<item:minecraft:trial_key>, 1, 1, 1),
             new WeightedPoolItem(<item:minecraft:ominous_bottle>, 1, 1, 1)
         ]);
@@ -71,7 +71,7 @@ loot.modifiers.register(
         val loot_generator = new LootGenerator(loot_context);
 
         loot_generator.performWeightedPool(1, 1, 0, [
-            new WeightedPoolItem(<item:minecraft:emerald>, 3, 3, 3),
+            new WeightedPoolItem(<item:minecraft:lapis_lazuli>, 3, 3, 3),
             new WeightedPoolItem(<item:minecraft:iron_ingot>, 3, 4, 4),
             new WeightedPoolItem(<item:minecraft:wind_charge>, 2, 5, 5),
             new WeightedPoolItem(<item:minecraft:ominous_bottle>, 2, 1, 1),
@@ -273,17 +273,18 @@ loot.modifiers.register(
 
         // NOTE: Exact weights need verification - using placeholder values based on estimated rarity
         loot_generator.performWeightedPool(1, 1, 0, [
-            new WeightedPoolItem(<item:minecraft:emerald>, 8, 1, 1),
             new WeightedPoolItem(<item:minecraft:iron_ingot>, 6, 1, 1),
             new WeightedPoolItem(<item:minecraft:arrow>, 5, 1, 3),
             new WeightedPoolItem(<item:minecraft:amethyst_shard>, 4, 1, 2),
-            new WeightedPoolItem(<item:minecraft:lapis_lazuli>, 4, 1, 2),
+            new WeightedPoolItem(<item:minecraft:lapis_lazuli>, 12, 1, 2),
             new WeightedPoolItem(<item:minecraft:gold_ingot>, 3, 1, 1),
             new WeightedPoolItem(<item:minecraft:trial_key>, 1, 1, 1),    // ~2.8% chance mentioned in sources
             new WeightedPoolItem(<item:minecraft:diamond>, 1, 1, 1),
-            new WeightedPoolItem(<item:minecraft:emerald_block>, 1, 1, 1),
+            new WeightedPoolItem(<item:minecraft:lapis_block>, 1, 1, 1),
             new WeightedPoolItem(<item:minecraft:diamond_block>, 1, 1, 1)
         ]);
+
+        loot_generator.generateNWeaponsWithProbability(4, 1.0);
 
         return loot_context.loot;
     }

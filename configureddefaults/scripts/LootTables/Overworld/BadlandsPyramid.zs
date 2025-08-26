@@ -23,7 +23,7 @@ loot.modifiers.register(
             new WeightedPoolItem(<item:minecraft:enchanted_golden_apple>, 2, 1, 1),
             new WeightedPoolItem(<item:minecraft:iron_ingot>, 15, 1, 5),
             new WeightedPoolItem(<item:minecraft:spider_eye>, 25, 1, 3),
-            new WeightedPoolItem(<item:minecraft:emerald>, 15, 1, 3),
+            new WeightedPoolItem(<item:minecraft:lapis_lazuli>, 15, 1, 3),
             new WeightedPoolItem(<item:minecraft:diamond>, 5, 1, 3)
         ]);
 
@@ -61,7 +61,7 @@ loot.modifiers.register(
         loot_generator.performWeightedPool(4, 6, 0, [
             new WeightedPoolItem(<item:minecraft:orange_terracotta>, 5, 6, 12),
             new WeightedPoolItem(<item:minecraft:coarse_dirt>, 5, 6, 12),
-            new WeightedPoolItem(<item:minecraft:emerald>, 5, 2, 3),
+            new WeightedPoolItem(<item:minecraft:lapis_lazuli>, 5, 2, 3),
             new WeightedPoolItem(<item:minecraft:potato>, 5, 6, 12),
             new WeightedPoolItem(<item:minecraft:wheat>, 5, 6, 12),
             new WeightedPoolItem(<item:minecraft:gunpowder>, 5, 4, 6),
@@ -84,7 +84,7 @@ loot.modifiers.register(
         val loot_generator = new LootGenerator(loot_context);
 
         loot_generator.performWeightedPool(1, 2, 0, [
-            new WeightedPoolItem(<item:minecraft:emerald>, 10, 1, 3),
+            new WeightedPoolItem(<item:minecraft:lapis_lazuli>, 10, 1, 3),
             new WeightedPoolItem(<item:minecraft:gold_ingot>, 10, 2, 3)
         ]);
 
@@ -106,8 +106,7 @@ loot.modifiers.register(
         // Weighted pools (removed enchanted book and horse armor)
         loot_generator.performWeightedPool(2, 4, 0, [
             new WeightedPoolItem(<item:minecraft:red_sand>, 50, 4, 8),
-            new WeightedPoolItem(<item:minecraft:emerald>, 10, 1, 2),
-            new WeightedPoolItem(<item:minecraft:lapis_lazuli>, 10, 2, 4),
+            new WeightedPoolItem(<item:minecraft:lapis_lazuli>, 20, 2, 4),
             new WeightedPoolItem(<item:minecraft:weathered_copper>, 10, 2, 3),
             new WeightedPoolItem(<item:minecraft:oxidized_copper>, 10, 2, 3),
             new WeightedPoolItem(<item:minecraft:gunpowder>, 50, 2, 6),
@@ -138,7 +137,7 @@ loot.modifiers.register(
         // Pool 1 - Treasure items (removed enchanted book)
         loot_generator.performWeightedPool(1, 3, 10, [
             new WeightedPoolItem(<item:minecraft:gold_ingot>, 5, 2, 7),
-            new WeightedPoolItem(<item:minecraft:emerald>, 5, 1, 3),
+            new WeightedPoolItem(<item:minecraft:lapis_lazuli>, 5, 1, 3),
             new WeightedPoolItem(<item:minecraft:saddle>, 5, 1, 1),
             new WeightedPoolItem(<item:minecraft:cobweb>, 15, 1, 1)
         ]);
@@ -171,7 +170,7 @@ loot.modifiers.register(
         // Pool 1 - High-value treasure (removed enchanted book, golden sword, diamond horse armor)
         loot_generator.performWeightedPool(3, 4, 0, [
             new WeightedPoolItem(<item:minecraft:gold_ingot>, 5, 3, 8),
-            new WeightedPoolItem(<item:minecraft:emerald>, 5, 3, 6),
+            new WeightedPoolItem(<item:minecraft:lapis_lazuli>, 5, 3, 6),
             new WeightedPoolItem(<item:minecraft:diamond>, 5, 3, 6),
             new WeightedPoolItem(<item:minecraft:enchanted_golden_apple>, 5, 1, 1)
         ]);

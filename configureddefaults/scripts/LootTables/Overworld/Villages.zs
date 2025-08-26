@@ -24,7 +24,7 @@ loot.modifiers.register(
             new WeightedPoolItem(<item:minecraft:tall_grass>, 5, 1, 1),
             new WeightedPoolItem(<item:minecraft:bread>, 10, 1, 4),
             new WeightedPoolItem(<item:minecraft:short_grass>, 5, 1, 1),
-            new WeightedPoolItem(<item:minecraft:emerald>, 2, 1, 4)
+            new WeightedPoolItem(<item:minecraft:lapis_lazuli>, 2, 1, 4)
         ]);
 
         loot_generator.performWeightedPool(1, 1, 2, [
@@ -49,7 +49,7 @@ loot.modifiers.register(
         // Weighted pools (NO tools/armor/books/potions)
         loot_generator.performWeightedPool(1, 5, 0, [
             new WeightedPoolItem(<item:minecraft:iron_ingot>, 2, 1, 3),
-            new WeightedPoolItem(<item:minecraft:emerald>, 1, 1, 1),
+            new WeightedPoolItem(<item:minecraft:lapis_lazuli>, 1, 1, 1),
             new WeightedPoolItem(<item:minecraft:bread>, 4, 1, 4)
         ]);
 
@@ -76,7 +76,7 @@ loot.modifiers.register(
             new WeightedPoolItem(<item:minecraft:beef>, 6, 1, 3),
             new WeightedPoolItem(<item:minecraft:porkchop>, 6, 1, 3),
             new WeightedPoolItem(<item:minecraft:mutton>, 6, 1, 3),
-            new WeightedPoolItem(<item:minecraft:emerald>, 1, 1, 1),
+            new WeightedPoolItem(<item:minecraft:lapis_lazuli>, 1, 1, 1),
             new WeightedPoolItem(<item:minecraft:coal>, 3, 1, 3)
         ]);
 
@@ -126,7 +126,7 @@ loot.modifiers.register(
         // Weighted pools (NO tools/armor/books/potions)
         loot_generator.performWeightedPool(3, 8, 0, [
             new WeightedPoolItem(<item:minecraft:wheat>, 10, 1, 7),
-            new WeightedPoolItem(<item:minecraft:emerald>, 1, 1, 3),
+            new WeightedPoolItem(<item:minecraft:lapis_lazuli>, 1, 1, 3),
             new WeightedPoolItem(<item:minecraft:cactus>, 10, 1, 4),
             new WeightedPoolItem(<item:minecraft:dead_bush>, 2, 1, 3),
             new WeightedPoolItem(<item:minecraft:green_dye>, 1, 1, 1),
@@ -160,7 +160,7 @@ loot.modifiers.register(
             new WeightedPoolItem(<item:minecraft:water_bucket>, 1, 1, 3),
             new WeightedPoolItem(<item:minecraft:wheat_seeds>, 3, 1, 3),
             new WeightedPoolItem(<item:minecraft:coal>, 2, 1, 3),
-            new WeightedPoolItem(<item:minecraft:emerald>, 1, 1, 1),
+            new WeightedPoolItem(<item:minecraft:lapis_lazuli>, 1, 1, 1),
             new WeightedPoolItem(<item:minecraft:salmon>, 1, 1, 3),
             new WeightedPoolItem(<item:minecraft:barrel>, 1, 1, 3)
         ]);
@@ -182,7 +182,7 @@ loot.modifiers.register(
 
         // Weighted pools (NO tools/armor/books/potions)
         loot_generator.performWeightedPool(1, 5, 0, [
-            new WeightedPoolItem(<item:minecraft:emerald>, 1, 1, 1),
+            new WeightedPoolItem(<item:minecraft:lapis_lazuli>, 1, 1, 1),
             new WeightedPoolItem(<item:minecraft:arrow>, 2, 1, 3),
             new WeightedPoolItem(<item:minecraft:feather>, 6, 1, 3),
             new WeightedPoolItem(<item:minecraft:egg>, 2, 1, 3),
@@ -208,7 +208,7 @@ loot.modifiers.register(
         // Weighted pools (NO tools/armor/books/potions)
         loot_generator.performWeightedPool(1, 5, 0, [
             new WeightedPoolItem(<item:minecraft:stone>, 2, 1, 1),
-            new WeightedPoolItem(<item:minecraft:emerald>, 1, 1, 1),
+            new WeightedPoolItem(<item:minecraft:lapis_lazuli>, 1, 1, 1),
             new WeightedPoolItem(<item:minecraft:smooth_stone>, 1, 1, 1),
             new WeightedPoolItem(<item:minecraft:yellow_dye>, 1, 1, 1),
             new WeightedPoolItem(<item:minecraft:bread>, 4, 1, 4),
@@ -239,7 +239,7 @@ loot.modifiers.register(
             new WeightedPoolItem(<item:minecraft:oak_sapling>, 5, 1, 2),
             new WeightedPoolItem(<item:minecraft:book>, 1, 1, 1),
             new WeightedPoolItem(<item:minecraft:poppy>, 1, 1, 1),
-            new WeightedPoolItem(<item:minecraft:emerald>, 2, 1, 4),
+            new WeightedPoolItem(<item:minecraft:lapis_lazuli>, 2, 1, 4),
             new WeightedPoolItem(<item:minecraft:apple>, 10, 1, 5),
             new WeightedPoolItem(<item:minecraft:dandelion>, 2, 1, 1),
             new WeightedPoolItem(<item:minecraft:potato>, 10, 1, 7),
@@ -273,7 +273,7 @@ loot.modifiers.register(
             new WeightedPoolItem(<item:minecraft:gray_wool>, 2, 1, 3),
             new WeightedPoolItem(<item:minecraft:light_gray_wool>, 2, 1, 3),
             new WeightedPoolItem(<item:minecraft:brown_wool>, 2, 1, 3),
-            new WeightedPoolItem(<item:minecraft:emerald>, 1, 1, 1)
+            new WeightedPoolItem(<item:minecraft:lapis_lazuli>, 1, 1, 1)
         ]);
 
         loot_generator.generateNToolsWithProbability(1, 0.043);
@@ -299,7 +299,7 @@ loot.modifiers.register(
             new WeightedPoolItem(<item:minecraft:snowball>, 10, 1, 7),
             new WeightedPoolItem(<item:minecraft:coal>, 5, 1, 4),
             new WeightedPoolItem(<item:minecraft:snow_block>, 4, 1, 1),
-            new WeightedPoolItem(<item:minecraft:emerald>, 1, 1, 4),
+            new WeightedPoolItem(<item:minecraft:lapis_lazuli>, 1, 1, 4),
             new WeightedPoolItem(<item:minecraft:blue_ice>, 1, 1, 1),
             new WeightedPoolItem(<item:minecraft:bread>, 10, 1, 4),
             new WeightedPoolItem(<item:minecraft:potato>, 10, 1, 7),
@@ -334,7 +334,7 @@ loot.modifiers.register(
             new WeightedPoolItem(<item:minecraft:large_fern>, 2, 1, 1),
             new WeightedPoolItem(<item:minecraft:spruce_log>, 10, 1, 5),
             new WeightedPoolItem(<item:minecraft:spruce_sign>, 1, 1, 1),
-            new WeightedPoolItem(<item:minecraft:emerald>, 2, 1, 4),
+            new WeightedPoolItem(<item:minecraft:lapis_lazuli>, 2, 1, 4),
             new WeightedPoolItem(<item:minecraft:pumpkin_seeds>, 5, 1, 5),
             new WeightedPoolItem(<item:minecraft:bread>, 10, 1, 4),
             new WeightedPoolItem(<item:minecraft:potato>, 10, 1, 7),
@@ -363,7 +363,7 @@ loot.modifiers.register(
         // Weighted pools (NO tools/armor/books/potions)
         loot_generator.performWeightedPool(1, 5, 0, [
             new WeightedPoolItem(<item:minecraft:leather>, 1, 1, 3),
-            new WeightedPoolItem(<item:minecraft:emerald>, 1, 1, 4),
+            new WeightedPoolItem(<item:minecraft:lapis_lazuli>, 1, 1, 4),
             new WeightedPoolItem(<item:minecraft:saddle>, 1, 1, 1),
             new WeightedPoolItem(<item:minecraft:bread>, 5, 1, 4)
         ]);

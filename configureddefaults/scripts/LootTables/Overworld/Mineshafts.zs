@@ -51,7 +51,7 @@ loot.modifiers.register(
             new WeightedPoolItem(<item:minecraft:cobblestone>, 1, 1, 5),
             new WeightedPoolItem(<item:minecraft:brick>, 1, 1, 5),
             new WeightedPoolItem(<item:minecraft:golden_apple>, 1, 1, 1),
-            new WeightedPoolItem(<item:minecraft:emerald>, 1, 1, 5),
+            new WeightedPoolItem(<item:minecraft:lapis_lazuli>, 1, 1, 5),
             new WeightedPoolItem(<item:minecraft:raw_iron_block>, 1, 1, 1),
             new WeightedPoolItem(<item:minecraft:raw_iron>, 1, 1, 3),
             new WeightedPoolItem(<item:minecraft:raw_gold_block>, 1, 1, 1),
@@ -264,9 +264,9 @@ loot.modifiers.register(
 
         // Weighted pool: Emerald mining materials (4-6 rolls)
         loot_generator.performWeightedPool(4, 6, 0, [
-            new WeightedPoolItem(<item:minecraft:emerald_block>, 3, 0, 1),
-            new WeightedPoolItem(<item:minecraft:deepslate_emerald_ore>, 15, 1, 2),
-            new WeightedPoolItem(<item:minecraft:emerald>, 17, 0, 3)
+            new WeightedPoolItem(<item:minecraft:lapis_block>, 3, 0, 1),
+            new WeightedPoolItem(<item:minecraft:deepslate_lapis_ore>, 15, 1, 2),
+            new WeightedPoolItem(<item:minecraft:lapis_lazuli>, 17, 0, 3)
         ]);
 
         // Enhanced generation functions for valuable emerald site
@@ -710,7 +710,7 @@ loot.modifiers.register(
             new WeightedPoolItem(<item:minecraft:gunpowder>, 1, 2, 4),
             new WeightedPoolItem(<item:minecraft:glass_bottle>, 1, 1, 1),
             new WeightedPoolItem(<item:minecraft:rotten_flesh>, 1, 3, 6),
-            new WeightedPoolItem(<item:minecraft:emerald>, 3, 3, 6),
+            new WeightedPoolItem(<item:minecraft:lapis_lazuli>, 3, 3, 6),
             new WeightedPoolItem(<item:minecraft:fermented_spider_eye>, 2, 1, 2),
             new WeightedPoolItem(<item:minecraft:gold_nugget>, 5, 3, 6),
             new WeightedPoolItem(<item:minecraft:apple>, 3, 2, 4),
@@ -965,9 +965,9 @@ loot.modifiers.register(
         val loot_generator = new LootGenerator(loot_context);
 
         loot_generator.performWeightedPool(4, 6, 5, [
-            new WeightedPoolItem(<item:minecraft:emerald_block>, 3, 0, 1),
-            new WeightedPoolItem(<item:minecraft:emerald_ore>, 15, 1, 2),
-            new WeightedPoolItem(<item:minecraft:emerald>, 17, 1, 10)
+            new WeightedPoolItem(<item:minecraft:lapis_block>, 3, 0, 1),
+            new WeightedPoolItem(<item:minecraft:lapis_ore>, 15, 1, 2),
+            new WeightedPoolItem(<item:minecraft:lapis_lazuli>, 17, 1, 10)
         ]);
 
         loot_generator.generateHatBagWithProbability(0.30);
@@ -1303,7 +1303,7 @@ loot.modifiers.register(
         loot_generator.performWeightedPool(1, 1, 0, [
             new WeightedPoolItem(<item:minecraft:gold_ingot>, 32, 1, 2),
             new WeightedPoolItem(<item:minecraft:iron_ingot>, 32, 1, 3),
-            new WeightedPoolItem(<item:minecraft:emerald>, 32, 0, 2),
+            new WeightedPoolItem(<item:minecraft:lapis_lazuli>, 32, 0, 2),
             new WeightedPoolItem(<item:minecraft:lantern>, 12, 1, 3),
             new WeightedPoolItem(<item:minecraft:tnt>, 10, 0, 1),
             new WeightedPoolItem(<item:minecraft:experience_bottle>, 10, 1, 4),

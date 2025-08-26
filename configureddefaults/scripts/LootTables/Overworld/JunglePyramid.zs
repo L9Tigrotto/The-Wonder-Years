@@ -20,7 +20,7 @@ loot.modifiers.register(
             new WeightedPoolItem(<item:minecraft:rotten_flesh>, 16, 3, 7),
             new WeightedPoolItem(<item:minecraft:gold_ingot>, 15, 2, 7),
             new WeightedPoolItem(<item:minecraft:leather>, 3, 1, 5),
-            new WeightedPoolItem(<item:minecraft:emerald>, 2, 1, 3),
+            new WeightedPoolItem(<item:minecraft:lapis_lazuli>, 2, 1, 3),
             new WeightedPoolItem(<item:minecraft:bone>, 20, 4, 6),
             new WeightedPoolItem(<item:minecraft:iron_ingot>, 10, 1, 5)
         ]);
@@ -57,9 +57,8 @@ loot.modifiers.register(
             new WeightedPoolItem(<item:minecraft:gold_ingot>, 15, 4, 7)
         ]);
 
-        // Emerald pool 
         loot_generator.performWeightedPool(6, 8, 0, [
-            new WeightedPoolItem(<item:minecraft:emerald>, 1, 2, 5)
+            new WeightedPoolItem(<item:minecraft:lapis_lazuli>, 1, 2, 5)
         ]);
 
         loot_generator.performWeightedPool(1, 1, 6, [

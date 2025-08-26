@@ -58,7 +58,7 @@ loot.modifiers.register(
         val loot_generator = new LootGenerator(loot_context);
 
         loot_generator.performWeightedPool(2, 3, 0, [
-            new WeightedPoolItem(<item:minecraft:emerald>, 10, 1, 3),
+            new WeightedPoolItem(<item:minecraft:lapis_lazuli>, 10, 1, 3),
             new WeightedPoolItem(<item:minecraft:totem_of_undying>, 1, 1, 1),
             new WeightedPoolItem(<item:minecraft:experience_bottle>, 15, 2, 5)
         ]);
@@ -85,7 +85,7 @@ loot.modifiers.register(
             new WeightedPoolItem(<item:minecraft:coal>, 15, 1, 4),
             new WeightedPoolItem(<item:minecraft:iron_ingot>, 10, 1, 2),
             new WeightedPoolItem(<item:minecraft:gold_nugget>, 15, 1, 5),
-            new WeightedPoolItem(<item:minecraft:emerald>, 5, 1, 1)
+            new WeightedPoolItem(<item:minecraft:lapis_lazuli>, 5, 1, 1)
         ]);
 
         loot_generator.generateNToolsWithProbability(1, 0.3);
@@ -157,7 +157,7 @@ loot.modifiers.register(
             new WeightedPoolItem(<item:minecraft:map>, 15, 1, 1),
             new WeightedPoolItem(<item:minecraft:compass>, 20, 1, 1),
             new WeightedPoolItem(<item:minecraft:paper>, 25, 2, 4),
-            new WeightedPoolItem(<item:minecraft:emerald>, 5, 1, 2),
+            new WeightedPoolItem(<item:minecraft:lapis_lazuli>, 5, 1, 2),
             new WeightedPoolItem(<item:minecraft:filled_map>, 10, 1, 1)
         ]);
 
@@ -225,7 +225,7 @@ loot.modifiers.register(
 
         loot_generator.performWeightedPool(2, 4, 0, [
             new WeightedPoolItem(<item:minecraft:diamond>, 5, 1, 2),
-            new WeightedPoolItem(<item:minecraft:emerald>, 10, 2, 4),
+            new WeightedPoolItem(<item:minecraft:lapis_lazuli>, 10, 2, 4),
             new WeightedPoolItem(<item:minecraft:gold_ingot>, 15, 3, 6),
             new WeightedPoolItem(<item:minecraft:enchanted_golden_apple>, 1, 1, 1)
         ]);
@@ -275,7 +275,7 @@ loot.modifiers.register(
         // PLACEHOLDER: Requires actual JSON data
         loot_generator.performWeightedPool(2, 3, 0, [
             new WeightedPoolItem(<item:minecraft:iron_ingot>, 20, 1, 4),
-            new WeightedPoolItem(<item:minecraft:emerald>, 10, 1, 2),
+            new WeightedPoolItem(<item:minecraft:lapis_lazuli>, 10, 1, 2),
             new WeightedPoolItem(<item:minecraft:name_tag>, 15, 1, 1)
         ]);
 
@@ -403,7 +403,7 @@ loot.modifiers.register(
             new WeightedPoolItem(<item:minecraft:cobweb>, 20, 1, 1),
             new WeightedPoolItem(<item:minecraft:stick>, 10, 1, 1),
             new WeightedPoolItem(<item:minecraft:iron_nugget>, 10, 1, 1),
-            new WeightedPoolItem(<item:minecraft:emerald>, 2, 1, 1)
+            new WeightedPoolItem(<item:minecraft:lapis_lazuli>, 2, 1, 1)
         ]);
 
         // No generation functions needed (junk chest)
@@ -425,12 +425,12 @@ loot.modifiers.register(
         // Pool 1: 18 rolls - treasure items (NO enchanted books)
         loot_generator.performWeightedPool(18, 18, 0, [
             new WeightedPoolItem(<item:minecraft:iron_ingot>, 25, 1, 1),
-            new WeightedPoolItem(<item:minecraft:emerald>, 50, 1, 1),
+            new WeightedPoolItem(<item:minecraft:lapis_lazuli>, 50, 1, 1),
             new WeightedPoolItem(<item:minecraft:name_tag>, 10, 1, 1),
             new WeightedPoolItem(<item:minecraft:golden_apple>, 5, 1, 1),
             new WeightedPoolItem(<item:minecraft:enchanted_golden_apple>, 3, 1, 1),
             new WeightedPoolItem(<item:minecraft:diamond>, 8, 1, 1),
-            new WeightedPoolItem(<item:minecraft:emerald_block>, 10, 1, 1),
+            new WeightedPoolItem(<item:minecraft:lapis_block>, 10, 1, 1),
             new WeightedPoolItem(<item:minecraft:gold_block>, 10, 1, 1),
             new WeightedPoolItem(<item:minecraft:totem_of_undying>, 5, 1, 1)
         ]);
@@ -536,7 +536,7 @@ loot.modifiers.register(
         ]);
 
         loot_generator.performWeightedPool(1, 1, 0, [
-            new WeightedPoolItem(<item:minecraft:emerald>, 1, 2, 5)
+            new WeightedPoolItem(<item:minecraft:lapis_lazuli>, 1, 2, 5)
         ]);
 
         loot_generator.generateNToolsWithProbability(1, 0.83);
@@ -571,7 +571,7 @@ loot.modifiers.register(
         ]);
 
         loot_generator.performWeightedPool(1, 1, 0, [
-            new WeightedPoolItem(<item:minecraft:emerald>, 1, 1, 2)
+            new WeightedPoolItem(<item:minecraft:lapis_lazuli>, 1, 1, 2)
         ]);
 
         loot_generator.generateHatBagWithProbability(0.30);
@@ -721,7 +721,7 @@ loot.modifiers.register(
         ]);
 
         loot_generator.performWeightedPool(1, 1, 0, [
-            new WeightedPoolItem(<item:minecraft:emerald>, 1, 3, 5)
+            new WeightedPoolItem(<item:minecraft:lapis_lazuli>, 1, 3, 5)
         ]);
 
         loot_generator.performWeightedPool(1, 1, 0, [
@@ -755,7 +755,7 @@ loot.modifiers.register(
         loot_generator.performWeightedPool(2, 2, 0, [
             new WeightedPoolItem(<item:minecraft:gold_ingot>, 1, 1, 2),
             new WeightedPoolItem(<item:minecraft:iron_ingot>, 1, 1, 2),
-            new WeightedPoolItem(<item:minecraft:emerald>, 1, 2, 5)
+            new WeightedPoolItem(<item:minecraft:lapis_lazuli>, 1, 2, 5)
         ]);
 
         loot_generator.performWeightedPool(1, 1, 100, [
@@ -848,8 +848,7 @@ loot.modifiers.register(
             new WeightedPoolItem(<item:minecraft:blue_dye>, 3, 1, 4),
             new WeightedPoolItem(<item:minecraft:red_dye>, 3, 1, 4),
             new WeightedPoolItem(<item:minecraft:apple>, 5, 1, 5),
-            new WeightedPoolItem(<item:minecraft:emerald>, 2, 1, 9),
-            new WeightedPoolItem(<item:minecraft:lapis_lazuli>, 2, 1, 3),
+            new WeightedPoolItem(<item:minecraft:lapis_lazuli>, 4, 1, 3),
             new WeightedPoolItem(<item:minecraft:amethyst_shard>, 3, 1, 4),
             new WeightedPoolItem(<item:minecraft:arrow>, 5, 1, 10),
             new WeightedPoolItem(<item:minecraft:beetroot>, 2, 1, 14),

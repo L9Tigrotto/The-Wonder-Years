@@ -105,7 +105,7 @@ loot.modifiers.register(
             new WeightedPoolItem(<item:minecraft:writable_book>, 1, 1, 1),
             new WeightedPoolItem(<item:minecraft:paper>, 3, 1, 3),
             new WeightedPoolItem(<item:minecraft:stick>, 3, 1, 3),
-            new WeightedPoolItem(<item:minecraft:emerald>, 3, 1, 3)
+            new WeightedPoolItem(<item:minecraft:lapis_lazuli>, 3, 1, 3)
         ]);
 
         loot_generator.generateNArmorsWithProbability(1, 0.3);
@@ -192,7 +192,7 @@ loot.modifiers.register(
             new WeightedPoolItem(<item:minecraft:apple>, 10, 1, 5),
             new WeightedPoolItem(<item:minecraft:book>, 1, 1, 1),
             new WeightedPoolItem(<item:minecraft:feather>, 1, 1, 1),
-            new WeightedPoolItem(<item:minecraft:emerald>, 3, 1, 4),
+            new WeightedPoolItem(<item:minecraft:lapis_lazuli>, 3, 1, 4),
             new WeightedPoolItem(<item:minecraft:oak_sapling>, 5, 1, 2),
             new WeightedPoolItem(<item:minecraft:rabbit_hide>, 2, 1, 3),
             new WeightedPoolItem(<item:minecraft:leather>, 2, 1, 3)
@@ -222,7 +222,7 @@ loot.modifiers.register(
             new WeightedPoolItem(<item:minecraft:apple>, 10, 1, 5),
             new WeightedPoolItem(<item:minecraft:book>, 1, 1, 1),
             new WeightedPoolItem(<item:minecraft:feather>, 1, 1, 1),
-            new WeightedPoolItem(<item:minecraft:emerald>, 2, 1, 2),
+            new WeightedPoolItem(<item:minecraft:lapis_lazuli>, 2, 1, 2),
             new WeightedPoolItem(<item:minecraft:oak_sapling>, 5, 1, 2)
         ]);
 
@@ -491,14 +491,14 @@ loot.modifiers.register(
             new WeightedPoolItem(<item:minecraft:cobbled_deepslate>, 70, 7, 12),
             new WeightedPoolItem(<item:minecraft:raw_iron>, 50, 1, 5),
             new WeightedPoolItem(<item:minecraft:raw_gold>, 20, 1, 3),
-            new WeightedPoolItem(<item:minecraft:emerald>, 60, 1, 4),
+            new WeightedPoolItem(<item:minecraft:lapis_lazuli>, 60, 1, 4),
             new WeightedPoolItem(<item:minecraft:iron_nugget>, 60, 4, 9),
             new WeightedPoolItem(<item:minecraft:chain>, 40, 2, 4),
             new WeightedPoolItem(<item:minecraft:coal>, 60, 1, 8),
             new WeightedPoolItem(<item:minecraft:iron_ingot>, 70, 1, 4),
             new WeightedPoolItem(<item:minecraft:obsidian>, 80, 8, 14),
             new WeightedPoolItem(<item:minecraft:diamond>, 50, 1, 3),
-            new WeightedPoolItem(<item:minecraft:emerald_block>, 10, 1, 1),
+            new WeightedPoolItem(<item:minecraft:lapis_block>, 10, 1, 1),
             new WeightedPoolItem(<item:minecraft:gold_ingot>, 20, 1, 3),
             new WeightedPoolItem(<item:minecraft:vine>, 80, 1, 4),
             new WeightedPoolItem(<item:minecraft:oak_leaves>, 60, 1, 6),
@@ -622,7 +622,7 @@ loot.modifiers.register(
             new WeightedPoolItem(<item:minecraft:writable_book>, 1, 1, 1),
             new WeightedPoolItem(<item:minecraft:paper>, 3, 1, 3),
             new WeightedPoolItem(<item:minecraft:stick>, 3, 1, 3),
-            new WeightedPoolItem(<item:minecraft:emerald>, 3, 1, 3)
+            new WeightedPoolItem(<item:minecraft:lapis_lazuli>, 3, 1, 3)
         ]);
 
         loot_generator.generateNArmorsWithProbability(1, 0.3);
@@ -709,7 +709,7 @@ loot.modifiers.register(
             new WeightedPoolItem(<item:minecraft:apple>, 10, 1, 5),
             new WeightedPoolItem(<item:minecraft:book>, 1, 1, 1),
             new WeightedPoolItem(<item:minecraft:feather>, 1, 1, 1),
-            new WeightedPoolItem(<item:minecraft:emerald>, 3, 1, 4),
+            new WeightedPoolItem(<item:minecraft:lapis_lazuli>, 3, 1, 4),
             new WeightedPoolItem(<item:minecraft:oak_sapling>, 5, 1, 2),
             new WeightedPoolItem(<item:minecraft:rabbit_hide>, 2, 1, 3),
             new WeightedPoolItem(<item:minecraft:leather>, 2, 1, 3)
@@ -739,7 +739,7 @@ loot.modifiers.register(
             new WeightedPoolItem(<item:minecraft:apple>, 10, 1, 5),
             new WeightedPoolItem(<item:minecraft:book>, 1, 1, 1),
             new WeightedPoolItem(<item:minecraft:feather>, 1, 1, 1),
-            new WeightedPoolItem(<item:minecraft:emerald>, 2, 1, 2),
+            new WeightedPoolItem(<item:minecraft:lapis_lazuli>, 2, 1, 2),
             new WeightedPoolItem(<item:minecraft:oak_sapling>, 5, 1, 2)
         ]);
 
@@ -852,7 +852,7 @@ loot.modifiers.register(
             new WeightedPoolItem(<item:minecraft:shears>, 1, 1, 1),
             new WeightedPoolItem(<item:minecraft:wheat>, 5, 1, 5),
             new WeightedPoolItem(<item:minecraft:wheat_seeds>, 3, 1, 7),
-            new WeightedPoolItem(<item:minecraft:emerald>, 2, 1, 3),
+            new WeightedPoolItem(<item:minecraft:lapis_lazuli>, 2, 1, 3),
             new WeightedPoolItem(<item:minecraft:mutton>, 3, 1, 3),
             new WeightedPoolItem(<item:minecraft:cooked_mutton>, 3, 1, 3)
         ]);
@@ -996,14 +996,14 @@ loot.modifiers.register(
             new WeightedPoolItem(<item:minecraft:cobbled_deepslate>, 70, 7, 12),
             new WeightedPoolItem(<item:minecraft:raw_iron>, 50, 1, 5),
             new WeightedPoolItem(<item:minecraft:raw_gold>, 20, 1, 3),
-            new WeightedPoolItem(<item:minecraft:emerald>, 60, 1, 4),
+            new WeightedPoolItem(<item:minecraft:lapis_lazuli>, 60, 1, 4),
             new WeightedPoolItem(<item:minecraft:iron_nugget>, 60, 4, 9),
             new WeightedPoolItem(<item:minecraft:chain>, 40, 2, 4),
             new WeightedPoolItem(<item:minecraft:coal>, 60, 1, 8),
             new WeightedPoolItem(<item:minecraft:iron_ingot>, 70, 1, 4),
             new WeightedPoolItem(<item:minecraft:obsidian>, 80, 8, 14),
             new WeightedPoolItem(<item:minecraft:diamond>, 50, 1, 3),
-            new WeightedPoolItem(<item:minecraft:emerald_block>, 10, 1, 1),
+            new WeightedPoolItem(<item:minecraft:lapis_block>, 10, 1, 1),
             new WeightedPoolItem(<item:minecraft:gold_ingot>, 20, 1, 3),
             new WeightedPoolItem(<item:minecraft:vine>, 80, 1, 4),
             new WeightedPoolItem(<item:minecraft:oak_leaves>, 60, 1, 6),

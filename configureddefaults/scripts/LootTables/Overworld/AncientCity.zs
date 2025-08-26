@@ -183,7 +183,6 @@ loot.modifiers.register(
             new WeightedPoolItem(<item:minecraft:snowball>, 7, 1, 8),
             new WeightedPoolItem(<item:minecraft:coal>, 7, 1, 8),
             new WeightedPoolItem(<item:minecraft:white_candle>, 5, 1, 8),
-            new WeightedPoolItem(<item:minecraft:emerald>, 5, 1, 5),
             new WeightedPoolItem(<item:minecraft:amethyst_shard>, 5, 1, 12),
             new WeightedPoolItem(<item:minecraft:bone>, 4, 1, 5),
             new WeightedPoolItem(<item:minecraft:bone_meal>, 4, 1, 2),

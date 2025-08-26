@@ -21,7 +21,7 @@ loot.modifiers.register(
             new WeightedPoolItem(<item:minecraft:bone>, 20, 4, 6),
             new WeightedPoolItem(<item:minecraft:enchanted_golden_apple>, 3, 1, 1),
             new WeightedPoolItem(<item:minecraft:spider_eye>, 20, 1, 3),
-            new WeightedPoolItem(<item:minecraft:emerald>, 20, 1, 3),
+            new WeightedPoolItem(<item:minecraft:lapis_lazuli>, 20, 1, 3),
             new WeightedPoolItem(<item:minecraft:gold_ingot>, 25, 3, 8),
             new WeightedPoolItem(<item:minecraft:iron_ingot>, 20, 2, 6),
             new WeightedPoolItem(<item:minecraft:diamond>, 8, 1, 5),
@@ -77,7 +77,7 @@ loot.modifiers.register(
         loot_generator.performWeightedPool(4, 6, 0, [
             new WeightedPoolItem(<item:minecraft:black_terracotta>, 5, 6, 12),
             new WeightedPoolItem(<item:minecraft:magma_block>, 5, 6, 12),
-            new WeightedPoolItem(<item:minecraft:emerald>, 5, 2, 3),
+            new WeightedPoolItem(<item:minecraft:lapis_lazuli>, 5, 2, 3),
             new WeightedPoolItem(<item:minecraft:nether_wart>, 5, 6, 12),
             new WeightedPoolItem(<item:minecraft:crimson_fungus>, 5, 6, 12),
             new WeightedPoolItem(<item:minecraft:warped_fungus>, 5, 6, 12),
@@ -121,7 +121,7 @@ loot.modifiers.register(
 
         loot_generator.performWeightedPool(2, 4, 0, [
             new WeightedPoolItem(<item:minecraft:magma_block>, 50, 4, 8),
-            new WeightedPoolItem(<item:minecraft:emerald>, 10, 1, 2),
+            new WeightedPoolItem(<item:minecraft:lapis_lazuli>, 10, 1, 2),
             new WeightedPoolItem(<item:minecraft:iron_block>, 10, 2, 4),
             new WeightedPoolItem(<item:minecraft:weathered_copper>, 10, 2, 3),
             new WeightedPoolItem(<item:minecraft:oxidized_copper>, 10, 2, 3),
@@ -152,7 +152,7 @@ loot.modifiers.register(
         // Pool 1: Main items (1-3 rolls)
         loot_generator.performWeightedPool(1, 3, 10, [
             new WeightedPoolItem(<item:minecraft:gold_ingot>, 5, 2, 7),
-            new WeightedPoolItem(<item:minecraft:emerald>, 5, 1, 3),
+            new WeightedPoolItem(<item:minecraft:lapis_lazuli>, 5, 1, 3),
             new WeightedPoolItem(<item:minecraft:saddle>, 5, 1, 1),
             new WeightedPoolItem(<item:minecraft:cobweb>, 15, 1, 1)
         ]);
@@ -185,7 +185,7 @@ loot.modifiers.register(
         // Pool 1: Pharaoh treasures (3-4 rolls)
         loot_generator.performWeightedPool(3, 4, 0, [
             new WeightedPoolItem(<item:minecraft:gold_ingot>, 5, 3, 8),
-            new WeightedPoolItem(<item:minecraft:emerald>, 5, 3, 6),
+            new WeightedPoolItem(<item:minecraft:lapis_lazuli>, 5, 3, 6),
             new WeightedPoolItem(<item:minecraft:diamond>, 5, 3, 6),
             new WeightedPoolItem(<item:minecraft:enchanted_golden_apple>, 5, 1, 1)
         ]);

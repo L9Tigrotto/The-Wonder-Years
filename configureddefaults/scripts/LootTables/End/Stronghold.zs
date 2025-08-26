@@ -194,7 +194,7 @@ loot.modifiers.register(
             new WeightedPoolItem(<item:minecraft:ender_pearl>, 5, 2, 7),
             new WeightedPoolItem(<item:minecraft:chain>, 5, 2, 4),
             new WeightedPoolItem(<item:minecraft:diamond>, 1, 1, 1),
-            new WeightedPoolItem(<item:minecraft:emerald>, 1, 1, 1)
+            new WeightedPoolItem(<item:minecraft:lapis_lazuli>, 1, 1, 1)
         ]);
 
         loot_generator.generateHatBagWithProbability(0.30);
@@ -216,7 +216,7 @@ loot.modifiers.register(
             new WeightedPoolItem(<item:minecraft:iron_ingot>, 1, 4, 6),
             new WeightedPoolItem(<item:minecraft:gold_ingot>, 1, 4, 6),
             new WeightedPoolItem(<item:minecraft:diamond>, 1, 1, 2),
-            new WeightedPoolItem(<item:minecraft:emerald>, 1, 1, 2),
+            new WeightedPoolItem(<item:minecraft:lapis_lazuli>, 1, 1, 2),
             new WeightedPoolItem(<item:minecraft:bone>, 1, 5, 7),
             new WeightedPoolItem(<item:minecraft:golden_apple>, 1, 1, 1),
             new WeightedPoolItem(<item:minecraft:ender_pearl>, 1, 1, 1)
@@ -239,10 +239,9 @@ loot.modifiers.register(
 
         loot_generator.performWeightedPool(4, 8, 0, [
             new WeightedPoolItem(<item:minecraft:iron_ingot>, 3, 2, 3),
-            new WeightedPoolItem(<item:minecraft:lapis_lazuli>, 12, 2, 7),
+            new WeightedPoolItem(<item:minecraft:lapis_lazuli>, 13, 2, 7),
             new WeightedPoolItem(<item:minecraft:gold_ingot>, 3, 2, 3),
             new WeightedPoolItem(<item:minecraft:diamond>, 1, 1, 3),
-            new WeightedPoolItem(<item:minecraft:emerald>, 1, 1, 2),
             new WeightedPoolItem(<item:minecraft:enchanted_golden_apple>, 2, 1, 1),
             new WeightedPoolItem(<item:minecraft:music_disc_mall>, 1, 1, 1),
             new WeightedPoolItem(<item:minecraft:music_disc_stal>, 1, 1, 1),

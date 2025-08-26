@@ -15,7 +15,7 @@ loot.modifiers.register(
 
         // Pool 1: Binomial n=3, p=0.4 ≈ 1.2 expected rolls
         loot_generator.performWeightedPool(1, 2, 4, [
-            new WeightedPoolItem(<item:minecraft:emerald>, 1, 1, 4),
+            new WeightedPoolItem(<item:minecraft:lapis_lazuli>, 1, 1, 4),
             new WeightedPoolItem(<item:minecraft:amethyst_shard>, 4, 3, 9),
             new WeightedPoolItem(<item:minecraft:bread>, 5, 3, 11)
         ]);
