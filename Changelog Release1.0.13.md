@@ -4,8 +4,6 @@
 
 *List administrative changes, modpack-wide modifications, and other general updates.*
 
-- Removed fire aspect from helmet enchantment pool.
-
 - Made essence stack up to 16.
 - Made totem of undying stack up to 4.
 - Removed debuffs fomr low tier items.
@@ -19,11 +17,13 @@
 - Reduced distance between structures.
 - Fixed bed messages. Now custom messages releted to sleep shows correctly.
 - Fixed crash on server when picking up horse with horseshoes (disabled horse pick up).
+- Changed default ping key to `mouse button 4`.
 
 - Replaced emeralds with lapislazuli in loot chests.
 - Changed all recipes with emeralds to use lapislazuli or gold.
 - Changed abyssal whatcher recipe to use lapislazuli instead of flint.
 - Disabled enchantment catalyst.
+- Removed fire aspect from helmet enchantment pool.
 
 - Known bug: tierable items crafted in the crafting terminal with `shift + left click` will be tierless. Waiting for response from Tom's Simple Storage on bug report.
 - Known bug: equipment comparison is not currently working with tiered items. Waiting for response from Equipment Compare on bug report.

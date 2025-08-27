@@ -237,7 +237,7 @@
 	]
 	quest.25E2F27061697480.title: "&4Building Guides&r"
 	quest.266B72EF34EE7A7F.quest_desc: [
-		"&eDrop visual markers for your team.&r &7Middle click&r to place a marker everyone can see."
+		"&eDrop visual markers for your team.&r &7Mouse button 4&r to place a marker everyone can see."
 		""
 		"Use &7/pingwheel channel <name>&r to create private marker channels for different groups."
 	]
