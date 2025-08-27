@@ -276,7 +276,7 @@ key_key.spyglass-improvements.use:key.keyboard.z
 key_key.toms_storage.open_terminal:key.keyboard.unknown
 key_key.weaponmaster_ydm.opengui:key.keyboard.p
 soundCategory_master:0.5033138451986755
-soundCategory_music:0.10605743838028173
+soundCategory_music:0.15304247359154935
 soundCategory_record:1.0
 soundCategory_weather:1.0
 soundCategory_block:1.0

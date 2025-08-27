@@ -1,5 +1,7 @@
 # The Wonder Years Changelog Version 1.0.13
 
+## ⚠️The options file will be overwritten during updates. Please back up your current settings if you want to preserve your custom keybindings, resource packs, and audio/video configurations.⚠️
+
 ## 📋 General Updates
 
 *List administrative changes, modpack-wide modifications, and other general updates.*
@@ -17,7 +19,7 @@
 - Reduced distance between structures.
 - Fixed bed messages. Now custom messages releted to sleep shows correctly.
 - Fixed crash on server when picking up horse with horseshoes (disabled horse pick up).
-- Changed default ping key to `mouse button 4`.
+- Fixed block pick up instead of pinging. Changed default ping key to `mouse button 4`.
 - Increased life+, looting, fortune items cost.
 
 - Replaced emeralds with lapislazuli in loot chests.
