@@ -18,6 +18,7 @@
 - Fixed bed messages. Now custom messages releted to sleep shows correctly.
 - Fixed crash on server when picking up horse with horseshoes (disabled horse pick up).
 - Changed default ping key to `mouse button 4`.
+- Increased life+, looting, fortune items cost.
 
 - Replaced emeralds with lapislazuli in loot chests.
 - Changed all recipes with emeralds to use lapislazuli or gold.

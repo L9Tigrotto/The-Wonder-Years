@@ -99,7 +99,7 @@
   ],
   "minecraft:fortune": [
     "minecraft:gold_block",
-    "minecraft:emerald_block",
+    "minecraft:diamond_block",
     "betterenchanting:essence_of_fortune"
   ],
   "minecraft:fire_protection": [
@@ -156,8 +156,8 @@
     "betterenchanting:essence_of_silk_touch"
   ],
   "minecraft:looting": [
-    "minecraft:emerald",
     "minecraft:spore_blossom",
+	"minecraft:gold_block",
     "betterenchanting:essence_of_looting"
   ],
   "minecraft:depth_strider": [
@@ -235,11 +235,11 @@
     "betterenchanting:essence_of_building"
   ],
   "enchantplus:armor/lifeplus": [
-    "minecraft:apple",
-    "minecraft:rabbit_stew",
-    "minecraft:nether_wart_block",
-    "minecraft:dragon_head",
-    "betterenchanting:essence_of_health"
+    "minecraft:golden_apple",
+	"minecraft:diamond_block",
+	"minecraft:totem_of_undying",
+	"minecraft:nether_star",
+	"betterenchanting:essence_of_health"
   ],
   "enchantplus:leggings/fast_swim": [
     "betterenchanting:essence_of_sea"
@@ -284,10 +284,6 @@
   "soulbound:soulbound": [
     "minecraft:nether_star"
   ],
-
-  
-  
-  
   "enchantplus:tools/auto_smelt": [
     "betterenchanting:essence_of_smelting"
   ],
@@ -435,5 +431,63 @@
   ],
   "nova_structures:wither_coated": [
     "betterenchanting:essence_of_building"
+  ],
+  "spell_engine:spell_infinity": [
+    "betterenchanting:essence_of_spell_infinity"
+  ],
+  "spell_power:energize": [
+    "minecraft:redstone",
+    "minecraft:end_rod",
+    "minecraft:copper_block",
+    "minecraft:trident",
+    "betterenchanting:essence_of_energy"
+  ],
+  "spell_power:magic_protection": [
+    "minecraft:iron_ingot",
+    "minecraft:copper_grate",
+    "minecraft:crying_obsidian",
+    "betterenchanting:essence_of_magic_protection"
+  ],
+  "spell_power:critical_damage": [
+    "minecraft:gunpowder",
+    "minecraft:lapis_lazuli",
+    "minecraft:tnt",
+    "minecraft:fire_charge",
+    "betterenchanting:essence_of_critical_spell"
+  ],
+  "spell_power:critical_chance": [
+    "minecraft:redstone",
+    "minecraft:glowstone_dust",
+    "minecraft:fire_charge",
+    "minecraft:ghast_tear",
+    "betterenchanting:essence_of_critical_spell"
+  ],
+  "spell_power:haste": [
+    "minecraft:sugar",
+    "minecraft:glow_berries",
+    "minecraft:emerald",
+    "minecraft:glowstone",
+    "betterenchanting:essence_of_haste"
+  ],
+  "spell_power:soulfrost": [
+    "minecraft:snowball",
+    "minecraft:powder_snow_bucket",
+    "minecraft:packed_ice",
+    "minecraft:blue_ice",
+    "betterenchanting:essence_of_soulfrost"
+  ],
+  "spell_power:sunfire": [
+    "minecraft:coal",
+    "minecraft:soul_campfire",
+    "minecraft:soul_campfire",
+    "minecraft:blaze_powder",
+    "betterenchanting:essence_of_sunfire"
+  ],
+  "spell_power:spell_power": [
+    "minecraft:diamond",
+    "minecraft:redstone_block",
+    "minecraft:emerald_block",
+    "minecraft:diamond_block",
+    "betterenchanting:essence_of_spell_power"
   ]
 }
