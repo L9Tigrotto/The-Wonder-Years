@@ -5,7 +5,6 @@
 	default_quest_shape: ""
 	filename: "farming"
 	group: ""
-	hide_quest_until_deps_complete: true
 	icon: {
 		id: "minecraft:wheat"
 	}
@@ -35,6 +34,7 @@
 		}
 		{
 			dependencies: ["703D99E23EBA4FBA"]
+			hide_until_deps_complete: true
 			icon: {
 				id: "minecraft:flowering_azalea_leaves"
 			}

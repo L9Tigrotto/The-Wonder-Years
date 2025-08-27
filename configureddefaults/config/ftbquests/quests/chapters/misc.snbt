@@ -5,7 +5,6 @@
 	default_quest_shape: ""
 	filename: "misc"
 	group: ""
-	hide_quest_until_deps_complete: true
 	icon: {
 		id: "minecraft:brewing_stand"
 	}
@@ -86,6 +85,7 @@
 		}
 		{
 			dependencies: ["0E339DC02A38C8D8"]
+			hide_until_deps_complete: true
 			icon: {
 				id: "minecraft:crafter"
 			}

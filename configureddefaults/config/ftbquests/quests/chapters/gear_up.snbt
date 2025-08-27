@@ -5,7 +5,6 @@
 	default_quest_shape: ""
 	filename: "gear_up"
 	group: ""
-	hide_quest_until_deps_complete: true
 	icon: {
 		id: "minecraft:chipped_anvil"
 	}
@@ -15,6 +14,7 @@
 	quests: [
 		{
 			dependencies: ["60BB2B1A6B167FBD"]
+			hide_until_deps_complete: true
 			id: "7FA181A418602552"
 			tasks: [{
 				consume_items: false

@@ -23,6 +23,7 @@
 - Fixed block pick up instead of pinging. Changed default ping key to `mouse button 4`.
 - Increased life+, looting, fortune items cost for enchanting.
 - Balanced mythic upgrades effects.
+- Made the whole chapter visible uppon unlocking.
 
 - Replaced emeralds with lapislazuli in loot chests.
 - Changed all recipes with emeralds to use lapislazuli or gold.
