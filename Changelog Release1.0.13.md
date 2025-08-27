@@ -8,10 +8,11 @@
 
 - Made essence stack up to 16.
 - Made totem of undying stack up to 4.
-- Removed debuffs fomr low tier items.
+- Removed debuffs from low tier items.
 - Changed the tier reroll to be more favorable.
 - Added more tier variants.
 - Added tiers for mace and trident.
+- Removed "Unique" from unique item name.
 
 - Disabled Hammocs recipes and usage.
 - Disabled block info in hud for fluids.
@@ -21,13 +22,15 @@
 - Fixed crash on server when picking up horse with horseshoes (disabled horse pick up).
 - Fixed block pick up instead of pinging. Changed default ping key to `mouse button 4`.
 - Increased life+, looting, fortune items cost for enchanting.
-- Balanced mythic effects.
+- Balanced mythic upgrades effects.
 
 - Replaced emeralds with lapislazuli in loot chests.
 - Changed all recipes with emeralds to use lapislazuli or gold.
 - Changed abyssal whatcher recipe to use lapislazuli instead of flint.
 - Disabled enchantment catalyst.
 - Increased mob stats in the nether and in the end.
+- Fixed some elytras spawning without a pattern.
+- Removed custom names from legendary items.
 - Removed fire aspect from helmet enchantment pool.
 
 - Known bug: tierable items crafted in the crafting terminal with `shift + left click` will be tierless. Waiting for response from Tom's Simple Storage on bug report.

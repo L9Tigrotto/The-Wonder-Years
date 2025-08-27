@@ -287,7 +287,6 @@ loot.modifiers.register(
 
         // Pool 3: Elite items (1 roll)
         loot_generator.performWeightedPool(1, 1, 0, [
-            new WeightedPoolItem(<item:minecraft:elytra>, 2, 1, 1),
             new WeightedPoolItem(<item:minecraft:spire_armor_trim_smithing_template>, 1, 1, 1),
             new WeightedPoolItem(<item:minecraft:eye_armor_trim_smithing_template>, 2, 1, 1)
         ]);
@@ -321,11 +320,6 @@ loot.modifiers.register(
         // Pool 2: Structure items (1 roll)
         loot_generator.performWeightedPool(1, 1, 0, [
             new WeightedPoolItem(<item:minecraft:end_crystal>, 2, 3, 3)
-        ]);
-
-        // Pool 3: Guaranteed elytra (1 roll)
-        loot_generator.performWeightedPool(1, 1, 0, [
-            new WeightedPoolItem(<item:minecraft:elytra>, 1, 1, 1)
         ]);
 
         // Pool 4: Treasure blocks (1 roll)
@@ -377,8 +371,7 @@ loot.modifiers.register(
         // Pool 6: Elite gear (1 roll)
         loot_generator.performWeightedPool(1, 1, 20, [
             new WeightedPoolItem(<item:minecraft:spire_armor_trim_smithing_template>, 1, 1, 1),
-            new WeightedPoolItem(<item:minecraft:eye_armor_trim_smithing_template>, 5, 1, 1),
-            new WeightedPoolItem(<item:minecraft:elytra>, 10, 1, 1)
+            new WeightedPoolItem(<item:minecraft:eye_armor_trim_smithing_template>, 5, 1, 1)
         ]);
 
         // Generation functions

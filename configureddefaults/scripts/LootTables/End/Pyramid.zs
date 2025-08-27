@@ -24,7 +24,6 @@ loot.modifiers.register(
             new WeightedPoolItem(<item:minecraft:lapis_lazuli>, 105, 3, 8),
             new WeightedPoolItem(<item:minecraft:end_crystal>, 9, 1, 1),
             new WeightedPoolItem(<item:minecraft:enchanted_golden_apple>, 5, 1, 1),
-            new WeightedPoolItem(<item:minecraft:elytra>, 1, 1, 1),
             new WeightedPoolItem(<item:minecraft:purple_dye>, 10, 1, 8),
             new WeightedPoolItem(<item:minecraft:ender_pearl>, 15, 2, 9),
             new WeightedPoolItem(<item:minecraft:chorus_fruit>, 10, 4, 16),

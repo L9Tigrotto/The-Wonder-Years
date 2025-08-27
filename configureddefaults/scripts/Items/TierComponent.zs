@@ -136,7 +136,7 @@ public class TierComponent
 			}
 		} as IData;
 
-        if (tier_level == "legendary" || tier_level == "unique")
+        if (tier_level == "unique")
         {
             val name_component = NameComponent.generateRandomNameComponent(item_descriptor, loot_context);
             if (!name_component.isEmpty) { tier_component.merge(name_component); }
