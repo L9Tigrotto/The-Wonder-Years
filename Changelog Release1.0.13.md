@@ -20,7 +20,8 @@
 - Fixed bed messages. Now custom messages releted to sleep shows correctly.
 - Fixed crash on server when picking up horse with horseshoes (disabled horse pick up).
 - Fixed block pick up instead of pinging. Changed default ping key to `mouse button 4`.
-- Increased life+, looting, fortune items cost.
+- Increased life+, looting, fortune items cost for enchanting.
+- Balanced mythic effects.
 
 - Replaced emeralds with lapislazuli in loot chests.
 - Changed all recipes with emeralds to use lapislazuli or gold.
