@@ -23,6 +23,7 @@
 - Fixed block pick up instead of pinging. Changed default ping key to `mouse button 4`.
 - Increased life+, looting, fortune items cost for enchanting.
 - Balanced mythic upgrades effects.
+- Removed mending enchantment from incendium drops. 
 - Made the whole chapter visible uppon unlocking.
 
 - Replaced emeralds with lapislazuli in loot chests.
@@ -60,6 +61,7 @@
 - **Armorful**: Adds armor for various mobs naturally where vanilla does not.
 - **Colorful Hearts**: Uses colored hearts to represent each row of health.
 - **Enchanter Fix**: Allows to place all types of blocks within their enchanting table setup.
+- **EnchantmentDisabler**: Disable enchantment from config.
 
 - **Tiered More**: Improved version of TieredZ.
 - **Kev's Library**: Adds some attributes for item tier.
