@@ -101,7 +101,7 @@ public class LootGenerator
     // Cumulative probability distributions (luck affects which tier is selected)
 	private static val OVERWORLD_TOOLS_DISTRIBUTION as float[] = [0.02, 0.10, 0.25, 0.50, 0.90, 1.00];
 	private static val NETHER_TOOLS_DISTRIBUTION as float[] = [0.15, 0.55, 0.90, 1.00];
-	private static val END_TOOLS_DISTRIBUTION as float[] = [0.05, 0.20, 0.55, 0.80, 0.95, 1.00];
+	private static val END_TOOLS_DISTRIBUTION as float[] = [0.20, 0.60, 0.70, 0.80, 0.90, 1.00];
 
     // ========================================
     // WEAPON LOOT POOLS BY DIMENSION
@@ -126,7 +126,6 @@ public class LootGenerator
 		"iron": [<item:minecraft:iron_sword>],
 		"crossbow": [<item:minecraft:crossbow>],
 		"diamond": [<item:minecraft:diamond_sword>],
-        "mace": [<item:minecraft:mace>],
 		"netherite": [<item:minecraft:netherite_sword>],
 	};
 
@@ -143,12 +142,12 @@ public class LootGenerator
 	};
 
     private static val OVERWORLD_WEAPON_TIERS as string[] = ["wooden", "stone", "trident", "bow", "golden", "crossbow", "iron", "diamond"];
-	private static val NETHER_WEAPON_TIERS as string[] = ["golden", "bow", "iron", "crossbow", "diamond", "mace", "netherite"];
+	private static val NETHER_WEAPON_TIERS as string[] = ["golden", "bow", "iron", "crossbow", "diamond", "netherite"];
 	private static val END_WEAPON_TIERS as string[] = ["bow", "crossbow", "diamond", "netherite", "mace", "mythic low", "mythic mid", "mythic high"];
 
 	private static val OVERWORLD_WEAPON_DISTRIBUTION as float[] = [0.05, 0.15, 0.20, 0.35, 0.45, 0.60, 0.90, 1.00];
-	private static val NETHER_WEAPON_DISTRIBUTION as float[] = [0.10, 0.25, 0.45, 0.55, 0.85, 0.95, 1.00];
-	private static val END_WEAPON_DISTRIBUTION as float[] = [0.10, 0.20, 0.25, 0.45, 0.50, 0.68, 0.85, 1.00];
+	private static val NETHER_WEAPON_DISTRIBUTION as float[] = [0.10, 0.25, 0.45, 0.60, 0.90, 1.00];
+	private static val END_WEAPON_DISTRIBUTION as float[] = [0.10, 0.20, 0.30, 0.55, 0.70, 0.80, 0.90, 1.00];
 
     // ========================================
     // ARMOR LOOT POOLS BY DIMENSION
@@ -198,7 +197,7 @@ public class LootGenerator
 
 	private static val OVERWORLD_ARMOR_DISTRIBUTION as float[] = [0.05, 0.20, 0.25, 0.40, 0.60, 0.98, 1.00];
 	private static val NETHER_ARMOR_DISTRIBUTION as float[] = [0.10, 0.25, 0.50, 0.90, 1.00];
-	private static val END_ARMOR_DISTRIBUTION as float[] = [0.05, 0.40, 0.65, 0.85, 1.00];
+	private static val END_ARMOR_DISTRIBUTION as float[] = [0.25, 0.70, 0.80, 0.90, 1.00];
 
     // ========================================
     // CURRENCY SYSTEM - NUMISMATIC OVERHAUL
@@ -538,8 +537,7 @@ public class LootGenerator
 			else if (tier_pick <= NETHER_WEAPON_DISTRIBUTION[2]) { material_key = NETHER_WEAPON_TIERS[2]; }
 			else if (tier_pick <= NETHER_WEAPON_DISTRIBUTION[3]) { material_key = NETHER_WEAPON_TIERS[3]; }
 			else if (tier_pick <= NETHER_WEAPON_DISTRIBUTION[4]) { material_key = NETHER_WEAPON_TIERS[4]; }
-			else if (tier_pick <= NETHER_WEAPON_DISTRIBUTION[5]) { material_key = NETHER_WEAPON_TIERS[5]; }
-			else                                                 { material_key = NETHER_WEAPON_TIERS[6]; }
+			else                                                 { material_key = NETHER_WEAPON_TIERS[5]; }
 		}
 		else if (loot_context.dimension == "end")
 		{

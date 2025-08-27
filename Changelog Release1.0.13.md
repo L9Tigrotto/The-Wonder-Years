@@ -31,6 +31,8 @@
 - Increased mob stats in the nether and in the end.
 - Fixed some elytras spawning without a pattern.
 - Removed custom names from legendary items.
+- Remove mace from nether pool.
+- Lowered mythic loot probabilities in the end.
 - Removed fire aspect from helmet enchantment pool.
 
 - Known bug: tierable items crafted in the crafting terminal with `shift + left click` will be tierless. Waiting for response from Tom's Simple Storage on bug report.

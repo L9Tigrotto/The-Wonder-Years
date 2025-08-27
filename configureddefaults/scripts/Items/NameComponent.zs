@@ -1199,7 +1199,7 @@ public class NameComponent
             "Void Walker's War Hammer",
             "Dimensional Destroyer Mace",
             "Enderrealm's Rage Rod",
-            "Ethereal Impact Engine",
+            "Ethereal Force Fury",
             "Cosmic Chaos Crusher",
             "Void Virtue Mace",
             "Stellar Strength Striker",
