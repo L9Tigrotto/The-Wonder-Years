@@ -24,6 +24,7 @@
 - Changed all recipes with emeralds to use lapislazuli or gold.
 - Changed abyssal whatcher recipe to use lapislazuli instead of flint.
 - Disabled enchantment catalyst.
+- Increased mob stats in the nether and in the end.
 - Removed fire aspect from helmet enchantment pool.
 
 - Known bug: tierable items crafted in the crafting terminal with `shift + left click` will be tierless. Waiting for response from Tom's Simple Storage on bug report.
