@@ -53,13 +53,15 @@ public class TierComponent
      */
 	private static val NUMBER_OF_VARIANTS as int[string] = 
 	{
-		"armor":		4,
+		"armor":		7,
 		"tool":			4,
 		"elytra":		2,
 		"fishing":		2,
-		"melee":		4,
-		"ranged":		4,
+		"melee":		6,
+		"ranged":		6,
 		"shield":		4,
+		"mace":		    4,
+		"trident":	    4,
 	};
 
     /**
@@ -89,7 +91,9 @@ public class TierComponent
 		else if	(item_descriptor.can_tier_as_fishing_rod)	{ item_type = "fishing"; }
 		else if	(item_descriptor.can_tier_as_melee_weapon)	{ item_type = "melee"; }
 		else if	(item_descriptor.can_tier_as_ranged_weapon)	{ item_type = "ranged"; }
-		else                                                { item_type = "shield"; }
+		else if	(item_descriptor.can_tier_as_shield)        { item_type = "shield"; }
+		else if	(item_descriptor.can_tier_as_mace)          { item_type = "mace"; }
+		else                                                { item_type = "trident"; }
 
         // Get the base distribution for the current dimension
 		val distribution = DISTRIBUTIONS[loot_context.dimension];
@@ -132,7 +136,7 @@ public class TierComponent
 			}
 		} as IData;
 
-        if (tier_level == "legendary" || tier_level == "unique")
+        if (tier_level == "unique")
         {
             val name_component = NameComponent.generateRandomNameComponent(item_descriptor, loot_context);
             if (!name_component.isEmpty) { tier_component.merge(name_component); }

@@ -56,13 +56,19 @@
               "attribute": "generic.armor",
               "operation": "ADDITION",
               "randomness": 0.0,
-              "value": 1.0
+              "value": 2.2
+            },
+            {
+              "attribute": "kevslibrary:armor_penetration",
+              "operation": "ADDITION",
+              "randomness": 0.0,
+              "value": 0.1
             },
             {
               "attribute": "generic.max_health",
               "operation": "MULTIPLY_BASE",
               "randomness": 0.1,
-              "value": 0.25
+              "value": 0.15
             }
           ],
           "experience_multiplier": 0.2
@@ -70,7 +76,12 @@
       ],
       "rewards": {
         "armor": [],
-        "weapons": []
+        "weapons": [],
+        "smithing_upgrade": {
+          "enabled": true,
+          "add_upon_upgrade": -1,
+          "multiply_upon_upgrade": 1.0
+        }
       }
     },
     {
@@ -96,7 +107,12 @@
       ],
       "rewards": {
         "armor": [],
-        "weapons": []
+        "weapons": [],
+        "smithing_upgrade": {
+          "enabled": true,
+          "add_upon_upgrade": -1,
+          "multiply_upon_upgrade": 1.0
+        }
       }
     }
   ],

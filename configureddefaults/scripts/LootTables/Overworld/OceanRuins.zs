@@ -34,7 +34,7 @@ loot.modifiers.register(
             new WeightedPoolItem(<item:minecraft:gold_ingot>, 5, 2, 6),
             new WeightedPoolItem(<item:minecraft:iron_ingot>, 5, 2, 6),
             new WeightedPoolItem(<item:minecraft:copper_ingot>, 5, 2, 6),
-            new WeightedPoolItem(<item:minecraft:emerald>, 5, 2, 6),
+            new WeightedPoolItem(<item:minecraft:lapis_lazuli>, 5, 2, 6),
             new WeightedPoolItem(<item:minecraft:gold_nugget>, 6, 4, 12),
             new WeightedPoolItem(<item:minecraft:iron_nugget>, 6, 4, 12),
             new WeightedPoolItem(<item:minecraft:firework_rocket>, 4, 4, 10),
@@ -107,8 +107,7 @@ loot.modifiers.register(
             new WeightedPoolItem(<item:minecraft:gold_ingot>, 5, 2, 6),
             new WeightedPoolItem(<item:minecraft:iron_ingot>, 5, 2, 6),
             new WeightedPoolItem(<item:minecraft:copper_ingot>, 5, 2, 6),
-            new WeightedPoolItem(<item:minecraft:lapis_lazuli>, 4, 2, 6),
-            new WeightedPoolItem(<item:minecraft:emerald>, 5, 2, 6),
+            new WeightedPoolItem(<item:minecraft:lapis_lazuli>, 9, 2, 6),
             new WeightedPoolItem(<item:minecraft:iron_nugget>, 6, 4, 12),
             new WeightedPoolItem(<item:minecraft:firework_rocket>, 4, 4, 10),
             new WeightedPoolItem(<item:minecraft:gunpowder>, 3, 2, 6),
@@ -166,12 +165,11 @@ loot.modifiers.register(
             new WeightedPoolItem(<item:minecraft:brick>, 5, 3, 15),
             new WeightedPoolItem(<item:minecraft:paper>, 8, 3, 15),
             new WeightedPoolItem(<item:minecraft:arrow>, 7, 1, 6),
-            new WeightedPoolItem(<item:minecraft:emerald>, 8, 2, 6),
-            new WeightedPoolItem(<item:minecraft:emerald_block>, 2, 0, 1),
+            new WeightedPoolItem(<item:minecraft:lapis_lazuli>, 8, 2, 6),
             new WeightedPoolItem(<item:minecraft:experience_bottle>, 12, 2, 5),
             new WeightedPoolItem(<item:minecraft:flint>, 6, 1, 6),
             new WeightedPoolItem(<item:minecraft:leather>, 6, 1, 6),
-            new WeightedPoolItem(<item:minecraft:lapis_lazuli>, 5, 2, 7),
+            new WeightedPoolItem(<item:minecraft:lapis_lazuli>, 13, 2, 7),
             new WeightedPoolItem(<item:minecraft:chiseled_stone_bricks>, 4, 4, 12),
             new WeightedPoolItem(<item:minecraft:sea_pickle>, 4, 2, 10),
             new WeightedPoolItem(<item:minecraft:stripped_oak_log>, 4, 2, 10),
@@ -263,7 +261,7 @@ loot.modifiers.register(
             new WeightedPoolItem(<item:minecraft:paper>, 8, 3, 15),
             new WeightedPoolItem(<item:minecraft:arrow>, 7, 1, 6),
             new WeightedPoolItem(<item:minecraft:raw_copper>, 8, 2, 6),
-            new WeightedPoolItem(<item:minecraft:emerald_block>, 2, 0, 1),
+            new WeightedPoolItem(<item:minecraft:lapis_block>, 2, 0, 1),
             new WeightedPoolItem(<item:minecraft:experience_bottle>, 12, 2, 5),
             new WeightedPoolItem(<item:minecraft:flint>, 6, 1, 6),
             new WeightedPoolItem(<item:minecraft:leather>, 6, 1, 6),
@@ -333,10 +331,9 @@ loot.modifiers.register(
             new WeightedPoolItem(<item:minecraft:clay_ball>, 4, 3, 30),
             new WeightedPoolItem(<item:minecraft:paper>, 8, 3, 15),
             new WeightedPoolItem(<item:minecraft:arrow>, 7, 1, 6),
-            new WeightedPoolItem(<item:minecraft:emerald>, 8, 2, 6),
             new WeightedPoolItem(<item:minecraft:flint>, 6, 1, 6),
             new WeightedPoolItem(<item:minecraft:leather>, 6, 1, 6),
-            new WeightedPoolItem(<item:minecraft:lapis_lazuli>, 5, 2, 7),
+            new WeightedPoolItem(<item:minecraft:lapis_lazuli>, 13, 2, 7),
             new WeightedPoolItem(<item:minecraft:chiseled_stone_bricks>, 4, 4, 12),
             new WeightedPoolItem(<item:minecraft:sea_pickle>, 4, 2, 10),
             new WeightedPoolItem(<item:minecraft:sand>, 4, 4, 12),
@@ -397,7 +394,7 @@ loot.modifiers.register(
         loot_generator.performWeightedPool(0, 1, 14, [
             new WeightedPoolItem(<item:minecraft:coal>, 10, 1, 4),
             new WeightedPoolItem(<item:minecraft:gold_nugget>, 10, 1, 3),
-            new WeightedPoolItem(<item:minecraft:emerald>, 1, 1, 1),
+            new WeightedPoolItem(<item:minecraft:lapis_lazuli>, 1, 1, 1),
             new WeightedPoolItem(<item:minecraft:wheat>, 10, 2, 3),
             new WeightedPoolItem(<item:minecraft:golden_apple>, 1, 1, 1)
         ]);
@@ -442,11 +439,10 @@ loot.modifiers.register(
             new WeightedPoolItem(<item:minecraft:turtle_scute>, 2, 0, 2),
             new WeightedPoolItem(<item:minecraft:name_tag>, 3, 0, 1),
             new WeightedPoolItem(<item:minecraft:tipped_arrow>.withJsonComponent(<componenttype:minecraft:potion_contents>, {potion: "minecraft:long_slowness"}), 3, 4, 6),
-            new WeightedPoolItem(<item:minecraft:emerald>, 2, 2, 6),
-            new WeightedPoolItem(<item:minecraft:emerald_block>, 1, 0, 1),
+            new WeightedPoolItem(<item:minecraft:lapis_block>, 1, 0, 1),
             new WeightedPoolItem(<item:minecraft:experience_bottle>, 5, 2, 5),
             new WeightedPoolItem(<item:minecraft:flint>, 2, 1, 6),
-            new WeightedPoolItem(<item:minecraft:lapis_lazuli>, 2, 2, 7),
+            new WeightedPoolItem(<item:minecraft:lapis_lazuli>, 4, 2, 7),
             new WeightedPoolItem(<item:minecraft:chiseled_stone_bricks>, 2, 4, 12),
             new WeightedPoolItem(<item:minecraft:sea_pickle>, 2, 2, 10),
             new WeightedPoolItem(<item:minecraft:sand>, 2, 4, 12),
@@ -495,7 +491,7 @@ loot.modifiers.register(
             new WeightedPoolItem(<item:minecraft:gold_ingot>, 4, 1, 2),
             new WeightedPoolItem(<item:minecraft:iron_ingot>, 4, 1, 2),
             new WeightedPoolItem(<item:minecraft:copper_ingot>, 4, 1, 4),
-            new WeightedPoolItem(<item:minecraft:emerald>, 6, 1, 5),
+            new WeightedPoolItem(<item:minecraft:lapis_lazuli>, 6, 1, 5),
             new WeightedPoolItem(<item:minecraft:firework_rocket>
                 .withJsonComponent(<componenttype:minecraft:item_name>, "{\"color\":\"gold\",\"italic\":false,\"text\":\"Marine Glow Rocket\"}")
                 .withJsonComponent(<componenttype:minecraft:fireworks>, {
@@ -549,7 +545,7 @@ loot.modifiers.register(
             new WeightedPoolItem(<item:minecraft:bread>, 10, 2, 3),
             new WeightedPoolItem(<item:minecraft:potato>, 5, 2, 7),
             new WeightedPoolItem(<item:minecraft:carrot>, 5, 1, 3),
-            new WeightedPoolItem(<item:minecraft:emerald>, 1, 1, 1)
+            new WeightedPoolItem(<item:minecraft:lapis_lazuli>, 1, 1, 1)
         ]);
 
         // Pool 2: Structure items (3 rolls) - removed tools/weapons/armor/enchanted books
@@ -1190,7 +1186,7 @@ loot.modifiers.register(
             new WeightedPoolItem(<item:minecraft:bread>, 10, 1, 2),
             new WeightedPoolItem(<item:minecraft:potato>, 5, 1, 5),
             new WeightedPoolItem(<item:minecraft:carrot>, 5, 1, 2),
-            new WeightedPoolItem(<item:minecraft:emerald>, 1, 1, 1)
+            new WeightedPoolItem(<item:minecraft:lapis_lazuli>, 1, 1, 1)
         ]);
 
         // Pool 2: Structure items (2 rolls) - removed tools/weapons/armor, kept regular books
@@ -1832,7 +1828,7 @@ loot.modifiers.register(
             new WeightedPoolItem(<item:minecraft:potato>, 10, 2, 3),
             new WeightedPoolItem(<item:minecraft:poisonous_potato>, 5, 2, 7),
             new WeightedPoolItem(<item:minecraft:bone>, 5, 1, 3),
-            new WeightedPoolItem(<item:minecraft:emerald>, 1, 1, 1)
+            new WeightedPoolItem(<item:minecraft:lapis_lazuli>, 1, 1, 1)
         ]);
 
         // Pool 2: Structure items (3 rolls) - removed tools/armor/enchanted books
@@ -2475,7 +2471,7 @@ loot.modifiers.register(
             new WeightedPoolItem(<item:minecraft:potato>, 5, 1, 5),
             new WeightedPoolItem(<item:minecraft:poisonous_potato>, 5, 1, 2),
             new WeightedPoolItem(<item:minecraft:bone>, 3, 1, 3),
-            new WeightedPoolItem(<item:minecraft:emerald>, 1, 1, 1)
+            new WeightedPoolItem(<item:minecraft:lapis_lazuli>, 1, 1, 1)
         ]);
 
         // Pool 2: Structure items (2 rolls) - removed tools/armor, kept regular books
@@ -3115,11 +3111,10 @@ loot.modifiers.register(
         // Pool 1: Basic materials (2-8 rolls) - removed stone_shovel
         loot_generator.performWeightedPool(2, 8, 0, [
             new WeightedPoolItem(<item:minecraft:coal>, 12, 1, 4),
-            new WeightedPoolItem(<item:minecraft:lapis_lazuli>, 12, 1, 2),
+            new WeightedPoolItem(<item:minecraft:lapis_lazuli>, 13, 1, 2),
             new WeightedPoolItem(<item:minecraft:cookie>, 10, 2, 3),
             new WeightedPoolItem(<item:minecraft:sweet_berries>, 5, 2, 7),
-            new WeightedPoolItem(<item:minecraft:beetroot>, 5, 1, 3),
-            new WeightedPoolItem(<item:minecraft:emerald>, 1, 1, 1)
+            new WeightedPoolItem(<item:minecraft:beetroot>, 5, 1, 3)
         ]);
 
         // Pool 2: Structure items (3 rolls) - removed tools/armor/enchanted books
@@ -3755,11 +3750,10 @@ loot.modifiers.register(
         // Pool 1: Basic materials (2-8 rolls) - removed stone_shovel
         loot_generator.performWeightedPool(2, 8, 0, [
             new WeightedPoolItem(<item:minecraft:coal>, 12, 1, 2),
-            new WeightedPoolItem(<item:minecraft:lapis_lazuli>, 12, 1, 1),
+            new WeightedPoolItem(<item:minecraft:lapis_lazuli>, 13, 1, 1),
             new WeightedPoolItem(<item:minecraft:cookie>, 10, 1, 2),
             new WeightedPoolItem(<item:minecraft:sweet_berries>, 5, 1, 5),
-            new WeightedPoolItem(<item:minecraft:beetroot>, 5, 1, 2),
-            new WeightedPoolItem(<item:minecraft:emerald>, 1, 1, 1)
+            new WeightedPoolItem(<item:minecraft:beetroot>, 5, 1, 2)
         ]);
 
         // Pool 2: Structure items (2 rolls) - removed tools/armor, kept regular books
@@ -4401,7 +4395,7 @@ loot.modifiers.register(
             new WeightedPoolItem(<item:minecraft:bread>, 10, 2, 3),
             new WeightedPoolItem(<item:minecraft:wheat>, 5, 2, 7),
             new WeightedPoolItem(<item:minecraft:apple>, 5, 1, 3),
-            new WeightedPoolItem(<item:minecraft:emerald>, 1, 1, 1)
+            new WeightedPoolItem(<item:minecraft:lapis_lazuli>, 1, 1, 1)
         ]);
 
         // Pool 2: Structure items (3 rolls) - removed tools/armor/enchanted books
@@ -5040,7 +5034,7 @@ loot.modifiers.register(
             new WeightedPoolItem(<item:minecraft:bread>, 10, 1, 2),
             new WeightedPoolItem(<item:minecraft:wheat>, 5, 1, 5),
             new WeightedPoolItem(<item:minecraft:apple>, 5, 1, 2),
-            new WeightedPoolItem(<item:minecraft:emerald>, 1, 1, 1)
+            new WeightedPoolItem(<item:minecraft:lapis_lazuli>, 1, 1, 1)
         ]);
 
         // Pool 2: Structure items (2 rolls) - removed tools/armor, kept regular books

@@ -78,7 +78,7 @@ loot.modifiers.register(
 
         loot_generator.performWeightedPool(1, 4, 12, [
             new WeightedPoolItem(<item:minecraft:iron_ingot>, 10, 1, 4),
-            new WeightedPoolItem(<item:minecraft:emerald>, 5, 1, 3),
+            new WeightedPoolItem(<item:minecraft:lapis_lazuli>, 5, 1, 3),
             new WeightedPoolItem(<item:minecraft:apple>, 20, 1, 1),
             new WeightedPoolItem(<item:minecraft:green_dye>, 10, 1, 4),
             new WeightedPoolItem(<item:minecraft:bucket>, 10, 1, 1),
@@ -287,7 +287,7 @@ loot.modifiers.register(
 
         loot_generator.performWeightedPool(1, 4, 15, [
             new WeightedPoolItem(<item:minecraft:iron_ingot>, 10, 1, 4),
-            new WeightedPoolItem(<item:minecraft:emerald>, 5, 1, 2),
+            new WeightedPoolItem(<item:minecraft:lapis_lazuli>, 5, 1, 2),
             new WeightedPoolItem(<item:minecraft:bread>, 20, 1, 1),
             new WeightedPoolItem(<item:minecraft:wheat>, 20, 1, 4),
             new WeightedPoolItem(<item:minecraft:bucket>, 10, 1, 1),
@@ -480,7 +480,7 @@ loot.modifiers.register(
 
         loot_generator.performWeightedPool(1, 4, 15, [
             new WeightedPoolItem(<item:minecraft:iron_ingot>, 10, 1, 4),
-            new WeightedPoolItem(<item:minecraft:emerald>, 5, 1, 2),
+            new WeightedPoolItem(<item:minecraft:lapis_lazuli>, 5, 1, 2),
             new WeightedPoolItem(<item:minecraft:mushroom_stew>, 20, 1, 1),
             new WeightedPoolItem(<item:minecraft:suspicious_stew>, 10, 1, 1),
             new WeightedPoolItem(<item:minecraft:bucket>, 10, 1, 1),
@@ -701,7 +701,7 @@ loot.modifiers.register(
         loot_generator.performWeightedPool(4, 6, 0, [
             new WeightedPoolItem(<item:minecraft:bone>, 10, 3, 6),
             new WeightedPoolItem(<item:minecraft:bone_meal>, 5, 3, 6),
-            new WeightedPoolItem(<item:minecraft:emerald>, 2, 1, 1),
+            new WeightedPoolItem(<item:minecraft:lapis_lazuli>, 2, 1, 1),
             new WeightedPoolItem(<item:minecraft:diamond>, 2, 1, 1)
         ]);
 

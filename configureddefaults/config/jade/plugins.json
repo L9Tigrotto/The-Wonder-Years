@@ -74,9 +74,6 @@
     "hud": true,
     "hud.redstone": true
   },
-  "untitledduckmod": {
-    "lay_egg": true
-  },
   "jade": {
     "coordinates.rel": false,
     "registry_name.special": false,
@@ -87,6 +84,9 @@
     "registry_name": "OFF",
     "block_properties": false,
     "mod_name": true
+  },
+  "underlay": {
+    "overlay": true
   },
   "balm": {
     "jade": true

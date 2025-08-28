@@ -111,7 +111,7 @@ loot.modifiers.register(
             new WeightedPoolItem(<item:minecraft:bread>, 10, 1, 4),
             new WeightedPoolItem(<item:minecraft:apple>, 10, 1, 5),
             new WeightedPoolItem(<item:minecraft:composter>, 1, 1, 1),
-            new WeightedPoolItem(<item:minecraft:emerald>, 2, 1, 4),
+            new WeightedPoolItem(<item:minecraft:lapis_lazuli>, 2, 1, 4),
             new WeightedPoolItem(<item:minecraft:wheat_seeds>, 5, 6, 12)
         ]);
 
@@ -171,7 +171,7 @@ loot.modifiers.register(
             new WeightedPoolItem(<item:minecraft:rotten_flesh>, 10, 1, 4),
             new WeightedPoolItem(<item:minecraft:apple>, 10, 1, 5),
             new WeightedPoolItem(<item:minecraft:composter>, 1, 1, 1),
-            new WeightedPoolItem(<item:minecraft:emerald>, 2, 1, 4),
+            new WeightedPoolItem(<item:minecraft:lapis_lazuli>, 2, 1, 4),
             new WeightedPoolItem(<item:minecraft:iron_nugget>, 5, 6, 12)
         ]);
 

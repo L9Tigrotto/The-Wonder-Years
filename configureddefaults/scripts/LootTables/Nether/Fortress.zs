@@ -147,6 +147,10 @@ loot.modifiers.register(
 
         loot_context.addLootWithProbability(<item:endrem:nether_eye>, 0.30 / 15.0 + loot_context.player_luck / 100.0);
 
+        loot_generator.generateNArmorsWithProbability(1, 1.0);
+        loot_generator.generateNArmorsWithProbability(1, 1.0);
+        loot_generator.generateNArmorsWithProbability(1, 1.0);
+
         return loot_context.loot;
     }
 );

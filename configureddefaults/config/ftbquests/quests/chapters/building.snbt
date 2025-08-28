@@ -4,7 +4,6 @@
 	default_quest_shape: ""
 	filename: "building"
 	group: ""
-	hide_quest_until_deps_complete: true
 	icon: {
 		id: "minecraft:bricks"
 	}
@@ -14,6 +13,7 @@
 	quests: [
 		{
 			dependencies: ["26E00CB34F09E17C"]
+			hide_until_deps_complete: true
 			icon: {
 				id: "mighty_mail:oak_mail_box"
 			}

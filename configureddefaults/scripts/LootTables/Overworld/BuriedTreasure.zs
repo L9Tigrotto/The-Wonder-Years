@@ -23,7 +23,7 @@ loot.modifiers.register(
         loot_generator.performWeightedPool(3, 8, 15, [
             new WeightedPoolItem(<item:minecraft:iron_ingot>, 20, 1, 4),
             new WeightedPoolItem(<item:minecraft:gold_ingot>, 10, 1, 4),
-            new WeightedPoolItem(<item:minecraft:emerald>, 5, 1, 1),
+            new WeightedPoolItem(<item:minecraft:lapis_lazuli>, 5, 1, 1),
             new WeightedPoolItem(<item:minecraft:diamond>, 5, 1, 1),
             new WeightedPoolItem(<item:minecraft:prismarine_crystals>, 5, 1, 5)
         ]);

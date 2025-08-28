@@ -17,7 +17,8 @@ craftingTable.addShaped(
 
         var curses = [
             <enchantment:minecraft:vanishing_curse>,
-            <enchantment:minecraft:binding_curse>
+            <enchantment:minecraft:binding_curse>,
+            <enchantment:enchantencore:hiding_curse>
         ];
 
         for enchantment in enchantments.entries 
@@ -54,6 +55,11 @@ craftingTable.addShaped(
         var curses = [
             <enchantment:minecraft:vanishing_curse>,
             <enchantment:minecraft:binding_curse>,
+            <enchantment:enchantplus:leggings/dwarfed>,
+            <enchantment:enchantplus:leggings/oversize>,
+            <enchantment:enchantencore:hiding_curse>,
+            <enchantment:enchantencore:reach_curse>,
+            <enchantment:enchantencore:welfare_curse>,
             <enchantment:enchantplus:durability/curse_of_breaking>
         ];
 
@@ -91,8 +97,13 @@ craftingTable.addShaped(
         var curses = [
             <enchantment:minecraft:vanishing_curse>,
             <enchantment:minecraft:binding_curse>,
+            <enchantment:enchantplus:leggings/dwarfed>,
+            <enchantment:enchantplus:leggings/oversize>,
+            <enchantment:enchantencore:hiding_curse>,
+            <enchantment:enchantencore:reach_curse>,
+            <enchantment:enchantencore:welfare_curse>,
             <enchantment:enchantplus:durability/curse_of_breaking>,
-            <enchantment:enchantplus:durability/curse_of_enchant>
+            <enchantment:enchantencore:enderscape>
         ];
 
         for enchantment in enchantments.entries 

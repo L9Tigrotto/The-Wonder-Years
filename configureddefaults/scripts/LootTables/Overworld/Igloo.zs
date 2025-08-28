@@ -21,7 +21,7 @@ loot.modifiers.register(
             new WeightedPoolItem(<item:minecraft:coal>, 15, 1, 4),
             new WeightedPoolItem(<item:minecraft:gold_nugget>, 10, 1, 3),
             new WeightedPoolItem(<item:minecraft:rotten_flesh>, 10, 1, 1),
-            new WeightedPoolItem(<item:minecraft:emerald>, 1, 1, 1),
+            new WeightedPoolItem(<item:minecraft:lapis_lazuli>, 1, 1, 1),
             new WeightedPoolItem(<item:minecraft:wheat>, 10, 2, 3)
         ]);
 

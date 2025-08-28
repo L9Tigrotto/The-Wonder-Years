@@ -47,7 +47,7 @@ loot.modifiers.register(
         // Lucky pool reference (1 roll)
         loot_generator.performWeightedPool(1, 1, 0, [
             new WeightedPoolItem(<item:minecraft:golden_apple>, 8, 1, 2),
-            new WeightedPoolItem(<item:minecraft:emerald>, 4, 1, 4),
+            new WeightedPoolItem(<item:minecraft:lapis_lazuli>, 4, 1, 4),
             new WeightedPoolItem(<item:minecraft:diamond>, 2, 1, 2)
         ]);
 
@@ -101,7 +101,7 @@ loot.modifiers.register(
         // Lucky pool reference
         loot_generator.performWeightedPool(1, 1, 0, [
             new WeightedPoolItem(<item:minecraft:golden_apple>, 8, 1, 2),
-            new WeightedPoolItem(<item:minecraft:emerald>, 4, 1, 4),
+            new WeightedPoolItem(<item:minecraft:lapis_lazuli>, 4, 1, 4),
             new WeightedPoolItem(<item:minecraft:diamond>, 2, 1, 2)
         ]);
 

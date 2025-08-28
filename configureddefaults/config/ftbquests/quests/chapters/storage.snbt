@@ -5,7 +5,6 @@
 	default_quest_shape: ""
 	filename: "storage"
 	group: ""
-	hide_quest_until_deps_complete: true
 	icon: {
 		id: "minecraft:chest"
 	}
@@ -15,6 +14,7 @@
 	quests: [
 		{
 			dependencies: ["56B1C33CD65D669A"]
+			hide_until_deps_complete: true
 			icon: {
 				id: "minecraft:comparator"
 			}

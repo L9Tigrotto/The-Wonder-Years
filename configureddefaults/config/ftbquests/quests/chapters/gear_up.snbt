@@ -5,7 +5,6 @@
 	default_quest_shape: ""
 	filename: "gear_up"
 	group: ""
-	hide_quest_until_deps_complete: true
 	icon: {
 		id: "minecraft:chipped_anvil"
 	}
@@ -15,6 +14,7 @@
 	quests: [
 		{
 			dependencies: ["60BB2B1A6B167FBD"]
+			hide_until_deps_complete: true
 			id: "7FA181A418602552"
 			tasks: [{
 				consume_items: false
@@ -651,18 +651,6 @@
 		}
 		{
 			dependencies: ["098F23CE45C6508E"]
-			id: "3ADA0678306408A9"
-			tasks: [{
-				consume_items: false
-				id: "3837F2A3280A9C0E"
-				item: { count: 1, id: "betterenchanting:enchantment_catalyst" }
-				type: "item"
-			}]
-			x: 2.5d
-			y: -1.0d
-		}
-		{
-			dependencies: ["0180997E4475FE51"]
 			icon: {
 				id: "minecraft:chain"
 			}
@@ -671,8 +659,8 @@
 				id: "0C27E8DA413C3002"
 				type: "checkmark"
 			}]
-			x: 3.5d
-			y: -2.5d
+			x: 3.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["098F23CE45C6508E"]
@@ -1566,7 +1554,7 @@
 				}
 			]
 			x: 2.5d
-			y: -2.0d
+			y: -2.5d
 		}
 	]
 }

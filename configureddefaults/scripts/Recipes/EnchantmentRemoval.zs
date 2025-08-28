@@ -32,7 +32,13 @@ craftingTable.addShapeless(
         val curses = [
             <enchantment:minecraft:vanishing_curse>,
             <enchantment:minecraft:binding_curse>,
-            <enchantment:enchantplus:durability/curse_of_breaking>
+            <enchantment:enchantplus:leggings/dwarfed>,
+            <enchantment:enchantplus:leggings/oversize>,
+            <enchantment:enchantencore:hiding_curse>,
+            <enchantment:enchantencore:reach_curse>,
+            <enchantment:enchantencore:welfare_curse>,
+            <enchantment:enchantplus:durability/curse_of_breaking>,
+            <enchantment:enchantencore:enderscape>
         ];
 
         var new_item = enchanted_item;

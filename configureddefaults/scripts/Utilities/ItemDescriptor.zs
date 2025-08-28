@@ -65,6 +65,10 @@ public class ItemDescriptor
      */
     public val can_tier_as_shield as bool : get;
 
+    public val can_tier_as_mace as bool : get;
+
+    public val can_tier_as_trident as bool : get;
+
     // ========================================
     // Enchantable Category Properties
     // ========================================
@@ -218,6 +222,12 @@ public class ItemDescriptor
         
         this.can_tier_as_shield = !found_tier_category && <tag:item:the_wonder_years:tierable/shield>.contains(item_stack);
         found_tier_category = found_tier_category || this.can_tier_as_shield;
+
+        this.can_tier_as_mace = !found_tier_category && <tag:item:the_wonder_years:tierable/mace>.contains(item_stack);
+        found_tier_category = found_tier_category || this.can_tier_as_mace;
+
+        this.can_tier_as_trident = !found_tier_category && <tag:item:the_wonder_years:tierable/trident>.contains(item_stack);
+        found_tier_category = found_tier_category || this.can_tier_as_trident;
 
         this.can_be_tiered = found_tier_category;
         

@@ -392,7 +392,7 @@ public class NameComponent
             "Nature's Noble Armor",
             "Shepherd's Shield Shell",
             "Cottage Keeper's Carapace",
-            "Farmstead Fortress Front",
+            "Barnyard Fortress Front",
             "Orchard Order Armor",
             "Field Guardian's Frame",
             "Rural Rescuer's Rig",
@@ -404,7 +404,7 @@ public class NameComponent
             "Barn Builder's Breastplate",
             "Hillside Hero's Harness",
             "Valley Virtue Vest",
-            "Country Courage Cover",
+            "Country Courage Vest",
             "Homestead Honor Harness",
             "Golden Grain Armor",
             "Willow Wind Wrap"
@@ -434,7 +434,7 @@ public class NameComponent
             "Barn Builder's Barrier",
             "Hillside Hero's Haven",
             "Valley Virtue Vanguard",
-            "Country Courage Cover",
+            "Country Courage Barrier",
             "Homestead Honor Guard",
             "Golden Grain Shield",
             "Willow Wind Ward",
@@ -1189,6 +1189,36 @@ public class NameComponent
             "Voidborne Virtue Chest",
             "Enderrealm Chest Elite",
             "Celestial Core Sculptor"
+        ],
+        "mace": [
+            "Void Crusher Supreme",
+            "Enderdragon's Fury Mace",
+            "Chorus Chaos Crusher",
+            "Starlight Strength Smasher",
+            "Cosmic Force Colossus",
+            "Void Walker's War Hammer",
+            "Dimensional Destroyer Mace",
+            "Enderrealm's Rage Rod",
+            "Ethereal Force Fury",
+            "Cosmic Chaos Crusher",
+            "Void Virtue Mace",
+            "Stellar Strength Striker",
+            "Nebula Knocker Supreme",
+            "Galactic Guardian Grinder",
+            "Astral Artillery Mace",
+            "Celestial Crusher Supreme",
+            "Otherworld Order Mace",
+            "Phantom Force Fury",
+            "Endstone Impact Expert",
+            "Chorus Champion Crusher",
+            "Void Violence Virtue",
+            "Dimensional Force Driver",
+            "Ethereal Impact Engine",
+            "Cosmic Chaos Colossus",
+            "Starfield Strength System",
+            "Voidborne Virtue Mace",
+            "Enderrealm Impact Elite",
+            "Celestial Strength Sculptor"
         ]
 	};
 
@@ -1216,6 +1246,8 @@ public class NameComponent
         else if (<tag:item:minecraft:leg_armor>.contains(item_descriptor.item)) { key = "leggins"; }
         else if (<tag:item:minecraft:chest_armor>.contains(item_descriptor.item)) { key = "chestplate"; }
         else if (<tag:item:c:tools/shield>.contains(item_descriptor.item)) { key = "shield"; }
+        else if (<tag:item:the_wonder_years:tierable/mace>.contains(item_descriptor.item)) { key = "mace"; }
+        else if (<tag:item:the_wonder_years:tierable/trident>.contains(item_descriptor.item)) { key = "trident"; }
 
         var list = map[key] as string[];
 

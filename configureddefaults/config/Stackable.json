@@ -1,0 +1,329 @@
+{
+  "maxStack": 64,
+  "StacksizeOverride": [
+    {
+      "namespaceID": "minecraft:mushroom_stew",
+      "value": 16
+    },
+	{
+      "namespaceID": "minecraft:suspicious_stew",
+      "value": 16
+    },
+	{
+      "namespaceID": "minecraft:potion",
+      "value": 16
+    },
+	{
+      "namespaceID": "minecraft:splash_potion",
+      "value": 16
+    },
+	{
+      "namespaceID": "minecraft:lingering_potion",
+      "value": 16
+    },
+	{
+      "namespaceID": "minecraft:totem_of_undying",
+      "value": 4
+    },
+	{
+      "namespaceID": "betterenchanting:essence_of_protection",
+      "value": 16
+    },
+	{
+      "namespaceID": "betterenchanting:essence_of_fire_protection",
+      "value": 16
+    },
+	{
+      "namespaceID": "betterenchanting:essence_of_blast_protection",
+      "value": 16
+    },
+	{
+      "namespaceID": "betterenchanting:essence_of_projectile_protection",
+      "value": 16
+    },
+	{
+      "namespaceID": "betterenchanting:soul_essence_1",
+      "value": 16
+    },
+	{
+      "namespaceID": "betterenchanting:soul_essence_2",
+      "value": 16
+    },
+	{
+      "namespaceID": "betterenchanting:soul_essence_3",
+      "value": 16
+    },
+	{
+      "namespaceID": "betterenchanting:essence_of_sneak_1",
+      "value": 16
+    },
+	{
+      "namespaceID": "betterenchanting:essence_of_sneak_2",
+      "value": 16
+    },
+	{
+      "namespaceID": "betterenchanting:essence_of_sneak_3",
+      "value": 16
+    },
+	{
+      "namespaceID": "betterenchanting:essence_of_respiration",
+      "value": 16
+    },
+	{
+      "namespaceID": "betterenchanting:essence_of_sea",
+      "value": 16
+    },
+	{
+      "namespaceID": "betterenchanting:essence_of_thorn",
+      "value": 16
+    },
+	{
+      "namespaceID": "betterenchanting:essence_of_ice",
+      "value": 16
+    },
+	{
+      "namespaceID": "betterenchanting:essence_of_sweeping",
+      "value": 16
+    },
+	{
+      "namespaceID": "betterenchanting:essence_of_sharpness",
+      "value": 16
+    },
+	{
+      "namespaceID": "betterenchanting:essence_of_smite",
+      "value": 16
+    },
+	{
+      "namespaceID": "betterenchanting:essence_of_arthropods",
+      "value": 16
+    },
+	{
+      "namespaceID": "betterenchanting:essence_of_knockback",
+      "value": 16
+    },
+	{
+      "namespaceID": "betterenchanting:essence_of_fire",
+      "value": 16
+    },
+	{
+      "namespaceID": "betterenchanting:essence_of_looting",
+      "value": 16
+    },
+	{
+      "namespaceID": "betterenchanting:essence_of_arrows",
+      "value": 16
+    },
+	{
+      "namespaceID": "betterenchanting:essence_of_power",
+      "value": 16
+    },
+	{
+      "namespaceID": "betterenchanting:essence_of_punch",
+      "value": 16
+    },
+	{
+      "namespaceID": "betterenchanting:essence_of_efficiency",
+      "value": 16
+    },
+	{
+      "namespaceID": "betterenchanting:essence_of_silk_touch",
+      "value": 16
+    },
+	{
+      "namespaceID": "betterenchanting:essence_of_fortune",
+      "value": 16
+    },
+	{
+      "namespaceID": "betterenchanting:essence_of_sea_luck",
+      "value": 16
+    },
+	{
+      "namespaceID": "betterenchanting:essence_of_lure",
+      "value": 16
+    },
+	{
+      "namespaceID": "betterenchanting:essence_of_experience",
+      "value": 16
+    },
+	{
+      "namespaceID": "betterenchanting:essence_of_mending",
+      "value": 16
+    },
+	{
+      "namespaceID": "betterenchanting:essence_of_unbreaking",
+      "value": 16
+    },
+	{
+      "namespaceID": "betterenchanting:essence_of_channeling",
+      "value": 16
+    },
+	{
+      "namespaceID": "betterenchanting:essence_of_impaling",
+      "value": 16
+    },
+	{
+      "namespaceID": "betterenchanting:essence_of_loyalty",
+      "value": 16
+    },
+	{
+      "namespaceID": "betterenchanting:essence_of_riptide",
+      "value": 16
+    },
+	{
+      "namespaceID": "betterenchanting:essence_of_multishot",
+      "value": 16
+    },
+	{
+      "namespaceID": "betterenchanting:essence_of_piercing",
+      "value": 16
+    },
+	{
+      "namespaceID": "betterenchanting:essence_of_quick_charge",
+      "value": 16
+    },
+	{
+      "namespaceID": "betterenchanting:essence_of_density",
+      "value": 16
+    },
+	{
+      "namespaceID": "betterenchanting:essence_of_breach",
+      "value": 16
+    },
+	{
+      "namespaceID": "betterenchanting:essence_of_wind",
+      "value": 16
+    },
+	{
+      "namespaceID": "betterenchanting:essence_of_poison",
+      "value": 16
+    },
+	{
+      "namespaceID": "betterenchanting:essence_of_poison_protection",
+      "value": 16
+    },
+	{
+      "namespaceID": "betterenchanting:essence_of_mining",
+      "value": 16
+    },
+	{
+      "namespaceID": "betterenchanting:essence_of_smelting",
+      "value": 16
+    },
+	{
+      "namespaceID": "betterenchanting:essence_of_sight",
+      "value": 16
+    },
+	{
+      "namespaceID": "betterenchanting:essence_of_levitation",
+      "value": 16
+    },
+	{
+      "namespaceID": "betterenchanting:essence_of_foraging",
+      "value": 16
+    },
+	{
+      "namespaceID": "betterenchanting:essence_of_strike",
+      "value": 16
+    },
+	{
+      "namespaceID": "betterenchanting:essence_of_health",
+      "value": 16
+    },
+	{
+      "namespaceID": "betterenchanting:essence_of_vampirism",
+      "value": 16
+    },
+	{
+      "namespaceID": "betterenchanting:essence_of_agility",
+      "value": 16
+    },
+	{
+      "namespaceID": "betterenchanting:essence_of_combat",
+      "value": 16
+    },
+	{
+      "namespaceID": "betterenchanting:essence_of_building",
+      "value": 16
+    },
+	{
+      "namespaceID": "betterenchanting:essence_of_fear",
+      "value": 16
+    },
+	{
+      "namespaceID": "betterenchanting:essence_of_reach",
+      "value": 16
+    },
+	{
+      "namespaceID": "betterenchanting:essence_of_pulling",
+      "value": 16
+    },
+	{
+      "namespaceID": "betterenchanting:essence_of_food",
+      "value": 16
+    },
+	{
+      "namespaceID": "betterenchanting:essence_of_photosynthesis",
+      "value": 16
+    },
+	{
+      "namespaceID": "betterenchanting:essence_of_gravity",
+      "value": 16
+    },
+	{
+      "namespaceID": "betterenchanting:essence_of_wings",
+      "value": 16
+    },
+	{
+      "namespaceID": "betterenchanting:essence_of_capacity",
+      "value": 16
+    },
+	{
+      "namespaceID": "betterenchanting:essence_of_refill",
+      "value": 16
+    },
+	{
+      "namespaceID": "betterenchanting:essence_of_explosion",
+      "value": 16
+    },
+	{
+      "namespaceID": "betterenchanting:essence_of_multi_roll",
+      "value": 16
+    },
+	{
+      "namespaceID": "betterenchanting:essence_of_longfoot",
+      "value": 16
+    },
+	{
+      "namespaceID": "betterenchanting:essence_of_critical_spell",
+      "value": 16
+    },
+	{
+      "namespaceID": "betterenchanting:essence_of_energy",
+      "value": 16
+    },
+	{
+      "namespaceID": "betterenchanting:essence_of_haste",
+      "value": 16
+    },
+	{
+      "namespaceID": "betterenchanting:essence_of_magic_protection",
+      "value": 16
+    },
+	{
+      "namespaceID": "betterenchanting:essence_of_soulfrost",
+      "value": 16
+    },
+	{
+      "namespaceID": "betterenchanting:essence_of_spell_power",
+      "value": 16
+    },
+	{
+      "namespaceID": "betterenchanting:essence_of_sunfire",
+      "value": 16
+    },
+	{
+      "namespaceID": "betterenchanting:essence_of_spell_infinity",
+      "value": 16
+    }
+  ]
+}
