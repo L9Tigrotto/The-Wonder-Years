@@ -86,3 +86,11 @@
 - **Entity Model Features**: `v2.4.1` → `v3.0.1`
 - **Storage Drawers**: `v13.11.0` → `v13.11.1`
 - **CraftTweaker**: `v21.0.32` → `v21.0.34`
+- **Catalogue**: `v1.11.1` → `v1.11.2`
+- **MoonlightLib**: `v2.22.2` → `v2.22.4`
+- **Sawmill**: `v1.5.22` → `v1.5.23`
+- **FTB Teams**: `v2101.1.3` → `v2101.1.4`
+- **Not Enough Animations**: `v1.10.1` → `v1.10.2`
+- **Accessorify**: `v2.1.6` → `v2.2.0`
+- **LambDynamicLights**: `v4.1.5` → `v4.1.6`
+- **OctoLib**: `v0.6.0.3` → `v0.6.0.4`
