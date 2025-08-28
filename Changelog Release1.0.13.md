@@ -23,7 +23,7 @@
 - Fixed block pick up instead of pinging. Changed default ping key to `mouse button 4`.
 - Increased life+, looting, fortune items cost for enchanting.
 - Balanced mythic upgrades effects.
-- Removed mending enchantment from incendium drops. 
+- Removed mending enchantment from incendium drops.
 - Made the whole chapter visible uppon unlocking.
 
 - Replaced emeralds with lapislazuli in loot chests.
@@ -36,6 +36,10 @@
 - Remove mace from nether pool.
 - Lowered mythic loot probabilities in the end.
 - Removed fire aspect from helmet enchantment pool.
+
+- Added new enchantments (and curses).
+- Tweaked enchantment pool in dimensions.
+- Fixed curse removal recipe, now correctly remove dwarfed and oversize.
 
 - Known bug: tierable items crafted in the crafting terminal with `shift + left click` will be tierless. Waiting for response from Tom's Simple Storage on bug report.
 - Known bug: equipment comparison is not currently working with tiered items. Waiting for response from Equipment Compare on bug report.

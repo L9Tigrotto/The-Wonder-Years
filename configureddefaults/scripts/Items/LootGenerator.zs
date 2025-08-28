@@ -313,9 +313,10 @@ public class LootGenerator
             <item:betterenchanting:essence_of_density>, <item:betterenchanting:essence_of_wind>
         ],
         "end": [
+            <item:betterenchanting:essence_of_levitation>,
             <item:betterenchanting:essence_of_experience>, <item:betterenchanting:essence_of_health>,
             <item:betterenchanting:essence_of_wings>, <item:betterenchanting:essence_of_vampirism>,
-            <item:betterenchanting:essence_of_thorn>
+            <item:betterenchanting:essence_of_thorn>, 
         ]
     };
 
