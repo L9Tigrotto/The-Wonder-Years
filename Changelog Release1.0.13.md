@@ -35,8 +35,9 @@
 - Removed custom names from legendary items.
 - Remove mace from nether pool.
 - Lowered mythic loot probabilities in the end.
-- Removed fire aspect from helmet enchantment pool.
+- Made ores variants compatible with vein miner enchantment.
 
+- Removed fire aspect from helmet enchantment pool.
 - Added new enchantments (and curses).
 - Tweaked enchantment pool in dimensions.
 - Fixed curse removal recipe, now correctly remove dwarfed and oversize.
