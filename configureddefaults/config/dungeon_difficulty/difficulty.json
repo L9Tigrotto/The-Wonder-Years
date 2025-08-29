@@ -62,7 +62,7 @@
               "attribute": "kevslibrary:armor_penetration",
               "operation": "ADDITION",
               "randomness": 0.0,
-              "value": 0.1
+              "value": 0.02
             },
             {
               "attribute": "generic.max_health",
@@ -186,7 +186,7 @@
           "loot_table": "minecraft:entities/wither",
           "difficulty": {
             "name": "dungeon",
-            "level": 3
+            "level": 5
           }
         }
       ]

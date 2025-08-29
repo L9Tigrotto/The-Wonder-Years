@@ -5,6 +5,7 @@
 *List administrative changes, modpack-wide modifications, and other general updates.*
 
 - Fixed missing enderchest config file. Disabled ender pouch, increased bag max size to 54 and capacirt upgrade correctly use nether and end gems.
+- Rebalanced mob stats per dimension.
 
 - Known bug: tierable items crafted in the crafting terminal with `shift + left click` will be tierless. Waiting for response from Tom's Simple Storage on bug report.
 - Known bug: equipment comparison is not currently working with tiered items. Waiting for response from Equipment Compare on bug report.
@@ -27,10 +28,9 @@
 
 ## ❌ Mods Removed
 
-*List all mods that were removed with reasons. Remove this section if no mods were removed.*
+*List all mods that were removed with reasons.*
 
-- **Mod Name 1**: Incompatible with new Forge version
-- **Mod Name 2**: Replaced by better alternative
+- **Withering Heights**: It stops the wither from dropping wither eye.
 
 ---
 
