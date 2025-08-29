@@ -2,7 +2,9 @@
 
 ## 📋 General Updates
 
-*List administrative changes, modpack-wide modifications, and other general updates. Remove this section if no general changes were made.*
+*List administrative changes, modpack-wide modifications, and other general updates.*
+
+- Fixed missing enderchest config file. Disabled ender pouch, increased bag max size to 54 and capacirt upgrade correctly use nether and end gems.
 
 - Known bug: tierable items crafted in the crafting terminal with `shift + left click` will be tierless. Waiting for response from Tom's Simple Storage on bug report.
 - Known bug: equipment comparison is not currently working with tiered items. Waiting for response from Equipment Compare on bug report.
