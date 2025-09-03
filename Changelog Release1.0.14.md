@@ -13,7 +13,6 @@
 
 ---
 
-## ⚙️ Settings Changed
 ## ❌ Mods Removed
 
 *List all mods that were removed with reasons.*
@@ -32,7 +31,15 @@
 
 ## ⬆️ Mods Updated
 
-*List all mods that were updated with their version changes. Remove this section if no mods were updated.*
+*List all mods that were updated with their version changes.*
 
-- **Mod Name 1**: `v1.2.3` → `v1.3.0`
-- **Mod Name 2**: `v2.1.0` → `v2.1.5`
+- **Entity Texture Features**: `v7.0.1` → `v7.0.2`
+- **Measurements**: `v3.0.1` → `v3.0.3`
+- **Moonnight Lib**: `v2.22.4` → `v2.23.1`
+- **Deimos Lib**: `v2.2` → `v2.3`
+- **Sawmill**: `v1.5.23` → `v1.6.0`
+- **Fabric**: `v0.116.5` → `v0.116.6`
+- **Ping Wheel**: `v0.116.5` → `v0.116.6`
+- **Bookshelf**: `v21.1.68` → `v21.1.69`
+- **Spell Engine**: `v1.7.1` → `v1.7.2`
+- **Underlay**: `v0.9.6` → `v0.9.7`
