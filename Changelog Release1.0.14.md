@@ -38,7 +38,7 @@
 
 - **Entity Texture Features**: `v7.0.1` → `v7.0.2`
 - **Measurements**: `v3.0.1` → `v3.0.3`
-- **Moonnight Lib**: `v2.22.4` → `v2.23.1`
+- **Moonlight Lib**: `v2.22.4` → `v2.23.2`
 - **Deimos Lib**: `v2.2` → `v2.3`
 - **Sawmill**: `v1.5.23` → `v1.6.0`
 - **Fabric**: `v0.116.5` → `v0.116.6`
