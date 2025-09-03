@@ -276,7 +276,6 @@ public class EnchantmentComponent
         // Each dimension has different pools with varying difficulty and curse presence
         if (loot_context.dimension == "overworld")
         {
-            // Select enchantment pool based on item's enchantable category
             if      (item_descriptor.can_receive_shovel_enchantments)       { enchantments = OVERWORLD_ENCHANTMENT_POOLS["shovel"]; }
             else if (item_descriptor.can_receive_pickaxe_enchantments)      { enchantments = OVERWORLD_ENCHANTMENT_POOLS["pickaxe"]; }
             else if (item_descriptor.can_receive_axe_enchantments)          { enchantments = OVERWORLD_ENCHANTMENT_POOLS["axe"]; }
@@ -301,7 +300,6 @@ public class EnchantmentComponent
         }
         else if (loot_context.dimension == "nether")
         {
-            // Nether pools include curse_of_breaking for added difficulty
             if      (item_descriptor.can_receive_shovel_enchantments)       { enchantments = NETHER_ENCHANTMENT_POOLS["shovel"]; }
             else if (item_descriptor.can_receive_pickaxe_enchantments)      { enchantments = NETHER_ENCHANTMENT_POOLS["pickaxe"]; }
             else if (item_descriptor.can_receive_axe_enchantments)          { enchantments = NETHER_ENCHANTMENT_POOLS["axe"]; }
@@ -325,7 +323,6 @@ public class EnchantmentComponent
         }
         else if (loot_context.dimension == "end")
         {
-            // End pools include both curse_of_breaking and curse_of_enchant for maximum difficulty
             if      (item_descriptor.can_receive_shovel_enchantments)       { enchantments = END_ENCHANTMENT_POOLS["shovel"]; }
             else if (item_descriptor.can_receive_pickaxe_enchantments)      { enchantments = END_ENCHANTMENT_POOLS["pickaxe"]; }
             else if (item_descriptor.can_receive_axe_enchantments)          { enchantments = END_ENCHANTMENT_POOLS["axe"]; }
