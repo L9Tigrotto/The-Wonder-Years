@@ -60,7 +60,8 @@ craftingTable.addShaped(
             <enchantment:enchantencore:hiding_curse>,
             <enchantment:enchantencore:reach_curse>,
             <enchantment:enchantencore:welfare_curse>,
-            <enchantment:enchantplus:durability/curse_of_breaking>
+            <enchantment:enchantplus:durability/curse_of_breaking>,
+            <enchantment:enchantencore:crank_curse>
         ];
 
         for enchantment in enchantments.entries 
@@ -103,6 +104,7 @@ craftingTable.addShaped(
             <enchantment:enchantencore:reach_curse>,
             <enchantment:enchantencore:welfare_curse>,
             <enchantment:enchantplus:durability/curse_of_breaking>,
+            <enchantment:enchantencore:crank_curse>,
             <enchantment:enchantencore:enderscape>
         ];
 
